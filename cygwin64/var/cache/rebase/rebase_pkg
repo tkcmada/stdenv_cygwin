@@ -559,8 +559,8 @@
 /usr/bin/uuidgen.exe
 /usr/bin/whereis.exe
 /usr/sbin/uuidd.exe
-# rebase_pkg information from: /etc/setup/vim-minimal.lst.gz
-/usr/bin/vi.exe
+## rebase_pkg information from: /etc/setup/vim-minimal.lst.gz
+#/usr/bin/vi.exe
 # rebase_pkg information from: /etc/setup/which.lst.gz
 /usr/bin/which.exe
 # rebase_pkg information from: /etc/setup/xz.lst.gz
@@ -571,3 +571,10 @@
 # rebase_pkg information from: /etc/setup/zlib0.lst.gz
 /usr/bin/cygz.dll
 # rebase_pkg information from: /etc/setup/_autorebase.lst.gz
+# rebase_pkg information from: /etc/setup/vim-minimal.lst.gz
+/usr/bin/vi.exe
+# rebase_pkg information from: /etc/setup/zip.lst.gz
+/usr/bin/zip.exe
+/usr/bin/zipcloak.exe
+/usr/bin/zipnote.exe
+/usr/bin/zipsplit.exe

@@ -279,3 +279,22 @@
 2017/01/12 00:44:10 Changing gid to Administrators
 2017/01/12 00:44:12 note: Installation Complete
 2017/01/12 00:44:12 Ending cygwin install
+2017/01/14 17:53:05 Starting cygwin install, version 2.877
+2017/01/14 17:53:05 User has backup/restore rights
+2017/01/14 17:53:05 Current Directory: C:\Users\cmadas\OneDrive\toku-download-for-work\stdenv_cygwin\tmp_cache
+2017/01/14 17:53:05 Could not open service McShield for query, start and stop. McAfee may not be installed, or we don't have access.
+2017/01/14 17:53:05 root: C:\Users\cmadas\OneDrive\toku-download-for-work\stdenv_cygwin\cygwin64 system
+2017/01/14 17:53:05 Selected local directory: C:\Users\cmadas\OneDrive\toku-download-for-work\stdenv_cygwin\tmp_cache
+2017/01/14 17:53:05 net: Direct
+2017/01/14 17:53:06 site: ftp://ftp.jaist.ac.jp/pub/cygwin/
+2017/01/14 17:53:11 Downloaded C:\Users\cmadas\OneDrive\toku-download-for-work\stdenv_cygwin\tmp_cache/ftp%3a%2f%2fftp.jaist.ac.jp%2fpub%2fcygwin%2f/x86_64/release/vim/vim-minimal/vim-minimal-8.0.0170-1.tar.xz
+2017/01/14 17:53:12 Downloaded C:\Users\cmadas\OneDrive\toku-download-for-work\stdenv_cygwin\tmp_cache/ftp%3a%2f%2fftp.jaist.ac.jp%2fpub%2fcygwin%2f/x86_64/release/zip/zip-3.0-12.tar.xz
+2017/01/14 17:53:17 Uninstalling vim-minimal
+2017/01/14 17:53:17 Extracting from file://C:\Users\cmadas\OneDrive\toku-download-for-work\stdenv_cygwin\tmp_cache/ftp%3a%2f%2fftp.jaist.ac.jp%2fpub%2fcygwin%2f/x86_64/release/vim/vim-minimal/vim-minimal-8.0.0170-1.tar.xz
+2017/01/14 17:53:18 Extracting from file://C:\Users\cmadas\OneDrive\toku-download-for-work\stdenv_cygwin\tmp_cache/ftp%3a%2f%2fftp.jaist.ac.jp%2fpub%2fcygwin%2f/x86_64/release/zip/zip-3.0-12.tar.xz
+2017/01/14 17:53:18 Changing gid back to original
+2017/01/14 17:53:18 running: C:\Users\cmadas\OneDrive\toku-download-for-work\stdenv_cygwin\cygwin64\bin\dash.exe "/etc/postinstall/0p_000_autorebase.dash"
+2017/01/14 17:53:23 running: C:\Users\cmadas\OneDrive\toku-download-for-work\stdenv_cygwin\cygwin64\bin\dash.exe "/etc/postinstall/0p_update-info-dir.dash"
+2017/01/14 17:53:24 running: C:\Users\cmadas\OneDrive\toku-download-for-work\stdenv_cygwin\cygwin64\bin\bash.exe --norc --noprofile "/etc/postinstall/zp_man-db.sh"
+2017/01/14 17:53:24 Changing gid to Administrators
+2017/01/14 17:53:25 Ending cygwin install

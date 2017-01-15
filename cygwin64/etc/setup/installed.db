@@ -93,7 +93,8 @@ terminfo terminfo-6.0-8.20160917.tar.bz2 1
 tzcode tzcode-2016j-1.tar.bz2 0
 tzdata tzdata-2016j-1.tar.bz2 1
 util-linux util-linux-2.25.2-2.tar.bz2 1
-vim-minimal vim-minimal-8.0.0094-1.tar.bz2 1
+vim-minimal vim-minimal-8.0.0170-1.tar.bz2 1
 which which-2.20-2.tar.bz2 1
 xz xz-5.2.2-1.tar.bz2 0
+zip zip-3.0-12.tar.bz2 1
 zlib0 zlib0-1.2.8-3.tar.bz2 0

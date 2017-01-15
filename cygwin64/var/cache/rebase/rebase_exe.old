@@ -306,9 +306,14 @@
 /usr/bin/uuidgen.exe
 /usr/bin/whereis.exe
 /usr/sbin/uuidd.exe
-/usr/bin/vi.exe
+#/usr/bin/vi.exe
 /usr/bin/which.exe
 /usr/bin/lzmadec.exe
 /usr/bin/lzmainfo.exe
 /usr/bin/xz.exe
 /usr/bin/xzdec.exe
+/usr/bin/vi.exe
+/usr/bin/zip.exe
+/usr/bin/zipcloak.exe
+/usr/bin/zipnote.exe
+/usr/bin/zipsplit.exe
