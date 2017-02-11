@@ -9,6 +9,7 @@
 /usr/bin/cygdb-5.3.dll
 /usr/bin/cygdb_cxx-5.3.dll
 /usr/bin/cygdb_sql-5.3.dll
+/usr/bin/cygedit-0.dll
 /usr/bin/cygexpat-1.dll
 /usr/bin/cygffi-6.dll
 /usr/bin/cygformw-10.dll

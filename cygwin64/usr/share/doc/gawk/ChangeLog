@@ -1,3 +1,49 @@
+2017-01-15         Andrew J. Schorr     <aschorr@telemetry-investments.com>
+
+	* interpret.h (r_interpret): Fix bug in Op_assign_concat reported
+	on Cygwin mailing list. The string concatenation optimization was
+	not updating the node correctly by setting STRING and STRCUR flags
+	and setting stfmt.
+
+2016-11-04  Eli Zaretskii  <eliz@gnu.org>
+
+	* builtin.c (efwrite) [__MINGW32__]: Call w32_maybe_set_errno if
+	errno is not set or set to EINVAL.
+
+	* nonposix.h (w32_maybe_set_errno) [__MINGW32__]: Add prototype.
+
+2016-10-31         Arnold D. Robbins     <arnold@skeeve.com>
+
+	Fix valgrind issues.
+
+	* io.c (init_awkpath): Need to allocate max_path+3 pointers.
+
+2016-10-26         Arnold D. Robbins     <arnold@skeeve.com>
+
+	* io.c (init_awkpath): Set max path len for leading separator.
+
+2016-10-25         Arnold D. Robbins     <arnold@skeeve.com>
+
+	* io.c (init_awkpath): Restore documented behavior whereby
+	null elements represent the current directory. Sheesh.
+	Bug reported by "Jun T." <takimoto-j@kba.biglobe.ne.jp>.
+
+2016-09-24  Eli Zaretskii  <eliz@gnu.org>
+
+	* debug.c (restart) [__MINGW32__]: Cast 2nd argument of execvp to
+	avoid compiler warnings about prototype mismatch.  Reported by
+	Marc de Bourget <marcdebourget@gmail.com>.
+
+2016-09-08         Arnold D. Robbins     <arnold@skeeve.com>
+
+	* command.y: Update license text to version 3. Oops.
+
+2016-09-07         Arnold D. Robbins     <arnold@skeeve.com>
+
+	* cmd.h, debug.c: Update license text to version citing
+	GPLv3+ and with correct FSF address. Thanks to
+	David Kaspar <dkaspar@redhat.com> for pointing out the need.
+
 2016-08-25         Arnold D. Robbins     <arnold@skeeve.com>
 
 	* 4.1.4: Release tar ball made.

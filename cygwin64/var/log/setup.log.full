@@ -1,14 +1,14 @@
-2017/01/14 17:53:05 Starting cygwin install, version 2.877
-2017/01/14 17:53:05 User has backup/restore rights
-2017/01/14 17:53:05 Current Directory: C:\Users\cmadas\OneDrive\toku-download-for-work\stdenv_cygwin\tmp_cache
-2017/01/14 17:53:05 Could not open service McShield for query, start and stop. McAfee may not be installed, or we don't have access.
-2017/01/14 17:53:05 root: C:\Users\cmadas\OneDrive\toku-download-for-work\stdenv_cygwin\cygwin64 system
-2017/01/14 17:53:05 Selected local directory: C:\Users\cmadas\OneDrive\toku-download-for-work\stdenv_cygwin\tmp_cache
-2017/01/14 17:53:05 net: Direct
+2017/02/09 20:12:03 Starting cygwin install, version 2.877
+2017/02/09 20:12:03 User has backup/restore rights
+2017/02/09 20:12:03 Current Directory: C:\Users\cmadas\OneDrive\toku-download-for-work\stdenv_cygwin\tmp_cache
+2017/02/09 20:12:03 Could not open service McShield for query, start and stop. McAfee may not be installed, or we don't have access.
+2017/02/09 20:12:03 root: C:\Users\cmadas\OneDrive\toku-download-for-work\stdenv_cygwin\cygwin64 system
+2017/02/09 20:12:03 Selected local directory: C:\Users\cmadas\OneDrive\toku-download-for-work\stdenv_cygwin\tmp_cache
+2017/02/09 20:12:03 net: Direct
 Loaded cached mirror list
 get_url_to_membuf http://cygwin.com/mirrors.lst
 getUrlToStream http://cygwin.com/mirrors.lst
-2017/01/14 17:53:06 site: ftp://ftp.jaist.ac.jp/pub/cygwin/
+2017/02/09 20:12:04 site: ftp://ftp.jaist.ac.jp/pub/cygwin/
 get_url_to_membuf ftp://ftp.jaist.ac.jp/pub/cygwin/x86_64/setup.xz.sig
 getUrlToStream ftp://ftp.jaist.ac.jp/pub/cygwin/x86_64/setup.xz.sig
 ftp > 220 (vsFTPd 3.0.3)
@@ -44,13 +44,13 @@ ftp > 230-  service to the public and all files are provided *as is*.
 ftp > 230-
 ftp > 230 Login successful.
 ftp > 200 Switching to Binary mode.
-ftp > 227 Entering Passive Mode (150,65,7,130,228,109).
+ftp > 227 Entering Passive Mode (150,65,7,130,252,151).
 ftp > 150 Opening BINARY mode data connection for /pub/cygwin/x86_64/setup.xz.sig (72 bytes).
 ftp > 226 Transfer complete.
 get_url_to_membuf ftp://ftp.jaist.ac.jp/pub/cygwin/x86_64/setup.xz
 getUrlToStream ftp://ftp.jaist.ac.jp/pub/cygwin/x86_64/setup.xz
-ftp > 227 Entering Passive Mode (150,65,7,130,239,187).
-ftp > 150 Opening BINARY mode data connection for /pub/cygwin/x86_64/setup.xz (1897568 bytes).
+ftp > 227 Entering Passive Mode (150,65,7,130,205,70).
+ftp > 150 Opening BINARY mode data connection for /pub/cygwin/x86_64/setup.xz (1901536 bytes).
 ftp > 226 Transfer complete.
 compress_xz::bid_xz: success: 48
 compress_xz::bid_xz: success: 48
@@ -110,6 +110,7 @@ Found category Base in package mintty
 Added manual package mintty
 Found category Base in package ncurses
 Added manual package ncurses
+Added manual package openssh
 Found category Base in package openssl
 Added manual package openssl
 Added manual package python3
@@ -132,217 +133,165 @@ Added manual package vim-minimal
 Found category Base in package which
 Added manual package which
 Added manual package zip
-get_url_to_file ftp://ftp.jaist.ac.jp/pub/cygwin/x86_64/release/vim/vim-minimal/vim-minimal-8.0.0170-1.tar.xz C:\Users\cmadas\OneDrive\toku-download-for-work\stdenv_cygwin\tmp_cache/ftp%3a%2f%2fftp.jaist.ac.jp%2fpub%2fcygwin%2f/x86_64/release/vim/vim-minimal/vim-minimal-8.0.0170-1.tar.xz.tmp
-ftp > 227 Entering Passive Mode (150,65,7,130,207,231).
-ftp > 150 Opening BINARY mode data connection for /pub/cygwin/x86_64/release/vim/vim-minimal/vim-minimal-8.0.0170-1.tar.xz (480428 bytes).
+2017/02/09 20:12:09 Adding required dependency csih: Selecting version 0.9.9-1 for installation.
+2017/02/09 20:12:09 Adding required dependency cygrunsrv: Selecting version 1.62-1 for installation.
+2017/02/09 20:12:09 Adding required dependency libedit0: Selecting version 20130712-1 for installation.
+get_url_to_file ftp://ftp.jaist.ac.jp/pub/cygwin/x86_64/release/csih/csih-0.9.9-1.tar.xz C:\Users\cmadas\OneDrive\toku-download-for-work\stdenv_cygwin\tmp_cache/ftp%3a%2f%2fftp.jaist.ac.jp%2fpub%2fcygwin%2f/x86_64/release/csih/csih-0.9.9-1.tar.xz.tmp
+ftp > 227 Entering Passive Mode (150,65,7,130,243,57).
+ftp > 150 Opening BINARY mode data connection for /pub/cygwin/x86_64/release/csih/csih-0.9.9-1.tar.xz (227324 bytes).
 ftp > 226 Transfer complete.
-2017/01/14 17:53:11 Downloaded C:\Users\cmadas\OneDrive\toku-download-for-work\stdenv_cygwin\tmp_cache/ftp%3a%2f%2fftp.jaist.ac.jp%2fpub%2fcygwin%2f/x86_64/release/vim/vim-minimal/vim-minimal-8.0.0170-1.tar.xz
-get_url_to_file ftp://ftp.jaist.ac.jp/pub/cygwin/x86_64/release/zip/zip-3.0-12.tar.xz C:\Users\cmadas\OneDrive\toku-download-for-work\stdenv_cygwin\tmp_cache/ftp%3a%2f%2fftp.jaist.ac.jp%2fpub%2fcygwin%2f/x86_64/release/zip/zip-3.0-12.tar.xz.tmp
-ftp > 227 Entering Passive Mode (150,65,7,130,229,12).
-ftp > 150 Opening BINARY mode data connection for /pub/cygwin/x86_64/release/zip/zip-3.0-12.tar.xz (221480 bytes).
+2017/02/09 20:12:10 Downloaded C:\Users\cmadas\OneDrive\toku-download-for-work\stdenv_cygwin\tmp_cache/ftp%3a%2f%2fftp.jaist.ac.jp%2fpub%2fcygwin%2f/x86_64/release/csih/csih-0.9.9-1.tar.xz
+get_url_to_file ftp://ftp.jaist.ac.jp/pub/cygwin/x86_64/release/cygrunsrv/cygrunsrv-1.62-1.tar.xz C:\Users\cmadas\OneDrive\toku-download-for-work\stdenv_cygwin\tmp_cache/ftp%3a%2f%2fftp.jaist.ac.jp%2fpub%2fcygwin%2f/x86_64/release/cygrunsrv/cygrunsrv-1.62-1.tar.xz.tmp
+ftp > 227 Entering Passive Mode (150,65,7,130,235,47).
+ftp > 150 Opening BINARY mode data connection for /pub/cygwin/x86_64/release/cygrunsrv/cygrunsrv-1.62-1.tar.xz (63280 bytes).
 ftp > 226 Transfer complete.
-2017/01/14 17:53:12 Downloaded C:\Users\cmadas\OneDrive\toku-download-for-work\stdenv_cygwin\tmp_cache/ftp%3a%2f%2fftp.jaist.ac.jp%2fpub%2fcygwin%2f/x86_64/release/zip/zip-3.0-12.tar.xz
-Checking SHA512 for file://C:\Users\cmadas\OneDrive\toku-download-for-work\stdenv_cygwin\tmp_cache/ftp%3a%2f%2fftp.jaist.ac.jp%2fpub%2fcygwin%2f/x86_64/release/vim/vim-minimal/vim-minimal-8.0.0170-1.tar.xz
-SHA512 verified OK: file://C:\Users\cmadas\OneDrive\toku-download-for-work\stdenv_cygwin\tmp_cache/ftp%3a%2f%2fftp.jaist.ac.jp%2fpub%2fcygwin%2f/x86_64/release/vim/vim-minimal/vim-minimal-8.0.0170-1.tar.xz db9bf13e21aacd6961c8da1242c71ad81dffcd43299cc965b4cbb3926a41dd322e5900cd7ba8f9b88e7fb481cb5ab7f240ccf99a933c9bb0948590f2760b075c
-Checking SHA512 for file://C:\Users\cmadas\OneDrive\toku-download-for-work\stdenv_cygwin\tmp_cache/ftp%3a%2f%2fftp.jaist.ac.jp%2fpub%2fcygwin%2f/x86_64/release/zip/zip-3.0-12.tar.xz
-SHA512 verified OK: file://C:\Users\cmadas\OneDrive\toku-download-for-work\stdenv_cygwin\tmp_cache/ftp%3a%2f%2fftp.jaist.ac.jp%2fpub%2fcygwin%2f/x86_64/release/zip/zip-3.0-12.tar.xz 06e20e667ac617c320381b965f58595d022ad20f87b531a9bab3c371c0ff67314dfb35a86ae6b6ef642850ec3149ed92ffe56250e3da8d7eb5bda705cf3ff193
-Running preremove script for vim-minimal
-2017/01/14 17:53:17 Uninstalling vim-minimal
-unlink C:\Users\cmadas\OneDrive\toku-download-for-work\stdenv_cygwin\cygwin64\bin/ex
-unlink C:\Users\cmadas\OneDrive\toku-download-for-work\stdenv_cygwin\cygwin64\bin/rvi
-unlink C:\Users\cmadas\OneDrive\toku-download-for-work\stdenv_cygwin\cygwin64\bin/rview
-unlink C:\Users\cmadas\OneDrive\toku-download-for-work\stdenv_cygwin\cygwin64\bin/vi.exe
-unlink C:\Users\cmadas\OneDrive\toku-download-for-work\stdenv_cygwin\cygwin64\bin/view
-unlink C:\Users\cmadas\OneDrive\toku-download-for-work\stdenv_cygwin\cygwin64/usr/share/man/man1/ex.1.gz
-unlink C:\Users\cmadas\OneDrive\toku-download-for-work\stdenv_cygwin\cygwin64/usr/share/man/man1/rvi.1.gz
-unlink C:\Users\cmadas\OneDrive\toku-download-for-work\stdenv_cygwin\cygwin64/usr/share/man/man1/rview.1.gz
-unlink C:\Users\cmadas\OneDrive\toku-download-for-work\stdenv_cygwin\cygwin64/usr/share/man/man1/vi.1.gz
-unlink C:\Users\cmadas\OneDrive\toku-download-for-work\stdenv_cygwin\cygwin64/usr/share/man/man1/view.1.gz
-unlink C:\Users\cmadas\OneDrive\toku-download-for-work\stdenv_cygwin\cygwin64/usr/share/man/fr.ISO8859-1/man1/ex.1.gz
-unlink C:\Users\cmadas\OneDrive\toku-download-for-work\stdenv_cygwin\cygwin64/usr/share/man/fr.UTF-8/man1/ex.1.gz
-unlink C:\Users\cmadas\OneDrive\toku-download-for-work\stdenv_cygwin\cygwin64/usr/share/man/fr/man1/ex.1.gz
-unlink C:\Users\cmadas\OneDrive\toku-download-for-work\stdenv_cygwin\cygwin64/usr/share/man/it.ISO8859-1/man1/ex.1.gz
-unlink C:\Users\cmadas\OneDrive\toku-download-for-work\stdenv_cygwin\cygwin64/usr/share/man/it.UTF-8/man1/ex.1.gz
-unlink C:\Users\cmadas\OneDrive\toku-download-for-work\stdenv_cygwin\cygwin64/usr/share/man/it/man1/ex.1.gz
-unlink C:\Users\cmadas\OneDrive\toku-download-for-work\stdenv_cygwin\cygwin64/usr/share/man/ja/man1/ex.1.gz
-unlink C:\Users\cmadas\OneDrive\toku-download-for-work\stdenv_cygwin\cygwin64/usr/share/man/pl.ISO8859-2/man1/ex.1.gz
-unlink C:\Users\cmadas\OneDrive\toku-download-for-work\stdenv_cygwin\cygwin64/usr/share/man/pl.UTF-8/man1/ex.1.gz
-unlink C:\Users\cmadas\OneDrive\toku-download-for-work\stdenv_cygwin\cygwin64/usr/share/man/pl/man1/ex.1.gz
-unlink C:\Users\cmadas\OneDrive\toku-download-for-work\stdenv_cygwin\cygwin64/usr/share/man/ru.KOI8-R/man1/ex.1.gz
-unlink C:\Users\cmadas\OneDrive\toku-download-for-work\stdenv_cygwin\cygwin64/usr/share/man/ru.UTF-8/man1/ex.1.gz
-unlink C:\Users\cmadas\OneDrive\toku-download-for-work\stdenv_cygwin\cygwin64/usr/share/man/fr.ISO8859-1/man1/rvi.1.gz
-unlink C:\Users\cmadas\OneDrive\toku-download-for-work\stdenv_cygwin\cygwin64/usr/share/man/fr.UTF-8/man1/rvi.1.gz
-unlink C:\Users\cmadas\OneDrive\toku-download-for-work\stdenv_cygwin\cygwin64/usr/share/man/fr/man1/rvi.1.gz
-unlink C:\Users\cmadas\OneDrive\toku-download-for-work\stdenv_cygwin\cygwin64/usr/share/man/it.ISO8859-1/man1/rvi.1.gz
-unlink C:\Users\cmadas\OneDrive\toku-download-for-work\stdenv_cygwin\cygwin64/usr/share/man/it.UTF-8/man1/rvi.1.gz
-unlink C:\Users\cmadas\OneDrive\toku-download-for-work\stdenv_cygwin\cygwin64/usr/share/man/it/man1/rvi.1.gz
-unlink C:\Users\cmadas\OneDrive\toku-download-for-work\stdenv_cygwin\cygwin64/usr/share/man/ja/man1/rvi.1.gz
-unlink C:\Users\cmadas\OneDrive\toku-download-for-work\stdenv_cygwin\cygwin64/usr/share/man/pl.ISO8859-2/man1/rvi.1.gz
-unlink C:\Users\cmadas\OneDrive\toku-download-for-work\stdenv_cygwin\cygwin64/usr/share/man/pl.UTF-8/man1/rvi.1.gz
-unlink C:\Users\cmadas\OneDrive\toku-download-for-work\stdenv_cygwin\cygwin64/usr/share/man/pl/man1/rvi.1.gz
-unlink C:\Users\cmadas\OneDrive\toku-download-for-work\stdenv_cygwin\cygwin64/usr/share/man/ru.KOI8-R/man1/rvi.1.gz
-unlink C:\Users\cmadas\OneDrive\toku-download-for-work\stdenv_cygwin\cygwin64/usr/share/man/ru.UTF-8/man1/rvi.1.gz
-unlink C:\Users\cmadas\OneDrive\toku-download-for-work\stdenv_cygwin\cygwin64/usr/share/man/fr.ISO8859-1/man1/rview.1.gz
-unlink C:\Users\cmadas\OneDrive\toku-download-for-work\stdenv_cygwin\cygwin64/usr/share/man/fr.UTF-8/man1/rview.1.gz
-unlink C:\Users\cmadas\OneDrive\toku-download-for-work\stdenv_cygwin\cygwin64/usr/share/man/fr/man1/rview.1.gz
-unlink C:\Users\cmadas\OneDrive\toku-download-for-work\stdenv_cygwin\cygwin64/usr/share/man/it.ISO8859-1/man1/rview.1.gz
-unlink C:\Users\cmadas\OneDrive\toku-download-for-work\stdenv_cygwin\cygwin64/usr/share/man/it.UTF-8/man1/rview.1.gz
-unlink C:\Users\cmadas\OneDrive\toku-download-for-work\stdenv_cygwin\cygwin64/usr/share/man/it/man1/rview.1.gz
-unlink C:\Users\cmadas\OneDrive\toku-download-for-work\stdenv_cygwin\cygwin64/usr/share/man/ja/man1/rview.1.gz
-unlink C:\Users\cmadas\OneDrive\toku-download-for-work\stdenv_cygwin\cygwin64/usr/share/man/pl.ISO8859-2/man1/rview.1.gz
-unlink C:\Users\cmadas\OneDrive\toku-download-for-work\stdenv_cygwin\cygwin64/usr/share/man/pl.UTF-8/man1/rview.1.gz
-unlink C:\Users\cmadas\OneDrive\toku-download-for-work\stdenv_cygwin\cygwin64/usr/share/man/pl/man1/rview.1.gz
-unlink C:\Users\cmadas\OneDrive\toku-download-for-work\stdenv_cygwin\cygwin64/usr/share/man/ru.KOI8-R/man1/rview.1.gz
-unlink C:\Users\cmadas\OneDrive\toku-download-for-work\stdenv_cygwin\cygwin64/usr/share/man/ru.UTF-8/man1/rview.1.gz
-unlink C:\Users\cmadas\OneDrive\toku-download-for-work\stdenv_cygwin\cygwin64/usr/share/man/fr.ISO8859-1/man1/vi.1.gz
-unlink C:\Users\cmadas\OneDrive\toku-download-for-work\stdenv_cygwin\cygwin64/usr/share/man/fr.UTF-8/man1/vi.1.gz
-unlink C:\Users\cmadas\OneDrive\toku-download-for-work\stdenv_cygwin\cygwin64/usr/share/man/fr/man1/vi.1.gz
-unlink C:\Users\cmadas\OneDrive\toku-download-for-work\stdenv_cygwin\cygwin64/usr/share/man/it.ISO8859-1/man1/vi.1.gz
-unlink C:\Users\cmadas\OneDrive\toku-download-for-work\stdenv_cygwin\cygwin64/usr/share/man/it.UTF-8/man1/vi.1.gz
-unlink C:\Users\cmadas\OneDrive\toku-download-for-work\stdenv_cygwin\cygwin64/usr/share/man/it/man1/vi.1.gz
-unlink C:\Users\cmadas\OneDrive\toku-download-for-work\stdenv_cygwin\cygwin64/usr/share/man/ja/man1/vi.1.gz
-unlink C:\Users\cmadas\OneDrive\toku-download-for-work\stdenv_cygwin\cygwin64/usr/share/man/pl.ISO8859-2/man1/vi.1.gz
-unlink C:\Users\cmadas\OneDrive\toku-download-for-work\stdenv_cygwin\cygwin64/usr/share/man/pl.UTF-8/man1/vi.1.gz
-unlink C:\Users\cmadas\OneDrive\toku-download-for-work\stdenv_cygwin\cygwin64/usr/share/man/pl/man1/vi.1.gz
-unlink C:\Users\cmadas\OneDrive\toku-download-for-work\stdenv_cygwin\cygwin64/usr/share/man/ru.KOI8-R/man1/vi.1.gz
-unlink C:\Users\cmadas\OneDrive\toku-download-for-work\stdenv_cygwin\cygwin64/usr/share/man/ru.UTF-8/man1/vi.1.gz
-unlink C:\Users\cmadas\OneDrive\toku-download-for-work\stdenv_cygwin\cygwin64/usr/share/man/fr.ISO8859-1/man1/view.1.gz
-unlink C:\Users\cmadas\OneDrive\toku-download-for-work\stdenv_cygwin\cygwin64/usr/share/man/fr.UTF-8/man1/view.1.gz
-unlink C:\Users\cmadas\OneDrive\toku-download-for-work\stdenv_cygwin\cygwin64/usr/share/man/fr/man1/view.1.gz
-unlink C:\Users\cmadas\OneDrive\toku-download-for-work\stdenv_cygwin\cygwin64/usr/share/man/it.ISO8859-1/man1/view.1.gz
-unlink C:\Users\cmadas\OneDrive\toku-download-for-work\stdenv_cygwin\cygwin64/usr/share/man/it.UTF-8/man1/view.1.gz
-unlink C:\Users\cmadas\OneDrive\toku-download-for-work\stdenv_cygwin\cygwin64/usr/share/man/it/man1/view.1.gz
-unlink C:\Users\cmadas\OneDrive\toku-download-for-work\stdenv_cygwin\cygwin64/usr/share/man/ja/man1/view.1.gz
-unlink C:\Users\cmadas\OneDrive\toku-download-for-work\stdenv_cygwin\cygwin64/usr/share/man/pl.ISO8859-2/man1/view.1.gz
-unlink C:\Users\cmadas\OneDrive\toku-download-for-work\stdenv_cygwin\cygwin64/usr/share/man/pl.UTF-8/man1/view.1.gz
-unlink C:\Users\cmadas\OneDrive\toku-download-for-work\stdenv_cygwin\cygwin64/usr/share/man/pl/man1/view.1.gz
-unlink C:\Users\cmadas\OneDrive\toku-download-for-work\stdenv_cygwin\cygwin64/usr/share/man/ru.KOI8-R/man1/view.1.gz
-unlink C:\Users\cmadas\OneDrive\toku-download-for-work\stdenv_cygwin\cygwin64/usr/share/man/ru.UTF-8/man1/view.1.gz
-rmdir C:\Users\cmadas\OneDrive\toku-download-for-work\stdenv_cygwin\cygwin64/usr/share/man/ru.UTF-8/man1
-rmdir C:\Users\cmadas\OneDrive\toku-download-for-work\stdenv_cygwin\cygwin64/usr/share/man/ru.UTF-8
-rmdir C:\Users\cmadas\OneDrive\toku-download-for-work\stdenv_cygwin\cygwin64/usr/share/man/ru.KOI8-R/man1
-rmdir C:\Users\cmadas\OneDrive\toku-download-for-work\stdenv_cygwin\cygwin64/usr/share/man/ru.KOI8-R
-rmdir C:\Users\cmadas\OneDrive\toku-download-for-work\stdenv_cygwin\cygwin64/usr/share/man/pl.UTF-8/man1
-rmdir C:\Users\cmadas\OneDrive\toku-download-for-work\stdenv_cygwin\cygwin64/usr/share/man/pl.UTF-8
-rmdir C:\Users\cmadas\OneDrive\toku-download-for-work\stdenv_cygwin\cygwin64/usr/share/man/pl.ISO8859-2/man1
-rmdir C:\Users\cmadas\OneDrive\toku-download-for-work\stdenv_cygwin\cygwin64/usr/share/man/pl.ISO8859-2
-rmdir C:\Users\cmadas\OneDrive\toku-download-for-work\stdenv_cygwin\cygwin64/usr/share/man/it.UTF-8/man1
-rmdir C:\Users\cmadas\OneDrive\toku-download-for-work\stdenv_cygwin\cygwin64/usr/share/man/it.UTF-8
-rmdir C:\Users\cmadas\OneDrive\toku-download-for-work\stdenv_cygwin\cygwin64/usr/share/man/it.ISO8859-1/man1
-rmdir C:\Users\cmadas\OneDrive\toku-download-for-work\stdenv_cygwin\cygwin64/usr/share/man/it.ISO8859-1
-rmdir C:\Users\cmadas\OneDrive\toku-download-for-work\stdenv_cygwin\cygwin64/usr/share/man/fr.UTF-8/man1
-rmdir C:\Users\cmadas\OneDrive\toku-download-for-work\stdenv_cygwin\cygwin64/usr/share/man/fr.UTF-8
-rmdir C:\Users\cmadas\OneDrive\toku-download-for-work\stdenv_cygwin\cygwin64/usr/share/man/fr.ISO8859-1/man1
-rmdir C:\Users\cmadas\OneDrive\toku-download-for-work\stdenv_cygwin\cygwin64/usr/share/man/fr.ISO8859-1
+2017/02/09 20:12:10 Downloaded C:\Users\cmadas\OneDrive\toku-download-for-work\stdenv_cygwin\tmp_cache/ftp%3a%2f%2fftp.jaist.ac.jp%2fpub%2fcygwin%2f/x86_64/release/cygrunsrv/cygrunsrv-1.62-1.tar.xz
+get_url_to_file ftp://ftp.jaist.ac.jp/pub/cygwin/x86_64/release/libedit/libedit0/libedit0-20130712-1.tar.xz C:\Users\cmadas\OneDrive\toku-download-for-work\stdenv_cygwin\tmp_cache/ftp%3a%2f%2fftp.jaist.ac.jp%2fpub%2fcygwin%2f/x86_64/release/libedit/libedit0/libedit0-20130712-1.tar.xz.tmp
+ftp > 227 Entering Passive Mode (150,65,7,130,205,226).
+ftp > 150 Opening BINARY mode data connection for /pub/cygwin/x86_64/release/libedit/libedit0/libedit0-20130712-1.tar.xz (70572 bytes).
+ftp > 226 Transfer complete.
+2017/02/09 20:12:10 Downloaded C:\Users\cmadas\OneDrive\toku-download-for-work\stdenv_cygwin\tmp_cache/ftp%3a%2f%2fftp.jaist.ac.jp%2fpub%2fcygwin%2f/x86_64/release/libedit/libedit0/libedit0-20130712-1.tar.xz
+get_url_to_file ftp://ftp.jaist.ac.jp/pub/cygwin/x86_64/release/openssh/openssh-7.4p1-1.tar.xz C:\Users\cmadas\OneDrive\toku-download-for-work\stdenv_cygwin\tmp_cache/ftp%3a%2f%2fftp.jaist.ac.jp%2fpub%2fcygwin%2f/x86_64/release/openssh/openssh-7.4p1-1.tar.xz.tmp
+ftp > 227 Entering Passive Mode (150,65,7,130,193,116).
+ftp > 150 Opening BINARY mode data connection for /pub/cygwin/x86_64/release/openssh/openssh-7.4p1-1.tar.xz (771116 bytes).
+ftp > 226 Transfer complete.
+2017/02/09 20:12:10 Downloaded C:\Users\cmadas\OneDrive\toku-download-for-work\stdenv_cygwin\tmp_cache/ftp%3a%2f%2fftp.jaist.ac.jp%2fpub%2fcygwin%2f/x86_64/release/openssh/openssh-7.4p1-1.tar.xz
+Checking SHA512 for file://C:\Users\cmadas\OneDrive\toku-download-for-work\stdenv_cygwin\tmp_cache/ftp%3a%2f%2fftp.jaist.ac.jp%2fpub%2fcygwin%2f/x86_64/release/csih/csih-0.9.9-1.tar.xz
+SHA512 verified OK: file://C:\Users\cmadas\OneDrive\toku-download-for-work\stdenv_cygwin\tmp_cache/ftp%3a%2f%2fftp.jaist.ac.jp%2fpub%2fcygwin%2f/x86_64/release/csih/csih-0.9.9-1.tar.xz 984656460a641cef595cafbba769bd49c9e2262980e4e484e46faa6ae2167654fd7bc5fa14ef66c9b8fa66a75d53e0e9bbb18c8871c812d75f17a68de7127729
+Checking SHA512 for file://C:\Users\cmadas\OneDrive\toku-download-for-work\stdenv_cygwin\tmp_cache/ftp%3a%2f%2fftp.jaist.ac.jp%2fpub%2fcygwin%2f/x86_64/release/cygrunsrv/cygrunsrv-1.62-1.tar.xz
+SHA512 verified OK: file://C:\Users\cmadas\OneDrive\toku-download-for-work\stdenv_cygwin\tmp_cache/ftp%3a%2f%2fftp.jaist.ac.jp%2fpub%2fcygwin%2f/x86_64/release/cygrunsrv/cygrunsrv-1.62-1.tar.xz 774b272d99dfb10ae610b08849ef7117fcb5e18e37c3da1a626fec0453393898c0fb2cf456f47daf295d4f4588e14e10d7f7ccb2761e93695fb051a78ecaf69d
+Checking SHA512 for file://C:\Users\cmadas\OneDrive\toku-download-for-work\stdenv_cygwin\tmp_cache/ftp%3a%2f%2fftp.jaist.ac.jp%2fpub%2fcygwin%2f/x86_64/release/libedit/libedit0/libedit0-20130712-1.tar.xz
+SHA512 verified OK: file://C:\Users\cmadas\OneDrive\toku-download-for-work\stdenv_cygwin\tmp_cache/ftp%3a%2f%2fftp.jaist.ac.jp%2fpub%2fcygwin%2f/x86_64/release/libedit/libedit0/libedit0-20130712-1.tar.xz 8bbfb6d4c2d30999d743d556ce8b4e1ca7513ad0c9362acf20f090f159917487ad0847c2009a4fc16bb4a29ba217ea1f454ba8d713dd2ab2c70c25da7b64343e
+Checking SHA512 for file://C:\Users\cmadas\OneDrive\toku-download-for-work\stdenv_cygwin\tmp_cache/ftp%3a%2f%2fftp.jaist.ac.jp%2fpub%2fcygwin%2f/x86_64/release/openssh/openssh-7.4p1-1.tar.xz
+SHA512 verified OK: file://C:\Users\cmadas\OneDrive\toku-download-for-work\stdenv_cygwin\tmp_cache/ftp%3a%2f%2fftp.jaist.ac.jp%2fpub%2fcygwin%2f/x86_64/release/openssh/openssh-7.4p1-1.tar.xz 56f825efdc97f7e9262548c05968604f1148c7c97e197e99113122f11bbd0947e3220c57c17ac341f1d9b0510cb53e2990b838b1f305df34c6f1536a38ea6fa5
 compress_xz::bid_xz: success: 48
 compress_xz::bid_xz: success: 48
-2017/01/14 17:53:17 Extracting from file://C:\Users\cmadas\OneDrive\toku-download-for-work\stdenv_cygwin\tmp_cache/ftp%3a%2f%2fftp.jaist.ac.jp%2fpub%2fcygwin%2f/x86_64/release/vim/vim-minimal/vim-minimal-8.0.0170-1.tar.xz
-Installing file cygfile:///usr/bin/ex
-io_stream::mklink (cygfile:///usr/bin/ex->cygfile://vi.exe)
-Installing file cygfile:///usr/bin/rvi
-io_stream::mklink (cygfile:///usr/bin/rvi->cygfile://vi.exe)
-Installing file cygfile:///usr/bin/rview
-io_stream::mklink (cygfile:///usr/bin/rview->cygfile://vi.exe)
-Installing file cygfile:///usr/bin/vi.exe
-Installing file cygfile:///usr/bin/view
-io_stream::mklink (cygfile:///usr/bin/view->cygfile://vi.exe)
-Installing file cygfile:///usr/share/man/man1/ex.1.gz
-Installing file cygfile:///usr/share/man/man1/rvi.1.gz
-Installing file cygfile:///usr/share/man/man1/rview.1.gz
-Installing file cygfile:///usr/share/man/man1/vi.1.gz
-Installing file cygfile:///usr/share/man/man1/view.1.gz
-Installing file cygfile:///usr/share/man/fr.ISO8859-1/man1/ex.1.gz
-Installing file cygfile:///usr/share/man/fr.UTF-8/man1/ex.1.gz
-Installing file cygfile:///usr/share/man/fr/man1/ex.1.gz
-Installing file cygfile:///usr/share/man/it.ISO8859-1/man1/ex.1.gz
-Installing file cygfile:///usr/share/man/it.UTF-8/man1/ex.1.gz
-Installing file cygfile:///usr/share/man/it/man1/ex.1.gz
-Installing file cygfile:///usr/share/man/ja/man1/ex.1.gz
-Installing file cygfile:///usr/share/man/pl.ISO8859-2/man1/ex.1.gz
-Installing file cygfile:///usr/share/man/pl.UTF-8/man1/ex.1.gz
-Installing file cygfile:///usr/share/man/pl/man1/ex.1.gz
-Installing file cygfile:///usr/share/man/ru.KOI8-R/man1/ex.1.gz
-Installing file cygfile:///usr/share/man/ru.UTF-8/man1/ex.1.gz
-Installing file cygfile:///usr/share/man/fr.ISO8859-1/man1/rvi.1.gz
-Installing file cygfile:///usr/share/man/fr.UTF-8/man1/rvi.1.gz
-Installing file cygfile:///usr/share/man/fr/man1/rvi.1.gz
-Installing file cygfile:///usr/share/man/it.ISO8859-1/man1/rvi.1.gz
-Installing file cygfile:///usr/share/man/it.UTF-8/man1/rvi.1.gz
-Installing file cygfile:///usr/share/man/it/man1/rvi.1.gz
-Installing file cygfile:///usr/share/man/ja/man1/rvi.1.gz
-Installing file cygfile:///usr/share/man/pl.ISO8859-2/man1/rvi.1.gz
-Installing file cygfile:///usr/share/man/pl.UTF-8/man1/rvi.1.gz
-Installing file cygfile:///usr/share/man/pl/man1/rvi.1.gz
-Installing file cygfile:///usr/share/man/ru.KOI8-R/man1/rvi.1.gz
-Installing file cygfile:///usr/share/man/ru.UTF-8/man1/rvi.1.gz
-Installing file cygfile:///usr/share/man/fr.ISO8859-1/man1/rview.1.gz
-Installing file cygfile:///usr/share/man/fr.UTF-8/man1/rview.1.gz
-Installing file cygfile:///usr/share/man/fr/man1/rview.1.gz
-Installing file cygfile:///usr/share/man/it.ISO8859-1/man1/rview.1.gz
-Installing file cygfile:///usr/share/man/it.UTF-8/man1/rview.1.gz
-Installing file cygfile:///usr/share/man/it/man1/rview.1.gz
-Installing file cygfile:///usr/share/man/ja/man1/rview.1.gz
-Installing file cygfile:///usr/share/man/pl.ISO8859-2/man1/rview.1.gz
-Installing file cygfile:///usr/share/man/pl.UTF-8/man1/rview.1.gz
-Installing file cygfile:///usr/share/man/pl/man1/rview.1.gz
-Installing file cygfile:///usr/share/man/ru.KOI8-R/man1/rview.1.gz
-Installing file cygfile:///usr/share/man/ru.UTF-8/man1/rview.1.gz
-Installing file cygfile:///usr/share/man/fr.ISO8859-1/man1/vi.1.gz
-Installing file cygfile:///usr/share/man/fr.UTF-8/man1/vi.1.gz
-Installing file cygfile:///usr/share/man/fr/man1/vi.1.gz
-Installing file cygfile:///usr/share/man/it.ISO8859-1/man1/vi.1.gz
-Installing file cygfile:///usr/share/man/it.UTF-8/man1/vi.1.gz
-Installing file cygfile:///usr/share/man/it/man1/vi.1.gz
-Installing file cygfile:///usr/share/man/ja/man1/vi.1.gz
-Installing file cygfile:///usr/share/man/pl.ISO8859-2/man1/vi.1.gz
-Installing file cygfile:///usr/share/man/pl.UTF-8/man1/vi.1.gz
-Installing file cygfile:///usr/share/man/pl/man1/vi.1.gz
-Installing file cygfile:///usr/share/man/ru.KOI8-R/man1/vi.1.gz
-Installing file cygfile:///usr/share/man/ru.UTF-8/man1/vi.1.gz
-Installing file cygfile:///usr/share/man/fr.ISO8859-1/man1/view.1.gz
-Installing file cygfile:///usr/share/man/fr.UTF-8/man1/view.1.gz
-Installing file cygfile:///usr/share/man/fr/man1/view.1.gz
-Installing file cygfile:///usr/share/man/it.ISO8859-1/man1/view.1.gz
-Installing file cygfile:///usr/share/man/it.UTF-8/man1/view.1.gz
-Installing file cygfile:///usr/share/man/it/man1/view.1.gz
-Installing file cygfile:///usr/share/man/ja/man1/view.1.gz
-Installing file cygfile:///usr/share/man/pl.ISO8859-2/man1/view.1.gz
-Installing file cygfile:///usr/share/man/pl.UTF-8/man1/view.1.gz
-Installing file cygfile:///usr/share/man/pl/man1/view.1.gz
-Installing file cygfile:///usr/share/man/ru.KOI8-R/man1/view.1.gz
-Installing file cygfile:///usr/share/man/ru.UTF-8/man1/view.1.gz
-compress_xz::bid_xz: success: 48
-compress_xz::bid_xz: success: 48
-2017/01/14 17:53:18 Extracting from file://C:\Users\cmadas\OneDrive\toku-download-for-work\stdenv_cygwin\tmp_cache/ftp%3a%2f%2fftp.jaist.ac.jp%2fpub%2fcygwin%2f/x86_64/release/zip/zip-3.0-12.tar.xz
+2017/02/09 20:12:20 Extracting from file://C:\Users\cmadas\OneDrive\toku-download-for-work\stdenv_cygwin\tmp_cache/ftp%3a%2f%2fftp.jaist.ac.jp%2fpub%2fcygwin%2f/x86_64/release/csih/csih-0.9.9-1.tar.xz
 Installing file cygfile:///usr/
-Installing file cygfile:///usr/bin/
-Installing file cygfile:///usr/bin/zip.exe
-Installing file cygfile:///usr/bin/zipcloak.exe
-Installing file cygfile:///usr/bin/zipnote.exe
-Installing file cygfile:///usr/bin/zipsplit.exe
+Installing file cygfile:///usr/share/
+Installing file cygfile:///usr/share/csih/
+Installing file cygfile:///usr/share/csih/cygwin-service-installation-helper.sh
+Installing file cygfile:///usr/share/doc/
+Installing file cygfile:///usr/share/doc/csih/
+Installing file cygfile:///usr/share/doc/csih/AUTHORS
+Installing file cygfile:///usr/share/doc/csih/ChangeLog
+Installing file cygfile:///usr/share/doc/csih/COPYING
+Installing file cygfile:///usr/share/doc/csih/COPYING.LGPLv2.1
+Installing file cygfile:///usr/share/doc/csih/NEWS
+Installing file cygfile:///usr/share/doc/csih/TODO
 Installing file cygfile:///usr/lib/
+Installing file cygfile:///usr/lib/csih/
+Installing file cygfile:///usr/lib/csih/getAccountName.exe
+Installing file cygfile:///usr/lib/csih/winProductName.exe
+Installing file cygfile:///usr/lib/csih/getVolInfo.exe
+compress_xz::bid_xz: success: 48
+compress_xz::bid_xz: success: 48
+2017/02/09 20:12:20 Extracting from file://C:\Users\cmadas\OneDrive\toku-download-for-work\stdenv_cygwin\tmp_cache/ftp%3a%2f%2fftp.jaist.ac.jp%2fpub%2fcygwin%2f/x86_64/release/cygrunsrv/cygrunsrv-1.62-1.tar.xz
+Installing file cygfile:///bin/
+Installing file cygfile:///bin/cygrunsrv.exe
+Installing file cygfile:///usr/
 Installing file cygfile:///usr/share/
 Installing file cygfile:///usr/share/doc/
-Installing file cygfile:///usr/share/doc/zip/
-Installing file cygfile:///usr/share/doc/zip/BUGS
-Installing file cygfile:///usr/share/doc/zip/CHANGES
-Installing file cygfile:///usr/share/doc/zip/LICENSE
-Installing file cygfile:///usr/share/doc/zip/README
-Installing file cygfile:///usr/share/doc/zip/TODO
-Installing file cygfile:///usr/share/doc/zip/WHATSNEW
+Installing file cygfile:///usr/share/doc/Cygwin/
+Installing file cygfile:///usr/share/doc/Cygwin/cygrunsrv.README
+Installing file cygfile:///usr/share/doc/cygrunsrv/
+Installing file cygfile:///usr/share/doc/cygrunsrv/ChangeLog
+Installing file cygfile:///usr/share/doc/cygrunsrv/COPYING
+Installing file cygfile:///usr/share/doc/cygrunsrv/TODO
+Installing file cygfile:///usr/lib/
+compress_xz::bid_xz: success: 48
+compress_xz::bid_xz: success: 48
+2017/02/09 20:12:20 Extracting from file://C:\Users\cmadas\OneDrive\toku-download-for-work\stdenv_cygwin\tmp_cache/ftp%3a%2f%2fftp.jaist.ac.jp%2fpub%2fcygwin%2f/x86_64/release/libedit/libedit0/libedit0-20130712-1.tar.xz
+Installing file cygfile:///usr/bin/
+Installing file cygfile:///usr/bin/cygedit-0.dll
+Installing file cygfile:///usr/share/doc/
+Installing file cygfile:///usr/share/doc/libedit/
+Installing file cygfile:///usr/share/doc/libedit/THANKS
+Installing file cygfile:///usr/share/doc/libedit/COPYING
+Installing file cygfile:///usr/share/doc/libedit/ChangeLog
+Installing file cygfile:///usr/share/man/man5/
+Installing file cygfile:///usr/share/man/man5/editrc.5.gz
+compress_xz::bid_xz: success: 48
+compress_xz::bid_xz: success: 48
+2017/02/09 20:12:20 Extracting from file://C:\Users\cmadas\OneDrive\toku-download-for-work\stdenv_cygwin\tmp_cache/ftp%3a%2f%2fftp.jaist.ac.jp%2fpub%2fcygwin%2f/x86_64/release/openssh/openssh-7.4p1-1.tar.xz
+Installing file cygfile:///etc/
+Installing file cygfile:///etc/moduli
+Installing file cygfile:///etc/defaults/
+Installing file cygfile:///etc/defaults/etc/
+Installing file cygfile:///etc/defaults/etc/ssh_config
+Installing file cygfile:///etc/defaults/etc/sshd_config
+Installing file cygfile:///etc/defaults/etc/inetd.d/
+Installing file cygfile:///etc/defaults/etc/inetd.d/sshd-inetd
+Installing file cygfile:///etc/postinstall/
+Installing file cygfile:///etc/postinstall/openssh.sh
+Installing file cygfile:///usr/
+Installing file cygfile:///usr/bin/
+Installing file cygfile:///usr/bin/slogin
+io_stream::mklink (cygfile:///usr/bin/slogin->cygfile://./ssh.exe)
+Installing file cygfile:///usr/bin/ssh-host-config
+Installing file cygfile:///usr/bin/ssh-user-config
+Installing file cygfile:///usr/bin/ssh-copy-id
+Installing file cygfile:///usr/bin/ssh.exe
+Installing file cygfile:///usr/bin/scp.exe
+Installing file cygfile:///usr/bin/ssh-add.exe
+Installing file cygfile:///usr/bin/ssh-agent.exe
+Installing file cygfile:///usr/bin/ssh-keygen.exe
+Installing file cygfile:///usr/bin/ssh-keyscan.exe
+Installing file cygfile:///usr/bin/sftp.exe
+Installing file cygfile:///usr/sbin/
+Installing file cygfile:///usr/sbin/sshd.exe
+Installing file cygfile:///usr/sbin/ssh-keysign.exe
+Installing file cygfile:///usr/sbin/ssh-pkcs11-helper.exe
+Installing file cygfile:///usr/sbin/sftp-server.exe
+Installing file cygfile:///usr/share/
 Installing file cygfile:///usr/share/man/
 Installing file cygfile:///usr/share/man/man1/
-Installing file cygfile:///usr/share/man/man1/zip.1.gz
-Installing file cygfile:///usr/share/man/man1/zipcloak.1.gz
-Installing file cygfile:///usr/share/man/man1/zipnote.1.gz
-Installing file cygfile:///usr/share/man/man1/zipsplit.1.gz
-2017/01/14 17:53:18 Changing gid back to original
-Visited: 99 nodes out of 9050 while creating dependency order.
-Dependency order of packages: base-cygwin cygwin dash _autorebase libiconv2 libintl8 alternatives libattr1 libgmp10 tzdata libgcc1 libstdc++6 terminfo libncursesw10 libreadline7 tzcode coreutils bash findutils sed base-files zlib0 binutils libbz2_1 bzip2 libffi6 libp11-kit0 libtasn1_6 p11-kit p11-kit-trust ca-certificates libcom_err2 libkrb5support0 libk5crypto3 libkrb5_3 libgssapi_krb5_2 libidn2_0 libnghttp2_14 libopenssl100 libcrypt0 libdb5.3 libsasl2_3 libopenldap2_4_2 libidn11 libunistring2 libpsl5 libssh2_1 libcurl4 libexpat1 libmetalink3 curl libpopt-common libpopt0 cygutils cygwin-devel libsigsegv2 diffutils editrights file libmpfr4 gawk libargp getent libpcre1 grep groff gzip hostname info ipc-utils less libuuid1 libblkid1 libgdbm4 libltdl7 libguile17 libiconv libintl-devel liblzma5 libpipeline1 libsmartcols1 libsqlite3_0 libssp0 libuuid-devel login make util-linux man-db mintty ncurses openssl python3 rebase run xz tar vim-minimal which zip 
-2017/01/14 17:53:18 running: C:\Users\cmadas\OneDrive\toku-download-for-work\stdenv_cygwin\cygwin64\bin\dash.exe "/etc/postinstall/0p_000_autorebase.dash"
+Installing file cygfile:///usr/share/man/man1/scp.1.gz
+Installing file cygfile:///usr/share/man/man1/sftp.1.gz
+Installing file cygfile:///usr/share/man/man1/ssh-add.1.gz
+Installing file cygfile:///usr/share/man/man1/ssh-agent.1.gz
+Installing file cygfile:///usr/share/man/man1/ssh-copy-id.1.gz
+Installing file cygfile:///usr/share/man/man1/ssh-keygen.1.gz
+Installing file cygfile:///usr/share/man/man1/ssh-keyscan.1.gz
+Installing file cygfile:///usr/share/man/man1/ssh.1.gz
+Installing file cygfile:///usr/share/man/man1/slogin.1.gz
+Installing file cygfile:///usr/share/man/man5/
+Installing file cygfile:///usr/share/man/man5/moduli.5.gz
+Installing file cygfile:///usr/share/man/man5/ssh_config.5.gz
+Installing file cygfile:///usr/share/man/man5/sshd_config.5.gz
+Installing file cygfile:///usr/share/man/man8/
+Installing file cygfile:///usr/share/man/man8/sftp-server.8.gz
+Installing file cygfile:///usr/share/man/man8/ssh-keysign.8.gz
+Installing file cygfile:///usr/share/man/man8/ssh-pkcs11-helper.8.gz
+Installing file cygfile:///usr/share/man/man8/sshd.8.gz
+Installing file cygfile:///usr/share/doc/
+Installing file cygfile:///usr/share/doc/openssh/
+Installing file cygfile:///usr/share/doc/openssh/CREDITS
+Installing file cygfile:///usr/share/doc/openssh/ChangeLog
+Installing file cygfile:///usr/share/doc/openssh/LICENCE
+Installing file cygfile:///usr/share/doc/openssh/OVERVIEW
+Installing file cygfile:///usr/share/doc/openssh/PROTOCOL
+Installing file cygfile:///usr/share/doc/openssh/PROTOCOL.agent
+Installing file cygfile:///usr/share/doc/openssh/PROTOCOL.certkeys
+Installing file cygfile:///usr/share/doc/openssh/PROTOCOL.mux
+Installing file cygfile:///usr/share/doc/openssh/README
+Installing file cygfile:///usr/share/doc/openssh/README.dns
+Installing file cygfile:///usr/share/doc/openssh/README.platform
+Installing file cygfile:///usr/share/doc/openssh/README.privsep
+Installing file cygfile:///usr/share/doc/openssh/README.tun
+Installing file cygfile:///usr/share/doc/openssh/TODO
+Installing file cygfile:///usr/share/doc/Cygwin/
+Installing file cygfile:///usr/share/doc/Cygwin/openssh.README
+Installing file cygfile:///usr/lib/
+2017/02/09 20:12:20 Changing gid back to original
+Visited: 104 nodes out of 9043 while creating dependency order.
+Dependency order of packages: base-cygwin cygwin dash _autorebase libiconv2 libintl8 alternatives libattr1 libgmp10 tzdata libncursesw10 libreadline7 tzcode coreutils bash findutils sed base-files zlib0 binutils libbz2_1 bzip2 ca-certificates libsigsegv2 diffutils editrights libgcc1 libmpfr4 gawk libpcre1 grep csih libcom_err2 libkrb5support0 libk5crypto3 libkrb5_3 libgssapi_krb5_2 libidn2_0 libnghttp2_14 libopenssl100 libcrypt0 libstdc++6 libdb5.3 libsasl2_3 libopenldap2_4_2 libpsl5 libssh2_1 libcurl4 libexpat1 libmetalink3 curl cygrunsrv libpopt-common libpopt0 cygutils cygwin-devel file libargp getent groff gzip hostname info ipc-utils less libuuid1 libblkid1 libedit0 libffi6 libgdbm4 libltdl7 libguile17 libiconv libidn11 libintl-devel liblzma5 libp11-kit0 libpipeline1 libsmartcols1 libsqlite3_0 libssp0 libtasn1_6 libunistring2 libuuid-devel login make util-linux man-db mintty ncurses openssh openssl p11-kit p11-kit-trust publicsuffix-list-dafsa python3 rebase run xz tar terminfo vim-minimal which zip 
+2017/02/09 20:12:20 running: C:\Users\cmadas\OneDrive\toku-download-for-work\stdenv_cygwin\cygwin64\bin\dash.exe "/etc/postinstall/0p_000_autorebase.dash"
 Updating package information in /var/cache/rebase/rebase_pkg.
-	from /etc/setup/vim-minimal.lst.gz...
-	from /etc/setup/zip.lst.gz...
+	from /etc/setup/csih.lst.gz...
+	from /etc/setup/cygrunsrv.lst.gz...
+	from /etc/setup/libedit0.lst.gz...
+	from /etc/setup/openssh.lst.gz...
 Updating rebase information for installed dynamic objects in /var/cache/rebase/rebase_lst.
 Updating rebase information for installed executables in /var/cache/rebase/rebase_exe.
 removing /var/cache/rebase/rebase_dyn
@@ -353,13 +302,8 @@ Updating rebase information for dynamic language modules/libraries /var/cache/re
 Updating rebase information for user-defined dynamic objects /var/cache/rebase/rebase_user.
 Updating rebase information for user-defined executables /var/cache/rebase/rebase_user_exe.
 Rebasing with list /var/cache/rebase/rebase_all, built from /var/cache/rebase/rebase_lst /var/cache/rebase/rebase_dyn /var/cache/rebase/rebase_user.
-
-The following DLLs couldn't be rebased because they were in use:
-  /usr/bin/cygreadline7.dll
-  /usr/bin/cygncursesw-10.dll
-  /usr/bin/cygintl-8.dll
-  /usr/bin/cygiconv-2.dll
-2017/01/14 17:53:23 running: C:\Users\cmadas\OneDrive\toku-download-for-work\stdenv_cygwin\cygwin64\bin\dash.exe "/etc/postinstall/0p_update-info-dir.dash"
-2017/01/14 17:53:24 running: C:\Users\cmadas\OneDrive\toku-download-for-work\stdenv_cygwin\cygwin64\bin\bash.exe --norc --noprofile "/etc/postinstall/zp_man-db.sh"
-2017/01/14 17:53:24 Changing gid to Administrators
-2017/01/14 17:53:25 Ending cygwin install
+2017/02/09 20:12:25 running: C:\Users\cmadas\OneDrive\toku-download-for-work\stdenv_cygwin\cygwin64\bin\dash.exe "/etc/postinstall/0p_update-info-dir.dash"
+2017/02/09 20:12:26 running: C:\Users\cmadas\OneDrive\toku-download-for-work\stdenv_cygwin\cygwin64\bin\bash.exe --norc --noprofile "/etc/postinstall/openssh.sh"
+2017/02/09 20:12:26 running: C:\Users\cmadas\OneDrive\toku-download-for-work\stdenv_cygwin\cygwin64\bin\bash.exe --norc --noprofile "/etc/postinstall/zp_man-db.sh"
+2017/02/09 20:12:26 Changing gid to Administrators
+2017/02/09 20:12:27 Ending cygwin install

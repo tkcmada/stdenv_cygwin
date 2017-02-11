@@ -2,6 +2,7 @@ set pkg=python3
 set pkg=%pkg%,curl
 set pkg=%pkg%,make
 set pkg=%pkg%,zip
+set pkg=%pkg%,openssh
 
 set cachedir=%~dp0tmp_cache
 

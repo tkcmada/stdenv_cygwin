@@ -3,9 +3,8 @@
 /usr/sbin/alternatives.exe
 # rebase_pkg information from: /etc/setup/base-cygwin.lst.gz
 # rebase_pkg information from: /etc/setup/base-files.lst.gz
-# rebase_pkg information from: /etc/setup/bash.lst.gz
-/usr/bin/bash.exe
-/usr/bin/sh.exe
+##/usr/bin/bash.exe
+##/usr/bin/sh.exe
 # rebase_pkg information from: /etc/setup/binutils.lst.gz
 /usr/bin/addr2line.exe
 /usr/bin/ar.exe
@@ -203,27 +202,25 @@
 /usr/libexec/bigram.exe
 /usr/libexec/code.exe
 /usr/libexec/frcode.exe
-# rebase_pkg information from: /etc/setup/gawk.lst.gz
-/usr/bin/gawk.exe
-/usr/bin/gawk-4.1.4.exe
-/usr/lib/gawk/filefuncs.dll
-/usr/lib/gawk/fnmatch.dll
-/usr/lib/gawk/fork.dll
-/usr/lib/gawk/inplace.dll
-/usr/lib/gawk/ordchr.dll
-/usr/lib/gawk/readdir.dll
-/usr/lib/gawk/readfile.dll
-/usr/lib/gawk/revoutput.dll
-/usr/lib/gawk/revtwoway.dll
-/usr/lib/gawk/rwarray.dll
-/usr/lib/gawk/testext.dll
-/usr/lib/gawk/time.dll
-/usr/libexec/awk/pwcat.exe
-/usr/libexec/awk/grcat.exe
+##/usr/bin/gawk.exe
+##/usr/bin/gawk-4.1.4.exe
+##/usr/lib/gawk/filefuncs.dll
+##/usr/lib/gawk/fnmatch.dll
+##/usr/lib/gawk/fork.dll
+##/usr/lib/gawk/inplace.dll
+##/usr/lib/gawk/ordchr.dll
+##/usr/lib/gawk/readdir.dll
+##/usr/lib/gawk/readfile.dll
+##/usr/lib/gawk/revoutput.dll
+##/usr/lib/gawk/revtwoway.dll
+##/usr/lib/gawk/rwarray.dll
+##/usr/lib/gawk/testext.dll
+##/usr/lib/gawk/time.dll
+##/usr/libexec/awk/pwcat.exe
+##/usr/libexec/awk/grcat.exe
 # rebase_pkg information from: /etc/setup/getent.lst.gz
 /usr/bin/getent.exe
-# rebase_pkg information from: /etc/setup/grep.lst.gz
-/usr/bin/grep.exe
+##/usr/bin/grep.exe
 # rebase_pkg information from: /etc/setup/groff.lst.gz
 /usr/bin/addftinfo.exe
 /usr/bin/eqn.exe
@@ -338,21 +335,20 @@
 /usr/bin/cyglber-2-4-2.dll
 /usr/bin/cygldap-2-4-2.dll
 /usr/bin/cygldap_r-2-4-2.dll
-# rebase_pkg information from: /etc/setup/libopenssl100.lst.gz
-/usr/bin/cygcrypto-1.0.0.dll
-/usr/bin/cygssl-1.0.0.dll
-/usr/lib/openssl-1.0.2/engines/lib4758cca.so
-/usr/lib/openssl-1.0.2/engines/libaep.so
-/usr/lib/openssl-1.0.2/engines/libatalla.so
-/usr/lib/openssl-1.0.2/engines/libcapi.so
-/usr/lib/openssl-1.0.2/engines/libchil.so
-/usr/lib/openssl-1.0.2/engines/libcswift.so
-/usr/lib/openssl-1.0.2/engines/libgmp.so
-/usr/lib/openssl-1.0.2/engines/libgost.so
-/usr/lib/openssl-1.0.2/engines/libnuron.so
-/usr/lib/openssl-1.0.2/engines/libpadlock.so
-/usr/lib/openssl-1.0.2/engines/libsureware.so
-/usr/lib/openssl-1.0.2/engines/libubsec.so
+##/usr/bin/cygcrypto-1.0.0.dll
+##/usr/bin/cygssl-1.0.0.dll
+##/usr/lib/openssl-1.0.2/engines/lib4758cca.so
+##/usr/lib/openssl-1.0.2/engines/libaep.so
+##/usr/lib/openssl-1.0.2/engines/libatalla.so
+##/usr/lib/openssl-1.0.2/engines/libcapi.so
+##/usr/lib/openssl-1.0.2/engines/libchil.so
+##/usr/lib/openssl-1.0.2/engines/libcswift.so
+##/usr/lib/openssl-1.0.2/engines/libgmp.so
+##/usr/lib/openssl-1.0.2/engines/libgost.so
+##/usr/lib/openssl-1.0.2/engines/libnuron.so
+##/usr/lib/openssl-1.0.2/engines/libpadlock.so
+##/usr/lib/openssl-1.0.2/engines/libsureware.so
+##/usr/lib/openssl-1.0.2/engines/libubsec.so
 # rebase_pkg information from: /etc/setup/libp11-kit0.lst.gz
 /usr/bin/cygp11-kit-0.dll
 # rebase_pkg information from: /etc/setup/libpcre1.lst.gz
@@ -417,18 +413,15 @@
 /usr/libexec/man-db/manconv.exe
 /usr/libexec/man-db/zsoelim.exe
 /usr/sbin/accessdb.exe
-# rebase_pkg information from: /etc/setup/mintty.lst.gz
-/usr/bin/mintty.exe
-# rebase_pkg information from: /etc/setup/ncurses.lst.gz
-/usr/bin/clear.exe
-/usr/bin/infocmp.exe
-/usr/bin/tabs.exe
-/usr/bin/tic.exe
-/usr/bin/toe.exe
-/usr/bin/tput.exe
-/usr/bin/tset.exe
-# rebase_pkg information from: /etc/setup/openssl.lst.gz
-/usr/bin/openssl.exe
+##/usr/bin/mintty.exe
+##/usr/bin/clear.exe
+##/usr/bin/infocmp.exe
+##/usr/bin/tabs.exe
+##/usr/bin/tic.exe
+##/usr/bin/toe.exe
+##/usr/bin/tput.exe
+##/usr/bin/tset.exe
+##/usr/bin/openssl.exe
 # rebase_pkg information from: /etc/setup/p11-kit-trust.lst.gz
 /usr/lib/pkcs11/p11-kit-trust.so
 # rebase_pkg information from: /etc/setup/p11-kit.lst.gz
@@ -510,7 +503,6 @@
 # rebase_pkg information from: /etc/setup/tar.lst.gz
 /usr/bin/tar.exe
 /usr/libexec/rmt.exe
-# rebase_pkg information from: /etc/setup/terminfo.lst.gz
 # rebase_pkg information from: /etc/setup/tzcode.lst.gz
 /usr/sbin/zdump.exe
 /usr/sbin/zic.exe
@@ -559,8 +551,6 @@
 /usr/bin/uuidgen.exe
 /usr/bin/whereis.exe
 /usr/sbin/uuidd.exe
-## rebase_pkg information from: /etc/setup/vim-minimal.lst.gz
-#/usr/bin/vi.exe
 # rebase_pkg information from: /etc/setup/which.lst.gz
 /usr/bin/which.exe
 # rebase_pkg information from: /etc/setup/xz.lst.gz
@@ -571,10 +561,82 @@
 # rebase_pkg information from: /etc/setup/zlib0.lst.gz
 /usr/bin/cygz.dll
 # rebase_pkg information from: /etc/setup/_autorebase.lst.gz
-# rebase_pkg information from: /etc/setup/vim-minimal.lst.gz
-/usr/bin/vi.exe
+##/usr/bin/vi.exe
 # rebase_pkg information from: /etc/setup/zip.lst.gz
 /usr/bin/zip.exe
 /usr/bin/zipcloak.exe
 /usr/bin/zipnote.exe
 /usr/bin/zipsplit.exe
+# rebase_pkg information from: /etc/setup/bash.lst.gz
+/usr/bin/bash.exe
+/usr/bin/sh.exe
+# rebase_pkg information from: /etc/setup/gawk.lst.gz
+/usr/bin/gawk.exe
+/usr/bin/gawk-4.1.4.exe
+/usr/lib/gawk/filefuncs.dll
+/usr/lib/gawk/fnmatch.dll
+/usr/lib/gawk/fork.dll
+/usr/lib/gawk/inplace.dll
+/usr/lib/gawk/ordchr.dll
+/usr/lib/gawk/readdir.dll
+/usr/lib/gawk/readfile.dll
+/usr/lib/gawk/revoutput.dll
+/usr/lib/gawk/revtwoway.dll
+/usr/lib/gawk/rwarray.dll
+/usr/lib/gawk/testext.dll
+/usr/lib/gawk/time.dll
+/usr/libexec/awk/pwcat.exe
+/usr/libexec/awk/grcat.exe
+# rebase_pkg information from: /etc/setup/grep.lst.gz
+/usr/bin/grep.exe
+# rebase_pkg information from: /etc/setup/libopenssl100.lst.gz
+/usr/bin/cygcrypto-1.0.0.dll
+/usr/bin/cygssl-1.0.0.dll
+/usr/lib/openssl-1.0.2/engines/lib4758cca.so
+/usr/lib/openssl-1.0.2/engines/libaep.so
+/usr/lib/openssl-1.0.2/engines/libatalla.so
+/usr/lib/openssl-1.0.2/engines/libcswift.so
+/usr/lib/openssl-1.0.2/engines/libgmp.so
+/usr/lib/openssl-1.0.2/engines/libchil.so
+/usr/lib/openssl-1.0.2/engines/libnuron.so
+/usr/lib/openssl-1.0.2/engines/libsureware.so
+/usr/lib/openssl-1.0.2/engines/libubsec.so
+/usr/lib/openssl-1.0.2/engines/libpadlock.so
+/usr/lib/openssl-1.0.2/engines/libcapi.so
+/usr/lib/openssl-1.0.2/engines/libgost.so
+# rebase_pkg information from: /etc/setup/mintty.lst.gz
+/usr/bin/mintty.exe
+# rebase_pkg information from: /etc/setup/ncurses.lst.gz
+/usr/bin/clear.exe
+/usr/bin/infocmp.exe
+/usr/bin/tabs.exe
+/usr/bin/tic.exe
+/usr/bin/toe.exe
+/usr/bin/tput.exe
+/usr/bin/tset.exe
+# rebase_pkg information from: /etc/setup/openssl.lst.gz
+/usr/bin/openssl.exe
+# rebase_pkg information from: /etc/setup/publicsuffix-list-dafsa.lst.gz
+# rebase_pkg information from: /etc/setup/terminfo.lst.gz
+# rebase_pkg information from: /etc/setup/vim-minimal.lst.gz
+/usr/bin/vi.exe
+# rebase_pkg information from: /etc/setup/csih.lst.gz
+/usr/lib/csih/getAccountName.exe
+/usr/lib/csih/winProductName.exe
+/usr/lib/csih/getVolInfo.exe
+# rebase_pkg information from: /etc/setup/cygrunsrv.lst.gz
+/bin/cygrunsrv.exe
+# rebase_pkg information from: /etc/setup/libedit0.lst.gz
+/usr/bin/cygedit-0.dll
+# rebase_pkg information from: /etc/setup/openssh.lst.gz
+/usr/bin/ssh.exe
+/usr/bin/scp.exe
+/usr/bin/ssh-add.exe
+/usr/bin/ssh-agent.exe
+/usr/bin/ssh-keygen.exe
+/usr/bin/ssh-keyscan.exe
+/usr/bin/sftp.exe
+/usr/sbin/sshd.exe
+/usr/sbin/ssh-keysign.exe
+/usr/sbin/ssh-pkcs11-helper.exe
+/usr/sbin/sftp-server.exe

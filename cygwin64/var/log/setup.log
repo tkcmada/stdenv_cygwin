@@ -298,3 +298,88 @@
 2017/01/14 17:53:24 running: C:\Users\cmadas\OneDrive\toku-download-for-work\stdenv_cygwin\cygwin64\bin\bash.exe --norc --noprofile "/etc/postinstall/zp_man-db.sh"
 2017/01/14 17:53:24 Changing gid to Administrators
 2017/01/14 17:53:25 Ending cygwin install
+2017/02/09 20:10:13 Starting cygwin install, version 2.877
+2017/02/09 20:10:13 User has backup/restore rights
+2017/02/09 20:10:13 Current Directory: C:\Users\cmadas\OneDrive\toku-download-for-work\stdenv_cygwin\tmp_cache
+2017/02/09 20:10:13 Could not open service McShield for query, start and stop. McAfee may not be installed, or we don't have access.
+2017/02/09 20:10:13 root: C:\Users\cmadas\OneDrive\toku-download-for-work\stdenv_cygwin\cygwin64 system
+2017/02/09 20:10:13 Selected local directory: C:\Users\cmadas\OneDrive\toku-download-for-work\stdenv_cygwin\tmp_cache
+2017/02/09 20:10:13 net: Direct
+2017/02/09 20:10:14 site: ftp://ftp.jaist.ac.jp/pub/cygwin/
+2017/02/09 20:10:18 Adding required dependency publicsuffix-list-dafsa: Selecting version 20170116-1 for installation.
+2017/02/09 20:10:18 Downloaded C:\Users\cmadas\OneDrive\toku-download-for-work\stdenv_cygwin\tmp_cache/ftp%3a%2f%2fftp.jaist.ac.jp%2fpub%2fcygwin%2f/x86_64/release/bash/bash-4.4.12-3.tar.xz
+2017/02/09 20:10:19 Downloaded C:\Users\cmadas\OneDrive\toku-download-for-work\stdenv_cygwin\tmp_cache/ftp%3a%2f%2fftp.jaist.ac.jp%2fpub%2fcygwin%2f/x86_64/release/gawk/gawk-4.1.4-2.tar.xz
+2017/02/09 20:10:19 Downloaded C:\Users\cmadas\OneDrive\toku-download-for-work\stdenv_cygwin\tmp_cache/ftp%3a%2f%2fftp.jaist.ac.jp%2fpub%2fcygwin%2f/x86_64/release/grep/grep-2.27-2.tar.xz
+2017/02/09 20:10:20 Downloaded C:\Users\cmadas\OneDrive\toku-download-for-work\stdenv_cygwin\tmp_cache/ftp%3a%2f%2fftp.jaist.ac.jp%2fpub%2fcygwin%2f/x86_64/release/openssl/libopenssl100/libopenssl100-1.0.2k-1.tar.xz
+2017/02/09 20:10:20 Downloaded C:\Users\cmadas\OneDrive\toku-download-for-work\stdenv_cygwin\tmp_cache/ftp%3a%2f%2fftp.jaist.ac.jp%2fpub%2fcygwin%2f/x86_64/release/mintty/mintty-2.7.4-0.tar.xz
+2017/02/09 20:10:20 Downloaded C:\Users\cmadas\OneDrive\toku-download-for-work\stdenv_cygwin\tmp_cache/ftp%3a%2f%2fftp.jaist.ac.jp%2fpub%2fcygwin%2f/x86_64/release/ncurses/ncurses-6.0-9.20170121.tar.xz
+2017/02/09 20:10:21 Downloaded C:\Users\cmadas\OneDrive\toku-download-for-work\stdenv_cygwin\tmp_cache/ftp%3a%2f%2fftp.jaist.ac.jp%2fpub%2fcygwin%2f/x86_64/release/openssl/openssl-1.0.2k-1.tar.xz
+2017/02/09 20:10:21 Downloaded C:\Users\cmadas\OneDrive\toku-download-for-work\stdenv_cygwin\tmp_cache/ftp%3a%2f%2fftp.jaist.ac.jp%2fpub%2fcygwin%2f/noarch/release/publicsuffix-list/publicsuffix-list-dafsa/publicsuffix-list-dafsa-20170116-1.tar.xz
+2017/02/09 20:10:21 Downloaded C:\Users\cmadas\OneDrive\toku-download-for-work\stdenv_cygwin\tmp_cache/ftp%3a%2f%2fftp.jaist.ac.jp%2fpub%2fcygwin%2f/x86_64/release/ncurses/terminfo/terminfo-6.0-9.20170121.tar.xz
+2017/02/09 20:10:21 Downloaded C:\Users\cmadas\OneDrive\toku-download-for-work\stdenv_cygwin\tmp_cache/ftp%3a%2f%2fftp.jaist.ac.jp%2fpub%2fcygwin%2f/x86_64/release/vim/vim-minimal/vim-minimal-8.0.0244-1.tar.xz
+2017/02/09 20:10:27 Uninstalling bash
+2017/02/09 20:10:28 Uninstalling gawk
+2017/02/09 20:10:29 Uninstalling grep
+2017/02/09 20:10:29 Uninstalling libopenssl100
+2017/02/09 20:10:29 Uninstalling mintty
+2017/02/09 20:10:29 Uninstalling ncurses
+2017/02/09 20:10:29 Uninstalling openssl
+2017/02/09 20:10:29 Uninstalling terminfo
+2017/02/09 20:10:29 Uninstalling vim-minimal
+2017/02/09 20:10:29 Extracting from file://C:\Users\cmadas\OneDrive\toku-download-for-work\stdenv_cygwin\tmp_cache/ftp%3a%2f%2fftp.jaist.ac.jp%2fpub%2fcygwin%2f/x86_64/release/bash/bash-4.4.12-3.tar.xz
+2017/02/09 20:10:29 io_stream_cygfile: fopen(/usr/bin/bash.exe) failed 13 Permission denied
+2017/02/09 20:10:29 Failed to open cygfile:///usr/bin/bash.exe for writing.
+2017/02/09 20:10:30 running: C:\Users\cmadas\OneDrive\toku-download-for-work\stdenv_cygwin\cygwin64\bin\kill.exe -TERM 8160
+2017/02/09 20:10:31 Extracting from file://C:\Users\cmadas\OneDrive\toku-download-for-work\stdenv_cygwin\tmp_cache/ftp%3a%2f%2fftp.jaist.ac.jp%2fpub%2fcygwin%2f/x86_64/release/gawk/gawk-4.1.4-2.tar.xz
+2017/02/09 20:10:32 Extracting from file://C:\Users\cmadas\OneDrive\toku-download-for-work\stdenv_cygwin\tmp_cache/ftp%3a%2f%2fftp.jaist.ac.jp%2fpub%2fcygwin%2f/x86_64/release/grep/grep-2.27-2.tar.xz
+2017/02/09 20:10:33 Extracting from file://C:\Users\cmadas\OneDrive\toku-download-for-work\stdenv_cygwin\tmp_cache/ftp%3a%2f%2fftp.jaist.ac.jp%2fpub%2fcygwin%2f/x86_64/release/openssl/libopenssl100/libopenssl100-1.0.2k-1.tar.xz
+2017/02/09 20:10:33 Extracting from file://C:\Users\cmadas\OneDrive\toku-download-for-work\stdenv_cygwin\tmp_cache/ftp%3a%2f%2fftp.jaist.ac.jp%2fpub%2fcygwin%2f/x86_64/release/mintty/mintty-2.7.4-0.tar.xz
+2017/02/09 20:10:33 Extracting from file://C:\Users\cmadas\OneDrive\toku-download-for-work\stdenv_cygwin\tmp_cache/ftp%3a%2f%2fftp.jaist.ac.jp%2fpub%2fcygwin%2f/x86_64/release/ncurses/ncurses-6.0-9.20170121.tar.xz
+2017/02/09 20:10:33 Extracting from file://C:\Users\cmadas\OneDrive\toku-download-for-work\stdenv_cygwin\tmp_cache/ftp%3a%2f%2fftp.jaist.ac.jp%2fpub%2fcygwin%2f/x86_64/release/openssl/openssl-1.0.2k-1.tar.xz
+2017/02/09 20:10:34 Extracting from file://C:\Users\cmadas\OneDrive\toku-download-for-work\stdenv_cygwin\tmp_cache/ftp%3a%2f%2fftp.jaist.ac.jp%2fpub%2fcygwin%2f/noarch/release/publicsuffix-list/publicsuffix-list-dafsa/publicsuffix-list-dafsa-20170116-1.tar.xz
+2017/02/09 20:10:34 Extracting from file://C:\Users\cmadas\OneDrive\toku-download-for-work\stdenv_cygwin\tmp_cache/ftp%3a%2f%2fftp.jaist.ac.jp%2fpub%2fcygwin%2f/x86_64/release/ncurses/terminfo/terminfo-6.0-9.20170121.tar.xz
+2017/02/09 20:10:35 Extracting from file://C:\Users\cmadas\OneDrive\toku-download-for-work\stdenv_cygwin\tmp_cache/ftp%3a%2f%2fftp.jaist.ac.jp%2fpub%2fcygwin%2f/x86_64/release/vim/vim-minimal/vim-minimal-8.0.0244-1.tar.xz
+2017/02/09 20:10:35 Changing gid back to original
+2017/02/09 20:10:35 running: C:\Users\cmadas\OneDrive\toku-download-for-work\stdenv_cygwin\cygwin64\bin\dash.exe "/etc/postinstall/0p_000_autorebase.dash"
+2017/02/09 20:10:40 running: C:\Users\cmadas\OneDrive\toku-download-for-work\stdenv_cygwin\cygwin64\bin\dash.exe "/etc/postinstall/0p_update-info-dir.dash"
+2017/02/09 20:10:42 running: C:\Users\cmadas\OneDrive\toku-download-for-work\stdenv_cygwin\cygwin64\bin\bash.exe --norc --noprofile "/etc/postinstall/bash.sh"
+2017/02/09 20:10:42 running: C:\Users\cmadas\OneDrive\toku-download-for-work\stdenv_cygwin\cygwin64\bin\bash.exe --norc --noprofile "/etc/postinstall/mintty.sh"
+2017/02/09 20:10:42 running: C:\Users\cmadas\OneDrive\toku-download-for-work\stdenv_cygwin\cygwin64\bin\bash.exe --norc --noprofile "/etc/postinstall/zp_man-db.sh"
+2017/02/09 20:10:42 Changing gid to Administrators
+2017/02/09 20:10:43 Ending cygwin install
+2017/02/09 20:11:13 Starting cygwin install, version 2.877
+2017/02/09 20:11:13 User has backup/restore rights
+2017/02/09 20:11:13 Current Directory: C:\Users\cmadas\OneDrive\toku-download-for-work\stdenv_cygwin\tmp_cache
+2017/02/09 20:11:13 Could not open service McShield for query, start and stop. McAfee may not be installed, or we don't have access.
+2017/02/09 20:11:18 source: network install
+2017/02/09 20:11:25 root: C:\Users\cmadas\OneDrive\toku-download-for-work\stdenv_cygwin\cygwin64 system
+2017/02/09 20:11:28 Selected local directory: C:\Users\cmadas\OneDrive\toku-download-for-work\stdenv_cygwin\tmp_cache
+2017/02/09 20:11:29 net: Direct
+2017/02/09 20:11:30 site: ftp://ftp.jaist.ac.jp/pub/cygwin/
+2017/02/09 20:11:52 Ending cygwin install
+2017/02/09 20:12:03 Starting cygwin install, version 2.877
+2017/02/09 20:12:03 User has backup/restore rights
+2017/02/09 20:12:03 Current Directory: C:\Users\cmadas\OneDrive\toku-download-for-work\stdenv_cygwin\tmp_cache
+2017/02/09 20:12:03 Could not open service McShield for query, start and stop. McAfee may not be installed, or we don't have access.
+2017/02/09 20:12:03 root: C:\Users\cmadas\OneDrive\toku-download-for-work\stdenv_cygwin\cygwin64 system
+2017/02/09 20:12:03 Selected local directory: C:\Users\cmadas\OneDrive\toku-download-for-work\stdenv_cygwin\tmp_cache
+2017/02/09 20:12:03 net: Direct
+2017/02/09 20:12:04 site: ftp://ftp.jaist.ac.jp/pub/cygwin/
+2017/02/09 20:12:09 Adding required dependency csih: Selecting version 0.9.9-1 for installation.
+2017/02/09 20:12:09 Adding required dependency cygrunsrv: Selecting version 1.62-1 for installation.
+2017/02/09 20:12:09 Adding required dependency libedit0: Selecting version 20130712-1 for installation.
+2017/02/09 20:12:10 Downloaded C:\Users\cmadas\OneDrive\toku-download-for-work\stdenv_cygwin\tmp_cache/ftp%3a%2f%2fftp.jaist.ac.jp%2fpub%2fcygwin%2f/x86_64/release/csih/csih-0.9.9-1.tar.xz
+2017/02/09 20:12:10 Downloaded C:\Users\cmadas\OneDrive\toku-download-for-work\stdenv_cygwin\tmp_cache/ftp%3a%2f%2fftp.jaist.ac.jp%2fpub%2fcygwin%2f/x86_64/release/cygrunsrv/cygrunsrv-1.62-1.tar.xz
+2017/02/09 20:12:10 Downloaded C:\Users\cmadas\OneDrive\toku-download-for-work\stdenv_cygwin\tmp_cache/ftp%3a%2f%2fftp.jaist.ac.jp%2fpub%2fcygwin%2f/x86_64/release/libedit/libedit0/libedit0-20130712-1.tar.xz
+2017/02/09 20:12:10 Downloaded C:\Users\cmadas\OneDrive\toku-download-for-work\stdenv_cygwin\tmp_cache/ftp%3a%2f%2fftp.jaist.ac.jp%2fpub%2fcygwin%2f/x86_64/release/openssh/openssh-7.4p1-1.tar.xz
+2017/02/09 20:12:20 Extracting from file://C:\Users\cmadas\OneDrive\toku-download-for-work\stdenv_cygwin\tmp_cache/ftp%3a%2f%2fftp.jaist.ac.jp%2fpub%2fcygwin%2f/x86_64/release/csih/csih-0.9.9-1.tar.xz
+2017/02/09 20:12:20 Extracting from file://C:\Users\cmadas\OneDrive\toku-download-for-work\stdenv_cygwin\tmp_cache/ftp%3a%2f%2fftp.jaist.ac.jp%2fpub%2fcygwin%2f/x86_64/release/cygrunsrv/cygrunsrv-1.62-1.tar.xz
+2017/02/09 20:12:20 Extracting from file://C:\Users\cmadas\OneDrive\toku-download-for-work\stdenv_cygwin\tmp_cache/ftp%3a%2f%2fftp.jaist.ac.jp%2fpub%2fcygwin%2f/x86_64/release/libedit/libedit0/libedit0-20130712-1.tar.xz
+2017/02/09 20:12:20 Extracting from file://C:\Users\cmadas\OneDrive\toku-download-for-work\stdenv_cygwin\tmp_cache/ftp%3a%2f%2fftp.jaist.ac.jp%2fpub%2fcygwin%2f/x86_64/release/openssh/openssh-7.4p1-1.tar.xz
+2017/02/09 20:12:20 Changing gid back to original
+2017/02/09 20:12:20 running: C:\Users\cmadas\OneDrive\toku-download-for-work\stdenv_cygwin\cygwin64\bin\dash.exe "/etc/postinstall/0p_000_autorebase.dash"
+2017/02/09 20:12:25 running: C:\Users\cmadas\OneDrive\toku-download-for-work\stdenv_cygwin\cygwin64\bin\dash.exe "/etc/postinstall/0p_update-info-dir.dash"
+2017/02/09 20:12:26 running: C:\Users\cmadas\OneDrive\toku-download-for-work\stdenv_cygwin\cygwin64\bin\bash.exe --norc --noprofile "/etc/postinstall/openssh.sh"
+2017/02/09 20:12:26 running: C:\Users\cmadas\OneDrive\toku-download-for-work\stdenv_cygwin\cygwin64\bin\bash.exe --norc --noprofile "/etc/postinstall/zp_man-db.sh"
+2017/02/09 20:12:26 Changing gid to Administrators
+2017/02/09 20:12:27 Ending cygwin install

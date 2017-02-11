@@ -1,5 +1,5 @@
 -------------------------------------------------------------------------------
--- Copyright (c) 1998-2015,2016 Free Software Foundation, Inc.               --
+-- Copyright (c) 1998-2016,2017 Free Software Foundation, Inc.               --
 --                                                                           --
 -- Permission is hereby granted, free of charge, to any person obtaining a   --
 -- copy of this software and associated documentation files (the             --
@@ -25,7 +25,7 @@
 -- sale, use or other dealings in this Software without prior written        --
 -- authorization.                                                            --
 -------------------------------------------------------------------------------
--- $Id: NEWS,v 1.2667 2016/09/18 00:38:06 tom Exp $
+-- $Id: NEWS,v 1.2741 2017/01/21 23:40:19 tom Exp $
 -------------------------------------------------------------------------------
 
 This is a log of changes that ncurses has gone through since Zeyd started
@@ -44,6 +44,164 @@ See the AUTHORS file for the corresponding full names.
 
 Changes through 1.9.9e did not credit all contributions;
 it is not possible to add this information.
+
+20170121
+	+ incorporate A_COLOR mask into COLOR_PAIR(), in case user application
+	  provides an out-of-range pair number (report by Elijah Stone).
+	+ clarify description in tput manual page regarding support for
+	  termcap names (prompted by FreeBSD #214709).
+	+ remove a restriction in tput's support for termcap names which
+	  omitted capabilities normally not shown in termcap translations
+	  (cf: 990123).
+	+ modify configure script for clang as used on FreeBSD, to work around
+	  clang's differences in exit codes vs gcc.
+
+20170114
+	+ improve discussion of early history of tset/reset programs.
+	+ clarify in manual pages that the optional verbose option level is
+	  available only when ncurses is configured for tracing.
+	+ amend change from 20161231 to avoid writing traces to the standard
+	  error after initializing the trace feature using the environment
+	  variable.
+
+20170107
+	+ amend changes for tput to reset tty modes to "sane" if the program
+	  is run as "reset", like tset.  Likewise, ensure that tset sends
+	  either reset- or init-strings.
+	+ improve manual page descriptions of tput init/reset and tset/reset,
+	  to make it easier to see how they are similar and different.
+	+ move a static result from key_name() to _nc_globals
+	+ modify _nc_get_screensize to allow for use_env() and use_tioctl()
+	  state to be per-screen when sp-funcs are configured, better matching
+	  the behavior when using the term-driver configuration.
+	+ improve cross-references in manual pages for often used functions
+	+ move SCREEN field for use_tioctl() data before the ncursesw fields,
+	  and limit that to the sp-funcs configuration to improve termlib
+	  compatibility (cf:  20120714).
+	+ correct order of initialization for traces in use_env() and
+	  use_tioctl() versus first trace calls.
+
+20161231
+	+ fix errata for ncurses-howto (report by Damien Ruscoe).
+	+ fix a few places in configure/build scripts where DESTDIR and rpath
+	  were combined (report by Thomas Klausner).
+	+ merge current st description (report by Harry Gindi) -TD
+	+ modify flash capability for linux and wyse entries to put the delay
+	  between the reverse/normal escapes rather than after -TD
+	+ modify program tabs to pass the actual tty file descriptor to
+	  setupterm rather than the standard output, making padding work
+	  consistently.
+	+ explain in clear's manual page that it writes to stdout.
+	+ add special case for verbose debugging traces of command-line
+	  utilities which write to stderr (cf: 20161126).
+	+ remove a trace with literal escapes from skip_DECSCNM(), added in
+	  20161203.
+	+ update config.guess, config.sub from
+		http://git.savannah.gnu.org/cgit/config.git
+
+20161224
+	+ correct parmeters for copywin call in _nc_Synchronize_Attributes()
+	  (patch by Leon Winter).
+	+ improve color-handling section in terminfo manual page (prompted by
+	  patch by Mihail Konev).
+	+ modify programs clear, tput and tset to pass the actual tty file
+	  descriptor to setupterm rather than the standard output, making
+	  padding work.
+
+20161217
+	+ add tput-colorcube demo script.
+	+ add -r and -s options to tput-initc demo, to match usage in xterm.
+	+ flush the standard output in _nc_flush for the case where SP is zero,
+	  e.g., when called via putp.  This fixes a scenario where "tput flash"
+	  did not work after changes in 20130112.
+
+20161210
+	+ add configure script option --disable-wattr-macros for use in cases
+	  where one wants to use the same headers for ncurses5/ncurses6
+	  development, by suppressing the wattr* macros which differ due to
+	  the introduction of extended colors (prompted by comments in
+	  Debian #230990, Redhat #1270534).
+	+ add test/tput-initc to demonstrate tput used to initialize palette
+	  from a data file.
+	+ modify test/xterm*.dat to use the newer color4/color12 values.
+
+20161203
+	+ improve discussion of field validation in form_driver.3x manual page.
+	+ update curs_trace.3x manual page.
+
+20161126
+	+ modify linux-16color to not mask dim, standout or reverse with the
+	  ncv capability -TD
+	+ add 0.1sec mandatory delay to flash capabilities using the VT100
+	  reverse-video control -TD
+	+ omit selection of ISO-8859-1 for G0 in enacs capability from linux2.6
+	  entry, to avoid conflict with the user-defined mapping.  The reset
+	  feature will use ISO-8859-1 in any case (Mikulas Patocka).
+	+ improve check in tic for delays by also warning about beep/flash
+	  when a delay is not embedded, or if those use the VT100 reverse
+	  video escape without using a delay.
+	+ minor fix for syntax-check of delays from 20161119 changes.
+	+ modify trace() to avoid overwriting existing file (report by Maor
+	  Shwartz).
+
+20161119
+	+ add check in tic for some syntax errors of delays, as well as use of
+	  proportional delays for non-line capabilities.
+	+ document history of the clear program and the E3 extension, prompted
+	  by various discussions including
+	  http://unix.stackexchange.com/questions/87469/clearing-the-old-scrollback-buffer
+
+20161112
+	+ improve -W option in tic/infocmp:
+	  + correct order of size-adjustments in wrapped lines
+	  + if -f option splits line, do not further split it with -W
+	  + begin a new line when adding "use=" after a wrapped line
+
+20161105
+	+ fix typo in man/terminfo.tail (Alain Williams).
+	+ correct program-name in adacurses6-config.1 manual page.
+
+20161029
+	+ add new function "unfocus_current_field" (Leon Winter)
+
+20161022
+	+ modify tset -w (and tput reset) to update the program's copy of the
+	  screensize if it was already set in the system, to improve tabstop
+	  setting which relies upon knowing the actual screensize.
+	+ add functionality of tset -w to tput, like the "-c" feature this is
+	  not optional in tput.
+	+ add "clear" as a possible link/alias to tput.
+	+ improve tput's check for being called as "init" or "reset" to allow
+	  for transformed names.
+	+ split-out the "clear" function from progs/clear.c, share with
+	  tput to get the same behavior, e.g., the E3 extension.
+
+20161015
+	+ amend internal use of tputs to consistently use the number of lines
+	  affected, e.g., for insert/delete character operations.  While
+	  merging terminfo source early in 1995, several descriptions used the
+	  "*" proportional delay for these operations, prompting a change in
+	  doupdate.
+	+ regenerate llib-* files.
+	+ regenerate HTML manpages.
+	+ fix several formatting issues with manual pages.
+
+20161008
+	+ adjust size in infocmp/tic to work with strlcpy.
+	+ fix configure script to record when strlcat is found on OpenBSD.
+	+ build-fix for "recent" OpenBSD vs baudrate.
+
+20161001
+	+ add -W option to tic/infocmp to force long strings to wrap.  This is
+	  in addition to the -w option which attempts to fit capabilities into
+	  a given line-length.
+	+ add linux-m1 minitel entries (patch by Alexandre Montaron).
+	+ correct rs2 string for vt100-nam -TD
+
+20160924
+	+ modify _nc_tic_expand to escape comma if it immediately follows a
+	  percent sign, to work with minitel change.
+	+ updated minitel and viewdata descriptions (Alexandre Montaron).
 
 20160917
 	+ build-fix for gnat6, which unhelpfully attempts to compile C files.
@@ -11077,7 +11235,7 @@ it is not possible to add this information.
 	  (SVr4) curses, which doesn't use 'const' in its prototypes.
 	+ modify ifdef's in test/hashtest.c and test/view.c to compile with
 	  Solaris curses.
-	+ modify _tracedump() to pad pad colors & attrs lines to match change
+	+ modify _tracedump() to pad colors & attrs lines to match change
 	  in 970101 showing first/last changes.
 	+ corrected location of terminating null on dynamically allocated forms
 	  fields (patch by Per Foreby).
