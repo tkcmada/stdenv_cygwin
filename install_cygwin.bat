@@ -3,6 +3,7 @@ set pkg=%pkg%,curl
 set pkg=%pkg%,make
 set pkg=%pkg%,zip
 set pkg=%pkg%,openssh
+set pkg=%pkg%,gcc-core
 
 set cachedir=%~dp0tmp_cache
 

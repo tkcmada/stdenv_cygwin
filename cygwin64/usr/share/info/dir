@@ -29,6 +29,12 @@ Basics
 Compression
 * Gzip: (gzip).                 General (de)compression of files (lzw).
 
+GNU Libraries
+* libgomp: (libgomp).           GNU Offloading and Multi Processing Runtime 
+                                  Library.
+* libitm: (libitm).             GNU Transactional Memory Library
+* libquadmath: (libquadmath).   GCC Quad-Precision Math Library
+
 GNU organization
 * Maintaining Findutils: (find-maint).
                                 Maintaining GNU findutils
@@ -192,9 +198,18 @@ Software development
 * As: (as).                     The GNU assembler.
 * Bfd: (bfd).                   The Binary File Descriptor library.
 * Binutils: (binutils).         The GNU binary utilities.
+* Cpp: (cpp).                   The GNU C preprocessor.
+* Cpplib: (cppinternals).       Cpplib internals.
 * Gas: (as).                    The GNU assembler.
 * Ld: (ld).                     The GNU linker.
 * Make: (make).                 Remake files automatically.
+* g++: (gcc).                   The GNU C++ compiler.
+* gcc: (gcc).                   The GNU Compiler Collection.
+* gccinstall: (gccinstall).     Installing the GNU Compiler Collection.
+* gccint: (gccint).             Internals of the GNU Compiler Collection.
+* gcov: (gcc) Gcov.             'gcov'--a test coverage program.
+* gcov-tool: (gcc) Gcov-tool.   'gcov-tool'--an offline gcda profile 
+                                  processing program.
 * gprof: (gprof).               Profiling your program's execution
 
 System administration

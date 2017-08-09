@@ -1,4 +1,4 @@
-Coreutils 8.26-1
+Coreutils 8.26-2
 ------------------------------------------
 GNU coreutils provides a collection of commonly used utilities essential
 to a standard POSIX environment.  It comprises the former textutils,
@@ -19,7 +19,7 @@ needed.  If you encounter difficulties in these areas, contact the
 cygwin mailing list.
 
 This release depends on features that did not exist prior to
-cygwin-2.2.0.  There are still corner cases of POSIX compliance that
+cygwin-2.7.0.  There are still corner cases of POSIX compliance that
 are impossible without more support from future cygwin versions, such
 as proper treatment of directory ctime or atomicity of some low-level
 functions, or outright impossible, such as hard links on a FAT drive.
@@ -30,11 +30,11 @@ several bugs in the testsuite, so don't be alarmed at failures and
 use `make -k check' to make it to the end.
 
 Runtime requirements (these or newer):
-  bash-4.3.48-8
-  cygwin-2.6.0-1
+  bash-4.4.12-3
+  cygwin-2.7.0-0.1
   libattr1-2.4.46-1
   libgcc1-5.4.0-1 [only needed on 32-bit]
-  libgmp10-6.1.1-1
+  libgmp10-6.1.2-1
   libiconv2-1.14-3
   libintl8-0.19.8.1-2
   tzcode-2016j-1
@@ -43,16 +43,16 @@ Additional build conditions (these or newer):
   autoconf2.5-2.69-3
   automake1.15-1.15-1
   binutils-2.25-4
-  coreutils-8.25-3
-  cygport-0.23.0-1
+  coreutils-8.26-1
+  cygport-0.23.1-1
   gcc-4.7.3-1
   gcc-core-5.4.0-1
   gettext-devel-0.19.8.1-2
   gnupg-1.4.21-1
   libattr-devel-2.4.46-1
-  libgmp-devel-6.1.1-1
+  libgmp-devel-6.1.2-1
   patch-2.7.4-1
-  perl-5.22.2-1
+  perl-5.22.3-1
   windows-default-manifest-6.4-1
   xz-5.2.2-1
 
@@ -72,16 +72,16 @@ Language:
 ------------------------------------
 
 Build instructions:
-  unpack coreutils-8.26-1-src.tar.xz
+  unpack coreutils-8.26-2-src.tar.xz
     if you use setup to install this src package, it will be
     unpacked under /usr/src automatically
   cd /usr/src
   cygport coreutils.cygport all
 
 This will create:
-  /usr/src/coreutils-8.26-1.tar.xz
-  /usr/src/coreutils-8.26-1-src.tar.xz
-  /usr/src/coreutils-debuginfo/coreutils-debuginfo-8.26-1.tar.xz
+  /usr/src/coreutils-8.26-2.tar.xz
+  /usr/src/coreutils-8.26-2-src.tar.xz
+  /usr/src/coreutils-debuginfo/coreutils-debuginfo-8.26-2.tar.xz
 
 Or use 'cygport coreutils.cygport prep' to get a patched source directory
 
@@ -92,6 +92,9 @@ version at <http://cygwin.com/packages/>.
 ------------------
 
 Port Notes:
+
+----------  coreutils-8.26-2 -- 2017-02-03 ---------
+Rebuild against newer cygwin for new 'stty iutf8' support.
 
 ----------  coreutils-8.26-1 -- 2016-12-16 ---------
 New upstream release.

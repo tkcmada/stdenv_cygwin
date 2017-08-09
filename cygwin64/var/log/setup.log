@@ -383,3 +383,141 @@
 2017/02/09 20:12:26 running: C:\Users\cmadas\OneDrive\toku-download-for-work\stdenv_cygwin\cygwin64\bin\bash.exe --norc --noprofile "/etc/postinstall/zp_man-db.sh"
 2017/02/09 20:12:26 Changing gid to Administrators
 2017/02/09 20:12:27 Ending cygwin install
+2017/08/09 20:05:26 Starting cygwin install, version 2.877
+2017/08/09 20:05:26 User has backup/restore rights
+2017/08/09 20:05:26 Current Directory: C:\Users\cmadas\OneDrive\toku-download-for-work\stdenv_cygwin\tmp_cache
+2017/08/09 20:05:26 Could not open service McShield for query, start and stop. McAfee may not be installed, or we don't have access.
+2017/08/09 20:05:26 root: C:\Users\cmadas\OneDrive\toku-download-for-work\stdenv_cygwin\cygwin64 system
+2017/08/09 20:05:26 Selected local directory: C:\Users\cmadas\OneDrive\toku-download-for-work\stdenv_cygwin\tmp_cache
+2017/08/09 20:05:26 net: Direct
+2017/08/09 20:05:28 site: ftp://ftp.jaist.ac.jp/pub/cygwin/
+2017/08/09 20:05:29 mbox Warning: The current ini file is from a newer version of setup-x86_64.exe. If you have any trouble installing, please download a fresh version from http://www.cygwin.com/setup-x86_64.exe
+2017/08/09 20:05:29 unattended_mode is set at mbox: returning default value
+2017/08/09 20:05:30 mbox note: This setup is version 2.877, but setup.ini claims version 2.881 is available.
+You might want to upgrade to get the latest features and bug fixes.
+2017/08/09 20:05:30 unattended_mode is set at mbox: returning default value
+2017/08/09 20:05:35 Adding required dependency libgc1: Selecting version 7.6.0-1 for installation.
+2017/08/09 20:05:35 Adding required dependency libguile2.0_22: Selecting version 2.0.14-1 for installation.
+2017/08/09 20:05:36 Downloaded C:\Users\cmadas\OneDrive\toku-download-for-work\stdenv_cygwin\tmp_cache/ftp%3a%2f%2fftp.jaist.ac.jp%2fpub%2fcygwin%2f/noarch/release/_autorebase/_autorebase-001006-1.tar.xz
+2017/08/09 20:05:37 Downloaded C:\Users\cmadas\OneDrive\toku-download-for-work\stdenv_cygwin\tmp_cache/ftp%3a%2f%2fftp.jaist.ac.jp%2fpub%2fcygwin%2f/x86_64/release/coreutils/coreutils-8.26-2.tar.xz
+2017/08/09 20:05:37 Downloaded C:\Users\cmadas\OneDrive\toku-download-for-work\stdenv_cygwin\tmp_cache/ftp%3a%2f%2fftp.jaist.ac.jp%2fpub%2fcygwin%2f/x86_64/release/curl/curl-7.54.1-1.tar.xz
+2017/08/09 20:05:37 Downloaded C:\Users\cmadas\OneDrive\toku-download-for-work\stdenv_cygwin\tmp_cache/ftp%3a%2f%2fftp.jaist.ac.jp%2fpub%2fcygwin%2f/x86_64/release/cygutils/cygutils-1.4.16-2.tar.xz
+2017/08/09 20:05:38 Downloaded C:\Users\cmadas\OneDrive\toku-download-for-work\stdenv_cygwin\tmp_cache/ftp%3a%2f%2fftp.jaist.ac.jp%2fpub%2fcygwin%2f/x86_64/release/cygwin/cygwin-2.8.2-1.tar.xz
+2017/08/09 20:05:38 Downloaded C:\Users\cmadas\OneDrive\toku-download-for-work\stdenv_cygwin\tmp_cache/ftp%3a%2f%2fftp.jaist.ac.jp%2fpub%2fcygwin%2f/x86_64/release/dash/dash-0.5.9.1-1.tar.xz
+2017/08/09 20:05:38 Downloaded C:\Users\cmadas\OneDrive\toku-download-for-work\stdenv_cygwin\tmp_cache/ftp%3a%2f%2fftp.jaist.ac.jp%2fpub%2fcygwin%2f/x86_64/release/file/file-5.30-1.tar.xz
+2017/08/09 20:05:38 Downloaded C:\Users\cmadas\OneDrive\toku-download-for-work\stdenv_cygwin\tmp_cache/ftp%3a%2f%2fftp.jaist.ac.jp%2fpub%2fcygwin%2f/x86_64/release/gawk/gawk-4.1.4-3.tar.xz
+2017/08/09 20:05:39 Downloaded C:\Users\cmadas\OneDrive\toku-download-for-work\stdenv_cygwin\tmp_cache/ftp%3a%2f%2fftp.jaist.ac.jp%2fpub%2fcygwin%2f/x86_64/release/grep/grep-3.0-2.tar.xz
+2017/08/09 20:05:39 Downloaded C:\Users\cmadas\OneDrive\toku-download-for-work\stdenv_cygwin\tmp_cache/ftp%3a%2f%2fftp.jaist.ac.jp%2fpub%2fcygwin%2f/x86_64/release/texinfo/info/info-6.4-1.tar.xz
+2017/08/09 20:05:39 Downloaded C:\Users\cmadas\OneDrive\toku-download-for-work\stdenv_cygwin\tmp_cache/ftp%3a%2f%2fftp.jaist.ac.jp%2fpub%2fcygwin%2f/x86_64/release/libgc/libgc1/libgc1-7.6.0-1.tar.xz
+2017/08/09 20:05:39 Downloaded C:\Users\cmadas\OneDrive\toku-download-for-work\stdenv_cygwin\tmp_cache/ftp%3a%2f%2fftp.jaist.ac.jp%2fpub%2fcygwin%2f/x86_64/release/guile/libguile2.0_22/libguile2.0_22-2.0.14-1.tar.xz
+2017/08/09 20:05:40 Downloaded C:\Users\cmadas\OneDrive\toku-download-for-work\stdenv_cygwin\tmp_cache/ftp%3a%2f%2fftp.jaist.ac.jp%2fpub%2fcygwin%2f/x86_64/release/readline/libreadline7/libreadline7-7.0.3-3.tar.xz
+2017/08/09 20:05:40 Downloaded C:\Users\cmadas\OneDrive\toku-download-for-work\stdenv_cygwin\tmp_cache/ftp%3a%2f%2fftp.jaist.ac.jp%2fpub%2fcygwin%2f/x86_64/release/make/make-4.2.1-2.tar.xz
+2017/08/09 20:05:40 Downloaded C:\Users\cmadas\OneDrive\toku-download-for-work\stdenv_cygwin\tmp_cache/ftp%3a%2f%2fftp.jaist.ac.jp%2fpub%2fcygwin%2f/x86_64/release/mintty/mintty-2.7.9-0.tar.xz
+2017/08/09 20:05:40 Downloaded C:\Users\cmadas\OneDrive\toku-download-for-work\stdenv_cygwin\tmp_cache/ftp%3a%2f%2fftp.jaist.ac.jp%2fpub%2fcygwin%2f/x86_64/release/ncurses/ncurses-6.0-11.20170617.tar.xz
+2017/08/09 20:05:41 Downloaded C:\Users\cmadas\OneDrive\toku-download-for-work\stdenv_cygwin\tmp_cache/ftp%3a%2f%2fftp.jaist.ac.jp%2fpub%2fcygwin%2f/x86_64/release/openssh/openssh-7.5p1-1.tar.xz
+2017/08/09 20:05:41 Downloaded C:\Users\cmadas\OneDrive\toku-download-for-work\stdenv_cygwin\tmp_cache/ftp%3a%2f%2fftp.jaist.ac.jp%2fpub%2fcygwin%2f/x86_64/release/python3/python3-3.6.1-1.tar.xz
+2017/08/09 20:05:42 Downloaded C:\Users\cmadas\OneDrive\toku-download-for-work\stdenv_cygwin\tmp_cache/ftp%3a%2f%2fftp.jaist.ac.jp%2fpub%2fcygwin%2f/x86_64/release/sed/sed-4.4-1.tar.xz
+2017/08/09 20:05:42 Downloaded C:\Users\cmadas\OneDrive\toku-download-for-work\stdenv_cygwin\tmp_cache/ftp%3a%2f%2fftp.jaist.ac.jp%2fpub%2fcygwin%2f/x86_64/release/ncurses/terminfo/terminfo-6.0-11.20170617.tar.xz
+2017/08/09 20:05:42 Downloaded C:\Users\cmadas\OneDrive\toku-download-for-work\stdenv_cygwin\tmp_cache/ftp%3a%2f%2fftp.jaist.ac.jp%2fpub%2fcygwin%2f/noarch/release/tzdata/tzdata-2017b-1.tar.xz
+2017/08/09 20:05:42 Downloaded C:\Users\cmadas\OneDrive\toku-download-for-work\stdenv_cygwin\tmp_cache/ftp%3a%2f%2fftp.jaist.ac.jp%2fpub%2fcygwin%2f/x86_64/release/vim/vim-minimal/vim-minimal-8.0.0647-1.tar.xz
+2017/08/09 20:05:54 running: C:\Users\cmadas\OneDrive\toku-download-for-work\stdenv_cygwin\cygwin64\bin\bash.exe --norc --noprofile "/etc/preremove/_autorebase.sh"
+2017/08/09 20:05:54 running: C:\Users\cmadas\OneDrive\toku-download-for-work\stdenv_cygwin\cygwin64\bin\bash.exe --norc --noprofile "/etc/preremove/coreutils.sh"
+2017/08/09 20:05:55 Uninstalling _autorebase
+2017/08/09 20:05:55 Uninstalling coreutils
+2017/08/09 20:05:55 Uninstalling curl
+2017/08/09 20:05:55 Uninstalling cygutils
+2017/08/09 20:05:55 Uninstalling cygwin
+2017/08/09 20:05:55 Uninstalling dash
+2017/08/09 20:05:55 Uninstalling file
+2017/08/09 20:05:55 Uninstalling gawk
+2017/08/09 20:05:56 Uninstalling grep
+2017/08/09 20:05:56 Uninstalling info
+2017/08/09 20:05:56 Uninstalling libreadline7
+2017/08/09 20:05:56 Uninstalling make
+2017/08/09 20:05:56 Uninstalling mintty
+2017/08/09 20:05:56 Uninstalling ncurses
+2017/08/09 20:05:56 Uninstalling openssh
+2017/08/09 20:05:56 Uninstalling python3
+2017/08/09 20:05:59 Uninstalling sed
+2017/08/09 20:05:59 Uninstalling terminfo
+2017/08/09 20:05:59 Uninstalling tzdata
+2017/08/09 20:06:02 Uninstalling vim-minimal
+2017/08/09 20:06:02 Extracting from file://C:\Users\cmadas\OneDrive\toku-download-for-work\stdenv_cygwin\tmp_cache/ftp%3a%2f%2fftp.jaist.ac.jp%2fpub%2fcygwin%2f/noarch/release/_autorebase/_autorebase-001006-1.tar.xz
+2017/08/09 20:06:02 Extracting from file://C:\Users\cmadas\OneDrive\toku-download-for-work\stdenv_cygwin\tmp_cache/ftp%3a%2f%2fftp.jaist.ac.jp%2fpub%2fcygwin%2f/x86_64/release/coreutils/coreutils-8.26-2.tar.xz
+2017/08/09 20:06:06 Extracting from file://C:\Users\cmadas\OneDrive\toku-download-for-work\stdenv_cygwin\tmp_cache/ftp%3a%2f%2fftp.jaist.ac.jp%2fpub%2fcygwin%2f/x86_64/release/curl/curl-7.54.1-1.tar.xz
+2017/08/09 20:06:06 Extracting from file://C:\Users\cmadas\OneDrive\toku-download-for-work\stdenv_cygwin\tmp_cache/ftp%3a%2f%2fftp.jaist.ac.jp%2fpub%2fcygwin%2f/x86_64/release/cygutils/cygutils-1.4.16-2.tar.xz
+2017/08/09 20:06:06 Extracting from file://C:\Users\cmadas\OneDrive\toku-download-for-work\stdenv_cygwin\tmp_cache/ftp%3a%2f%2fftp.jaist.ac.jp%2fpub%2fcygwin%2f/x86_64/release/cygwin/cygwin-2.8.2-1.tar.xz
+2017/08/09 20:06:07 Extracting from file://C:\Users\cmadas\OneDrive\toku-download-for-work\stdenv_cygwin\tmp_cache/ftp%3a%2f%2fftp.jaist.ac.jp%2fpub%2fcygwin%2f/x86_64/release/dash/dash-0.5.9.1-1.tar.xz
+2017/08/09 20:06:07 Extracting from file://C:\Users\cmadas\OneDrive\toku-download-for-work\stdenv_cygwin\tmp_cache/ftp%3a%2f%2fftp.jaist.ac.jp%2fpub%2fcygwin%2f/x86_64/release/file/file-5.30-1.tar.xz
+2017/08/09 20:06:08 Extracting from file://C:\Users\cmadas\OneDrive\toku-download-for-work\stdenv_cygwin\tmp_cache/ftp%3a%2f%2fftp.jaist.ac.jp%2fpub%2fcygwin%2f/x86_64/release/gawk/gawk-4.1.4-3.tar.xz
+2017/08/09 20:06:08 Extracting from file://C:\Users\cmadas\OneDrive\toku-download-for-work\stdenv_cygwin\tmp_cache/ftp%3a%2f%2fftp.jaist.ac.jp%2fpub%2fcygwin%2f/x86_64/release/grep/grep-3.0-2.tar.xz
+2017/08/09 20:06:09 Extracting from file://C:\Users\cmadas\OneDrive\toku-download-for-work\stdenv_cygwin\tmp_cache/ftp%3a%2f%2fftp.jaist.ac.jp%2fpub%2fcygwin%2f/x86_64/release/texinfo/info/info-6.4-1.tar.xz
+2017/08/09 20:06:10 Extracting from file://C:\Users\cmadas\OneDrive\toku-download-for-work\stdenv_cygwin\tmp_cache/ftp%3a%2f%2fftp.jaist.ac.jp%2fpub%2fcygwin%2f/x86_64/release/libgc/libgc1/libgc1-7.6.0-1.tar.xz
+2017/08/09 20:06:10 Extracting from file://C:\Users\cmadas\OneDrive\toku-download-for-work\stdenv_cygwin\tmp_cache/ftp%3a%2f%2fftp.jaist.ac.jp%2fpub%2fcygwin%2f/x86_64/release/guile/libguile2.0_22/libguile2.0_22-2.0.14-1.tar.xz
+2017/08/09 20:06:14 Extracting from file://C:\Users\cmadas\OneDrive\toku-download-for-work\stdenv_cygwin\tmp_cache/ftp%3a%2f%2fftp.jaist.ac.jp%2fpub%2fcygwin%2f/x86_64/release/readline/libreadline7/libreadline7-7.0.3-3.tar.xz
+2017/08/09 20:06:14 Extracting from file://C:\Users\cmadas\OneDrive\toku-download-for-work\stdenv_cygwin\tmp_cache/ftp%3a%2f%2fftp.jaist.ac.jp%2fpub%2fcygwin%2f/x86_64/release/make/make-4.2.1-2.tar.xz
+2017/08/09 20:06:14 Extracting from file://C:\Users\cmadas\OneDrive\toku-download-for-work\stdenv_cygwin\tmp_cache/ftp%3a%2f%2fftp.jaist.ac.jp%2fpub%2fcygwin%2f/x86_64/release/mintty/mintty-2.7.9-0.tar.xz
+2017/08/09 20:06:15 Extracting from file://C:\Users\cmadas\OneDrive\toku-download-for-work\stdenv_cygwin\tmp_cache/ftp%3a%2f%2fftp.jaist.ac.jp%2fpub%2fcygwin%2f/x86_64/release/ncurses/ncurses-6.0-11.20170617.tar.xz
+2017/08/09 20:06:15 Extracting from file://C:\Users\cmadas\OneDrive\toku-download-for-work\stdenv_cygwin\tmp_cache/ftp%3a%2f%2fftp.jaist.ac.jp%2fpub%2fcygwin%2f/x86_64/release/openssh/openssh-7.5p1-1.tar.xz
+2017/08/09 20:06:16 Extracting from file://C:\Users\cmadas\OneDrive\toku-download-for-work\stdenv_cygwin\tmp_cache/ftp%3a%2f%2fftp.jaist.ac.jp%2fpub%2fcygwin%2f/x86_64/release/python3/python3-3.6.1-1.tar.xz
+2017/08/09 20:06:34 Extracting from file://C:\Users\cmadas\OneDrive\toku-download-for-work\stdenv_cygwin\tmp_cache/ftp%3a%2f%2fftp.jaist.ac.jp%2fpub%2fcygwin%2f/x86_64/release/sed/sed-4.4-1.tar.xz
+2017/08/09 20:06:35 Extracting from file://C:\Users\cmadas\OneDrive\toku-download-for-work\stdenv_cygwin\tmp_cache/ftp%3a%2f%2fftp.jaist.ac.jp%2fpub%2fcygwin%2f/x86_64/release/ncurses/terminfo/terminfo-6.0-11.20170617.tar.xz
+2017/08/09 20:06:35 Extracting from file://C:\Users\cmadas\OneDrive\toku-download-for-work\stdenv_cygwin\tmp_cache/ftp%3a%2f%2fftp.jaist.ac.jp%2fpub%2fcygwin%2f/noarch/release/tzdata/tzdata-2017b-1.tar.xz
+2017/08/09 20:06:46 Extracting from file://C:\Users\cmadas\OneDrive\toku-download-for-work\stdenv_cygwin\tmp_cache/ftp%3a%2f%2fftp.jaist.ac.jp%2fpub%2fcygwin%2f/x86_64/release/vim/vim-minimal/vim-minimal-8.0.0647-1.tar.xz
+2017/08/09 20:06:46 Changing gid back to original
+2017/08/09 20:06:46 running: C:\Users\cmadas\OneDrive\toku-download-for-work\stdenv_cygwin\cygwin64\bin\dash.exe "/etc/postinstall/0p_000_autorebase.dash"
+2017/08/09 20:07:12 running: C:\Users\cmadas\OneDrive\toku-download-for-work\stdenv_cygwin\cygwin64\bin\dash.exe "/etc/postinstall/0p_update-info-dir.dash"
+2017/08/09 20:07:16 running: C:\Users\cmadas\OneDrive\toku-download-for-work\stdenv_cygwin\cygwin64\bin\bash.exe --norc --noprofile "/etc/postinstall/coreutils.sh"
+2017/08/09 20:07:17 running: C:\Users\cmadas\OneDrive\toku-download-for-work\stdenv_cygwin\cygwin64\bin\bash.exe --norc --noprofile "/etc/postinstall/mintty.sh"
+2017/08/09 20:07:17 running: C:\Users\cmadas\OneDrive\toku-download-for-work\stdenv_cygwin\cygwin64\bin\bash.exe --norc --noprofile "/etc/postinstall/openssh.sh"
+2017/08/09 20:07:17 running: C:\Users\cmadas\OneDrive\toku-download-for-work\stdenv_cygwin\cygwin64\bin\bash.exe --norc --noprofile "/etc/postinstall/zp_man-db.sh"
+2017/08/09 20:07:18 Changing gid to Administrators
+2017/08/09 20:07:18 Ending cygwin install
+2017/08/09 20:07:48 Starting cygwin install, version 2.877
+2017/08/09 20:07:48 User has backup/restore rights
+2017/08/09 20:07:48 Current Directory: C:\Users\cmadas\OneDrive\toku-download-for-work\stdenv_cygwin\tmp_cache
+2017/08/09 20:07:48 Could not open service McShield for query, start and stop. McAfee may not be installed, or we don't have access.
+2017/08/09 20:07:48 root: C:\Users\cmadas\OneDrive\toku-download-for-work\stdenv_cygwin\cygwin64 system
+2017/08/09 20:07:48 Selected local directory: C:\Users\cmadas\OneDrive\toku-download-for-work\stdenv_cygwin\tmp_cache
+2017/08/09 20:07:48 net: Direct
+2017/08/09 20:07:49 site: ftp://ftp.jaist.ac.jp/pub/cygwin/
+2017/08/09 20:07:50 mbox Warning: The current ini file is from a newer version of setup-x86_64.exe. If you have any trouble installing, please download a fresh version from http://www.cygwin.com/setup-x86_64.exe
+2017/08/09 20:07:50 unattended_mode is set at mbox: returning default value
+2017/08/09 20:07:51 mbox note: This setup is version 2.877, but setup.ini claims version 2.881 is available.
+You might want to upgrade to get the latest features and bug fixes.
+2017/08/09 20:07:51 unattended_mode is set at mbox: returning default value
+2017/08/09 20:07:55 Adding required dependency libatomic1: Selecting version 5.4.0-1 for installation.
+2017/08/09 20:07:55 Adding required dependency libgomp1: Selecting version 5.4.0-1 for installation.
+2017/08/09 20:07:55 Adding required dependency libisl13: Selecting version 0.14.1-1 for installation.
+2017/08/09 20:07:55 Adding required dependency libmpc3: Selecting version 1.0.3-1 for installation.
+2017/08/09 20:07:55 Adding required dependency libquadmath0: Selecting version 5.4.0-1 for installation.
+2017/08/09 20:07:55 Adding required dependency libvtv0: Selecting version 5.4.0-1 for installation.
+2017/08/09 20:07:55 Adding required dependency w32api-headers: Selecting version 5.0.2-1 for installation.
+2017/08/09 20:07:55 Adding required dependency w32api-runtime: Selecting version 5.0.2-1 for installation.
+2017/08/09 20:07:55 Adding required dependency windows-default-manifest: Selecting version 6.4-1 for installation.
+2017/08/09 20:07:57 Downloaded C:\Users\cmadas\OneDrive\toku-download-for-work\stdenv_cygwin\tmp_cache/ftp%3a%2f%2fftp.jaist.ac.jp%2fpub%2fcygwin%2f/x86_64/release/gcc/gcc-core/gcc-core-5.4.0-1.tar.xz
+2017/08/09 20:07:58 Downloaded C:\Users\cmadas\OneDrive\toku-download-for-work\stdenv_cygwin\tmp_cache/ftp%3a%2f%2fftp.jaist.ac.jp%2fpub%2fcygwin%2f/x86_64/release/gcc/libatomic1/libatomic1-5.4.0-1.tar.xz
+2017/08/09 20:07:58 Downloaded C:\Users\cmadas\OneDrive\toku-download-for-work\stdenv_cygwin\tmp_cache/ftp%3a%2f%2fftp.jaist.ac.jp%2fpub%2fcygwin%2f/x86_64/release/gcc/libgomp1/libgomp1-5.4.0-1.tar.xz
+2017/08/09 20:07:58 Downloaded C:\Users\cmadas\OneDrive\toku-download-for-work\stdenv_cygwin\tmp_cache/ftp%3a%2f%2fftp.jaist.ac.jp%2fpub%2fcygwin%2f/x86_64/release/isl/libisl13/libisl13-0.14.1-1.tar.xz
+2017/08/09 20:07:58 Downloaded C:\Users\cmadas\OneDrive\toku-download-for-work\stdenv_cygwin\tmp_cache/ftp%3a%2f%2fftp.jaist.ac.jp%2fpub%2fcygwin%2f/x86_64/release/mpclib/libmpc3/libmpc3-1.0.3-1.tar.xz
+2017/08/09 20:07:58 Downloaded C:\Users\cmadas\OneDrive\toku-download-for-work\stdenv_cygwin\tmp_cache/ftp%3a%2f%2fftp.jaist.ac.jp%2fpub%2fcygwin%2f/x86_64/release/gcc/libquadmath0/libquadmath0-5.4.0-1.tar.xz
+2017/08/09 20:07:59 Downloaded C:\Users\cmadas\OneDrive\toku-download-for-work\stdenv_cygwin\tmp_cache/ftp%3a%2f%2fftp.jaist.ac.jp%2fpub%2fcygwin%2f/x86_64/release/gcc/libvtv0/libvtv0-5.4.0-1.tar.xz
+2017/08/09 20:07:59 Downloaded C:\Users\cmadas\OneDrive\toku-download-for-work\stdenv_cygwin\tmp_cache/ftp%3a%2f%2fftp.jaist.ac.jp%2fpub%2fcygwin%2f/x86_64/release/w32api-headers/w32api-headers-5.0.2-1.tar.xz
+2017/08/09 20:08:00 Downloaded C:\Users\cmadas\OneDrive\toku-download-for-work\stdenv_cygwin\tmp_cache/ftp%3a%2f%2fftp.jaist.ac.jp%2fpub%2fcygwin%2f/x86_64/release/w32api-runtime/w32api-runtime-5.0.2-1.tar.xz
+2017/08/09 20:08:00 Downloaded C:\Users\cmadas\OneDrive\toku-download-for-work\stdenv_cygwin\tmp_cache/ftp%3a%2f%2fftp.jaist.ac.jp%2fpub%2fcygwin%2f/x86_64/release/windows-default-manifest/windows-default-manifest-6.4-1.tar.xz
+2017/08/09 20:08:11 Extracting from file://C:\Users\cmadas\OneDrive\toku-download-for-work\stdenv_cygwin\tmp_cache/ftp%3a%2f%2fftp.jaist.ac.jp%2fpub%2fcygwin%2f/x86_64/release/gcc/gcc-core/gcc-core-5.4.0-1.tar.xz
+2017/08/09 20:08:17 Extracting from file://C:\Users\cmadas\OneDrive\toku-download-for-work\stdenv_cygwin\tmp_cache/ftp%3a%2f%2fftp.jaist.ac.jp%2fpub%2fcygwin%2f/x86_64/release/gcc/libatomic1/libatomic1-5.4.0-1.tar.xz
+2017/08/09 20:08:17 Extracting from file://C:\Users\cmadas\OneDrive\toku-download-for-work\stdenv_cygwin\tmp_cache/ftp%3a%2f%2fftp.jaist.ac.jp%2fpub%2fcygwin%2f/x86_64/release/gcc/libgomp1/libgomp1-5.4.0-1.tar.xz
+2017/08/09 20:08:17 Extracting from file://C:\Users\cmadas\OneDrive\toku-download-for-work\stdenv_cygwin\tmp_cache/ftp%3a%2f%2fftp.jaist.ac.jp%2fpub%2fcygwin%2f/x86_64/release/isl/libisl13/libisl13-0.14.1-1.tar.xz
+2017/08/09 20:08:17 Extracting from file://C:\Users\cmadas\OneDrive\toku-download-for-work\stdenv_cygwin\tmp_cache/ftp%3a%2f%2fftp.jaist.ac.jp%2fpub%2fcygwin%2f/x86_64/release/mpclib/libmpc3/libmpc3-1.0.3-1.tar.xz
+2017/08/09 20:08:17 Extracting from file://C:\Users\cmadas\OneDrive\toku-download-for-work\stdenv_cygwin\tmp_cache/ftp%3a%2f%2fftp.jaist.ac.jp%2fpub%2fcygwin%2f/x86_64/release/gcc/libquadmath0/libquadmath0-5.4.0-1.tar.xz
+2017/08/09 20:08:17 Extracting from file://C:\Users\cmadas\OneDrive\toku-download-for-work\stdenv_cygwin\tmp_cache/ftp%3a%2f%2fftp.jaist.ac.jp%2fpub%2fcygwin%2f/x86_64/release/gcc/libvtv0/libvtv0-5.4.0-1.tar.xz
+2017/08/09 20:08:17 Extracting from file://C:\Users\cmadas\OneDrive\toku-download-for-work\stdenv_cygwin\tmp_cache/ftp%3a%2f%2fftp.jaist.ac.jp%2fpub%2fcygwin%2f/x86_64/release/w32api-headers/w32api-headers-5.0.2-1.tar.xz
+2017/08/09 20:08:26 Extracting from file://C:\Users\cmadas\OneDrive\toku-download-for-work\stdenv_cygwin\tmp_cache/ftp%3a%2f%2fftp.jaist.ac.jp%2fpub%2fcygwin%2f/x86_64/release/w32api-runtime/w32api-runtime-5.0.2-1.tar.xz
+2017/08/09 20:08:34 Extracting from file://C:\Users\cmadas\OneDrive\toku-download-for-work\stdenv_cygwin\tmp_cache/ftp%3a%2f%2fftp.jaist.ac.jp%2fpub%2fcygwin%2f/x86_64/release/windows-default-manifest/windows-default-manifest-6.4-1.tar.xz
+2017/08/09 20:08:34 Changing gid back to original
+2017/08/09 20:08:34 running: C:\Users\cmadas\OneDrive\toku-download-for-work\stdenv_cygwin\cygwin64\bin\dash.exe "/etc/postinstall/0p_000_autorebase.dash"
+2017/08/09 20:08:40 running: C:\Users\cmadas\OneDrive\toku-download-for-work\stdenv_cygwin\cygwin64\bin\dash.exe "/etc/postinstall/0p_update-info-dir.dash"
+2017/08/09 20:08:44 running: C:\Users\cmadas\OneDrive\toku-download-for-work\stdenv_cygwin\cygwin64\bin\bash.exe --norc --noprofile "/etc/postinstall/zp_man-db.sh"
+2017/08/09 20:08:45 Changing gid to Administrators
+2017/08/09 20:08:45 Ending cygwin install

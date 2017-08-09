@@ -1,4 +1,4 @@
-Grep 2.27-2
+Grep 3.0-2
 ------------------------------------------
 GNU Grep searches one or more input files for lines containing a match
 to a specified pattern.  By default, Grep outputs the matching lines.
@@ -6,7 +6,7 @@ The GNU implementation includes several useful extensions over POSIX.
 
 Runtime requirements (these or newer):
   bash-4.4.12-3
-  cygwin-2.6.1-1
+  cygwin-2.7.0-1
   libgcc1-5.4.0-1 [only needed on 32-bit]
   libiconv2-1.14-3
   libintl8-0.19.8.1-2
@@ -16,7 +16,6 @@ Additional build conditions (these or newer):
   binutils-2.25-4
   coreutils-8.26-1
   cygport-0.23.1-1
-  gcc-4.7.3-1
   gcc-core-5.4.0-1
   gettext-devel-0.19.8.1-2
   gnupg-1.4.21-1
@@ -40,16 +39,16 @@ Language:
 ------------------------------------
 
 Build instructions:
-  unpack grep-2.27-2-src.tar.xz
+  unpack grep-3.0-2-src.tar.xz
     if you use setup to install this src package, it will be
     unpacked under /usr/src automatically
   cd /usr/src
   cygport grep.cygport all
 
 This will create:
-  /usr/src/grep-2.27-2.tar.xz
-  /usr/src/grep-2.27-2-src.tar.xz
-  /usr/src/grep-debuginfo/grep-debuginfo-2.27-2.tar.xz
+  /usr/src/grep-3.0-2.tar.xz
+  /usr/src/grep-3.0-2-src.tar.xz
+  /usr/src/grep-debuginfo/grep-debuginfo-3.0-2.tar.xz
 
 Or use 'cygport grep.cygport prep' to get a patched source directory
 
@@ -60,6 +59,12 @@ version at <http://cygwin.com/packages/>.
 ------------------
 
 Port Notes:
+
+----------  grep-3.0-2 -- 2017-02-14 ---------
+Don't silently consume carriage returns on binary mounts.
+
+----------  grep-3.0-1 -- 2017-02-10 ---------
+New upstream release.
 
 ----------  grep-2.27-2 -- 2017-01-31 ---------
 Improve --version output.

@@ -3,9 +3,9 @@
 /usr/sbin/alternatives.exe
 # rebase_pkg information from: /etc/setup/base-cygwin.lst.gz
 # rebase_pkg information from: /etc/setup/base-files.lst.gz
-## rebase_pkg information from: /etc/setup/bash.lst.gz
-#/usr/bin/bash.exe
-#/usr/bin/sh.exe
+# rebase_pkg information from: /etc/setup/bash.lst.gz
+/usr/bin/bash.exe
+/usr/bin/sh.exe
 # rebase_pkg information from: /etc/setup/binutils.lst.gz
 /usr/bin/addr2line.exe
 /usr/bin/ar.exe
@@ -150,8 +150,14 @@
 /usr/bin/yes.exe
 /usr/bin/[.exe
 /usr/libexec/coreutils/libstdbuf.so
+# rebase_pkg information from: /etc/setup/csih.lst.gz
+/usr/lib/csih/getAccountName.exe
+/usr/lib/csih/winProductName.exe
+/usr/lib/csih/getVolInfo.exe
 # rebase_pkg information from: /etc/setup/curl.lst.gz
 /usr/bin/curl.exe
+# rebase_pkg information from: /etc/setup/cygrunsrv.lst.gz
+/bin/cygrunsrv.exe
 # rebase_pkg information from: /etc/setup/cygutils.lst.gz
 /usr/bin/cygstart.exe
 /usr/bin/mkshortcut.exe
@@ -203,27 +209,27 @@
 /usr/libexec/bigram.exe
 /usr/libexec/code.exe
 /usr/libexec/frcode.exe
-## rebase_pkg information from: /etc/setup/gawk.lst.gz
-#/usr/bin/gawk.exe
-#/usr/bin/gawk-4.1.4.exe
-#/usr/lib/gawk/filefuncs.dll
-#/usr/lib/gawk/fnmatch.dll
-#/usr/lib/gawk/fork.dll
-#/usr/lib/gawk/inplace.dll
-#/usr/lib/gawk/ordchr.dll
-#/usr/lib/gawk/readdir.dll
-#/usr/lib/gawk/readfile.dll
-#/usr/lib/gawk/revoutput.dll
-#/usr/lib/gawk/revtwoway.dll
-#/usr/lib/gawk/rwarray.dll
-#/usr/lib/gawk/testext.dll
-#/usr/lib/gawk/time.dll
-#/usr/libexec/awk/pwcat.exe
-#/usr/libexec/awk/grcat.exe
+# rebase_pkg information from: /etc/setup/gawk.lst.gz
+/usr/bin/gawk.exe
+/usr/bin/gawk-4.1.4.exe
+/usr/lib/gawk/filefuncs.dll
+/usr/lib/gawk/fnmatch.dll
+/usr/lib/gawk/fork.dll
+/usr/lib/gawk/inplace.dll
+/usr/lib/gawk/ordchr.dll
+/usr/lib/gawk/readdir.dll
+/usr/lib/gawk/readfile.dll
+/usr/lib/gawk/revoutput.dll
+/usr/lib/gawk/revtwoway.dll
+/usr/lib/gawk/rwarray.dll
+/usr/lib/gawk/testext.dll
+/usr/lib/gawk/time.dll
+/usr/libexec/awk/pwcat.exe
+/usr/libexec/awk/grcat.exe
 # rebase_pkg information from: /etc/setup/getent.lst.gz
 /usr/bin/getent.exe
-## rebase_pkg information from: /etc/setup/grep.lst.gz
-#/usr/bin/grep.exe
+# rebase_pkg information from: /etc/setup/grep.lst.gz
+/usr/bin/grep.exe
 # rebase_pkg information from: /etc/setup/groff.lst.gz
 /usr/bin/addftinfo.exe
 /usr/bin/eqn.exe
@@ -280,10 +286,16 @@
 /usr/bin/cygdb-5.3.dll
 /usr/bin/cygdb_cxx-5.3.dll
 /usr/bin/cygdb_sql-5.3.dll
+# rebase_pkg information from: /etc/setup/libedit0.lst.gz
+/usr/bin/cygedit-0.dll
 # rebase_pkg information from: /etc/setup/libexpat1.lst.gz
 /usr/bin/cygexpat-1.dll
 # rebase_pkg information from: /etc/setup/libffi6.lst.gz
 /usr/bin/cygffi-6.dll
+# rebase_pkg information from: /etc/setup/libgc1.lst.gz
+/usr/bin/cygcord-1.dll
+/usr/bin/cyggc-1.dll
+/usr/bin/cyggccpp-1.dll
 # rebase_pkg information from: /etc/setup/libgcc1.lst.gz
 /usr/bin/cyggcc_s-seh-1.dll
 # rebase_pkg information from: /etc/setup/libgdbm4.lst.gz
@@ -300,6 +312,9 @@
 /usr/lib/cygguile-srfi-srfi-4-v-3-3.dll
 /usr/lib/cygguile-srfi-srfi-60-v-2-2.dll
 /usr/lib/cygguilereadline-v-17-17.dll
+# rebase_pkg information from: /etc/setup/libguile2.0_22.lst.gz
+/usr/bin/cygguile-2.0-22.dll
+/usr/lib/cygguilereadline-v-18-18.dll
 # rebase_pkg information from: /etc/setup/libiconv.lst.gz
 /usr/bin/iconv.exe
 # rebase_pkg information from: /etc/setup/libiconv2.lst.gz
@@ -338,21 +353,21 @@
 /usr/bin/cyglber-2-4-2.dll
 /usr/bin/cygldap-2-4-2.dll
 /usr/bin/cygldap_r-2-4-2.dll
-## rebase_pkg information from: /etc/setup/libopenssl100.lst.gz
-#/usr/bin/cygcrypto-1.0.0.dll
-#/usr/bin/cygssl-1.0.0.dll
-#/usr/lib/openssl-1.0.2/engines/lib4758cca.so
-#/usr/lib/openssl-1.0.2/engines/libaep.so
-#/usr/lib/openssl-1.0.2/engines/libatalla.so
-#/usr/lib/openssl-1.0.2/engines/libcapi.so
-#/usr/lib/openssl-1.0.2/engines/libchil.so
-#/usr/lib/openssl-1.0.2/engines/libcswift.so
-#/usr/lib/openssl-1.0.2/engines/libgmp.so
-#/usr/lib/openssl-1.0.2/engines/libgost.so
-#/usr/lib/openssl-1.0.2/engines/libnuron.so
-#/usr/lib/openssl-1.0.2/engines/libpadlock.so
-#/usr/lib/openssl-1.0.2/engines/libsureware.so
-#/usr/lib/openssl-1.0.2/engines/libubsec.so
+# rebase_pkg information from: /etc/setup/libopenssl100.lst.gz
+/usr/bin/cygcrypto-1.0.0.dll
+/usr/bin/cygssl-1.0.0.dll
+/usr/lib/openssl-1.0.2/engines/lib4758cca.so
+/usr/lib/openssl-1.0.2/engines/libaep.so
+/usr/lib/openssl-1.0.2/engines/libatalla.so
+/usr/lib/openssl-1.0.2/engines/libcswift.so
+/usr/lib/openssl-1.0.2/engines/libgmp.so
+/usr/lib/openssl-1.0.2/engines/libchil.so
+/usr/lib/openssl-1.0.2/engines/libnuron.so
+/usr/lib/openssl-1.0.2/engines/libsureware.so
+/usr/lib/openssl-1.0.2/engines/libubsec.so
+/usr/lib/openssl-1.0.2/engines/libpadlock.so
+/usr/lib/openssl-1.0.2/engines/libcapi.so
+/usr/lib/openssl-1.0.2/engines/libgost.so
 # rebase_pkg information from: /etc/setup/libp11-kit0.lst.gz
 /usr/bin/cygp11-kit-0.dll
 # rebase_pkg information from: /etc/setup/libpcre1.lst.gz
@@ -417,90 +432,107 @@
 /usr/libexec/man-db/manconv.exe
 /usr/libexec/man-db/zsoelim.exe
 /usr/sbin/accessdb.exe
-## rebase_pkg information from: /etc/setup/mintty.lst.gz
-#/usr/bin/mintty.exe
-## rebase_pkg information from: /etc/setup/ncurses.lst.gz
-#/usr/bin/clear.exe
-#/usr/bin/infocmp.exe
-#/usr/bin/tabs.exe
-#/usr/bin/tic.exe
-#/usr/bin/toe.exe
-#/usr/bin/tput.exe
-#/usr/bin/tset.exe
-## rebase_pkg information from: /etc/setup/openssl.lst.gz
-#/usr/bin/openssl.exe
+# rebase_pkg information from: /etc/setup/mintty.lst.gz
+/usr/bin/mintty.exe
+# rebase_pkg information from: /etc/setup/ncurses.lst.gz
+/usr/bin/clear.exe
+/usr/bin/infocmp.exe
+/usr/bin/tabs.exe
+/usr/bin/tic.exe
+/usr/bin/toe.exe
+/usr/bin/tput.exe
+/usr/bin/tset.exe
+# rebase_pkg information from: /etc/setup/openssh.lst.gz
+/usr/bin/ssh.exe
+/usr/bin/scp.exe
+/usr/bin/ssh-add.exe
+/usr/bin/ssh-agent.exe
+/usr/bin/ssh-keygen.exe
+/usr/bin/ssh-keyscan.exe
+/usr/bin/sftp.exe
+/usr/sbin/sshd.exe
+/usr/sbin/ssh-keysign.exe
+/usr/sbin/ssh-pkcs11-helper.exe
+/usr/sbin/sftp-server.exe
+# rebase_pkg information from: /etc/setup/openssl.lst.gz
+/usr/bin/openssl.exe
 # rebase_pkg information from: /etc/setup/p11-kit-trust.lst.gz
 /usr/lib/pkcs11/p11-kit-trust.so
 # rebase_pkg information from: /etc/setup/p11-kit.lst.gz
 /usr/bin/p11-kit.exe
 /usr/bin/trust.exe
 /usr/lib/p11-kit/p11-kit-remote.exe
+# rebase_pkg information from: /etc/setup/publicsuffix-list-dafsa.lst.gz
 # rebase_pkg information from: /etc/setup/python3.lst.gz
-/usr/bin/libpython3.4m.dll
-/usr/bin/python3.4m.exe
-/usr/lib/python3.4/lib-dynload/array.cpython-34m.dll
-/usr/lib/python3.4/lib-dynload/audioop.cpython-34m.dll
-/usr/lib/python3.4/lib-dynload/binascii.cpython-34m.dll
-/usr/lib/python3.4/lib-dynload/cmath.cpython-34m.dll
-/usr/lib/python3.4/lib-dynload/fcntl.cpython-34m.dll
-/usr/lib/python3.4/lib-dynload/grp.cpython-34m.dll
-/usr/lib/python3.4/lib-dynload/math.cpython-34m.dll
-/usr/lib/python3.4/lib-dynload/mmap.cpython-34m.dll
-/usr/lib/python3.4/lib-dynload/parser.cpython-34m.dll
-/usr/lib/python3.4/lib-dynload/pyexpat.cpython-34m.dll
-/usr/lib/python3.4/lib-dynload/readline.cpython-34m.dll
-/usr/lib/python3.4/lib-dynload/resource.cpython-34m.dll
-/usr/lib/python3.4/lib-dynload/select.cpython-34m.dll
-/usr/lib/python3.4/lib-dynload/syslog.cpython-34m.dll
-/usr/lib/python3.4/lib-dynload/termios.cpython-34m.dll
-/usr/lib/python3.4/lib-dynload/time.cpython-34m.dll
-/usr/lib/python3.4/lib-dynload/unicodedata.cpython-34m.dll
-/usr/lib/python3.4/lib-dynload/xxlimited.cpython-34m.dll
-/usr/lib/python3.4/lib-dynload/zlib.cpython-34m.dll
-/usr/lib/python3.4/lib-dynload/_bisect.cpython-34m.dll
-/usr/lib/python3.4/lib-dynload/_bz2.cpython-34m.dll
-/usr/lib/python3.4/lib-dynload/_codecs_cn.cpython-34m.dll
-/usr/lib/python3.4/lib-dynload/_codecs_hk.cpython-34m.dll
-/usr/lib/python3.4/lib-dynload/_codecs_iso2022.cpython-34m.dll
-/usr/lib/python3.4/lib-dynload/_codecs_jp.cpython-34m.dll
-/usr/lib/python3.4/lib-dynload/_codecs_kr.cpython-34m.dll
-/usr/lib/python3.4/lib-dynload/_codecs_tw.cpython-34m.dll
-/usr/lib/python3.4/lib-dynload/_crypt.cpython-34m.dll
-/usr/lib/python3.4/lib-dynload/_csv.cpython-34m.dll
-/usr/lib/python3.4/lib-dynload/_ctypes.cpython-34m.dll
-/usr/lib/python3.4/lib-dynload/_curses.cpython-34m.dll
-/usr/lib/python3.4/lib-dynload/_curses_panel.cpython-34m.dll
-/usr/lib/python3.4/lib-dynload/_datetime.cpython-34m.dll
-/usr/lib/python3.4/lib-dynload/_dbm.cpython-34m.dll
-/usr/lib/python3.4/lib-dynload/_decimal.cpython-34m.dll
-/usr/lib/python3.4/lib-dynload/_elementtree.cpython-34m.dll
-/usr/lib/python3.4/lib-dynload/_gdbm.cpython-34m.dll
-/usr/lib/python3.4/lib-dynload/_hashlib.cpython-34m.dll
-/usr/lib/python3.4/lib-dynload/_heapq.cpython-34m.dll
-/usr/lib/python3.4/lib-dynload/_json.cpython-34m.dll
-/usr/lib/python3.4/lib-dynload/_lsprof.cpython-34m.dll
-/usr/lib/python3.4/lib-dynload/_lzma.cpython-34m.dll
-/usr/lib/python3.4/lib-dynload/_md5.cpython-34m.dll
-/usr/lib/python3.4/lib-dynload/_multibytecodec.cpython-34m.dll
-/usr/lib/python3.4/lib-dynload/_multiprocessing.cpython-34m.dll
-/usr/lib/python3.4/lib-dynload/_opcode.cpython-34m.dll
-/usr/lib/python3.4/lib-dynload/_pickle.cpython-34m.dll
-/usr/lib/python3.4/lib-dynload/_posixsubprocess.cpython-34m.dll
-/usr/lib/python3.4/lib-dynload/_random.cpython-34m.dll
-/usr/lib/python3.4/lib-dynload/_sha1.cpython-34m.dll
-/usr/lib/python3.4/lib-dynload/_sha256.cpython-34m.dll
-/usr/lib/python3.4/lib-dynload/_sha512.cpython-34m.dll
-/usr/lib/python3.4/lib-dynload/_socket.cpython-34m.dll
-/usr/lib/python3.4/lib-dynload/_sqlite3.cpython-34m.dll
-/usr/lib/python3.4/lib-dynload/_ssl.cpython-34m.dll
-/usr/lib/python3.4/lib-dynload/_struct.cpython-34m.dll
-/usr/lib/python3.4/distutils/command/wininst-10.0-amd64.exe
-/usr/lib/python3.4/distutils/command/wininst-10.0.exe
-/usr/lib/python3.4/distutils/command/wininst-6.0.exe
-/usr/lib/python3.4/distutils/command/wininst-7.1.exe
-/usr/lib/python3.4/distutils/command/wininst-8.0.exe
-/usr/lib/python3.4/distutils/command/wininst-9.0-amd64.exe
-/usr/lib/python3.4/distutils/command/wininst-9.0.exe
+/usr/bin/libpython3.6m.dll
+/usr/bin/python3.6m.exe
+/usr/lib/python3.6/lib-dynload/array.cpython-36m-x86_64-cygwin.dll
+/usr/lib/python3.6/lib-dynload/audioop.cpython-36m-x86_64-cygwin.dll
+/usr/lib/python3.6/lib-dynload/binascii.cpython-36m-x86_64-cygwin.dll
+/usr/lib/python3.6/lib-dynload/cmath.cpython-36m-x86_64-cygwin.dll
+/usr/lib/python3.6/lib-dynload/fcntl.cpython-36m-x86_64-cygwin.dll
+/usr/lib/python3.6/lib-dynload/grp.cpython-36m-x86_64-cygwin.dll
+/usr/lib/python3.6/lib-dynload/math.cpython-36m-x86_64-cygwin.dll
+/usr/lib/python3.6/lib-dynload/mmap.cpython-36m-x86_64-cygwin.dll
+/usr/lib/python3.6/lib-dynload/parser.cpython-36m-x86_64-cygwin.dll
+/usr/lib/python3.6/lib-dynload/pyexpat.cpython-36m-x86_64-cygwin.dll
+/usr/lib/python3.6/lib-dynload/readline.cpython-36m-x86_64-cygwin.dll
+/usr/lib/python3.6/lib-dynload/resource.cpython-36m-x86_64-cygwin.dll
+/usr/lib/python3.6/lib-dynload/select.cpython-36m-x86_64-cygwin.dll
+/usr/lib/python3.6/lib-dynload/syslog.cpython-36m-x86_64-cygwin.dll
+/usr/lib/python3.6/lib-dynload/termios.cpython-36m-x86_64-cygwin.dll
+/usr/lib/python3.6/lib-dynload/unicodedata.cpython-36m-x86_64-cygwin.dll
+/usr/lib/python3.6/lib-dynload/xxlimited.cpython-36m-x86_64-cygwin.dll
+/usr/lib/python3.6/lib-dynload/zlib.cpython-36m-x86_64-cygwin.dll
+/usr/lib/python3.6/lib-dynload/_asyncio.cpython-36m-x86_64-cygwin.dll
+/usr/lib/python3.6/lib-dynload/_bisect.cpython-36m-x86_64-cygwin.dll
+/usr/lib/python3.6/lib-dynload/_blake2.cpython-36m-x86_64-cygwin.dll
+/usr/lib/python3.6/lib-dynload/_bz2.cpython-36m-x86_64-cygwin.dll
+/usr/lib/python3.6/lib-dynload/_codecs_cn.cpython-36m-x86_64-cygwin.dll
+/usr/lib/python3.6/lib-dynload/_codecs_hk.cpython-36m-x86_64-cygwin.dll
+/usr/lib/python3.6/lib-dynload/_codecs_iso2022.cpython-36m-x86_64-cygwin.dll
+/usr/lib/python3.6/lib-dynload/_codecs_jp.cpython-36m-x86_64-cygwin.dll
+/usr/lib/python3.6/lib-dynload/_codecs_kr.cpython-36m-x86_64-cygwin.dll
+/usr/lib/python3.6/lib-dynload/_codecs_tw.cpython-36m-x86_64-cygwin.dll
+/usr/lib/python3.6/lib-dynload/_crypt.cpython-36m-x86_64-cygwin.dll
+/usr/lib/python3.6/lib-dynload/_csv.cpython-36m-x86_64-cygwin.dll
+/usr/lib/python3.6/lib-dynload/_ctypes.cpython-36m-x86_64-cygwin.dll
+/usr/lib/python3.6/lib-dynload/_curses.cpython-36m-x86_64-cygwin.dll
+/usr/lib/python3.6/lib-dynload/_curses_panel.cpython-36m-x86_64-cygwin.dll
+/usr/lib/python3.6/lib-dynload/_datetime.cpython-36m-x86_64-cygwin.dll
+/usr/lib/python3.6/lib-dynload/_dbm.cpython-36m-x86_64-cygwin.dll
+/usr/lib/python3.6/lib-dynload/_decimal.cpython-36m-x86_64-cygwin.dll
+/usr/lib/python3.6/lib-dynload/_elementtree.cpython-36m-x86_64-cygwin.dll
+/usr/lib/python3.6/lib-dynload/_gdbm.cpython-36m-x86_64-cygwin.dll
+/usr/lib/python3.6/lib-dynload/_hashlib.cpython-36m-x86_64-cygwin.dll
+/usr/lib/python3.6/lib-dynload/_heapq.cpython-36m-x86_64-cygwin.dll
+/usr/lib/python3.6/lib-dynload/_json.cpython-36m-x86_64-cygwin.dll
+/usr/lib/python3.6/lib-dynload/_lsprof.cpython-36m-x86_64-cygwin.dll
+/usr/lib/python3.6/lib-dynload/_lzma.cpython-36m-x86_64-cygwin.dll
+/usr/lib/python3.6/lib-dynload/_md5.cpython-36m-x86_64-cygwin.dll
+/usr/lib/python3.6/lib-dynload/_multibytecodec.cpython-36m-x86_64-cygwin.dll
+/usr/lib/python3.6/lib-dynload/_multiprocessing.cpython-36m-x86_64-cygwin.dll
+/usr/lib/python3.6/lib-dynload/_opcode.cpython-36m-x86_64-cygwin.dll
+/usr/lib/python3.6/lib-dynload/_pickle.cpython-36m-x86_64-cygwin.dll
+/usr/lib/python3.6/lib-dynload/_posixsubprocess.cpython-36m-x86_64-cygwin.dll
+/usr/lib/python3.6/lib-dynload/_random.cpython-36m-x86_64-cygwin.dll
+/usr/lib/python3.6/lib-dynload/_sha1.cpython-36m-x86_64-cygwin.dll
+/usr/lib/python3.6/lib-dynload/_sha256.cpython-36m-x86_64-cygwin.dll
+/usr/lib/python3.6/lib-dynload/_sha3.cpython-36m-x86_64-cygwin.dll
+/usr/lib/python3.6/lib-dynload/_sha512.cpython-36m-x86_64-cygwin.dll
+/usr/lib/python3.6/lib-dynload/_socket.cpython-36m-x86_64-cygwin.dll
+/usr/lib/python3.6/lib-dynload/_sqlite3.cpython-36m-x86_64-cygwin.dll
+/usr/lib/python3.6/lib-dynload/_ssl.cpython-36m-x86_64-cygwin.dll
+/usr/lib/python3.6/lib-dynload/_struct.cpython-36m-x86_64-cygwin.dll
+/usr/lib/python3.6/distutils/command/wininst-10.0-amd64.exe
+/usr/lib/python3.6/distutils/command/wininst-10.0.exe
+/usr/lib/python3.6/distutils/command/wininst-14.0-amd64.exe
+/usr/lib/python3.6/distutils/command/wininst-14.0.exe
+/usr/lib/python3.6/distutils/command/wininst-6.0.exe
+/usr/lib/python3.6/distutils/command/wininst-7.1.exe
+/usr/lib/python3.6/distutils/command/wininst-8.0.exe
+/usr/lib/python3.6/distutils/command/wininst-9.0-amd64.exe
+/usr/lib/python3.6/distutils/command/wininst-9.0.exe
 # rebase_pkg information from: /etc/setup/rebase.lst.gz
 /usr/bin/rebase.exe
 # rebase_pkg information from: /etc/setup/run.lst.gz
@@ -510,7 +542,7 @@
 # rebase_pkg information from: /etc/setup/tar.lst.gz
 /usr/bin/tar.exe
 /usr/libexec/rmt.exe
-## rebase_pkg information from: /etc/setup/terminfo.lst.gz
+# rebase_pkg information from: /etc/setup/terminfo.lst.gz
 # rebase_pkg information from: /etc/setup/tzcode.lst.gz
 /usr/sbin/zdump.exe
 /usr/sbin/zic.exe
@@ -559,7 +591,8 @@
 /usr/bin/uuidgen.exe
 /usr/bin/whereis.exe
 /usr/sbin/uuidd.exe
-##/usr/bin/vi.exe
+# rebase_pkg information from: /etc/setup/vim-minimal.lst.gz
+/usr/bin/vi.exe
 # rebase_pkg information from: /etc/setup/which.lst.gz
 /usr/bin/which.exe
 # rebase_pkg information from: /etc/setup/xz.lst.gz
@@ -567,86 +600,47 @@
 /usr/bin/lzmainfo.exe
 /usr/bin/xz.exe
 /usr/bin/xzdec.exe
-# rebase_pkg information from: /etc/setup/zlib0.lst.gz
-/usr/bin/cygz.dll
-# rebase_pkg information from: /etc/setup/_autorebase.lst.gz
-## rebase_pkg information from: /etc/setup/vim-minimal.lst.gz
-#/usr/bin/vi.exe
 # rebase_pkg information from: /etc/setup/zip.lst.gz
 /usr/bin/zip.exe
 /usr/bin/zipcloak.exe
 /usr/bin/zipnote.exe
 /usr/bin/zipsplit.exe
-# rebase_pkg information from: /etc/setup/bash.lst.gz
-/usr/bin/bash.exe
-/usr/bin/sh.exe
-# rebase_pkg information from: /etc/setup/gawk.lst.gz
-/usr/bin/gawk.exe
-/usr/bin/gawk-4.1.4.exe
-/usr/lib/gawk/filefuncs.dll
-/usr/lib/gawk/fnmatch.dll
-/usr/lib/gawk/fork.dll
-/usr/lib/gawk/inplace.dll
-/usr/lib/gawk/ordchr.dll
-/usr/lib/gawk/readdir.dll
-/usr/lib/gawk/readfile.dll
-/usr/lib/gawk/revoutput.dll
-/usr/lib/gawk/revtwoway.dll
-/usr/lib/gawk/rwarray.dll
-/usr/lib/gawk/testext.dll
-/usr/lib/gawk/time.dll
-/usr/libexec/awk/pwcat.exe
-/usr/libexec/awk/grcat.exe
-# rebase_pkg information from: /etc/setup/grep.lst.gz
-/usr/bin/grep.exe
-# rebase_pkg information from: /etc/setup/libopenssl100.lst.gz
-/usr/bin/cygcrypto-1.0.0.dll
-/usr/bin/cygssl-1.0.0.dll
-/usr/lib/openssl-1.0.2/engines/lib4758cca.so
-/usr/lib/openssl-1.0.2/engines/libaep.so
-/usr/lib/openssl-1.0.2/engines/libatalla.so
-/usr/lib/openssl-1.0.2/engines/libcswift.so
-/usr/lib/openssl-1.0.2/engines/libgmp.so
-/usr/lib/openssl-1.0.2/engines/libchil.so
-/usr/lib/openssl-1.0.2/engines/libnuron.so
-/usr/lib/openssl-1.0.2/engines/libsureware.so
-/usr/lib/openssl-1.0.2/engines/libubsec.so
-/usr/lib/openssl-1.0.2/engines/libpadlock.so
-/usr/lib/openssl-1.0.2/engines/libcapi.so
-/usr/lib/openssl-1.0.2/engines/libgost.so
-# rebase_pkg information from: /etc/setup/mintty.lst.gz
-/usr/bin/mintty.exe
-# rebase_pkg information from: /etc/setup/ncurses.lst.gz
-/usr/bin/clear.exe
-/usr/bin/infocmp.exe
-/usr/bin/tabs.exe
-/usr/bin/tic.exe
-/usr/bin/toe.exe
-/usr/bin/tput.exe
-/usr/bin/tset.exe
-# rebase_pkg information from: /etc/setup/openssl.lst.gz
-/usr/bin/openssl.exe
-# rebase_pkg information from: /etc/setup/publicsuffix-list-dafsa.lst.gz
-# rebase_pkg information from: /etc/setup/terminfo.lst.gz
-# rebase_pkg information from: /etc/setup/vim-minimal.lst.gz
-/usr/bin/vi.exe
-# rebase_pkg information from: /etc/setup/csih.lst.gz
-/usr/lib/csih/getAccountName.exe
-/usr/lib/csih/winProductName.exe
-/usr/lib/csih/getVolInfo.exe
-# rebase_pkg information from: /etc/setup/cygrunsrv.lst.gz
-/bin/cygrunsrv.exe
-# rebase_pkg information from: /etc/setup/libedit0.lst.gz
-/usr/bin/cygedit-0.dll
-# rebase_pkg information from: /etc/setup/openssh.lst.gz
-/usr/bin/ssh.exe
-/usr/bin/scp.exe
-/usr/bin/ssh-add.exe
-/usr/bin/ssh-agent.exe
-/usr/bin/ssh-keygen.exe
-/usr/bin/ssh-keyscan.exe
-/usr/bin/sftp.exe
-/usr/sbin/sshd.exe
-/usr/sbin/ssh-keysign.exe
-/usr/sbin/ssh-pkcs11-helper.exe
-/usr/sbin/sftp-server.exe
+# rebase_pkg information from: /etc/setup/zlib0.lst.gz
+/usr/bin/cygz.dll
+# rebase_pkg information from: /etc/setup/_autorebase.lst.gz
+# rebase_pkg information from: /etc/setup/gcc-core.lst.gz
+/usr/bin/cpp.exe
+/usr/bin/gcc.exe
+/usr/bin/gcc-ar.exe
+/usr/bin/gcc-nm.exe
+/usr/bin/gcc-ranlib.exe
+/usr/bin/gcov.exe
+/usr/bin/gcov-tool.exe
+/usr/bin/x86_64-pc-cygwin-gcc-5.4.0.exe
+/usr/bin/x86_64-pc-cygwin-gcc.exe
+/usr/bin/x86_64-pc-cygwin-gcc-ar.exe
+/usr/bin/x86_64-pc-cygwin-gcc-nm.exe
+/usr/bin/x86_64-pc-cygwin-gcc-ranlib.exe
+/usr/lib/gcc/x86_64-pc-cygwin/5.4.0/install-tools/fixincl.exe
+/usr/lib/gcc/x86_64-pc-cygwin/5.4.0/cc1.exe
+/usr/lib/gcc/x86_64-pc-cygwin/5.4.0/collect2.exe
+/usr/lib/gcc/x86_64-pc-cygwin/5.4.0/cyglto_plugin.dll
+/usr/lib/gcc/x86_64-pc-cygwin/5.4.0/lto-wrapper.exe
+/usr/lib/gcc/x86_64-pc-cygwin/5.4.0/lto1.exe
+# rebase_pkg information from: /etc/setup/libatomic1.lst.gz
+/usr/bin/cygatomic-1.dll
+# rebase_pkg information from: /etc/setup/libgomp1.lst.gz
+/usr/bin/cyggomp-1.dll
+/usr/bin/cyggomp-plugin-host_nonshm-1.dll
+# rebase_pkg information from: /etc/setup/libisl13.lst.gz
+/usr/bin/cygisl-13.dll
+# rebase_pkg information from: /etc/setup/libmpc3.lst.gz
+/usr/bin/cygmpc-3.dll
+# rebase_pkg information from: /etc/setup/libquadmath0.lst.gz
+/usr/bin/cygquadmath-0.dll
+# rebase_pkg information from: /etc/setup/libvtv0.lst.gz
+/usr/bin/cygvtv-0.dll
+/usr/bin/cygvtv_stubs-0.dll
+# rebase_pkg information from: /etc/setup/w32api-headers.lst.gz
+# rebase_pkg information from: /etc/setup/w32api-runtime.lst.gz
+# rebase_pkg information from: /etc/setup/windows-default-manifest.lst.gz

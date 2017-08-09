@@ -2,6 +2,7 @@
 export PATH=/bin
 l=/var/lib/rebase
 b=/var/cache/rebase
+eb="${b}/rebase_epoch"
 db="${l}/dynpath.d"
 ub="${l}/user.d"
 for d in ${b} ${db} ${ub} ; do
@@ -93,9 +94,15 @@ check_file () {
     echo "removing $1"
     rm -f $1
   fi
+  if [ ! -e "${eb}" ] ; then
+      touch -d "@0"                          "${eb}" || \
+	  touch -d "1980-01-01 00:00 UTC"    "${eb}" || \
+	  touch -d "1999-05-03 07:29:06 UTC" "${eb}" || \
+	  touch -d "2002-08-17 07:00 CEST"   "${eb}"
+  fi
   if [ ! -e "$1" ] ; then
     echo "creating empty $1"
-    touch -t 7001010000  "$1"
+    touch -r "${eb}"  "$1"
   fi
   if [ "$2" != "nowrite" -a  -e $1 ] ; then
     chmod 644 "$1"
@@ -191,6 +198,7 @@ EOF
           -e '/\/\(d\?ash|rebase\|peflags\)\.exe$/d' \
 	  -e '/\/octave\//!{/\(mex\|oct\)$/d}' \
 	  -e '/gnuplot\/demo\/plugin\/.*\.so/d' \
+	  -e '/^\/usr\/lib\/ocaml\/.*\.so/d' \
 	  -e '/sys-root\/mingw/d' \
 	  -e 's/^/\//' \
           >>"${g}"

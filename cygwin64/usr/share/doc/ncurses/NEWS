@@ -25,7 +25,7 @@
 -- sale, use or other dealings in this Software without prior written        --
 -- authorization.                                                            --
 -------------------------------------------------------------------------------
--- $Id: NEWS,v 1.2741 2017/01/21 23:40:19 tom Exp $
+-- $Id: NEWS,v 1.2859 2017/06/17 21:53:35 tom Exp $
 -------------------------------------------------------------------------------
 
 This is a log of changes that ncurses has gone through since Zeyd started
@@ -38,14 +38,253 @@ Contributors include those who have provided patches (even small ones), as well
 as those who provide useful information (bug reports, analyses).  Changes with
 no cited author are the work of Thomas E Dickey (TD).
 
-A few contributors are given in this file by their initials.
-They each account for one percent or more of the changes since 1.9.9e.
+A few contributors may be cited in this file by their initials.
+Each accounts for half of one percent or more of the changes since 1.9.9e.
 See the AUTHORS file for the corresponding full names.
 
 Changes through 1.9.9e did not credit all contributions;
 it is not possible to add this information.
 
+20170617
+	+ fill in some places where TERMTYPE2 vs TERMTYPE was not used
+	  (report by Allen Hewes).
+	+ use ExitTerminfo() internally in error-exits for ncurses' setupterm
+	  to help with leak checking.
+	+ use ExitProgram() in error-exit from initscr() to help with leak
+	  checking.
+	+ review test-programs, adding checks for cases where the terminal
+	  cannot be initialized.
+
+20170610
+	+ add option "-xp" to picsmap.c, to use init_extended_pair().
+	+ make simple performance fixes for picsmap.c
+	+ improve aspect ratio of images read from "convert" in picsmap.c
+
+20170603
+	+ add option to picsmap to use color-palette files, e.g., for mapping
+	  to xterm-256color.
+	+ move the data in SCREEN used for the alloc_pair() function to the
+	  end, to restore compatibility between ncurses/ncursesw libtinfo
+	  (report/patch by Miroslav Lichvar).
+	+ add build-time utility "report_offsets" to help show when the various
+	  configurations of tinfo library are compatible or not.
+
+20170527
+	+ improved test/picsmap.c:
+	  + lookup named colors for xpm files in rgb.txt
+	  + accept blanks in color-keys for xpm files.
+	  + if neither xbm/xpm work, try "convert", which may be available.
+
+20170520
+	+ modify test/picsmap.c to read xpm files.
+	+ modify package/debian/* to create documentation packages, so the
+	  related files can be checked with lintian.
+	+ fix some typos in manpages (report/patch by Sven Joachim).
+
+20170513
+	+ add test/picsmap.c to fill in some testing issues not met by dots.
+	  The initial version reads X bitmap (".xbm") files.
+	+ repair logic which forces a repaint where a color-pair's content is
+	  changed (cf: 20170311).
+	+ improve tracemunch, showing screenXX pointers as names.
+
+20170506
+	+ modify tic/infocmp display of numeric values to use hexadecimal when
+	  they are "close" to a power of two, making the result more readable.
+	+ improve discussion of portability in curs_mouse.3x
+	+ change line-length for generated html/manpages to 78 columns from 65.
+	+ improve discussion of line-drawing characters in curs_add_wch.3x
+	  (prompted by discussion with Lorinczy Zsigmond).
+	+ cleanup formatting of hackguide.html and ncurses-intro.html
+	+ add examples for WACS_D_PLUS and WACS_T_PLUS to test/ncurses.c
+
+20170429
+	+ corrected a case where $with_gpm was set to "maybe" after CF_WITH_GPM,
+	  overlooked in 20160528 fixes (report by Alexandre Bury).
+	+ improve a couple of test-program's help-messages.
+	+ corrected loop in rain.c from 20170415 changes.
+	+ modify winnstr and winchnstr to return error if the output pointer is
+	  null, as well as adding a null pointer check of the window pointer
+	  for better compatibility with other implementations.
+	+ improve discussion of NetBSD curses in scr_dump.5
+	+ modify LIMIT_TYPED macro in new_pair.h to avoid changing sign of the
+	  value to be limited (reports by Darby Payne, Rob Boudreau).
+	+ update config.guess, config.sub from
+		http://git.savannah.gnu.org/cgit/config.git
+
+20170422
+	+ build-fix for termcap-configuration (report by Chi-Hsuan Yen).
+	+ improve terminfo manual page discussion of control- and graphics-
+	  characters.
+	+ remove tic warning about "^?" in string capabilities, which was
+	  marked as an extension (cf: 20000610, 20110820); however all Unix
+	  implementations support this and X/Open Curses does not address it.
+	  On the other hand, termcap never did support this feature.
+	+ correct missing comma-separator between string capabilities in
+	  icl6402 and m2-nam -TD
+	+ restore rmir/smir in ansi+idc to better match original ansiterm+idc,
+	  add alias ansiterm (report by Robert King).
+	+ amend an old check for ambiguous use of "ma" in terminfo versus
+	  a termcap use, if the capability is cancelled to treat it as number.
+	+ correct a case in _nc_captoinfo() which read "%%" and emitted "%".
+	+ modify sscanf calls in _nc_infotocap() for patterns "%{number}%+%c"
+	  and "%'char'%+%c" to check that the final character is really 'c',
+	  avoiding a case in icl6404 which cannot be converted to termcap.
+	+ in _nc_infotocap(), add a check to ensure that terminfo "^?" is not
+	  written to termcap, because the BSDs did not implement that.
+	+ in _nc_tic_expand() and _nc_infotocap(), improve string-length check
+	  when deciding whether to use "^X" or "\xxx" format for control
+	  characters, to make the output of tic/infocmp more predictable.
+	+ limit termcap "%d" width to 2 digits on input, and use "%2" in
+	  preference to "%02" on output.
+	+ correct terminfo/termcap conversion of "%02" and "%03" into "%2" and
+	  "%3"; the result repeated the last character.
+	+ add man/scr_dump.5 to document screen-dump format.
+
+20170415
+	+ modify several test programs to use new popup_msgs, adapted from
+	  help-screen used in test/edit_field.c
+	+ drop two symbols obsoleted in 2004: _nc_check_termtype, and
+	  _nc_resolve_uses
+	+ fix some old copyright dates (cf: 20031025).
+	+ build-fixes for test/savescreen.c to work with AIX and HPUX.
+	+ minor fix to configure script, adding a backslash/continuation.
+	+ extend TERMINAL structure for ABI 6 to store numbers internally as
+	  integers rather than short, by adding new data for this purpose.
+	+ more fixes for minor memory-leaks in test-programs.
+
+20170408
+	+ change logic in wins_nwstr() to avoid addressing data past the output
+	  of mbstowcs().
+	+ correct a call to setcchar() in Data_Entry_w() from 20131207 changes.
+	+ fix minor memory-leaks in test-programs.
+	+ further improve ifdef in term_entry.h for internal definitions not
+	  used by tack.
+
+20170401
+	+ minor fixes for vt100+4bsd, e.g., delay in sgr for consistency -TD
+	+ add smso for env230, to match sgr -TD
+	+ remove p7/protect from sgr in fbterm -TD
+	+ drop setf/setb from fbterm; setaf/setab are enough -TD
+	+ make xterm-pcolor sgr consistent with other capabilities -TD
+	+ add rmxx/smxx ECMA-48 strikeout extension to tmux and xterm-basic
+	  (discussion with Nicholas Marriott)
+	+ add test-programs sp_tinfo and extended_color
+	+ modify no-leaks code for lib_cur_term.c to account for the tgetent()
+	  cache.
+	+ modify setupterm() to save original tty-modes so that erasechar()
+	  works as expected.  Also modify _nc_setupscreen() to avoid redundant
+	  calls to get original tty-modes.
+	+ modify set_curterm() to update ttytype[] data used by longname().
+	+ modify wattr_set() and wattr_get() to return ERR if win-parameter is
+	  null, as documented.
+	+ improve cast used for null-pointer checks in header macros, to
+	  reduce compiler warnings.
+	+ modify several functions, using the reserved "opts" parameter to pass
+	  color- and pair-values larger than 16-bits:
+	  + getcchar(), setcchar(), slk_attr_set(), vid_puts(), wattr_get(),
+	    wattr_set(), wchgat(), wcolor_set().
+	  + Other functions call these with the corresponding altered behavior,
+	    including chgat(), mvchgat(), mvwchgat(), slk_color_on(),
+	    slk_color_off(), vid_attr().
+	+ add new functions for manipulating color- and pair-values larger
+	  than 16-bits.  These are extended_color_content(),
+	  extended_pair_content(), extended_slk_color(), init_extended_color(),
+	  init_extended_pair(), and the corresponding sp-funcs.
+
+20170325
+	+ fix a memory leak in the window-list when creating multiple screens
+	  (reports by Andres Martinelli, Debian #783486).
+	+ reviewed calls from link_test.c, added a few more null-pointer
+	  checks.
+	+ add a null-pointer check in ungetmouse, in case mousemask was not
+	  called (report by "Kau").
+	+ updated curs_sp_funcs.3x for new functions.
+
+20170318
+	+ change TERMINAL structure in term.h to make it opaque.  Some
+	  applications misuse its members, e.g., directly modifying it
+	  rather than using def_prog_mode().
+	+ modify utility headers such as tic.h to make it clearer which are
+	  externals that are used by tack.
+	+ improve curs_slk.3x in particular its discussion of portability.
+	+ fix cut/paste in legacy_encoding.3x
+	+ add prototype for find_pair() to new_pair.3x (report by Branden
+	  Robinson).
+	+ fix a couple of broken links in generated man-html documentation.
+	+ regenerate man-html documentation.
+
+20170311
+	+ modify vt100 rs2 string to reset vt52 mode and scrolling regions
+	  (report/analysis by Robert King) -TD
+	+ add vt100+4bsd building block, use that for older terminals rather
+	  than "vt100" which is now mostly used as a building block for
+	  terminal emulators -TD
+	+ correct a few spelling errors in terminfo.src comments -TD
+	+ add fbterm -TD
+	+ fix a typo in ncurses.c test_attr legend (patch by Petr Vanek).
+	+ changed internal colorpair_t to a struct, eliminating an internal
+	  8-bit limit on colors
+	+ add ncurses/new_pair.h
+	+ add ncurses/base/new_pair.c with alloc_pair(), find_pair() and
+	  free_pair() functions
+	+ add test/demo_new_pair.c
+
+20170304
+	+ improve terminfo manual description of terminfo syntax.
+	+ clarify the use of wint_t vs wchar_t in curs_get_wstr.3x
+	+ improve description of endwin() in manual.
+	+ modify setcchar() and getcchar() to treat negative color-pair as an
+	  error.
+	+ fix a typo in include/hashed_db.h (Andre Sa).
+
+20170225
+	+ fixes for CF_CC_ENV_FLAGS (report by Ross Burton).
+
+20170218
+	+ fix several formatting issues with manual pages.
+	+ correct read of terminfo entry in which all strings are absent or
+	  explicitly cancelled.  Before this fix, the result was that all were
+	  treated as only absent.
+	+ modify infocmp to suppress mixture of absent/cancelled capabilities
+	  that would only show as "NULL, NULL", unless the -q option is used,
+	  e.g., to show "-, @" or "@, -".
+
+20170212
+	+ build-fixes for PGI compilers (report by Adam J. Stewart)
+	  + accept whitespace in sed expression for generating expanded.c
+	  + modify configure check that g++ compiler warnings are not used.
+	  + add configure check for -fPIC option needed for shared libraries.
+	+ let configure --disable-ext-funcs override the default for the
+	  --enable-sp-funcs option.
+	+ mark some structs in form/menu/panel libraries as potentially opaque
+	  without modifying API/ABI.
+	+ add configure option --enable-opaque-curses for ncurses library and
+	  similar options for the other libraries.
+
+20170204
+	+ trim newlines, tabs and escaped newlines from terminfo "paths" passed
+	  to db-iterator.
+	+ ignore zero-length files in db-iterator; these are useful for
+	  instance to suppress "$HOME/.terminfo" when not wanted.
+	+ amended "b64:" encoder to work with the terminfo reader.
+	+ modify terminfo reader to accept "b64:" format using RFC-3548 in
+	  as well as RFC-4648 url/filename-safe format.
+	+ modify terminfo reader to accept "hex:" format as generated by
+	  "infocmp -0qQ1" (cf: 20150905).
+	+ adjust authors comment to reflect drop below 1% for SV.
+
+20170128
+	+ minor comment-fixes to help automate links to bug-urls -TD
+	+ add dvtm, dvtm-256color -TD
+	+ add settings corresponding to xterm-keys option to tmux entry to
+	  reflect upcoming change to make that option "on" by default
+	  (patch by Nicholas Marriott).
+	+ uncancel Ms in tmux entry (Harry Gindi, Nicholas Marriott).
+	+ add dumb-emacs-ansi -TD
+
 20170121
+	+ improve discussion of early history of tput program.
 	+ incorporate A_COLOR mask into COLOR_PAIR(), in case user application
 	  provides an out-of-range pair number (report by Elijah Stone).
 	+ clarify description in tput manual page regarding support for
