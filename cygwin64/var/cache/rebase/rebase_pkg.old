@@ -154,8 +154,8 @@
 /usr/lib/csih/getAccountName.exe
 /usr/lib/csih/winProductName.exe
 /usr/lib/csih/getVolInfo.exe
-# rebase_pkg information from: /etc/setup/curl.lst.gz
-/usr/bin/curl.exe
+## rebase_pkg information from: /etc/setup/curl.lst.gz
+#/usr/bin/curl.exe
 # rebase_pkg information from: /etc/setup/cygrunsrv.lst.gz
 /bin/cygrunsrv.exe
 # rebase_pkg information from: /etc/setup/cygutils.lst.gz
@@ -163,32 +163,32 @@
 /usr/bin/mkshortcut.exe
 /usr/bin/readshortcut.exe
 # rebase_pkg information from: /etc/setup/cygwin-devel.lst.gz
-# rebase_pkg information from: /etc/setup/cygwin.lst.gz
-/usr/bin/cygpath.exe
-/usr/bin/getconf.exe
-/usr/bin/getfacl.exe
-/usr/bin/ldd.exe
-/usr/bin/locale.exe
-/usr/bin/kill.exe
-/usr/bin/minidumper.exe
-/usr/bin/mkgroup.exe
-/usr/bin/mkpasswd.exe
-/usr/bin/mount.exe
-/usr/bin/passwd.exe
-/usr/bin/pldd.exe
-/usr/bin/ps.exe
-/usr/bin/regtool.exe
-/usr/bin/setfacl.exe
-/usr/bin/setmetamode.exe
-/usr/bin/ssp.exe
-/usr/bin/tzset.exe
-/usr/bin/umount.exe
-/usr/bin/dumper.exe
-/usr/bin/cygcheck.exe
-/usr/bin/cygwin-console-helper.exe
-/usr/bin/ldh.exe
-/usr/bin/strace.exe
-/usr/sbin/cygserver.exe
+## rebase_pkg information from: /etc/setup/cygwin.lst.gz
+#/usr/bin/cygpath.exe
+#/usr/bin/getconf.exe
+#/usr/bin/getfacl.exe
+#/usr/bin/ldd.exe
+#/usr/bin/locale.exe
+#/usr/bin/kill.exe
+#/usr/bin/minidumper.exe
+#/usr/bin/mkgroup.exe
+#/usr/bin/mkpasswd.exe
+#/usr/bin/mount.exe
+#/usr/bin/passwd.exe
+#/usr/bin/pldd.exe
+#/usr/bin/ps.exe
+#/usr/bin/regtool.exe
+#/usr/bin/setfacl.exe
+#/usr/bin/setmetamode.exe
+#/usr/bin/ssp.exe
+#/usr/bin/tzset.exe
+#/usr/bin/umount.exe
+#/usr/bin/dumper.exe
+#/usr/bin/cygcheck.exe
+#/usr/bin/cygwin-console-helper.exe
+#/usr/bin/ldh.exe
+#/usr/bin/strace.exe
+#/usr/sbin/cygserver.exe
 # rebase_pkg information from: /etc/setup/dash.lst.gz
 /usr/bin/ash.exe
 /usr/bin/dash.exe
@@ -644,3 +644,232 @@
 # rebase_pkg information from: /etc/setup/w32api-headers.lst.gz
 # rebase_pkg information from: /etc/setup/w32api-runtime.lst.gz
 # rebase_pkg information from: /etc/setup/windows-default-manifest.lst.gz
+# rebase_pkg information from: /etc/setup/gcc-g++.lst.gz
+/usr/bin/c++.exe
+/usr/bin/g++.exe
+/usr/bin/x86_64-pc-cygwin-c++.exe
+/usr/bin/x86_64-pc-cygwin-g++.exe
+/usr/lib/gcc/x86_64-pc-cygwin/5.4.0/cc1plus.exe
+# rebase_pkg information from: /etc/setup/curl.lst.gz
+/usr/bin/curl.exe
+# rebase_pkg information from: /etc/setup/cygwin.lst.gz
+/usr/bin/cygpath.exe
+/usr/bin/getconf.exe
+/usr/bin/getfacl.exe
+/usr/bin/ldd.exe
+/usr/bin/locale.exe
+/usr/bin/kill.exe
+/usr/bin/minidumper.exe
+/usr/bin/mkgroup.exe
+/usr/bin/mkpasswd.exe
+/usr/bin/mount.exe
+/usr/bin/passwd.exe
+/usr/bin/pldd.exe
+/usr/bin/ps.exe
+/usr/bin/regtool.exe
+/usr/bin/setfacl.exe
+/usr/bin/setmetamode.exe
+/usr/bin/ssp.exe
+/usr/bin/tzset.exe
+/usr/bin/umount.exe
+/usr/bin/dumper.exe
+/usr/bin/cygcheck.exe
+/usr/bin/cygwin-console-helper.exe
+/usr/bin/ldh.exe
+/usr/bin/strace.exe
+/usr/sbin/cygserver.exe
+# rebase_pkg information from: /etc/setup/libgnutls28.lst.gz
+/usr/bin/cyggnutls-28.dll
+/usr/bin/cyggnutls-openssl-27.dll
+# rebase_pkg information from: /etc/setup/libgnutls30.lst.gz
+/usr/bin/cyggnutls-30.dll
+# rebase_pkg information from: /etc/setup/libhogweed2.lst.gz
+/usr/bin/cyghogweed-2.dll
+# rebase_pkg information from: /etc/setup/libhogweed4.lst.gz
+/usr/bin/cyghogweed-4.dll
+# rebase_pkg information from: /etc/setup/libnettle4.lst.gz
+/usr/bin/cygnettle-4.dll
+# rebase_pkg information from: /etc/setup/libnettle6.lst.gz
+/usr/bin/cygnettle-6.dll
+# rebase_pkg information from: /etc/setup/lynx.lst.gz
+/usr/bin/lynx.exe
+# rebase_pkg information from: /etc/setup/wget.lst.gz
+/usr/bin/wget.exe
+# rebase_pkg information from: /etc/setup/cygwin.lst.gz
+/usr/bin/cygcheck.exe
+/usr/bin/cygpath.exe
+/usr/bin/cygwin-console-helper.exe
+/usr/bin/dumper.exe
+/usr/bin/getconf.exe
+/usr/bin/getfacl.exe
+/usr/bin/kill.exe
+/usr/bin/ldd.exe
+/usr/bin/ldh.exe
+/usr/bin/locale.exe
+/usr/bin/minidumper.exe
+/usr/bin/mkgroup.exe
+/usr/bin/mkpasswd.exe
+/usr/bin/mount.exe
+/usr/bin/passwd.exe
+/usr/bin/pldd.exe
+/usr/bin/ps.exe
+/usr/bin/regtool.exe
+/usr/bin/setfacl.exe
+/usr/bin/setmetamode.exe
+/usr/bin/ssp.exe
+/usr/bin/strace.exe
+/usr/bin/tzset.exe
+/usr/bin/umount.exe
+/usr/sbin/cygserver.exe
+# rebase_pkg information from: /etc/setup/desktop-file-utils.lst.gz
+/usr/bin/desktop-file-install.exe
+/usr/bin/desktop-file-validate.exe
+/usr/bin/update-desktop-database.exe
+# rebase_pkg information from: /etc/setup/gamin.lst.gz
+/usr/libexec/gam_server.exe
+# rebase_pkg information from: /etc/setup/gcc-g++.lst.gz
+/usr/bin/c++.exe
+/usr/bin/g++.exe
+/usr/bin/x86_64-pc-cygwin-c++.exe
+/usr/bin/x86_64-pc-cygwin-g++.exe
+/usr/lib/gcc/x86_64-pc-cygwin/6.4.0/cc1plus.exe
+# rebase_pkg information from: /etc/setup/gsettings-desktop-schemas.lst.gz
+# rebase_pkg information from: /etc/setup/info.lst.gz
+/usr/bin/info.exe
+/usr/bin/install-info.exe
+# rebase_pkg information from: /etc/setup/libfam0.lst.gz
+/usr/bin/cygfam-0.dll
+# rebase_pkg information from: /etc/setup/libffi-devel.lst.gz
+# rebase_pkg information from: /etc/setup/libglib2.0_0.lst.gz
+/usr/bin/cyggio-2.0-0.dll
+/usr/bin/cygglib-2.0-0.dll
+/usr/bin/cyggmodule-2.0-0.dll
+/usr/bin/cyggobject-2.0-0.dll
+/usr/bin/cyggthread-2.0-0.dll
+/usr/bin/gapplication.exe
+/usr/bin/gdbus.exe
+/usr/bin/gio.exe
+/usr/bin/gio-querymodules.exe
+/usr/bin/glib-compile-schemas.exe
+/usr/bin/gobject-query.exe
+/usr/bin/gsettings.exe
+/usr/lib/gio/modules/cyggiofam.dll
+# rebase_pkg information from: /etc/setup/libxml2.lst.gz
+/usr/bin/cygxml2-2.dll
+/usr/bin/xmlcatalog.exe
+/usr/bin/xmllint.exe
+# rebase_pkg information from: /etc/setup/libyaml-devel.lst.gz
+# rebase_pkg information from: /etc/setup/libyaml0_2.lst.gz
+/usr/bin/cygyaml-0-2.dll
+# rebase_pkg information from: /etc/setup/openssl-devel.lst.gz
+# rebase_pkg information from: /etc/setup/pkg-config.lst.gz
+/usr/bin/pkg-config.exe
+/usr/bin/x86_64-unknown-cygwin-pkg-config.exe
+# rebase_pkg information from: /etc/setup/python-crypto.lst.gz
+/usr/lib/python2.7/site-packages/Crypto/Cipher/_AES.dll
+/usr/lib/python2.7/site-packages/Crypto/Cipher/_ARC2.dll
+/usr/lib/python2.7/site-packages/Crypto/Cipher/_ARC4.dll
+/usr/lib/python2.7/site-packages/Crypto/Cipher/_Blowfish.dll
+/usr/lib/python2.7/site-packages/Crypto/Cipher/_CAST.dll
+/usr/lib/python2.7/site-packages/Crypto/Cipher/_DES.dll
+/usr/lib/python2.7/site-packages/Crypto/Cipher/_DES3.dll
+/usr/lib/python2.7/site-packages/Crypto/Cipher/_XOR.dll
+/usr/lib/python2.7/site-packages/Crypto/Hash/_MD2.dll
+/usr/lib/python2.7/site-packages/Crypto/Hash/_MD4.dll
+/usr/lib/python2.7/site-packages/Crypto/Hash/_RIPEMD160.dll
+/usr/lib/python2.7/site-packages/Crypto/Hash/_SHA224.dll
+/usr/lib/python2.7/site-packages/Crypto/Hash/_SHA256.dll
+/usr/lib/python2.7/site-packages/Crypto/Hash/_SHA384.dll
+/usr/lib/python2.7/site-packages/Crypto/Hash/_SHA512.dll
+/usr/lib/python2.7/site-packages/Crypto/PublicKey/_fastmath.dll
+/usr/lib/python2.7/site-packages/Crypto/Util/strxor.dll
+/usr/lib/python2.7/site-packages/Crypto/Util/_counter.dll
+# rebase_pkg information from: /etc/setup/python-devel.lst.gz
+# rebase_pkg information from: /etc/setup/python-paramiko.lst.gz
+# rebase_pkg information from: /etc/setup/python-setuptools.lst.gz
+# rebase_pkg information from: /etc/setup/python.lst.gz
+# rebase_pkg information from: /etc/setup/python2-appdirs.lst.gz
+# rebase_pkg information from: /etc/setup/python2-devel.lst.gz
+# rebase_pkg information from: /etc/setup/python2-packaging.lst.gz
+# rebase_pkg information from: /etc/setup/python2-pyparsing.lst.gz
+# rebase_pkg information from: /etc/setup/python2-setuptools.lst.gz
+/usr/lib/python2.7/site-packages/setuptools/cli-32.exe
+/usr/lib/python2.7/site-packages/setuptools/cli-64.exe
+/usr/lib/python2.7/site-packages/setuptools/cli.exe
+/usr/lib/python2.7/site-packages/setuptools/gui-32.exe
+/usr/lib/python2.7/site-packages/setuptools/gui-64.exe
+/usr/lib/python2.7/site-packages/setuptools/gui.exe
+# rebase_pkg information from: /etc/setup/python2-six.lst.gz
+# rebase_pkg information from: /etc/setup/python2.lst.gz
+/usr/bin/libpython2.7.dll
+/usr/bin/python2.7.exe
+/usr/lib/python2.7/lib-dynload/array.dll
+/usr/lib/python2.7/lib-dynload/audioop.dll
+/usr/lib/python2.7/lib-dynload/binascii.dll
+/usr/lib/python2.7/lib-dynload/bz2.dll
+/usr/lib/python2.7/lib-dynload/cmath.dll
+/usr/lib/python2.7/lib-dynload/cPickle.dll
+/usr/lib/python2.7/lib-dynload/crypt.dll
+/usr/lib/python2.7/lib-dynload/cStringIO.dll
+/usr/lib/python2.7/lib-dynload/datetime.dll
+/usr/lib/python2.7/lib-dynload/dbm.dll
+/usr/lib/python2.7/lib-dynload/fcntl.dll
+/usr/lib/python2.7/lib-dynload/future_builtins.dll
+/usr/lib/python2.7/lib-dynload/gdbm.dll
+/usr/lib/python2.7/lib-dynload/grp.dll
+/usr/lib/python2.7/lib-dynload/itertools.dll
+/usr/lib/python2.7/lib-dynload/math.dll
+/usr/lib/python2.7/lib-dynload/mmap.dll
+/usr/lib/python2.7/lib-dynload/operator.dll
+/usr/lib/python2.7/lib-dynload/parser.dll
+/usr/lib/python2.7/lib-dynload/pyexpat.dll
+/usr/lib/python2.7/lib-dynload/readline.dll
+/usr/lib/python2.7/lib-dynload/resource.dll
+/usr/lib/python2.7/lib-dynload/select.dll
+/usr/lib/python2.7/lib-dynload/strop.dll
+/usr/lib/python2.7/lib-dynload/syslog.dll
+/usr/lib/python2.7/lib-dynload/termios.dll
+/usr/lib/python2.7/lib-dynload/time.dll
+/usr/lib/python2.7/lib-dynload/unicodedata.dll
+/usr/lib/python2.7/lib-dynload/zlib.dll
+/usr/lib/python2.7/lib-dynload/_bisect.dll
+/usr/lib/python2.7/lib-dynload/_bsddb.dll
+/usr/lib/python2.7/lib-dynload/_codecs_cn.dll
+/usr/lib/python2.7/lib-dynload/_codecs_hk.dll
+/usr/lib/python2.7/lib-dynload/_codecs_iso2022.dll
+/usr/lib/python2.7/lib-dynload/_codecs_jp.dll
+/usr/lib/python2.7/lib-dynload/_codecs_kr.dll
+/usr/lib/python2.7/lib-dynload/_codecs_tw.dll
+/usr/lib/python2.7/lib-dynload/_collections.dll
+/usr/lib/python2.7/lib-dynload/_csv.dll
+/usr/lib/python2.7/lib-dynload/_ctypes.dll
+/usr/lib/python2.7/lib-dynload/_curses.dll
+/usr/lib/python2.7/lib-dynload/_curses_panel.dll
+/usr/lib/python2.7/lib-dynload/_elementtree.dll
+/usr/lib/python2.7/lib-dynload/_functools.dll
+/usr/lib/python2.7/lib-dynload/_hashlib.dll
+/usr/lib/python2.7/lib-dynload/_heapq.dll
+/usr/lib/python2.7/lib-dynload/_hotshot.dll
+/usr/lib/python2.7/lib-dynload/_io.dll
+/usr/lib/python2.7/lib-dynload/_json.dll
+/usr/lib/python2.7/lib-dynload/_locale.dll
+/usr/lib/python2.7/lib-dynload/_lsprof.dll
+/usr/lib/python2.7/lib-dynload/_multibytecodec.dll
+/usr/lib/python2.7/lib-dynload/_multiprocessing.dll
+/usr/lib/python2.7/lib-dynload/_random.dll
+/usr/lib/python2.7/lib-dynload/_socket.dll
+/usr/lib/python2.7/lib-dynload/_sqlite3.dll
+/usr/lib/python2.7/lib-dynload/_ssl.dll
+/usr/lib/python2.7/lib-dynload/_struct.dll
+/usr/lib/python2.7/lib-dynload/_testcapi.dll
+/usr/lib/python2.7/distutils/command/wininst-6.0.exe
+/usr/lib/python2.7/distutils/command/wininst-7.1.exe
+/usr/lib/python2.7/distutils/command/wininst-8.0.exe
+/usr/lib/python2.7/distutils/command/wininst-9.0-amd64.exe
+/usr/lib/python2.7/distutils/command/wininst-9.0.exe
+# rebase_pkg information from: /etc/setup/shared-mime-info.lst.gz
+/usr/bin/update-mime-database.exe
+# rebase_pkg information from: /etc/setup/vim-minimal.lst.gz
+/usr/bin/vi.exe
+# rebase_pkg information from: /etc/setup/wget.lst.gz
+/usr/bin/wget.exe

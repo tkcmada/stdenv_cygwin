@@ -29,6 +29,9 @@ Basics
 Compression
 * Gzip: (gzip).                 General (de)compression of files (lzw).
 
+Development
+* libffi: (libffi).             Portable foreign-function interface library.
+
 GNU Libraries
 * libgomp: (libgomp).           GNU Offloading and Multi Processing Runtime 
                                   Library.
@@ -193,6 +196,7 @@ Individual utilities
 
 Network applications
 * Gawkinet: (gawkinet).         TCP/IP Internetworking With 'gawk'.
+* Wget: (wget).                 Non-interactive network downloader.
 
 Software development
 * As: (as).                     The GNU assembler.

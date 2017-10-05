@@ -521,3 +521,281 @@ You might want to upgrade to get the latest features and bug fixes.
 2017/08/09 20:08:44 running: C:\Users\cmadas\OneDrive\toku-download-for-work\stdenv_cygwin\cygwin64\bin\bash.exe --norc --noprofile "/etc/postinstall/zp_man-db.sh"
 2017/08/09 20:08:45 Changing gid to Administrators
 2017/08/09 20:08:45 Ending cygwin install
+2017/08/09 20:21:15 Starting cygwin install, version 2.877
+2017/08/09 20:21:15 User has backup/restore rights
+2017/08/09 20:21:15 Current Directory: C:\Users\cmadas\OneDrive\toku-download-for-work\stdenv_cygwin\tmp_cache
+2017/08/09 20:21:15 Could not open service McShield for query, start and stop. McAfee may not be installed, or we don't have access.
+2017/08/09 20:21:15 root: C:\Users\cmadas\OneDrive\toku-download-for-work\stdenv_cygwin\cygwin64 system
+2017/08/09 20:21:15 Selected local directory: C:\Users\cmadas\OneDrive\toku-download-for-work\stdenv_cygwin\tmp_cache
+2017/08/09 20:21:15 net: Direct
+2017/08/09 20:21:16 site: ftp://ftp.jaist.ac.jp/pub/cygwin/
+2017/08/09 20:21:18 mbox Warning: The current ini file is from a newer version of setup-x86_64.exe. If you have any trouble installing, please download a fresh version from http://www.cygwin.com/setup-x86_64.exe
+2017/08/09 20:21:18 unattended_mode is set at mbox: returning default value
+2017/08/09 20:21:19 mbox note: This setup is version 2.877, but setup.ini claims version 2.881 is available.
+You might want to upgrade to get the latest features and bug fixes.
+2017/08/09 20:21:19 unattended_mode is set at mbox: returning default value
+2017/08/09 20:21:24 Changing gid back to original
+2017/08/09 20:21:24 running: C:\Users\cmadas\OneDrive\toku-download-for-work\stdenv_cygwin\cygwin64\bin\dash.exe "/etc/postinstall/0p_000_autorebase.dash"
+2017/08/09 20:21:30 running: C:\Users\cmadas\OneDrive\toku-download-for-work\stdenv_cygwin\cygwin64\bin\dash.exe "/etc/postinstall/0p_update-info-dir.dash"
+2017/08/09 20:21:32 running: C:\Users\cmadas\OneDrive\toku-download-for-work\stdenv_cygwin\cygwin64\bin\bash.exe --norc --noprofile "/etc/postinstall/zp_man-db.sh"
+2017/08/09 20:21:32 Changing gid to Administrators
+2017/08/09 20:21:32 Ending cygwin install
+2017/08/09 20:54:46 Starting cygwin install, version 2.877
+2017/08/09 20:54:46 User has backup/restore rights
+2017/08/09 20:54:46 Current Directory: C:\Users\cmadas\OneDrive\toku-download-for-work\stdenv_cygwin\tmp_cache
+2017/08/09 20:54:46 Could not open service McShield for query, start and stop. McAfee may not be installed, or we don't have access.
+2017/08/09 20:54:47 root: C:\Users\cmadas\OneDrive\toku-download-for-work\stdenv_cygwin\cygwin64 system
+2017/08/09 20:54:47 Selected local directory: C:\Users\cmadas\OneDrive\toku-download-for-work\stdenv_cygwin\tmp_cache
+2017/08/09 20:54:47 net: Direct
+2017/08/09 20:54:48 site: ftp://ftp.jaist.ac.jp/pub/cygwin/
+2017/08/09 20:54:49 mbox Warning: The current ini file is from a newer version of setup-x86_64.exe. If you have any trouble installing, please download a fresh version from http://www.cygwin.com/setup-x86_64.exe
+2017/08/09 20:54:49 unattended_mode is set at mbox: returning default value
+2017/08/09 20:54:51 mbox note: This setup is version 2.877, but setup.ini claims version 2.881 is available.
+You might want to upgrade to get the latest features and bug fixes.
+2017/08/09 20:54:51 unattended_mode is set at mbox: returning default value
+2017/08/09 20:54:57 Downloaded C:\Users\cmadas\OneDrive\toku-download-for-work\stdenv_cygwin\tmp_cache/ftp%3a%2f%2fftp.jaist.ac.jp%2fpub%2fcygwin%2f/x86_64/release/gcc/gcc-g++/gcc-g++-5.4.0-1.tar.xz
+2017/08/09 20:55:08 Extracting from file://C:\Users\cmadas\OneDrive\toku-download-for-work\stdenv_cygwin\tmp_cache/ftp%3a%2f%2fftp.jaist.ac.jp%2fpub%2fcygwin%2f/x86_64/release/gcc/gcc-g++/gcc-g++-5.4.0-1.tar.xz
+2017/08/09 20:55:17 Changing gid back to original
+2017/08/09 20:55:17 running: C:\Users\cmadas\OneDrive\toku-download-for-work\stdenv_cygwin\cygwin64\bin\dash.exe "/etc/postinstall/0p_000_autorebase.dash"
+2017/08/09 20:55:24 running: C:\Users\cmadas\OneDrive\toku-download-for-work\stdenv_cygwin\cygwin64\bin\dash.exe "/etc/postinstall/0p_update-info-dir.dash"
+2017/08/09 20:55:25 running: C:\Users\cmadas\OneDrive\toku-download-for-work\stdenv_cygwin\cygwin64\bin\bash.exe --norc --noprofile "/etc/postinstall/zp_man-db.sh"
+2017/08/09 20:55:26 Changing gid to Administrators
+2017/08/09 20:55:26 Ending cygwin install
+2017/10/05 11:55:06 Starting cygwin install, version 2.877
+2017/10/05 11:55:06 User has backup/restore rights
+2017/10/05 11:55:06 Current Directory: C:\Users\cmadas\OneDrive\toku-download-for-work\stdenv_cygwin\tmp_cache
+2017/10/05 11:55:06 Could not open service McShield for query, start and stop. McAfee may not be installed, or we don't have access.
+2017/10/05 11:55:07 root: C:\Users\cmadas\OneDrive\toku-download-for-work\stdenv_cygwin\cygwin64 system
+2017/10/05 11:55:07 Selected local directory: C:\Users\cmadas\OneDrive\toku-download-for-work\stdenv_cygwin\tmp_cache
+2017/10/05 11:55:07 net: Direct
+2017/10/05 11:55:08 site: ftp://ftp.jaist.ac.jp/pub/cygwin/
+2017/10/05 11:55:11 mbox Warning: The current ini file is from a newer version of setup-x86_64.exe. If you have any trouble installing, please download a fresh version from http://www.cygwin.com/setup-x86_64.exe
+2017/10/05 11:55:11 unattended_mode is set at mbox: returning default value
+2017/10/05 11:55:13 mbox note: This setup is version 2.877, but setup.ini claims version 2.881 is available.
+You might want to upgrade to get the latest features and bug fixes.
+2017/10/05 11:55:13 unattended_mode is set at mbox: returning default value
+2017/10/05 11:55:15 Adding required dependency libgnutls28: Selecting version 3.3.27-1 for installation.
+2017/10/05 11:55:15 Adding required dependency libgnutls30: Selecting version 3.5.13-1 for installation.
+2017/10/05 11:55:15 Adding required dependency libhogweed2: Selecting version 2.7.1-1 for installation.
+2017/10/05 11:55:15 Adding required dependency libhogweed4: Selecting version 3.3-1 for installation.
+2017/10/05 11:55:15 Adding required dependency libnettle4: Selecting version 2.7.1-1 for installation.
+2017/10/05 11:55:15 Adding required dependency libnettle6: Selecting version 3.3-1 for installation.
+2017/10/05 11:55:15 Adding required dependency perl: Selecting version 5.22.4-1 for installation.
+2017/10/05 11:55:15 Adding required dependency perl-Carp: Selecting version 1.38-1 for installation.
+2017/10/05 11:55:15 Adding required dependency perl-Error: Selecting version 0.17025-1 for installation.
+2017/10/05 11:55:15 Adding required dependency perl-TermReadKey: Selecting version 2.37-1 for installation.
+2017/10/05 11:55:15 Adding required dependency perl_autorebase: Selecting version 5.22.4-1 for installation.
+2017/10/05 11:55:15 Adding required dependency perl_base: Selecting version 5.22.4-1 for installation.
+2017/10/05 11:55:15 Adding required dependency rsync: Selecting version 3.1.2-1 for installation.
+2017/10/05 11:55:15 mbox fatal: Package file wget has a corrupt local copy, please remove and retry.
+2017/10/05 11:55:15 unattended_mode is set at mbox: returning default value
+2017/10/05 11:55:15 Ending cygwin install
+2017/10/05 11:56:28 Starting cygwin install, version 2.877
+2017/10/05 11:56:28 User has backup/restore rights
+2017/10/05 11:56:28 Current Directory: C:\Users\cmadas\OneDrive\toku-download-for-work\stdenv_cygwin\tmp_cache
+2017/10/05 11:56:28 Could not open service McShield for query, start and stop. McAfee may not be installed, or we don't have access.
+2017/10/05 11:56:28 root: C:\Users\cmadas\OneDrive\toku-download-for-work\stdenv_cygwin\cygwin64 system
+2017/10/05 11:56:28 Selected local directory: C:\Users\cmadas\OneDrive\toku-download-for-work\stdenv_cygwin\tmp_cache
+2017/10/05 11:56:28 net: Direct
+2017/10/05 11:56:31 site: ftp://ftp.jaist.ac.jp/pub/cygwin/
+2017/10/05 11:56:50 mbox Warning: The current ini file is from a newer version of setup-x86_64.exe. If you have any trouble installing, please download a fresh version from http://www.cygwin.com/setup-x86_64.exe
+2017/10/05 11:56:50 unattended_mode is set at mbox: returning default value
+2017/10/05 11:56:51 mbox note: This setup is version 2.877, but setup.ini claims version 2.881 is available.
+You might want to upgrade to get the latest features and bug fixes.
+2017/10/05 11:56:51 unattended_mode is set at mbox: returning default value
+2017/10/05 11:56:53 Adding required dependency libgnutls28: Selecting version 3.3.27-1 for installation.
+2017/10/05 11:56:53 Adding required dependency libgnutls30: Selecting version 3.5.13-1 for installation.
+2017/10/05 11:56:53 Adding required dependency libhogweed2: Selecting version 2.7.1-1 for installation.
+2017/10/05 11:56:53 Adding required dependency libhogweed4: Selecting version 3.3-1 for installation.
+2017/10/05 11:56:53 Adding required dependency libnettle4: Selecting version 2.7.1-1 for installation.
+2017/10/05 11:56:53 Adding required dependency libnettle6: Selecting version 3.3-1 for installation.
+2017/10/05 11:56:53 Adding required dependency perl: Selecting version 5.22.4-1 for installation.
+2017/10/05 11:56:53 Adding required dependency perl-Carp: Selecting version 1.38-1 for installation.
+2017/10/05 11:56:53 Adding required dependency perl-Error: Selecting version 0.17025-1 for installation.
+2017/10/05 11:56:53 Adding required dependency perl-TermReadKey: Selecting version 2.37-1 for installation.
+2017/10/05 11:56:53 Adding required dependency perl_autorebase: Selecting version 5.22.4-1 for installation.
+2017/10/05 11:56:53 Adding required dependency perl_base: Selecting version 5.22.4-1 for installation.
+2017/10/05 11:56:53 Adding required dependency rsync: Selecting version 3.1.2-1 for installation.
+2017/10/05 11:56:53 mbox fatal: Package file wget has a corrupt local copy, please remove and retry.
+2017/10/05 11:56:53 unattended_mode is set at mbox: returning default value
+2017/10/05 11:56:53 Ending cygwin install
+2017/10/05 11:57:42 Starting cygwin install, version 2.877
+2017/10/05 11:57:42 User has backup/restore rights
+2017/10/05 11:57:42 Current Directory: C:\Users\cmadas\OneDrive\toku-download-for-work\stdenv_cygwin\tmp_cache
+2017/10/05 11:57:42 Could not open service McShield for query, start and stop. McAfee may not be installed, or we don't have access.
+2017/10/05 11:57:45 source: network install
+2017/10/05 11:57:50 root: C:\Users\cmadas\OneDrive\toku-download-for-work\stdenv_cygwin\cygwin64 system
+2017/10/05 11:57:52 Selected local directory: C:\Users\cmadas\OneDrive\toku-download-for-work\stdenv_cygwin\tmp_cache
+2017/10/05 11:57:53 net: Direct
+2017/10/05 11:58:00 site: ftp://ftp.jaist.ac.jp/pub/cygwin/
+2017/10/05 11:58:31 mbox Warning: The current ini file is from a newer version of setup-x86_64.exe. If you have any trouble installing, please download a fresh version from http://www.cygwin.com/setup-x86_64.exe
+2017/10/05 11:58:47 mbox note: This setup is version 2.877, but setup.ini claims version 2.881 is available.
+You might want to upgrade to get the latest features and bug fixes.
+2017/10/05 11:59:15 Adding required dependency libgnutls28: Selecting version 3.3.27-1 for installation.
+2017/10/05 11:59:15 Adding required dependency libgnutls30: Selecting version 3.5.13-1 for installation.
+2017/10/05 11:59:15 Adding required dependency libhogweed2: Selecting version 2.7.1-1 for installation.
+2017/10/05 11:59:15 Adding required dependency libhogweed4: Selecting version 3.3-1 for installation.
+2017/10/05 11:59:15 Adding required dependency libnettle4: Selecting version 2.7.1-1 for installation.
+2017/10/05 11:59:15 Adding required dependency libnettle6: Selecting version 3.3-1 for installation.
+2017/10/05 11:59:15 Adding required dependency perl: Selecting version 5.22.4-1 for installation.
+2017/10/05 11:59:15 Adding required dependency perl-Carp: Selecting version 1.38-1 for installation.
+2017/10/05 11:59:15 Adding required dependency perl-Error: Selecting version 0.17025-1 for installation.
+2017/10/05 11:59:15 Adding required dependency perl-TermReadKey: Selecting version 2.37-1 for installation.
+2017/10/05 11:59:15 Adding required dependency perl_autorebase: Selecting version 5.22.4-1 for installation.
+2017/10/05 11:59:15 Adding required dependency perl_base: Selecting version 5.22.4-1 for installation.
+2017/10/05 11:59:15 Adding required dependency rsync: Selecting version 3.1.2-1 for installation.
+2017/10/05 11:59:15 mbox fatal: Package file wget has a corrupt local copy, please remove and retry.
+2017/10/05 11:59:28 Ending cygwin install
+2017/10/05 12:01:29 Starting cygwin install, version 2.881
+2017/10/05 12:01:29 User has backup/restore rights
+2017/10/05 12:01:29 Current Directory: C:\Users\cmadas\OneDrive\toku-download-for-work\stdenv_cygwin\tmp_cache
+2017/10/05 12:01:29 Could not open service McShield for query, start and stop. McAfee may not be installed, or we don't have access.
+2017/10/05 12:01:36 source: network install
+2017/10/05 12:01:37 root: C:\Users\cmadas\OneDrive\toku-download-for-work\stdenv_cygwin\cygwin64 system
+2017/10/05 12:01:38 Selected local directory: C:\Users\cmadas\OneDrive\toku-download-for-work\stdenv_cygwin\tmp_cache
+2017/10/05 12:01:42 net: Direct
+2017/10/05 12:01:57 site: ftp://ftp.jaist.ac.jp/pub/cygwin/
+2017/10/05 12:02:17 Adding required dependency libgnutls28: Selecting version 3.3.27-1 for installation.
+2017/10/05 12:02:17 Adding required dependency libgnutls30: Selecting version 3.5.13-1 for installation.
+2017/10/05 12:02:17 Adding required dependency libhogweed2: Selecting version 2.7.1-1 for installation.
+2017/10/05 12:02:17 Adding required dependency libhogweed4: Selecting version 3.3-1 for installation.
+2017/10/05 12:02:17 Adding required dependency libnettle4: Selecting version 2.7.1-1 for installation.
+2017/10/05 12:02:17 Adding required dependency libnettle6: Selecting version 3.3-1 for installation.
+2017/10/05 12:02:20 Downloaded C:\Users\cmadas\OneDrive\toku-download-for-work\stdenv_cygwin\tmp_cache/ftp%3a%2f%2fftp.jaist.ac.jp%2fpub%2fcygwin%2f/x86_64/release/curl/curl-7.55.1-1.tar.xz
+2017/10/05 12:02:23 Downloaded C:\Users\cmadas\OneDrive\toku-download-for-work\stdenv_cygwin\tmp_cache/ftp%3a%2f%2fftp.jaist.ac.jp%2fpub%2fcygwin%2f/x86_64/release/cygwin/cygwin-2.9.0-3.tar.xz
+2017/10/05 12:02:47 Downloaded C:\Users\cmadas\OneDrive\toku-download-for-work\stdenv_cygwin\tmp_cache/ftp%3a%2f%2fftp.jaist.ac.jp%2fpub%2fcygwin%2f/x86_64/release/gcc/gcc-g++/gcc-g++-6.4.0-1.tar.xz
+2017/10/05 12:02:51 Downloaded C:\Users\cmadas\OneDrive\toku-download-for-work\stdenv_cygwin\tmp_cache/ftp%3a%2f%2fftp.jaist.ac.jp%2fpub%2fcygwin%2f/x86_64/release/texinfo/info/info-6.5-1.tar.xz
+2017/10/05 12:02:56 Downloaded C:\Users\cmadas\OneDrive\toku-download-for-work\stdenv_cygwin\tmp_cache/ftp%3a%2f%2fftp.jaist.ac.jp%2fpub%2fcygwin%2f/x86_64/release/gnutls/libgnutls28/libgnutls28-3.3.27-1.tar.xz
+2017/10/05 12:02:59 Downloaded C:\Users\cmadas\OneDrive\toku-download-for-work\stdenv_cygwin\tmp_cache/ftp%3a%2f%2fftp.jaist.ac.jp%2fpub%2fcygwin%2f/x86_64/release/gnutls/libgnutls30/libgnutls30-3.5.13-1.tar.xz
+2017/10/05 12:03:00 Downloaded C:\Users\cmadas\OneDrive\toku-download-for-work\stdenv_cygwin\tmp_cache/ftp%3a%2f%2fftp.jaist.ac.jp%2fpub%2fcygwin%2f/x86_64/release/nettle/libhogweed2/libhogweed2-2.7.1-1.tar.xz
+2017/10/05 12:03:02 Downloaded C:\Users\cmadas\OneDrive\toku-download-for-work\stdenv_cygwin\tmp_cache/ftp%3a%2f%2fftp.jaist.ac.jp%2fpub%2fcygwin%2f/x86_64/release/nettle/libhogweed4/libhogweed4-3.3-1.tar.xz
+2017/10/05 12:03:02 connection error: 12015
+2017/10/05 12:03:06 connection error: 12015
+2017/10/05 12:03:06 connection error: 12015
+2017/10/05 12:03:09 connection error: 12015
+2017/10/05 12:03:10 connection error: 12015
+2017/10/05 12:03:10 mbox yesno: Download Incomplete.  Try again?
+2017/10/05 12:03:18 site: ftp://ftp.jaist.ac.jp/pub/cygwin/
+2017/10/05 12:03:19 connection error: 12015
+2017/10/05 12:03:20 connection error: 12015
+2017/10/05 12:03:23 connection error: 12015
+2017/10/05 12:03:27 connection error: 12015
+2017/10/05 12:03:27 connection error: 12015
+2017/10/05 12:03:27 connection error: 12015
+2017/10/05 12:03:27 mbox note: Unable to get setup from <ftp://ftp.jaist.ac.jp/pub/cygwin/>
+2017/10/05 12:03:32 site: ftp://ftp.jaist.ac.jp/pub/cygwin/
+2017/10/05 12:03:32 connection error: 12015
+2017/10/05 12:03:32 connection error: 12015
+2017/10/05 12:03:33 connection error: 12015
+2017/10/05 12:03:33 connection error: 12015
+2017/10/05 12:03:33 connection error: 12015
+2017/10/05 12:03:47 connection error: 12015
+2017/10/05 12:03:47 mbox note: Unable to get setup from <ftp://ftp.jaist.ac.jp/pub/cygwin/>
+2017/10/05 12:03:56 site: http://ftp.jaist.ac.jp/pub/cygwin/
+2017/10/05 12:04:42 site: http://ftp.jaist.ac.jp/pub/cygwin/
+2017/10/05 12:05:06 Adding required dependency libgnutls28: Selecting version 3.3.27-1 for installation.
+2017/10/05 12:05:06 Adding required dependency libgnutls30: Selecting version 3.5.13-1 for installation.
+2017/10/05 12:05:06 Adding required dependency libhogweed2: Selecting version 2.7.1-1 for installation.
+2017/10/05 12:05:06 Adding required dependency libhogweed4: Selecting version 3.3-1 for installation.
+2017/10/05 12:05:06 Adding required dependency libnettle4: Selecting version 2.7.1-1 for installation.
+2017/10/05 12:05:06 Adding required dependency libnettle6: Selecting version 3.3-1 for installation.
+2017/10/05 12:05:07 Downloaded C:\Users\cmadas\OneDrive\toku-download-for-work\stdenv_cygwin\tmp_cache/ftp%3a%2f%2fftp.jaist.ac.jp%2fpub%2fcygwin%2f/x86_64/release/cygwin/cygwin-2.9.0-2.tar.xz
+2017/10/05 12:05:08 Downloaded C:\Users\cmadas\OneDrive\toku-download-for-work\stdenv_cygwin\tmp_cache/ftp%3a%2f%2fftp.jaist.ac.jp%2fpub%2fcygwin%2f/x86_64/release/nettle/libnettle4/libnettle4-2.7.1-1.tar.xz
+2017/10/05 12:05:08 Downloaded C:\Users\cmadas\OneDrive\toku-download-for-work\stdenv_cygwin\tmp_cache/ftp%3a%2f%2fftp.jaist.ac.jp%2fpub%2fcygwin%2f/x86_64/release/nettle/libnettle6/libnettle6-3.3-1.tar.xz
+2017/10/05 12:05:09 Downloaded C:\Users\cmadas\OneDrive\toku-download-for-work\stdenv_cygwin\tmp_cache/ftp%3a%2f%2fftp.jaist.ac.jp%2fpub%2fcygwin%2f/x86_64/release/lynx/lynx-2.8.7-2.tar.bz2
+2017/10/05 12:05:25 Downloaded C:\Users\cmadas\OneDrive\toku-download-for-work\stdenv_cygwin\tmp_cache/ftp%3a%2f%2fftp.jaist.ac.jp%2fpub%2fcygwin%2f/x86_64/release/wget/wget-1.19.1-2.tar.xz
+2017/10/05 12:05:31 Uninstalling curl
+2017/10/05 12:05:31 Uninstalling cygwin
+2017/10/05 12:05:31 Extracting from file://C:\Users\cmadas\OneDrive\toku-download-for-work\stdenv_cygwin\tmp_cache/ftp%3a%2f%2fftp.jaist.ac.jp%2fpub%2fcygwin%2f/x86_64/release/curl/curl-7.55.1-1.tar.xz
+2017/10/05 12:05:31 Extracting from file://C:\Users\cmadas\OneDrive\toku-download-for-work\stdenv_cygwin\tmp_cache/ftp%3a%2f%2fftp.jaist.ac.jp%2fpub%2fcygwin%2f/x86_64/release/cygwin/cygwin-2.9.0-2.tar.xz
+2017/10/05 12:05:32 Extracting from file://C:\Users\cmadas\OneDrive\toku-download-for-work\stdenv_cygwin\tmp_cache/ftp%3a%2f%2fftp.jaist.ac.jp%2fpub%2fcygwin%2f/x86_64/release/gnutls/libgnutls28/libgnutls28-3.3.27-1.tar.xz
+2017/10/05 12:05:32 Extracting from file://C:\Users\cmadas\OneDrive\toku-download-for-work\stdenv_cygwin\tmp_cache/ftp%3a%2f%2fftp.jaist.ac.jp%2fpub%2fcygwin%2f/x86_64/release/gnutls/libgnutls30/libgnutls30-3.5.13-1.tar.xz
+2017/10/05 12:05:32 Extracting from file://C:\Users\cmadas\OneDrive\toku-download-for-work\stdenv_cygwin\tmp_cache/ftp%3a%2f%2fftp.jaist.ac.jp%2fpub%2fcygwin%2f/x86_64/release/nettle/libhogweed2/libhogweed2-2.7.1-1.tar.xz
+2017/10/05 12:05:32 Extracting from file://C:\Users\cmadas\OneDrive\toku-download-for-work\stdenv_cygwin\tmp_cache/ftp%3a%2f%2fftp.jaist.ac.jp%2fpub%2fcygwin%2f/x86_64/release/nettle/libhogweed4/libhogweed4-3.3-1.tar.xz
+2017/10/05 12:05:32 Extracting from file://C:\Users\cmadas\OneDrive\toku-download-for-work\stdenv_cygwin\tmp_cache/ftp%3a%2f%2fftp.jaist.ac.jp%2fpub%2fcygwin%2f/x86_64/release/nettle/libnettle4/libnettle4-2.7.1-1.tar.xz
+2017/10/05 12:05:32 Extracting from file://C:\Users\cmadas\OneDrive\toku-download-for-work\stdenv_cygwin\tmp_cache/ftp%3a%2f%2fftp.jaist.ac.jp%2fpub%2fcygwin%2f/x86_64/release/nettle/libnettle6/libnettle6-3.3-1.tar.xz
+2017/10/05 12:05:32 Extracting from file://C:\Users\cmadas\OneDrive\toku-download-for-work\stdenv_cygwin\tmp_cache/ftp%3a%2f%2fftp.jaist.ac.jp%2fpub%2fcygwin%2f/x86_64/release/lynx/lynx-2.8.7-2.tar.bz2
+2017/10/05 12:05:33 Extracting from file://C:\Users\cmadas\OneDrive\toku-download-for-work\stdenv_cygwin\tmp_cache/ftp%3a%2f%2fftp.jaist.ac.jp%2fpub%2fcygwin%2f/x86_64/release/wget/wget-1.19.1-2.tar.xz
+2017/10/05 12:05:33 Changing gid back to original
+2017/10/05 12:05:33 running: C:\Users\cmadas\OneDrive\toku-download-for-work\stdenv_cygwin\cygwin64\bin\dash.exe "/etc/postinstall/0p_000_autorebase.dash"
+2017/10/05 12:05:42 running: C:\Users\cmadas\OneDrive\toku-download-for-work\stdenv_cygwin\cygwin64\bin\dash.exe "/etc/postinstall/0p_update-info-dir.dash"
+2017/10/05 12:05:49 running: C:\Users\cmadas\OneDrive\toku-download-for-work\stdenv_cygwin\cygwin64\bin\bash.exe --norc --noprofile "/etc/postinstall/lynx.sh"
+2017/10/05 12:05:49 running: C:\Users\cmadas\OneDrive\toku-download-for-work\stdenv_cygwin\cygwin64\bin\bash.exe --norc --noprofile "/etc/postinstall/wget.sh"
+2017/10/05 12:05:49 running: C:\Users\cmadas\OneDrive\toku-download-for-work\stdenv_cygwin\cygwin64\bin\bash.exe --norc --noprofile "/etc/postinstall/zp_man-db.sh"
+2017/10/05 12:05:49 Changing gid to Administrators
+2017/10/05 12:05:55 note: Installation Complete
+2017/10/05 12:05:55 Ending cygwin install
+2017/10/05 23:01:19 Starting cygwin install, version 2.881
+2017/10/05 23:01:19 User has backup/restore rights
+2017/10/05 23:01:19 Current Directory: C:\Users\cmadas\OneDrive\toku-download-for-work\stdenv_cygwin\tmp_cache
+2017/10/05 23:01:19 Could not open service McShield for query, start and stop. McAfee may not be installed, or we don't have access.
+2017/10/05 23:01:21 source: network install
+2017/10/05 23:01:23 root: C:\Users\cmadas\OneDrive\toku-download-for-work\stdenv_cygwin\cygwin64 system
+2017/10/05 23:01:23 Selected local directory: C:\Users\cmadas\OneDrive\toku-download-for-work\stdenv_cygwin\tmp_cache
+2017/10/05 23:01:24 net: Direct
+2017/10/05 23:01:26 site: http://ftp.jaist.ac.jp/pub/cygwin/
+2017/10/05 23:02:08 Adding required dependency python2-appdirs: Selecting version 1.4.3-1 for installation.
+2017/10/05 23:02:08 Adding required dependency python2-packaging: Selecting version 16.8-1 for installation.
+2017/10/05 23:02:08 Adding required dependency python2-pyparsing: Selecting version 2.1.10-1 for installation.
+2017/10/05 23:02:08 Adding required dependency python2-setuptools: Selecting version 34.3.2-1 for installation.
+2017/10/05 23:02:08 Adding required dependency python2-six: Selecting version 1.10.0-1 for installation.
+2017/10/05 23:02:08 mbox fatal: Package file python2-setuptools has a corrupt local copy, please remove and retry.
+2017/10/05 23:02:15 Ending cygwin install
+2017/10/05 23:02:27 Starting cygwin install, version 2.881
+2017/10/05 23:02:27 User has backup/restore rights
+2017/10/05 23:02:27 Current Directory: C:\Users\cmadas\OneDrive\toku-download-for-work\stdenv_cygwin\tmp_cache
+2017/10/05 23:02:27 Could not open service McShield for query, start and stop. McAfee may not be installed, or we don't have access.
+2017/10/05 23:02:29 source: network install
+2017/10/05 23:02:30 root: C:\Users\cmadas\OneDrive\toku-download-for-work\stdenv_cygwin\cygwin64 system
+2017/10/05 23:02:30 Selected local directory: C:\Users\cmadas\OneDrive\toku-download-for-work\stdenv_cygwin\tmp_cache
+2017/10/05 23:02:33 mbox note: Couldn't create directory , sorry.  (Is drive full or read-only?)
+2017/10/05 23:02:48 Ending cygwin install
+2017/10/05 23:02:55 Starting cygwin install, version 2.881
+2017/10/05 23:02:55 User has backup/restore rights
+2017/10/05 23:02:55 Current Directory: C:\Users\cmadas\OneDrive\toku-download-for-work\stdenv_cygwin\tmp_cache
+2017/10/05 23:02:55 Could not open service McShield for query, start and stop. McAfee may not be installed, or we don't have access.
+2017/10/05 23:02:58 source: network install
+2017/10/05 23:02:58 root: C:\Users\cmadas\OneDrive\toku-download-for-work\stdenv_cygwin\cygwin64 system
+2017/10/05 23:02:58 Selected local directory: C:\Users\cmadas\OneDrive\toku-download-for-work\stdenv_cygwin\tmp_cache
+2017/10/05 23:02:59 net: Direct
+2017/10/05 23:03:00 site: http://ftp.jaist.ac.jp/pub/cygwin/
+2017/10/05 23:03:18 Adding required dependency python2-appdirs: Selecting version 1.4.3-1 for installation.
+2017/10/05 23:03:18 Adding required dependency python2-packaging: Selecting version 16.8-1 for installation.
+2017/10/05 23:03:18 Adding required dependency python2-pyparsing: Selecting version 2.1.10-1 for installation.
+2017/10/05 23:03:18 Adding required dependency python2-setuptools: Selecting version 34.3.2-1 for installation.
+2017/10/05 23:03:18 Adding required dependency python2-six: Selecting version 1.10.0-1 for installation.
+2017/10/05 23:03:21 Downloaded C:\Users\cmadas\OneDrive\toku-download-for-work\stdenv_cygwin\tmp_cache/http%3a%2f%2fftp.jaist.ac.jp%2fpub%2fcygwin%2f/x86_64/release/cygwin/cygwin-2.9.0-3.tar.xz
+2017/10/05 23:03:24 Downloaded C:\Users\cmadas\OneDrive\toku-download-for-work\stdenv_cygwin\tmp_cache/http%3a%2f%2fftp.jaist.ac.jp%2fpub%2fcygwin%2f/x86_64/release/gcc/gcc-g++/gcc-g++-6.4.0-1.tar.xz
+2017/10/05 23:03:25 Downloaded C:\Users\cmadas\OneDrive\toku-download-for-work\stdenv_cygwin\tmp_cache/http%3a%2f%2fftp.jaist.ac.jp%2fpub%2fcygwin%2f/x86_64/release/texinfo/info/info-6.5-1.tar.xz
+2017/10/05 23:03:26 Downloaded C:\Users\cmadas\OneDrive\toku-download-for-work\stdenv_cygwin\tmp_cache/http%3a%2f%2fftp.jaist.ac.jp%2fpub%2fcygwin%2f/noarch/release/python-appdirs/python2-appdirs/python2-appdirs-1.4.3-1.tar.xz
+2017/10/05 23:03:27 Downloaded C:\Users\cmadas\OneDrive\toku-download-for-work\stdenv_cygwin\tmp_cache/http%3a%2f%2fftp.jaist.ac.jp%2fpub%2fcygwin%2f/noarch/release/python-packaging/python2-packaging/python2-packaging-16.8-1.tar.xz
+2017/10/05 23:03:28 Downloaded C:\Users\cmadas\OneDrive\toku-download-for-work\stdenv_cygwin\tmp_cache/http%3a%2f%2fftp.jaist.ac.jp%2fpub%2fcygwin%2f/noarch/release/python-pyparsing/python2-pyparsing/python2-pyparsing-2.1.10-1.tar.xz
+2017/10/05 23:03:29 Downloaded C:\Users\cmadas\OneDrive\toku-download-for-work\stdenv_cygwin\tmp_cache/http%3a%2f%2fftp.jaist.ac.jp%2fpub%2fcygwin%2f/noarch/release/python-setuptools/python2-setuptools/python2-setuptools-34.3.2-1.tar.xz
+2017/10/05 23:03:30 Downloaded C:\Users\cmadas\OneDrive\toku-download-for-work\stdenv_cygwin\tmp_cache/http%3a%2f%2fftp.jaist.ac.jp%2fpub%2fcygwin%2f/noarch/release/python-six/python2-six/python2-six-1.10.0-1.tar.xz
+2017/10/05 23:03:32 Downloaded C:\Users\cmadas\OneDrive\toku-download-for-work\stdenv_cygwin\tmp_cache/http%3a%2f%2fftp.jaist.ac.jp%2fpub%2fcygwin%2f/x86_64/release/vim/vim-minimal/vim-minimal-8.0.1052-1.tar.xz
+2017/10/05 23:03:33 Downloaded C:\Users\cmadas\OneDrive\toku-download-for-work\stdenv_cygwin\tmp_cache/http%3a%2f%2fftp.jaist.ac.jp%2fpub%2fcygwin%2f/x86_64/release/wget/wget-1.19.1-2.tar.xz
+2017/10/05 23:03:42 running: C:\Users\cmadas\OneDrive\toku-download-for-work\stdenv_cygwin\cygwin64\bin\bash.exe --norc --noprofile "/etc/preremove/wget.sh"
+2017/10/05 23:03:42 Uninstalling cygwin
+2017/10/05 23:03:42 Uninstalling gcc-g++
+2017/10/05 23:03:44 Uninstalling info
+2017/10/05 23:03:44 Uninstalling vim-minimal
+2017/10/05 23:03:44 Uninstalling wget
+2017/10/05 23:03:44 Extracting from file://C:\Users\cmadas\OneDrive\toku-download-for-work\stdenv_cygwin\tmp_cache/http%3a%2f%2fftp.jaist.ac.jp%2fpub%2fcygwin%2f/x86_64/release/cygwin/cygwin-2.9.0-3.tar.xz
+2017/10/05 23:03:44 io_stream_cygfile: fopen(/usr/bin/cygwin1.dll) failed 13 Permission denied
+2017/10/05 23:03:44 Failed to open cygfile:///usr/bin/cygwin1.dll for writing.
+2017/10/05 23:04:43 Extracting from file://C:\Users\cmadas\OneDrive\toku-download-for-work\stdenv_cygwin\tmp_cache/http%3a%2f%2fftp.jaist.ac.jp%2fpub%2fcygwin%2f/x86_64/release/gcc/gcc-g++/gcc-g++-6.4.0-1.tar.xz
+2017/10/05 23:04:50 Extracting from file://C:\Users\cmadas\OneDrive\toku-download-for-work\stdenv_cygwin\tmp_cache/http%3a%2f%2fftp.jaist.ac.jp%2fpub%2fcygwin%2f/x86_64/release/texinfo/info/info-6.5-1.tar.xz
+2017/10/05 23:04:51 Extracting from file://C:\Users\cmadas\OneDrive\toku-download-for-work\stdenv_cygwin\tmp_cache/http%3a%2f%2fftp.jaist.ac.jp%2fpub%2fcygwin%2f/noarch/release/python-appdirs/python2-appdirs/python2-appdirs-1.4.3-1.tar.xz
+2017/10/05 23:04:51 Extracting from file://C:\Users\cmadas\OneDrive\toku-download-for-work\stdenv_cygwin\tmp_cache/http%3a%2f%2fftp.jaist.ac.jp%2fpub%2fcygwin%2f/noarch/release/python-packaging/python2-packaging/python2-packaging-16.8-1.tar.xz
+2017/10/05 23:04:51 Extracting from file://C:\Users\cmadas\OneDrive\toku-download-for-work\stdenv_cygwin\tmp_cache/http%3a%2f%2fftp.jaist.ac.jp%2fpub%2fcygwin%2f/noarch/release/python-pyparsing/python2-pyparsing/python2-pyparsing-2.1.10-1.tar.xz
+2017/10/05 23:04:51 Extracting from file://C:\Users\cmadas\OneDrive\toku-download-for-work\stdenv_cygwin\tmp_cache/http%3a%2f%2fftp.jaist.ac.jp%2fpub%2fcygwin%2f/noarch/release/python-setuptools/python2-setuptools/python2-setuptools-34.3.2-1.tar.xz
+2017/10/05 23:04:53 Extracting from file://C:\Users\cmadas\OneDrive\toku-download-for-work\stdenv_cygwin\tmp_cache/http%3a%2f%2fftp.jaist.ac.jp%2fpub%2fcygwin%2f/noarch/release/python-six/python2-six/python2-six-1.10.0-1.tar.xz
+2017/10/05 23:04:53 Extracting from file://C:\Users\cmadas\OneDrive\toku-download-for-work\stdenv_cygwin\tmp_cache/http%3a%2f%2fftp.jaist.ac.jp%2fpub%2fcygwin%2f/x86_64/release/vim/vim-minimal/vim-minimal-8.0.1052-1.tar.xz
+2017/10/05 23:04:53 Extracting from file://C:\Users\cmadas\OneDrive\toku-download-for-work\stdenv_cygwin\tmp_cache/http%3a%2f%2fftp.jaist.ac.jp%2fpub%2fcygwin%2f/x86_64/release/wget/wget-1.19.1-2.tar.xz
+2017/10/05 23:04:54 Changing gid back to original
+2017/10/05 23:04:54 running: C:\Users\cmadas\OneDrive\toku-download-for-work\stdenv_cygwin\cygwin64\bin\dash.exe "/etc/postinstall/0p_000_autorebase.dash"
+2017/10/05 23:05:04 running: C:\Users\cmadas\OneDrive\toku-download-for-work\stdenv_cygwin\cygwin64\bin\dash.exe "/etc/postinstall/0p_update-info-dir.dash"
+2017/10/05 23:05:09 running: C:\Users\cmadas\OneDrive\toku-download-for-work\stdenv_cygwin\cygwin64\bin\bash.exe --norc --noprofile "/etc/postinstall/wget.sh"
+2017/10/05 23:05:10 Changing gid to Administrators
+2017/10/05 23:05:52 note: Installation Complete
+2017/10/05 23:05:52 Ending cygwin install

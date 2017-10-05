@@ -43,9 +43,11 @@ _arguments -C -S \
   --connect-timeout'[Maximum time allowed for connection]':<seconds> \
   --expect100-timeout'[How long to wait for 100-continue]':<seconds> \
   --proxy-cert-type'[Client certificate type for HTTS proxy]':<type> \
+  --socks5-basic'[Enable username/password auth for SOCKS5 proxies]' \
   --dns-ipv4-addr'[IPv4 address to use for DNS requests]':<address> \
   --dns-ipv6-addr'[IPv6 address to use for DNS requests]':<address> \
   --ignore-content-length'[the size of the remote resource]':Ignore \
+  {-i,--include}'[Include protocol response headers in the output]' \
   --mail-auth'[Originator address of the original email]':<address> \
   --noproxy'[List of hosts which do not use proxy]':<no-proxy-list> \
   --proto-redir'[Enable/disable PROTOCOLS on redirect]':<protocols> \
@@ -53,7 +55,9 @@ _arguments -C -S \
   --hostpubmd5'[Acceptable MD5 hash of the host public key]':<md5> \
   --keepalive-time'[Interval time for keepalive probes]':<seconds> \
   --proxy-cert'[Set client certificate for proxy]':<cert[:passwd]> \
+  {-H,--header}'[Pass custom header(s) to server]':<header/@file> \
   {-m,--max-time}'[Maximum time allowed for the transfer]':<time> \
+  --proxy-header'[Pass custom header(s) to proxy]':<header/@file> \
   --unix-socket'[Connect through this Unix domain socket]':<path> \
   {-T,--upload-file}'[Transfer local FILE to destination]':<file> \
   {-w,--write-out}'[Use output FORMAT after completion]':<format> \
@@ -73,10 +77,8 @@ _arguments -C -S \
   --trace-ascii'[Like --trace, but without hex output]':<file> \
   {-A,--user-agent}'[Send User-Agent <name> to server]':<name> \
   --create-dirs'[Create necessary local directory hierarchy]' \
-  {-H,--header}'[Pass custom header LINE to server]':<header> \
   {-n,--netrc}'[Must read .netrc for user name and password]' \
   --preproxy'[Use this proxy first]':[protocol://]host[:port] \
-  --proxy-header'[Pass custom header LINE to proxy]':<header> \
   --retry-max-time'[Retry only within this period]':<seconds> \
   --sasl-ir'[Enable initial response in SASL authentication]' \
   --socks4'[SOCKS4 proxy on given host + port]':<host[:port]> \
@@ -98,7 +100,7 @@ _arguments -C -S \
   {-#,--progress-bar}'[Display transfer progress as a bar]' \
   {-Q,--quote}'[Send command(s) to server before transfer]' \
   --random-file'[File for reading random data from]':<file> \
-  {-i,--include}'[Include protocol headers in the output]' \
+  --socks5-gssapi'[GSS-API auth for SOCKS5 proxies]':Enable \
   --interface'[Use network INTERFACE (or address)]':<name> \
   --key-type'[Private key file type (DER/PEM/ENG)]':<type> \
   --proxy-digest'[Use Digest authentication on the proxy]' \
@@ -111,6 +113,7 @@ _arguments -C -S \
   --post303'[Do not switch to GET after following a 303]' \
   {-x,--proxy}'[Use this proxy]':[protocol://]host[:port] \
   --proxy-anyauth'[any proxy authentication method]':Pick \
+  --request-target'[the target for this request]':Specify \
   --trace-time'[Add time stamps to trace/verbose output]' \
   {-u,--user}'[Server user and password]':<user:password> \
   {-C,--continue-at}'[Resumed transfer offset]':<offset> \
@@ -153,6 +156,7 @@ _arguments -C -S \
   {-K,--config}'[Read config from a file]':<file> \
   --mail-from'[Mail from this address]':<address> \
   --mail-rcpt'[Mail from this address]':<address> \
+  --oauth2-bearer'[OAuth 2 Bearer Token]':<token> \
   --proto'[Enable/disable PROTOCOLS]':<protocols> \
   --tlsauthtype'[TLS authentication type]':<type> \
   --ftp-ssl-ccc'[Send CCC after authenticating]' \
@@ -184,7 +188,6 @@ _arguments -C -S \
   {-M,--manual}'[Display the full manual]' \
   --engine'[Crypto engine to use]':<name> \
   --false-start'[Enable TLS False Start]' \
-  --oauth2-bearer'[2 Bearer Token]':OAuth \
   --crlf'[Convert LF to CRLF in upload]' \
   {-I,--head}'[Show document info only]' \
   --ntlm'[Use HTTP NTLM authentication]' \
