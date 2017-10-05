@@ -51,7 +51,10 @@ How to commit cygwin dir
 ------------------------
 + run "make_zip.bat" so that cygwin64.jar.xxx(xxx is 001, 002, ...) will be made.
 + commit and push them.
-+ To decompress, run "concat.bat" so that cygwin64.dir will be copied from cygwin64.jar.xxx
++ To concate cygwin64.jar.xxx
+```bat
+copy /b cygwin64.jar.* cygwin64.zip
+```
 
 Tips
 ----
