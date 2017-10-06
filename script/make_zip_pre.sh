@@ -1,0 +1,3 @@
+echo removing pyc files...
+/bin/find cygwin64/lib -name "*.pyc" | xargs rm -f
+

@@ -1,0 +1,107 @@
+Found: C:\Users\cmadas\OneDrive\toku-download-for-work\stdenv_cygwin\cygwin64\bin\awk
+Found: C:\Users\cmadas\OneDrive\toku-download-for-work\stdenv_cygwin\cygwin64\bin\awk
+ -> C:\Users\cmadas\OneDrive\toku-download-for-work\stdenv_cygwin\cygwin64\bin\gawk.exe
+C:\Users\cmadas\OneDrive\toku-download-for-work\stdenv_cygwin\cygwin64\bin\gawk.exe
+  C:\Users\cmadas\OneDrive\toku-download-for-work\stdenv_cygwin\cygwin64\bin\cygwin1.dll
+    C:\WINDOWS\system32\KERNEL32.dll
+      C:\WINDOWS\system32\ntdll.dll
+      C:\WINDOWS\system32\KERNELBASE.dll
+      C:\WINDOWS\system32\api-ms-win-core-fibers-l2-1-1.dll
+  C:\Users\cmadas\OneDrive\toku-download-for-work\stdenv_cygwin\cygwin64\bin\cyggmp-10.dll
+  C:\Users\cmadas\OneDrive\toku-download-for-work\stdenv_cygwin\cygwin64\bin\cygintl-8.dll
+    C:\Users\cmadas\OneDrive\toku-download-for-work\stdenv_cygwin\cygwin64\bin\cygiconv-2.dll
+  C:\Users\cmadas\OneDrive\toku-download-for-work\stdenv_cygwin\cygwin64\bin\cygmpfr-4.dll
+    C:\Users\cmadas\OneDrive\toku-download-for-work\stdenv_cygwin\cygwin64\bin\cyggcc_s-seh-1.dll
+  C:\Users\cmadas\OneDrive\toku-download-for-work\stdenv_cygwin\cygwin64\bin\cygreadline7.dll
+    C:\Users\cmadas\OneDrive\toku-download-for-work\stdenv_cygwin\cygwin64\bin\cygncursesw-10.dll
+
+Found: C:\Users\cmadas\OneDrive\toku-download-for-work\stdenv_cygwin\cygwin64\bin\bash.exe
+Found: C:\WINDOWS\system32\bash.exe
+Found: C:\Users\cmadas\OneDrive\toku-download-for-work\stdenv_cygwin\cygwin64\bin\bash.exe
+C:\Users\cmadas\OneDrive\toku-download-for-work\stdenv_cygwin\cygwin64\bin\bash.exe
+  C:\Users\cmadas\OneDrive\toku-download-for-work\stdenv_cygwin\cygwin64\bin\cygwin1.dll
+    C:\WINDOWS\system32\KERNEL32.dll
+      C:\WINDOWS\system32\ntdll.dll
+      C:\WINDOWS\system32\KERNELBASE.dll
+      C:\WINDOWS\system32\api-ms-win-core-fibers-l2-1-1.dll
+  C:\Users\cmadas\OneDrive\toku-download-for-work\stdenv_cygwin\cygwin64\bin\cygiconv-2.dll
+  C:\Users\cmadas\OneDrive\toku-download-for-work\stdenv_cygwin\cygwin64\bin\cygintl-8.dll
+  C:\Users\cmadas\OneDrive\toku-download-for-work\stdenv_cygwin\cygwin64\bin\cygreadline7.dll
+    C:\Users\cmadas\OneDrive\toku-download-for-work\stdenv_cygwin\cygwin64\bin\cygncursesw-10.dll
+
+Found: C:\Users\cmadas\OneDrive\toku-download-for-work\stdenv_cygwin\cygwin64\bin\bunzip2.exe
+Found: C:\Users\cmadas\OneDrive\toku-download-for-work\stdenv_cygwin\cygwin64\bin\bunzip2.exe
+C:\Users\cmadas\OneDrive\toku-download-for-work\stdenv_cygwin\cygwin64\bin\bunzip2.exe
+  C:\Users\cmadas\OneDrive\toku-download-for-work\stdenv_cygwin\cygwin64\bin\cygbz2-1.dll
+    C:\Users\cmadas\OneDrive\toku-download-for-work\stdenv_cygwin\cygwin64\bin\cygwin1.dll
+      C:\WINDOWS\system32\KERNEL32.dll
+        C:\WINDOWS\system32\ntdll.dll
+        C:\WINDOWS\system32\KERNELBASE.dll
+        C:\WINDOWS\system32\api-ms-win-core-fibers-l2-1-1.dll
+
+Found: C:\Users\cmadas\OneDrive\toku-download-for-work\stdenv_cygwin\cygwin64\bin\grep.exe
+Found: C:\Users\cmadas\OneDrive\toku-download-for-work\stdenv_cygwin\cygwin64\bin\grep.exe
+C:\Users\cmadas\OneDrive\toku-download-for-work\stdenv_cygwin\cygwin64\bin\grep.exe
+  C:\Users\cmadas\OneDrive\toku-download-for-work\stdenv_cygwin\cygwin64\bin\cygwin1.dll
+    C:\WINDOWS\system32\KERNEL32.dll
+      C:\WINDOWS\system32\ntdll.dll
+      C:\WINDOWS\system32\KERNELBASE.dll
+      C:\WINDOWS\system32\api-ms-win-core-fibers-l2-1-1.dll
+  C:\Users\cmadas\OneDrive\toku-download-for-work\stdenv_cygwin\cygwin64\bin\cygiconv-2.dll
+  C:\Users\cmadas\OneDrive\toku-download-for-work\stdenv_cygwin\cygwin64\bin\cygintl-8.dll
+  C:\Users\cmadas\OneDrive\toku-download-for-work\stdenv_cygwin\cygwin64\bin\cygpcre-1.dll
+
+Found: C:\Users\cmadas\OneDrive\toku-download-for-work\stdenv_cygwin\cygwin64\bin\gzip.exe
+Found: C:\Users\cmadas\OneDrive\toku-download-for-work\stdenv_cygwin\cygwin64\bin\gzip.exe
+C:\Users\cmadas\OneDrive\toku-download-for-work\stdenv_cygwin\cygwin64\bin\gzip.exe
+  C:\Users\cmadas\OneDrive\toku-download-for-work\stdenv_cygwin\cygwin64\bin\cygwin1.dll
+    C:\WINDOWS\system32\KERNEL32.dll
+      C:\WINDOWS\system32\ntdll.dll
+      C:\WINDOWS\system32\KERNELBASE.dll
+      C:\WINDOWS\system32\api-ms-win-core-fibers-l2-1-1.dll
+
+Found: C:\Users\cmadas\OneDrive\toku-download-for-work\stdenv_cygwin\cygwin64\bin\mv.exe
+Found: C:\Users\cmadas\OneDrive\toku-download-for-work\stdenv_cygwin\cygwin64\bin\mv.exe
+C:\Users\cmadas\OneDrive\toku-download-for-work\stdenv_cygwin\cygwin64\bin\mv.exe
+  C:\Users\cmadas\OneDrive\toku-download-for-work\stdenv_cygwin\cygwin64\bin\cygattr-1.dll
+    C:\Users\cmadas\OneDrive\toku-download-for-work\stdenv_cygwin\cygwin64\bin\cygwin1.dll
+      C:\WINDOWS\system32\KERNEL32.dll
+        C:\WINDOWS\system32\ntdll.dll
+        C:\WINDOWS\system32\KERNELBASE.dll
+        C:\WINDOWS\system32\api-ms-win-core-fibers-l2-1-1.dll
+    C:\Users\cmadas\OneDrive\toku-download-for-work\stdenv_cygwin\cygwin64\bin\cygintl-8.dll
+      C:\Users\cmadas\OneDrive\toku-download-for-work\stdenv_cygwin\cygwin64\bin\cygiconv-2.dll
+
+Found: C:\Users\cmadas\OneDrive\toku-download-for-work\stdenv_cygwin\cygwin64\bin\sed.exe
+Found: C:\Users\cmadas\OneDrive\toku-download-for-work\stdenv_cygwin\cygwin64\bin\sed.exe
+C:\Users\cmadas\OneDrive\toku-download-for-work\stdenv_cygwin\cygwin64\bin\sed.exe
+  C:\Users\cmadas\OneDrive\toku-download-for-work\stdenv_cygwin\cygwin64\bin\cygwin1.dll
+    C:\WINDOWS\system32\KERNEL32.dll
+      C:\WINDOWS\system32\ntdll.dll
+      C:\WINDOWS\system32\KERNELBASE.dll
+      C:\WINDOWS\system32\api-ms-win-core-fibers-l2-1-1.dll
+  C:\Users\cmadas\OneDrive\toku-download-for-work\stdenv_cygwin\cygwin64\bin\cygintl-8.dll
+    C:\Users\cmadas\OneDrive\toku-download-for-work\stdenv_cygwin\cygwin64\bin\cygiconv-2.dll
+
+Found: C:\Users\cmadas\OneDrive\toku-download-for-work\stdenv_cygwin\cygwin64\bin\tar.exe
+Found: C:\Users\cmadas\OneDrive\toku-download-for-work\stdenv_cygwin\cygwin64\bin\tar.exe
+C:\Users\cmadas\OneDrive\toku-download-for-work\stdenv_cygwin\cygwin64\bin\tar.exe
+  C:\Users\cmadas\OneDrive\toku-download-for-work\stdenv_cygwin\cygwin64\bin\cygwin1.dll
+    C:\WINDOWS\system32\KERNEL32.dll
+      C:\WINDOWS\system32\ntdll.dll
+      C:\WINDOWS\system32\KERNELBASE.dll
+      C:\WINDOWS\system32\api-ms-win-core-fibers-l2-1-1.dll
+  C:\Users\cmadas\OneDrive\toku-download-for-work\stdenv_cygwin\cygwin64\bin\cygiconv-2.dll
+  C:\Users\cmadas\OneDrive\toku-download-for-work\stdenv_cygwin\cygwin64\bin\cygintl-8.dll
+
+Found: C:\Users\cmadas\OneDrive\toku-download-for-work\stdenv_cygwin\cygwin64\bin\xz.exe
+Found: C:\Users\cmadas\OneDrive\toku-download-for-work\stdenv_cygwin\cygwin64\bin\xz.exe
+C:\Users\cmadas\OneDrive\toku-download-for-work\stdenv_cygwin\cygwin64\bin\xz.exe
+  C:\Users\cmadas\OneDrive\toku-download-for-work\stdenv_cygwin\cygwin64\bin\cyglzma-5.dll
+    C:\Users\cmadas\OneDrive\toku-download-for-work\stdenv_cygwin\cygwin64\bin\cygwin1.dll
+      C:\WINDOWS\system32\KERNEL32.dll
+        C:\WINDOWS\system32\ntdll.dll
+        C:\WINDOWS\system32\KERNELBASE.dll
+        C:\WINDOWS\system32\api-ms-win-core-fibers-l2-1-1.dll
+  C:\Users\cmadas\OneDrive\toku-download-for-work\stdenv_cygwin\cygwin64\bin\cygintl-8.dll
+    C:\Users\cmadas\OneDrive\toku-download-for-work\stdenv_cygwin\cygwin64\bin\cygiconv-2.dll

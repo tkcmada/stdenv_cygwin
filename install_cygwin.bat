@@ -3,8 +3,6 @@ set pkg=%pkg%,curl
 set pkg=%pkg%,make
 set pkg=%pkg%,zip
 set pkg=%pkg%,openssh
-set pkg=%pkg%,gcc
-set pkg=%pkg%,gcc-g++
 set pkg=%pkg%,wget
 set pkg=%pkg%,lynx
 

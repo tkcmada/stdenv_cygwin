@@ -98,3 +98,14 @@ ansible-playbook
 vi ansible-sample.yaml 
 vi ansible-sample.yaml 
 exit
+exit
+apt-cyg remove gcc-g++
+apt-cyg remove gcc
+cd cygwin64
+du -sm *
+cd lib
+du -sm *
+exit
+vi script/make_zip_pre.sh 
+cd ..
+exit
