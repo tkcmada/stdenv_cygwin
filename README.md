@@ -25,6 +25,7 @@ Installed modules
 - easy_install(wget)
 - pip(via easy_install)
 - ansible(pip)
+- boto(pip)
 
 How modules are installed ?
 ---------------------------
