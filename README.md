@@ -1,3 +1,11 @@
+How to commit cygwin tar ball
+-----------------------------
++ run "make_zip.bat" so that cygwin64.jar.xxx(xxx is 001, 002, ...) will be made.
++ commit and push them.
++ To concate cygwin64.jar.xxx
+```bat
+copy /b cygwin64.jar.* cygwin64.zip
+```
 Installed modules
 -----------------
 
@@ -45,15 +53,6 @@ B. How to add package via apt-cyg
 ```
 apt-cyg update
 apt-cyg xxx
-```
-
-How to commit cygwin dir
-------------------------
-+ run "make_zip.bat" so that cygwin64.jar.xxx(xxx is 001, 002, ...) will be made.
-+ commit and push them.
-+ To concate cygwin64.jar.xxx
-```bat
-copy /b cygwin64.jar.* cygwin64.zip
 ```
 
 Tips
