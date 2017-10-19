@@ -1,0 +1,28 @@
+---
+
+- name: "create vpc"
+  ec2_vpc:
+    cidr_block: "{{ vpc.cidr_block }}"
+    resource_tags: { "Name":"{{ vpc.vpc_name }}" }
+    subnets:
+      - cidr: "{{ vpc.sabnet_cidr1 }}"
+        az: "{{ vpc.az1 }}"
+        resource_tags: { "Name":"{{ vpc.sabnet_name1 }}" }
+      - cidr: "{{ vpc.sabnet_cidr2 }}"
+        az: "{{ vpc.az2 }}"
+        resource_tags: { "Name":"{{ vpc.sabnet_name2 }}" }
+    internet_gateway: True
+    route_tables:
+      - subnets:
+        - "{{ vpc.sabnet_cidr1 }}"
+        - "{{ vpc.sabnet_cidr2 }}"
+        routes:
+          - dest: 0.0.0.0/0
+            gw: igw
+    region: "{{ vpc.region }}"
+    state: present
+    wait: true
+  register: vpc_regst
+
+- debug: var=vpc_regst
+  when: vpc_regst | success

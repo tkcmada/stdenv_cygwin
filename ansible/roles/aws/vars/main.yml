@@ -1,0 +1,11 @@
+---
+vpc:
+  vpc_name: "AnsibleVPC"
+  region: "ap-northeast-1"
+  cidr_block: "172.22.0.0/16"
+  sabnet_name1: "sabnet1"
+  sabnet_name2: "sabnet2"
+  sabnet_cidr1: "172.22.1.0/24"
+  sabnet_cidr2: "172.22.2.0/24"
+  az1: "ap-northeast-1b"
+  az2: "ap-northeast-1c"

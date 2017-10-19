@@ -1,0 +1,4 @@
+---
+
+- name: "create vpc"
+  import_tasks: create_vpc.yml
