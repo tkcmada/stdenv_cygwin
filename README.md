@@ -26,6 +26,7 @@ Installed modules
 - pip(via easy_install)
 - ansible(pip)
 - boto(pip)
+- terraform(downloaded) with aws plugins in cygwin64/terraform-sample/.terraform directory
 
 How modules are installed ?
 ---------------------------
