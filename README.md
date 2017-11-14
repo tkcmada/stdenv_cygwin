@@ -1,11 +1,14 @@
 How to commit cygwin tar ball
 -----------------------------
-+ run "make_zip.bat" so that cygwin64.jar.xxx(xxx is 001, 002, ...) will be made.
-+ commit and push them.
-+ To concate cygwin64.jar.xxx
++ run "make_zip.bat" so that cygwin64.zip.xxx(xxx is 001, 002, ...) will be made.
++ commit and push them
+
+How to download cygwin64.zip.XXX and unarchive it?
+--------------------------------------------------
 ```bat
-copy /b cygwin64.jar.* cygwin64.zip
+copy /b cygwin64.zip.* cygwin64.zip
 ```
+
 Installed modules
 -----------------
 
@@ -28,25 +31,18 @@ Installed modules
 - boto(pip)
 - terraform(downloaded) with aws plugin in cygwin64/terraform-sample-aws/.terraform and vsphere plugin in cygwin64/terraform-sample-vsphere/.terraform 
 - packer(downloaded)
+- awscli(pip)
 
 How modules are installed ?
 ---------------------------
 
 This project manages cygwin modules. Cygwin modules are installed by following ways.
  
-- A. via installer(deprecated)
+- A. via installer(deprecated. don't use it.)
 - B. via apt-cyg
 - C. via easy_install
 - D. via pip
-- E. via wget
-
-A. (Deprecated) How to install modules via cygwin installer
---------------------------------------------
-+ run "install_cygwin.bat"
-+ Choose a Download site if asked.
-+ All necessary packages are selected. Just press "Next" to move forward.
-+ cygwin package will be downloaded into cygwin64 dir.
-+ temporary files are downloaded into tmp_cache so please delete it.
+- E. via wget and install manually
 
 B. How to add package via apt-cyg
 ------------------------------
@@ -70,7 +66,7 @@ install -m 755 apt-cyg/apt-cyg /usr/bin/
 apt-cyg --help
 ```
 
-- How to install easy_install and pip
+- How to install easy_install and pip itself.
 
 ```
 wget https://bitbucket.org/pypa/setuptools/raw/bootstrap/ez_setup.py 
