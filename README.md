@@ -29,6 +29,7 @@ Installed modules
 - pip(via easy_install)
 - ansible(pip)
 - boto(pip)
+- boto3(pip)
 - terraform(downloaded) with aws plugin in cygwin64/terraform-sample-aws/.terraform and vsphere plugin in cygwin64/terraform-sample-vsphere/.terraform 
 - packer(downloaded)
 - awscli(pip)
