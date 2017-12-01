@@ -33,6 +33,7 @@ Installed modules
 - terraform(downloaded) with aws plugin in cygwin64/terraform-sample-aws/.terraform and vsphere plugin in cygwin64/terraform-sample-vsphere/.terraform 
 - packer(downloaded)
 - awscli(pip)
+- pyvmpmi(pip)
 
 How modules are installed ?
 ---------------------------
