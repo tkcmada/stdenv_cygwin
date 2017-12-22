@@ -32,6 +32,7 @@ How to install modules
 git config --global core.autocrlf false
 git clone https://github.com/transcode-open/apt-cyg.git
 install -m 755 apt-cyg/apt-cyg /usr/bin/
+apt-cyg --version
 rm -rf apt-cyg
 
 apt-cyg -m ftp://ftp.iij.ad.jp/pub/cygwin/ update
