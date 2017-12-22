@@ -48,7 +48,9 @@ apt-cyg install rebaseall
 ```
 wget https://bootstrap.pypa.io/get-pip.py
 python get-pip.py
+pip --version
 rm get-pip.py
+
 pip install ansible
 pip install boto boto3 awscli
 pip install pyvmomi
