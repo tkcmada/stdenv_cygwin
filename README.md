@@ -39,9 +39,6 @@ apt-cyg -m ftp://ftp.iij.ad.jp/pub/cygwin/ update
 apt-cyg install python python-devel python-crypto python-paramiko python-setuptools
 apt-cyg install make gcc-core gcc-g++
 apt-cyg install libyaml-devel libffi-devel openssl-devel
-
-# To solve an error while "pip install ansible" causes "Resource temporarily unavailable while executing command python setup.py egg_info"
-apt-cyg install rebaseall
 ```
 
 - pip
@@ -51,10 +48,11 @@ python get-pip.py
 pip --version
 rm get-pip.py
 
-pip install ansible
+#(not installed yet to cygwin32)
 pip install boto boto3 awscli
 pip install pyvmomi
 pip install jupyter
+pip install ansible
 ```
 
 - terraform(downloaded) with aws plugin in cygwin64/terraform-sample-aws/.terraform and vsphere plugin in cygwin64/terraform-sample-vsphere/.terraform 
