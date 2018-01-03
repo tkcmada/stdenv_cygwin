@@ -48,11 +48,16 @@ python get-pip.py
 pip --version
 rm get-pip.py
 
+pip install boto
+pip install boto3
+
 #(not installed yet to cygwin32)
-pip install boto boto3 awscli
 pip install pyvmomi
 pip install jupyter
+pip install awscli
 pip install ansible
+pip install numpy
+pip install chainer
 ```
 
 - terraform(downloaded) with aws plugin in cygwin64/terraform-sample-aws/.terraform and vsphere plugin in cygwin64/terraform-sample-vsphere/.terraform 

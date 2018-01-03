@@ -1,7 +1,0 @@
-[core]
-	autocrlf = false
-[user]
-	email = tokutaro@gmail.com
-	name = Tokutaro Shimada
-[push]
-	default = matching
