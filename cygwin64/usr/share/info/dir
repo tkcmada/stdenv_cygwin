@@ -43,12 +43,14 @@ GNU organization
                                 Maintaining GNU findutils
 
 Individual utilities
+* Gawk Work Flow: (gawkworkflow)Overview.       Participating in 'gawk' 
+                                                  development.
 * addr2line: (binutils)addr2line.               Convert addresses to file and 
                                                   line.
 * ar: (binutils)ar.                             Create, modify, and extract 
                                                   from archives.
 * arch: (coreutils)arch invocation.             Print machine hardware name.
-* awk: (gawk)Invoking gawk.                     Text scanning and processing.
+* awk: (gawk)Invoking Gawk.                     Text scanning and processing.
 * b2sum: (coreutils)b2sum invocation.           Print or check BLAKE2 digests.
 * base32: (coreutils)base32 invocation.         Base32 encode/decode data.
 * base64: (coreutils)base64 invocation.         Base64 encode/decode data.
@@ -195,8 +197,8 @@ Individual utilities
 * zmore: (gzip)Overview.                        Decompression output by pages.
 
 Network applications
-* Gawkinet: (gawkinet).         TCP/IP Internetworking With 'gawk'.
 * Wget: (wget).                 Non-interactive network downloader.
+* awkinet: (gawkinet).          TCP/IP Internetworking With 'gawk'.
 
 Software development
 * As: (as).                     The GNU assembler.
@@ -212,6 +214,8 @@ Software development
 * gccinstall: (gccinstall).     Installing the GNU Compiler Collection.
 * gccint: (gccint).             Internals of the GNU Compiler Collection.
 * gcov: (gcc) Gcov.             'gcov'--a test coverage program.
+* gcov-dump: (gcc) Gcov-dump.   'gcov-dump'--an offline gcda and gcno profile 
+                                  dump tool.
 * gcov-tool: (gcc) Gcov-tool.   'gcov-tool'--an offline gcda profile 
                                   processing program.
 * gprof: (gprof).               Profiling your program's execution
@@ -226,6 +230,8 @@ Texinfo documentation system
 Text creation and manipulation
 * Diffutils: (diffutils).       Comparing and merging files.
 * Gawk: (gawk).                 A text scanning and processing language.
+* Gawk Work Flow: (gawkworkflow).
+                                Participating in 'gawk' development.
 * grep: (grep).                 Print lines matching a pattern.
 * sed: (sed).                   Stream EDitor.  
 

@@ -309,7 +309,7 @@
 #define HAVE_GETITIMER 1
 
 /* Define to 1 if you have the `getloadavg' function. */
-/* #undef HAVE_GETLOADAVG */
+#define HAVE_GETLOADAVG 1
 
 /* Define to 1 if you have the `getlogin' function. */
 #define HAVE_GETLOGIN 1
@@ -782,6 +782,9 @@
 /* Define to 1 if you have the <sys/poll.h> header file. */
 #define HAVE_SYS_POLL_H 1
 
+/* Define to 1 if you have the <sys/random.h> header file. */
+#define HAVE_SYS_RANDOM_H 1
+
 /* Define to 1 if you have the <sys/resource.h> header file. */
 #define HAVE_SYS_RESOURCE_H 1
 
@@ -1213,6 +1216,9 @@
 
 /* Define to activate Unix95-and-earlier features */
 #define _XOPEN_SOURCE_EXTENDED 1
+
+/* Define on FreeBSD to activate all library features */
+/* #undef __BSD_VISIBLE */
 
 /* Define to 1 if type `char' is unsigned and you are not using gcc.  */
 #ifndef __CHAR_UNSIGNED__

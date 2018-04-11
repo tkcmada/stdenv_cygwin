@@ -26,10 +26,10 @@ MODLIBS=        $(LOCALMODLIBS) $(BASEMODLIBS)
 
 # === Variables set by configure
 VERSION=	2.7
-srcdir=		/usr/src/ports/python/python2-2.7.13-1.x86_64/src/Python-2.7.13
-VPATH=		/usr/src/ports/python/python2-2.7.13-1.x86_64/src/Python-2.7.13
-abs_srcdir=	/usr/src/ports/python/python2-2.7.13-1.x86_64/src/Python-2.7.13
-abs_builddir=	/usr/src/ports/python/python2-2.7.13-1.x86_64/build
+srcdir=		/usr/src/ports/python2/python2-2.7.14-1.x86_64/src/Python-2.7.14
+VPATH=		/usr/src/ports/python2/python2-2.7.14-1.x86_64/src/Python-2.7.14
+abs_srcdir=	/usr/src/ports/python2/python2-2.7.14-1.x86_64/src/Python-2.7.14
+abs_builddir=	/usr/src/ports/python2/python2-2.7.14-1.x86_64/build
 build=		x86_64-unknown-cygwin
 host=		x86_64-unknown-cygwin
 
@@ -39,10 +39,9 @@ MAINCC=		$(CC)
 LINKCC=		$(PURIFY) $(MAINCC)
 AR=		ar
 RANLIB=		ranlib
-SVNVERSION=	svnversion $(srcdir)
-HGVERSION=	hg id -i $(srcdir)
-HGTAG=		hg id -t $(srcdir)
-HGBRANCH=	hg id -b $(srcdir)
+GITVERSION=	
+GITTAG=		
+GITBRANCH=	
 PGO_PROF_GEN_FLAG=-fprofile-generate
 PGO_PROF_USE_FLAG=-fprofile-use -fprofile-correction
 LLVM_PROF_MERGER=true
@@ -74,7 +73,7 @@ MAKESETUP=      $(srcdir)/Modules/makesetup
 # Compiler options
 OPT=		-DNDEBUG -g -fwrapv -O3 -Wall -Wstrict-prototypes
 BASECFLAGS=	 -fno-strict-aliasing
-CFLAGS=		$(BASECFLAGS) -ggdb -O2 -pipe -Wimplicit-function-declaration -fdebug-prefix-map=/usr/src/ports/python/python2-2.7.13-1.x86_64/build=/usr/src/debug/python2-2.7.13-1 -fdebug-prefix-map=/usr/src/ports/python/python2-2.7.13-1.x86_64/src/Python-2.7.13=/usr/src/debug/python2-2.7.13-1 $(OPT) $(EXTRA_CFLAGS)
+CFLAGS=		$(BASECFLAGS) -ggdb -O2 -pipe -Wimplicit-function-declaration -fdebug-prefix-map=/usr/src/ports/python2/python2-2.7.14-1.x86_64/build=/usr/src/debug/python2-2.7.14-1 -fdebug-prefix-map=/usr/src/ports/python2/python2-2.7.14-1.x86_64/src/Python-2.7.14=/usr/src/debug/python2-2.7.14-1 $(OPT) $(EXTRA_CFLAGS)
 # Both CPPFLAGS and LDFLAGS need to contain the shell's value for setup.py to
 # be able to build extension modules using the directories specified in the
 # environment variables
@@ -160,11 +159,11 @@ EXEMODE=	755
 FILEMODE=	644
 
 # configure script arguments
-CONFIG_ARGS=	 '--srcdir=/usr/src/ports/python/python2-2.7.13-1.x86_64/src/Python-2.7.13' '--prefix=/usr' '--exec-prefix=/usr' '--localstatedir=/var' '--sysconfdir=/etc' '--docdir=/usr/share/doc/python2' '--htmldir=/usr/share/doc/python2/html' '-C' '--enable-shared' '--enable-ipv6' '--with-dbmliborder=gdbm' '--with-libc=' '--with-libm=' '--with-system-ffi' '--with-system-expat' 'ac_cv_func_bind_textdomain_codeset=yes' 'CC=gcc' 'CFLAGS=-ggdb -O2 -pipe -Wimplicit-function-declaration -fdebug-prefix-map=/usr/src/ports/python/python2-2.7.13-1.x86_64/build=/usr/src/debug/python2-2.7.13-1 -fdebug-prefix-map=/usr/src/ports/python/python2-2.7.13-1.x86_64/src/Python-2.7.13=/usr/src/debug/python2-2.7.13-1' 'LDFLAGS= -L.' 'LIBS=' 'CPPFLAGS='
+CONFIG_ARGS=	 '--srcdir=/usr/src/ports/python2/python2-2.7.14-1.x86_64/src/Python-2.7.14' '--prefix=/usr' '--exec-prefix=/usr' '--localstatedir=/var' '--sysconfdir=/etc' '--docdir=/usr/share/doc/python2' '--htmldir=/usr/share/doc/python2/html' '-C' '--enable-shared' '--enable-ipv6' '--with-dbmliborder=gdbm' '--with-libc=' '--with-libm=' '--with-system-ffi' '--with-system-expat' 'ac_cv_func_bind_textdomain_codeset=yes' 'CC=gcc' 'CFLAGS=-ggdb -O2 -pipe -Wimplicit-function-declaration -fdebug-prefix-map=/usr/src/ports/python2/python2-2.7.14-1.x86_64/build=/usr/src/debug/python2-2.7.14-1 -fdebug-prefix-map=/usr/src/ports/python2/python2-2.7.14-1.x86_64/src/Python-2.7.14=/usr/src/debug/python2-2.7.14-1' 'LDFLAGS= -L.' 'LIBS=' 'CPPFLAGS='
 
 
 # Subdirectories with code
-SRCDIRS= 	Parser Grammar Objects Python Modules Mac
+SRCDIRS= 	Parser Objects Python Modules
 
 # Other subdirectories
 SUBDIRSTOO=	Include Lib Misc Demo
@@ -201,6 +200,7 @@ UNICODE_OBJS=   Objects/unicodeobject.o Objects/unicodectype.o
 PYTHON=		python$(EXE)
 BUILDPYTHON=	python$(BUILDEXE)
 
+PYTHON_FOR_REGEN=python2.7
 PYTHON_FOR_BUILD=./$(BUILDPYTHON) -E
 _PYTHON_HOST_PLATFORM=
 HOST_GNU_TYPE=  x86_64-unknown-cygwin
@@ -251,11 +251,6 @@ SIGNAL_OBJS=
 
 
 ##########################################################################
-# Grammar
-GRAMMAR_H=	Include/graminit.h
-GRAMMAR_C=	Python/graminit.c
-GRAMMAR_INPUT=	$(srcdir)/Grammar/Grammar
-
 
 LIBFFI_INCLUDEDIR=	
 
@@ -315,29 +310,6 @@ PGENSRCS=	$(PSRCS) $(PGSRCS)
 PGENOBJS=	$(POBJS) $(PGOBJS)
 
 ##########################################################################
-# AST
-AST_H_DIR=	Include
-AST_H=		$(AST_H_DIR)/Python-ast.h
-AST_C_DIR=	Python
-AST_C=		$(AST_C_DIR)/Python-ast.c
-AST_ASDL=	$(srcdir)/Parser/Python.asdl
-
-ASDLGEN_FILES=	$(srcdir)/Parser/asdl.py $(srcdir)/Parser/asdl_c.py
-# XXX Note that a build now requires Python exist before the build starts
-ASDLGEN=	$(srcdir)/Parser/asdl_c.py
-
-##########################################################################
-# Python
-
-OPCODETARGETS_H= \
-		$(srcdir)/Python/opcode_targets.h
-		
-OPCODETARGETGEN= \
-		$(srcdir)/Python/makeopcodetargets.py
-
-OPCODETARGETGEN_FILES= \
-		$(OPCODETARGETGEN) $(srcdir)/Lib/opcode.py
-
 PYTHON_OBJS=	\
 		Python/_warnings.o \
 		Python/Python-ast.o \
@@ -511,9 +483,8 @@ coverage-lcov:
 	@echo "lcov report at $(COVERAGE_REPORT)/index.html"
 	@echo
 
-coverage-report:
-	: # force rebuilding of parser
-	@touch $(GRAMMAR_INPUT)
+# Force regeneration of parser
+coverage-report: regen-grammar
 	: # build with coverage info
 	$(MAKE) coverage
 	: # run tests, ignore failures
@@ -662,6 +633,12 @@ Modules/Setup: $(srcdir)/Modules/Setup.dist
 		echo "-----------------------------------------------"; \
 	fi
 
+
+############################################################################
+# Regenerate all generated files
+
+regen-all: regen-opcode-targets regen-grammar regen-ast
+
 ############################################################################
 # Special rules for object files
 
@@ -673,10 +650,9 @@ Modules/getbuildinfo.o: $(PARSER_OBJS) \
 		$(MODOBJS) \
 		$(srcdir)/Modules/getbuildinfo.c
 	$(CC) -c $(PY_CFLAGS) \
-	      -DSVNVERSION="\"`LC_ALL=C $(SVNVERSION)`\"" \
-	      -DHGVERSION="\"`LC_ALL=C $(HGVERSION)`\"" \
-	      -DHGTAG="\"`LC_ALL=C $(HGTAG)`\"" \
-	      -DHGBRANCH="\"`LC_ALL=C $(HGBRANCH)`\"" \
+	      -DGITVERSION="\"`LC_ALL=C $(GITVERSION)`\"" \
+	      -DGITTAG="\"`LC_ALL=C $(GITTAG)`\"" \
+	      -DGITBRANCH="\"`LC_ALL=C $(GITBRANCH)`\"" \
 	      -o $@ $(srcdir)/Modules/getbuildinfo.c
 
 Modules/getpath.o: $(srcdir)/Modules/getpath.c Makefile
@@ -696,14 +672,17 @@ Modules/grpmodule.o: $(srcdir)/Modules/grpmodule.c $(srcdir)/Modules/posixmodule
 
 Modules/pwdmodule.o: $(srcdir)/Modules/pwdmodule.c $(srcdir)/Modules/posixmodule.h
 
-$(GRAMMAR_H):  $(GRAMMAR_INPUT) $(PGEN)
-	@$(MKDIR_P) Include
-	$(PGEN) $(GRAMMAR_INPUT) $(GRAMMAR_H) $(GRAMMAR_C)
-$(GRAMMAR_C):  $(GRAMMAR_H)
-	touch $(GRAMMAR_C)
-
 $(PGEN):	$(PGENOBJS)
 		$(CC) $(OPT) $(LDFLAGS) $(PGENOBJS) $(LIBS) -o $(PGEN)
+
+.PHONY: regen-grammar
+regen-grammar: $(PGEN)
+	# Regenerate Include/graminit.h and Python/graminit.c
+	# from Grammar/Grammar using pgen
+	@$(MKDIR_P) Include
+	$(PGEN) $(srcdir)/Grammar/Grammar \
+		$(srcdir)/Include/graminit.h \
+		$(srcdir)/Python/graminit.c
 
 Parser/grammar.o:	$(srcdir)/Parser/grammar.c \
 				$(srcdir)/Include/token.h \
@@ -714,15 +693,20 @@ Parser/tokenizer_pgen.o:	$(srcdir)/Parser/tokenizer.c
 
 Parser/pgenmain.o:	$(srcdir)/Include/parsetok.h
 
-$(AST_H): $(AST_ASDL) $(ASDLGEN_FILES)
-	$(MKDIR_P) $(AST_H_DIR)
-	$(ASDLGEN) -h $(AST_H_DIR) $(AST_ASDL)
+.PHONY=regen-ast
+regen-ast:
+	# Regenerate Include/Python-ast.h using Parser/asdl_c.py -h
+	$(MKDIR_P) $(srcdir)/Include
+	$(PYTHON_FOR_REGEN) $(srcdir)/Parser/asdl_c.py \
+		-h $(srcdir)/Include \
+		$(srcdir)/Parser/Python.asdl
+	# Regenerate Python/Python-ast.c using Parser/asdl_c.py -c
+	$(MKDIR_P) $(srcdir)/Python
+	$(PYTHON_FOR_REGEN) $(srcdir)/Parser/asdl_c.py \
+		-c $(srcdir)/Python \
+		$(srcdir)/Parser/Python.asdl
 
-$(AST_C): $(AST_ASDL) $(ASDLGEN_FILES)
-	$(MKDIR_P) $(AST_C_DIR)
-	$(ASDLGEN) -c $(AST_C_DIR) $(AST_ASDL)
-
-Python/compile.o Python/symtable.o Python/ast.o: $(GRAMMAR_H) $(AST_H)
+Python/compile.o Python/symtable.o Python/ast.o: $(srcdir)/Include/graminit.h $(srcdir)/Include/Python-ast.h
 
 Python/getplatform.o: $(srcdir)/Python/getplatform.c
 		$(CC) -c $(PY_CFLAGS) -DPLATFORM='"$(MACHDEP)"' -o $@ $(srcdir)/Python/getplatform.c
@@ -757,10 +741,14 @@ Objects/bytearrayobject.o: $(srcdir)/Objects/bytearrayobject.c \
 Objects/stringobject.o: $(srcdir)/Objects/stringobject.c \
 				$(STRINGLIB_HEADERS)
 
-$(OPCODETARGETS_H): $(OPCODETARGETGEN_FILES)
-	$(OPCODETARGETGEN) $(OPCODETARGETS_H)
+.PHONY: regen-opcode-targets
+regen-opcode-targets:
+	# Regenerate Python/opcode_targets.h from Lib/opcode.py
+	# using Python/makeopcodetargets.py
+	$(PYTHON_FOR_REGEN) $(srcdir)/Python/makeopcodetargets.py \
+		$(srcdir)/Python/opcode_targets.h
 
-Python/ceval.o: $(OPCODETARGETS_H)
+Python/ceval.o: $(srcdir)/Python/opcode_targets.h
 
 Python/formatter_unicode.o: $(srcdir)/Python/formatter_unicode.c \
 				$(STRINGLIB_HEADERS)
@@ -855,7 +843,7 @@ PYTHON_HEADERS= \
 		Include/weakrefobject.h \
 		pyconfig.h \
 		$(PARSER_HEADERS) \
-		$(AST_H)
+		$(srcdir)/Include/Python-ast.h
 
 $(LIBRARY_OBJS) $(MODOBJS) Modules/python.o: $(PYTHON_HEADERS)
 
@@ -869,6 +857,8 @@ $(LIBRARY_OBJS) $(MODOBJS) Modules/python.o: $(PYTHON_HEADERS)
 # the bytecode read from a .pyc file had the bug, sometimes the directly
 # generated bytecode.  This is sometimes a very shy bug needing a lot of
 # sample data.
+
+.PHONY: test testall testuniversal buildbottest pythoninfo
 
 TESTOPTS=	-l $(EXTRATESTOPTS)
 TESTPROG=	$(srcdir)/Lib/test/regrtest.py
@@ -904,7 +894,10 @@ buildbottest:	build_all platform
 		-@if which pybuildbot.identify >/dev/null 2>&1; then \
 			pybuildbot.identify "CC='$(CC)'" "CXX='$(CXX)'"; \
 		fi
-		$(TESTPYTHON) -R $(TESTPROG) -uall -rwW $(TESTOPTS)
+		$(TESTPYTHON) -R $(TESTPROG) -uall --slowest -rwW $(TESTOPTS)
+
+pythoninfo: build_all
+		$(RUNSHARED) ./$(BUILDPYTHON) -m test.pythoninfo
 
 QUICKTESTOPTS=	$(TESTOPTS) -x test_subprocess test_io test_lib2to3 \
 		test_multibytecodec test_urllib2_localnet test_itertools \
@@ -1061,6 +1054,7 @@ LIBSUBDIRS=	lib-tk lib-tk/test lib-tk/test/test_tkinter \
 		test/data test/cjkencodings test/decimaltestdata test/xmltestdata \
 		test/imghdrdata \
 		test/subprocessdata \
+		test/support \
 		test/tracedmodules \
 		encodings compiler hotshot \
 		email email/mime email/test email/test/data \
@@ -1374,29 +1368,27 @@ recheck:
 	$(SHELL) config.status --recheck
 	$(SHELL) config.status
 
-# Rebuild the configure script from configure.ac; also rebuild pyconfig.h.in
+# Regenerate configure and pyconfig.h.in
+.PHONY: autoconf
 autoconf:
+	# Regenerate the configure script from configure.ac using autoconf
 	(cd $(srcdir); autoconf)
+	# Regenerate pyconfig.h.in from configure.ac using autoheader
 	(cd $(srcdir); autoheader)
 
 # Create a tags file for vi
 tags::
 	cd $(srcdir); \
-	ctags -w -t Include/*.h; \
-	for i in $(SRCDIRS); do ctags -w -t -a $$i/*.[ch]; \
+	ctags -w Include/*.h; \
+	for i in $(SRCDIRS); do ctags -f tags -w -a $$i/*.[ch]; \
 	done; \
-	sort -o tags tags
+	LC_ALL=C sort -o tags tags
 
 # Create a tags file for GNU Emacs
 TAGS::
 	cd $(srcdir); \
 	etags Include/*.h; \
 	for i in $(SRCDIRS); do etags -a $$i/*.[ch]; done
-
-# Touch generated files
-touch:
-	cd $(srcdir); \
-	touch Include/Python-ast.h Python/Python-ast.c
 
 # Sanitation targets -- clean leaves libraries, executables and tags
 # files, which clobber removes as well
@@ -1494,8 +1486,8 @@ Python/thread.o:  $(srcdir)/Python/thread_atheos.h $(srcdir)/Python/thread_beos.
 .PHONY: maninstall libinstall inclinstall libainstall sharedinstall
 .PHONY: frameworkinstall frameworkinstallframework frameworkinstallstructure
 .PHONY: frameworkinstallmaclib frameworkinstallapps frameworkinstallunixtools
-.PHONY: frameworkaltinstallunixtools recheck autoconf clean clobber distclean
-.PHONY: smelly funny patchcheck touch altmaninstall commoninstall
+.PHONY: frameworkaltinstallunixtools recheck clean clobber distclean
+.PHONY: smelly funny patchcheck altmaninstall commoninstall
 .PHONY: gdbhooks
 
 # IF YOU PUT ANYTHING HERE IT WILL GO AWAY

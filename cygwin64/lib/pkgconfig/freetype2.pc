@@ -6,7 +6,7 @@ includedir=/usr/include
 Name: FreeType 2
 URL: http://freetype.org
 Description: A free, high-quality, and portable font engine.
-Version: 18.5.12
+Version: 21.0.15
 Requires:
 Requires.private: zlib, libpng
 Libs: -L${libdir} -lfreetype

@@ -198,7 +198,7 @@ EOF
           -e '/\/\(d\?ash|rebase\|peflags\)\.exe$/d' \
 	  -e '/\/octave\//!{/\(mex\|oct\)$/d}' \
 	  -e '/gnuplot\/demo\/plugin\/.*\.so/d' \
-	  -e '/^\/usr\/lib\/ocaml\/.*\.so/d' \
+	  -e '/^usr\/lib\/ocaml\/.*\.so/d' \
 	  -e '/sys-root\/mingw/d' \
 	  -e 's/^/\//' \
           >>"${g}"

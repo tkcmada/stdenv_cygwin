@@ -1,4 +1,4 @@
-/* Generated automatically from /usr/src/ports/python/python2-2.7.13-1.x86_64/src/Python-2.7.13/Modules/config.c.in by makesetup. */
+/* Generated automatically from /usr/src/ports/python2/python2-2.7.14-1.x86_64/src/Python-2.7.14/Modules/config.c.in by makesetup. */
 /* -*- C -*- ***********************************************
 Copyright (c) 2000, BeOpen.com.
 Copyright (c) 1995-2000, Corporation for National Research Initiatives.
@@ -45,17 +45,17 @@ extern void _PyWarnings_Init(void);
 
 struct _inittab _PyImport_Inittab[] = {
 
-	{"thread", initthread},
-	{"signal", initsignal},
-	{"posix", initposix},
-	{"errno", initerrno},
-	{"pwd", initpwd},
-	{"_sre", init_sre},
-	{"_codecs", init_codecs},
-	{"_weakref", init_weakref},
-	{"zipimport", initzipimport},
-	{"_symtable", init_symtable},
-	{"xxsubtype", initxxsubtype},
+    {"thread", initthread},
+    {"signal", initsignal},
+    {"posix", initposix},
+    {"errno", initerrno},
+    {"pwd", initpwd},
+    {"_sre", init_sre},
+    {"_codecs", init_codecs},
+    {"_weakref", init_weakref},
+    {"zipimport", initzipimport},
+    {"_symtable", init_symtable},
+    {"xxsubtype", initxxsubtype},
 
 /* -- ADDMODULE MARKER 2 -- */
 

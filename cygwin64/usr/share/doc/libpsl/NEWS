@@ -1,4 +1,43 @@
-Copyright (C) 2014-2016 Tim Rühsen
+Copyright (C) 2014-2017 Tim Rühsen
+
+20.07.2017 Release V0.18.0
+  * Fix order of files in psl_latest()
+  * Add fuzzing architecture
+  * Fix memleak in _psl_is_public_suffix()
+  * Add configure option --enable-asan (Address sanitizer)
+  * Add configure option --enable-usan (Undefined sanitizer)
+  * Add configure option --enable-cfi (Control Flow Integrity)
+  * Fix finding libidn2 for static builds
+  * Fix use of uninitialized stack value
+  * Fix buffer overflow in libicu build
+  * Use libidn2 as default for builds (former libicu)
+  * Add pkg-config support for libidn and libidn2
+
+16.01.2017 Release V0.17.0
+  * Use TR46 non-transitional for IDNA (libicu, libidn2 >= 0.14)
+  * Fix coverage upload from TravisCI to Coveralls
+  * New tests to cover psl_latest() and psl_dist_filename()
+
+15.12.2016 Release V0.16.1
+  * Fix SO_VERSION to 6:0:1
+  * Add --use-latest-psl to tools/psl as default
+
+16.12.2016 Release V0.16.0
+  * Add functions psl_latest() and psl_dist_filename()
+  * Do not taint out variable on error in psl_str_to_utf8lower()
+  * Replace psl2c by psl-make-dafsa
+  * Add missing includes for OpenBSD
+  * Fix typos
+  * Update copyright year
+
+14.11.2016 Release V0.15.0
+  * Python3 compatibility for psl-make-dafsa
+  * Support for UTF-8 in DAFSA data
+  * Skip punycode conversion if DAFSA has UTF-8
+  * Better code coverage by test suite
+  * Code cleanup and enhancements
+  * Install man pages for psl-make-dafsa and psl
+  * Enhancements to the documentation
 
 30.07.2016 Release V0.14.0
   * Remove unneeded libraries from tools/psl link step

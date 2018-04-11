@@ -10,8 +10,8 @@ details. */
    the Cygwin shared library".  This version is used to track important
    changes to the DLL and is mainly informative in nature. */
 
-#define CYGWIN_VERSION_DLL_MAJOR 2006
-#define CYGWIN_VERSION_DLL_MINOR 1
+#define CYGWIN_VERSION_DLL_MAJOR 2010
+#define CYGWIN_VERSION_DLL_MINOR 0
 
 /* Major numbers before CYGWIN_VERSION_DLL_EPOCH are incompatible. */
 
@@ -470,12 +470,36 @@ details. */
   303: Export pthread_getname_np, pthread_setname_np.
   304: Export strerror_l, strptime_l, wcsftime_l.
   305: [f]pathconf flag _PC_CASE_INSENSITIVE added.
+  306: Export getentropy, getrandom.
+  307: Export timingsafe_bcmp, timingsafe_memcmp.
+  308: Export dladdr.
+  309: Export getloadavg.
+  310: Export reallocarray.
+  311: Export __xpg_sigpause.
+  312: Export strverscmp, versionsort.
+  313: Export fls, flsl, flsll.
+  314: Export explicit_bzero.
+  315: Export pthread_mutex_timedlock.
+  316: Export pthread_rwlock_timedrdlock, pthread_rwlock_timedwrlock.
+  317: Export renameat2.
+  318: Export strnstr.
+  319: Define O_TMPFILE, O_NOATIME.
+  320: Export __chk_fail, __gets_chk, __memcpy_chk, __memmove_chk,
+       __mempcpy_chk, __memset_chk, __snprintf_chk, __sprintf_chk,
+       __stack_chk_fail, __stack_chk_guard, __stpcpy_chk, __stpncpy_chk,
+       __strcat_chk, __strcpy_chk, __strncat_chk, __strncpy_chk,
+       __vsnprintf_chk, __vsprintf_chk.
+  321: Export wmempcpy.
+  322: [w]scanf %m modifier.
+  323: scanf %l[ conversion.
+  324: Export sigtimedwait.
+  325: Export catclose, catgets, catopen.
 
   Note that we forgot to bump the api for ualarm, strtoll, strtoull,
   sigaltstack, sethostname. */
 
 #define CYGWIN_VERSION_API_MAJOR 0
-#define CYGWIN_VERSION_API_MINOR 305
+#define CYGWIN_VERSION_API_MINOR 325
 
 /* There is also a compatibity version number associated with the shared memory
    regions.  It is incremented when incompatible changes are made to the shared

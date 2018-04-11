@@ -5,15 +5,6 @@ build_time_vars = {'ABIFLAGS': 'm',
  'ANDROID_API_LEVEL': 0,
  'AR': 'ar',
  'ARFLAGS': 'rc',
- 'ASDLGEN': 'python3.6 '
-            '/usr/src/ports/python3/python3-3.6.1-1.x86_64/src/Python-3.6.1/Parser/asdl_c.py',
- 'ASDLGEN_FILES': '/usr/src/ports/python3/python3-3.6.1-1.x86_64/src/Python-3.6.1/Parser/asdl.py '
-                  '/usr/src/ports/python3/python3-3.6.1-1.x86_64/src/Python-3.6.1/Parser/asdl_c.py',
- 'AST_ASDL': '/usr/src/ports/python3/python3-3.6.1-1.x86_64/src/Python-3.6.1/Parser/Python.asdl',
- 'AST_C': 'Python/Python-ast.c',
- 'AST_C_DIR': 'Python',
- 'AST_H': 'Include/Python-ast.h',
- 'AST_H_DIR': 'Include',
  'BASECFLAGS': '-Wno-unused-result -Wsign-compare',
  'BASECPPFLAGS': '-IObjects -IInclude -IPython',
  'BASEMODLIBS': '',
@@ -30,24 +21,25 @@ build_time_vars = {'ABIFLAGS': 'm',
  'CFLAGS': '-Wno-unused-result -Wsign-compare -DNDEBUG -g -fwrapv -O3 -Wall '
            '-Wstrict-prototypes -ggdb -O2 -pipe '
            '-Wimplicit-function-declaration '
-           '-fdebug-prefix-map=/usr/src/ports/python3/python3-3.6.1-1.x86_64/build=/usr/src/debug/python3-3.6.1-1 '
-           '-fdebug-prefix-map=/usr/src/ports/python3/python3-3.6.1-1.x86_64/src/Python-3.6.1=/usr/src/debug/python3-3.6.1-1 '
+           '-fdebug-prefix-map=/usr/src/ports/python3/python3-3.6.4-1.x86_64/build=/usr/src/debug/python3-3.6.4-1 '
+           '-fdebug-prefix-map=/usr/src/ports/python3/python3-3.6.4-1.x86_64/src/Python-3.6.4=/usr/src/debug/python3-3.6.4-1 '
            '-ggdb -O2 -pipe -Wimplicit-function-declaration '
-           '-fdebug-prefix-map=/usr/src/ports/python3/python3-3.6.1-1.x86_64/build=/usr/src/debug/python3-3.6.1-1 '
-           '-fdebug-prefix-map=/usr/src/ports/python3/python3-3.6.1-1.x86_64/src/Python-3.6.1=/usr/src/debug/python3-3.6.1-1',
+           '-fdebug-prefix-map=/usr/src/ports/python3/python3-3.6.4-1.x86_64/build=/usr/src/debug/python3-3.6.4-1 '
+           '-fdebug-prefix-map=/usr/src/ports/python3/python3-3.6.4-1.x86_64/src/Python-3.6.4=/usr/src/debug/python3-3.6.4-1',
  'CFLAGSFORSHARED': '',
+ 'CFLAGS_ALIASING': '',
  'CFLAGS_NODIST': '',
  'CONFIGFILES': 'configure configure.ac acconfig.h pyconfig.h.in '
                 'Makefile.pre.in',
  'CONFIGURE_CFLAGS': '-ggdb -O2 -pipe -Wimplicit-function-declaration '
-                     '-fdebug-prefix-map=/usr/src/ports/python3/python3-3.6.1-1.x86_64/build=/usr/src/debug/python3-3.6.1-1 '
-                     '-fdebug-prefix-map=/usr/src/ports/python3/python3-3.6.1-1.x86_64/src/Python-3.6.1=/usr/src/debug/python3-3.6.1-1',
+                     '-fdebug-prefix-map=/usr/src/ports/python3/python3-3.6.4-1.x86_64/build=/usr/src/debug/python3-3.6.4-1 '
+                     '-fdebug-prefix-map=/usr/src/ports/python3/python3-3.6.4-1.x86_64/src/Python-3.6.4=/usr/src/debug/python3-3.6.4-1',
  'CONFIGURE_CFLAGS_NODIST': '-std=c99 -Wextra -Wno-unused-result '
                             '-Wno-unused-parameter '
                             '-Wno-missing-field-initializers',
  'CONFIGURE_CPPFLAGS': '',
  'CONFIGURE_LDFLAGS': '',
- 'CONFIG_ARGS': "'--srcdir=/usr/src/ports/python3/python3-3.6.1-1.x86_64/src/Python-3.6.1' "
+ 'CONFIG_ARGS': "'--srcdir=/usr/src/ports/python3/python3-3.6.4-1.x86_64/src/Python-3.6.4' "
                 "'--prefix=/usr' '--exec-prefix=/usr' '--localstatedir=/var' "
                 "'--sysconfdir=/etc' '--docdir=/usr/share/doc/python3' "
                 "'--htmldir=/usr/share/doc/python3/html' '-C' "
@@ -56,18 +48,18 @@ build_time_vars = {'ABIFLAGS': 'm',
                 "'--with-system-ffi' '--without-ensurepip' "
                 "'ac_cv_func_bind_textdomain_codeset=yes' 'CC=gcc' "
                 "'CFLAGS=-ggdb -O2 -pipe -Wimplicit-function-declaration "
-                '-fdebug-prefix-map=/usr/src/ports/python3/python3-3.6.1-1.x86_64/build=/usr/src/debug/python3-3.6.1-1 '
-                "-fdebug-prefix-map=/usr/src/ports/python3/python3-3.6.1-1.x86_64/src/Python-3.6.1=/usr/src/debug/python3-3.6.1-1' "
+                '-fdebug-prefix-map=/usr/src/ports/python3/python3-3.6.4-1.x86_64/build=/usr/src/debug/python3-3.6.4-1 '
+                "-fdebug-prefix-map=/usr/src/ports/python3/python3-3.6.4-1.x86_64/src/Python-3.6.4=/usr/src/debug/python3-3.6.4-1' "
                 "'LDFLAGS=' 'LIBS=' 'CPPFLAGS='",
  'CONFINCLUDEDIR': '/usr/include',
  'CONFINCLUDEPY': '/usr/include/python3.6m',
  'COREPYTHONPATH': ':',
- 'COVERAGE_INFO': '/usr/src/ports/python3/python3-3.6.1-1.x86_64/build/coverage.info',
- 'COVERAGE_REPORT': '/usr/src/ports/python3/python3-3.6.1-1.x86_64/build/lcov-report',
+ 'COVERAGE_INFO': '/usr/src/ports/python3/python3-3.6.4-1.x86_64/build/coverage.info',
+ 'COVERAGE_REPORT': '/usr/src/ports/python3/python3-3.6.4-1.x86_64/build/lcov-report',
  'COVERAGE_REPORT_OPTIONS': '--no-branch-coverage --title "CPython lcov '
                             'report"',
  'CPPFLAGS': '-IObjects -IInclude -IPython -I. '
-             '-I/usr/src/ports/python3/python3-3.6.1-1.x86_64/src/Python-3.6.1/Include',
+             '-I/usr/src/ports/python3/python3-3.6.4-1.x86_64/src/Python-3.6.4/Include',
  'CXX': 'g++',
  'DESTDIRS': '/usr /usr/lib /usr/lib/python3.6 /usr/lib/python3.6/lib-dynload',
  'DESTLIB': '/usr/lib/python3.6',
@@ -106,9 +98,6 @@ build_time_vars = {'ABIFLAGS': 'm',
  'GITTAG': '',
  'GITVERSION': '',
  'GNULD': 'yes',
- 'GRAMMAR_C': 'Python/graminit.c',
- 'GRAMMAR_H': 'Include/graminit.h',
- 'GRAMMAR_INPUT': '/usr/src/ports/python3/python3-3.6.1-1.x86_64/src/Python-3.6.1/Grammar/Grammar',
  'HAVE_ACCEPT4': 1,
  'HAVE_ACOSH': 1,
  'HAVE_ADDRINFO': 1,
@@ -144,10 +133,18 @@ build_time_vars = {'ABIFLAGS': 'm',
  'HAVE_COPYSIGN': 1,
  'HAVE_CTERMID': 1,
  'HAVE_CTERMID_R': 0,
+ 'HAVE_CURSES_FILTER': 1,
  'HAVE_CURSES_H': 1,
+ 'HAVE_CURSES_HAS_KEY': 1,
+ 'HAVE_CURSES_IMMEDOK': 1,
+ 'HAVE_CURSES_IS_PAD': 1,
  'HAVE_CURSES_IS_TERM_RESIZED': 1,
  'HAVE_CURSES_RESIZETERM': 1,
  'HAVE_CURSES_RESIZE_TERM': 1,
+ 'HAVE_CURSES_SYNCOK': 1,
+ 'HAVE_CURSES_TYPEAHEAD': 1,
+ 'HAVE_CURSES_USE_ENV': 1,
+ 'HAVE_CURSES_WCHGAT': 1,
  'HAVE_DECL_ISFINITE': 1,
  'HAVE_DECL_ISINF': 1,
  'HAVE_DECL_ISNAN': 1,
@@ -223,7 +220,7 @@ build_time_vars = {'ABIFLAGS': 'm',
  'HAVE_GETHOSTBYNAME_R_5_ARG': 0,
  'HAVE_GETHOSTBYNAME_R_6_ARG': 0,
  'HAVE_GETITIMER': 1,
- 'HAVE_GETLOADAVG': 0,
+ 'HAVE_GETLOADAVG': 1,
  'HAVE_GETLOGIN': 1,
  'HAVE_GETNAMEINFO': 1,
  'HAVE_GETPAGESIZE': 1,
@@ -233,7 +230,7 @@ build_time_vars = {'ABIFLAGS': 'm',
  'HAVE_GETPID': 1,
  'HAVE_GETPRIORITY': 1,
  'HAVE_GETPWENT': 1,
- 'HAVE_GETRANDOM': 0,
+ 'HAVE_GETRANDOM': 1,
  'HAVE_GETRANDOM_SYSCALL': 0,
  'HAVE_GETRESGID': 0,
  'HAVE_GETRESUID': 0,
@@ -441,6 +438,7 @@ build_time_vars = {'ABIFLAGS': 'm',
  'HAVE_SYS_STATVFS_H': 1,
  'HAVE_SYS_STAT_H': 1,
  'HAVE_SYS_SYSCALL_H': 0,
+ 'HAVE_SYS_SYSMACROS_H': 1,
  'HAVE_SYS_SYS_DOMAIN_H': 0,
  'HAVE_SYS_TERMIO_H': 1,
  'HAVE_SYS_TIMES_H': 1,
@@ -539,7 +537,7 @@ build_time_vars = {'ABIFLAGS': 'm',
  'MAINCC': 'gcc',
  'MAJOR_IN_MKDEV': 0,
  'MAJOR_IN_SYSMACROS': 0,
- 'MAKESETUP': '/usr/src/ports/python3/python3-3.6.1-1.x86_64/src/Python-3.6.1/Modules/makesetup',
+ 'MAKESETUP': '/usr/src/ports/python3/python3-3.6.4-1.x86_64/src/Python-3.6.4/Modules/makesetup',
  'MANDIR': '/usr/share/man',
  'MKDIR_P': '/usr/bin/mkdir -p',
  'MODLIBS': '',
@@ -565,16 +563,6 @@ build_time_vars = {'ABIFLAGS': 'm',
  'MVWDELCH_IS_EXPRESSION': 1,
  'NO_AS_NEEDED': '-Wl,--no-as-needed',
  'OBJECT_OBJS': '\\',
- 'OPCODETARGETGEN': '\\',
- 'OPCODETARGETGEN_FILES': '\\',
- 'OPCODETARGETS_H': '\\',
- 'OPCODE_H': '/usr/src/ports/python3/python3-3.6.1-1.x86_64/src/Python-3.6.1/Include/opcode.h',
- 'OPCODE_H_DIR': '/usr/src/ports/python3/python3-3.6.1-1.x86_64/src/Python-3.6.1/Include',
- 'OPCODE_H_GEN': 'python3.6 '
-                 '/usr/src/ports/python3/python3-3.6.1-1.x86_64/src/Python-3.6.1/Tools/scripts/generate_opcode_h.py '
-                 '/usr/src/ports/python3/python3-3.6.1-1.x86_64/src/Python-3.6.1/Lib/opcode.py '
-                 '/usr/src/ports/python3/python3-3.6.1-1.x86_64/src/Python-3.6.1/Include/opcode.h',
- 'OPCODE_H_SCRIPT': '/usr/src/ports/python3/python3-3.6.1-1.x86_64/src/Python-3.6.1/Tools/scripts/generate_opcode_h.py',
  'OPT': '-DNDEBUG -g -fwrapv -O3 -Wall -Wstrict-prototypes',
  'OTHER_LIBTOOL_OPT': '',
  'PACKAGE_BUGREPORT': 0,
@@ -605,34 +593,34 @@ build_time_vars = {'ABIFLAGS': 'm',
  'PYTHONFRAMEWORKPREFIX': '',
  'PYTHONPATH': ':',
  'PYTHON_FOR_BUILD': './python.exe -E',
- 'PYTHON_FOR_GEN': 'python3.6',
+ 'PYTHON_FOR_REGEN': 'python3.6',
  'PYTHON_HEADERS': '\\',
  'PYTHON_OBJS': '\\',
  'PY_CFLAGS': '-Wno-unused-result -Wsign-compare -DNDEBUG -g -fwrapv -O3 -Wall '
               '-Wstrict-prototypes -ggdb -O2 -pipe '
               '-Wimplicit-function-declaration '
-              '-fdebug-prefix-map=/usr/src/ports/python3/python3-3.6.1-1.x86_64/build=/usr/src/debug/python3-3.6.1-1 '
-              '-fdebug-prefix-map=/usr/src/ports/python3/python3-3.6.1-1.x86_64/src/Python-3.6.1=/usr/src/debug/python3-3.6.1-1 '
+              '-fdebug-prefix-map=/usr/src/ports/python3/python3-3.6.4-1.x86_64/build=/usr/src/debug/python3-3.6.4-1 '
+              '-fdebug-prefix-map=/usr/src/ports/python3/python3-3.6.4-1.x86_64/src/Python-3.6.4=/usr/src/debug/python3-3.6.4-1 '
               '-ggdb -O2 -pipe -Wimplicit-function-declaration '
-              '-fdebug-prefix-map=/usr/src/ports/python3/python3-3.6.1-1.x86_64/build=/usr/src/debug/python3-3.6.1-1 '
-              '-fdebug-prefix-map=/usr/src/ports/python3/python3-3.6.1-1.x86_64/src/Python-3.6.1=/usr/src/debug/python3-3.6.1-1',
+              '-fdebug-prefix-map=/usr/src/ports/python3/python3-3.6.4-1.x86_64/build=/usr/src/debug/python3-3.6.4-1 '
+              '-fdebug-prefix-map=/usr/src/ports/python3/python3-3.6.4-1.x86_64/src/Python-3.6.4=/usr/src/debug/python3-3.6.4-1',
  'PY_CFLAGS_NODIST': '-std=c99 -Wextra -Wno-unused-result '
                      '-Wno-unused-parameter -Wno-missing-field-initializers',
  'PY_CORE_CFLAGS': '-Wno-unused-result -Wsign-compare -DNDEBUG -g -fwrapv -O3 '
                    '-Wall -Wstrict-prototypes -ggdb -O2 -pipe '
                    '-Wimplicit-function-declaration '
-                   '-fdebug-prefix-map=/usr/src/ports/python3/python3-3.6.1-1.x86_64/build=/usr/src/debug/python3-3.6.1-1 '
-                   '-fdebug-prefix-map=/usr/src/ports/python3/python3-3.6.1-1.x86_64/src/Python-3.6.1=/usr/src/debug/python3-3.6.1-1 '
+                   '-fdebug-prefix-map=/usr/src/ports/python3/python3-3.6.4-1.x86_64/build=/usr/src/debug/python3-3.6.4-1 '
+                   '-fdebug-prefix-map=/usr/src/ports/python3/python3-3.6.4-1.x86_64/src/Python-3.6.4=/usr/src/debug/python3-3.6.4-1 '
                    '-ggdb -O2 -pipe -Wimplicit-function-declaration '
-                   '-fdebug-prefix-map=/usr/src/ports/python3/python3-3.6.1-1.x86_64/build=/usr/src/debug/python3-3.6.1-1 '
-                   '-fdebug-prefix-map=/usr/src/ports/python3/python3-3.6.1-1.x86_64/src/Python-3.6.1=/usr/src/debug/python3-3.6.1-1 '
+                   '-fdebug-prefix-map=/usr/src/ports/python3/python3-3.6.4-1.x86_64/build=/usr/src/debug/python3-3.6.4-1 '
+                   '-fdebug-prefix-map=/usr/src/ports/python3/python3-3.6.4-1.x86_64/src/Python-3.6.4=/usr/src/debug/python3-3.6.4-1 '
                    '-std=c99 -Wextra -Wno-unused-result -Wno-unused-parameter '
                    '-Wno-missing-field-initializers -IObjects -IInclude '
                    '-IPython -I. '
-                   '-I/usr/src/ports/python3/python3-3.6.1-1.x86_64/src/Python-3.6.1/Include  '
+                   '-I/usr/src/ports/python3/python3-3.6.4-1.x86_64/src/Python-3.6.4/Include  '
                    '-DPy_BUILD_CORE',
  'PY_CPPFLAGS': '-IObjects -IInclude -IPython -I. '
-                '-I/usr/src/ports/python3/python3-3.6.1-1.x86_64/src/Python-3.6.1/Include',
+                '-I/usr/src/ports/python3/python3-3.6.4-1.x86_64/src/Python-3.6.4/Include',
  'PY_FORMAT_SIZE_T': '"z"',
  'PY_LDFLAGS': '',
  'Py_DEBUG': 0,
@@ -670,8 +658,8 @@ build_time_vars = {'ABIFLAGS': 'm',
  'SIZEOF_WCHAR_T': 2,
  'SIZEOF__BOOL': 1,
  'SOABI': 'cpython-36m-x86_64-cygwin',
- 'SRCDIRS': 'Parser Grammar Objects Python Modules Mac Programs',
- 'SRC_GDB_HOOKS': '/usr/src/ports/python3/python3-3.6.1-1.x86_64/src/Python-3.6.1/Tools/gdb/libpython.py',
+ 'SRCDIRS': 'Parser Objects Python Modules Programs',
+ 'SRC_GDB_HOOKS': '/usr/src/ports/python3/python3-3.6.4-1.x86_64/src/Python-3.6.4/Tools/gdb/libpython.py',
  'STDC_HEADERS': 1,
  'STRICT_SYSV_CURSES': "/* Don't use ncurses extensions */",
  'STRIPFLAG': '-s',
@@ -687,7 +675,7 @@ build_time_vars = {'ABIFLAGS': 'm',
  'TESTPYTHON': './python.exe',
  'TESTPYTHONOPTS': '',
  'TESTRUNNER': './python.exe '
-               '/usr/src/ports/python3/python3-3.6.1-1.x86_64/src/Python-3.6.1/Tools/scripts/run_tests.py',
+               '/usr/src/ports/python3/python3-3.6.4-1.x86_64/src/Python-3.6.4/Tools/scripts/run_tests.py',
  'TESTTIMEOUT': 1200,
  'THREADOBJ': 'Python/thread.o',
  'TIMEMODULE_LIB': 0,
@@ -695,10 +683,12 @@ build_time_vars = {'ABIFLAGS': 'm',
  'TM_IN_SYS_TIME': 0,
  'UNICODE_DEPS': '\\',
  'UNIVERSALSDK': '',
+ 'UPDATE_FILE': 'python3.6 '
+                '/usr/src/ports/python3/python3-3.6.4-1.x86_64/src/Python-3.6.4/Tools/scripts/update_file.py',
  'USE_COMPUTED_GOTOS': 0,
  'USE_INLINE': 1,
  'VERSION': '3.6',
- 'VPATH': '/usr/src/ports/python3/python3-3.6.1-1.x86_64/src/Python-3.6.1',
+ 'VPATH': '/usr/src/ports/python3/python3-3.6.4-1.x86_64/src/Python-3.6.4',
  'WANT_SIGFPE_HANDLER': 0,
  'WINDOW_HAS_FLAGS': 0,
  'WITH_DOC_STRINGS': 1,
@@ -711,9 +701,9 @@ build_time_vars = {'ABIFLAGS': 'm',
  'WITH_VALGRIND': 0,
  'X87_DOUBLE_ROUNDING': 0,
  'XMLLIBSUBDIRS': 'xml xml/dom xml/etree xml/parsers xml/sax',
- 'abs_builddir': '/usr/src/ports/python3/python3-3.6.1-1.x86_64/build',
- 'abs_srcdir': '/usr/src/ports/python3/python3-3.6.1-1.x86_64/src/Python-3.6.1',
+ 'abs_builddir': '/usr/src/ports/python3/python3-3.6.4-1.x86_64/build',
+ 'abs_srcdir': '/usr/src/ports/python3/python3-3.6.4-1.x86_64/src/Python-3.6.4',
  'datarootdir': '/usr/share',
  'exec_prefix': '/usr',
  'prefix': '/usr',
- 'srcdir': '/usr/src/ports/python3/python3-3.6.1-1.x86_64/src/Python-3.6.1'}
+ 'srcdir': '/usr/src/ports/python3/python3-3.6.4-1.x86_64/src/Python-3.6.4'}

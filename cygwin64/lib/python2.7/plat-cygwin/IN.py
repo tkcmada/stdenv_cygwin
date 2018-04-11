@@ -210,7 +210,7 @@ _XBS5_LPBIG_OFFBIG = _POSIX_V6_LPBIG_OFFBIG
 _XOPEN_CRYPT = 1
 _XOPEN_ENH_I18N = 1
 _XOPEN_SHM = 1
-__STDC_ISO_10646__ = 200305L
+__STDC_ISO_10646__ = 200910L
 MALLOC_ALIGNMENT = 16
 H8300 = 1
 INT_MAX = 32767
@@ -222,6 +222,7 @@ __LARGE64_FILES = 1
 _LARGEFILE64_SOURCE = 1
 MALLOC_ALIGNMENT = 8
 __BUFSIZ__ = 16
+__BUFSIZ__ = 256
 _POINTER_INT = long
 _POINTER_INT = int
 MALLOC_ALIGNMENT = 8
@@ -485,6 +486,10 @@ def _Alignas(x): return __aligned(x)
 def _Alignof(x): return alignof(x)
 
 def _Alignof(x): return __alignof(x)
+
+def __min_size(x): return static (x)
+
+def __min_size(x): return (x)
 
 def __nonnull(x): return __attribute__((__nonnull__(x)))
 

@@ -39,6 +39,10 @@ apt-cyg -m ftp://ftp.iij.ad.jp/pub/cygwin/ update
 apt-cyg install python python-devel python-crypto python-paramiko python-setuptools
 apt-cyg install make gcc-core gcc-g++
 apt-cyg install libyaml-devel libffi-devel openssl-devel
+# this is for pip install mysql-python
+apt-cyg install libmysqlclient-devel
+apt-cyg install perl
+apt-cyg install mysql
 ```
 
 - pip
@@ -50,6 +54,7 @@ rm get-pip.py
 
 pip install boto
 pip install boto3
+pip install mysql-python
 
 #(not installed yet to cygwin32)
 pip install pyvmomi

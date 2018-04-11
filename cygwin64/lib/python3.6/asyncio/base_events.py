@@ -459,7 +459,8 @@ class BaseEventLoop(events.AbstractEventLoop):
                 # local task.
                 future.exception()
             raise
-        future.remove_done_callback(_run_until_complete_cb)
+        finally:
+            future.remove_done_callback(_run_until_complete_cb)
         if not future.done():
             raise RuntimeError('Event loop stopped before Future completed.')
 
@@ -1220,6 +1221,11 @@ class BaseEventLoop(events.AbstractEventLoop):
         This is called when an exception occurs and no exception
         handler is set, and can be called by a custom exception
         handler that wants to defer to the default behavior.
+
+        This default handler logs the error message and other
+        context-dependent information.  In debug mode, a truncated
+        stack trace is also appended showing where the given object
+        (e.g. a handle or future or task) was created, if any.
 
         The context parameter has the same meaning as in
         `call_exception_handler()`.

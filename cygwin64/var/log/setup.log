@@ -799,3 +799,205 @@ You might want to upgrade to get the latest features and bug fixes.
 2017/10/05 23:05:10 Changing gid to Administrators
 2017/10/05 23:05:52 note: Installation Complete
 2017/10/05 23:05:52 Ending cygwin install
+2018/04/11 22:24:20 Starting cygwin install, version 2.881
+2018/04/11 22:24:20 User has backup/restore rights
+2018/04/11 22:24:20 Current Directory: C:\Users\cmadas\OneDrive\toku-download-for-work\stdenv_cygwin\tmp_cache
+2018/04/11 22:24:20 Could not open service McShield for query, start and stop. McAfee may not be installed, or we don't have access.
+2018/04/11 22:24:22 source: network install
+2018/04/11 22:24:24 root: C:\Users\cmadas\OneDrive\toku-download-for-work\stdenv_cygwin\cygwin64 system
+2018/04/11 22:24:26 Selected local directory: C:\Users\cmadas\OneDrive\toku-download-for-work\stdenv_cygwin\tmp_cache
+2018/04/11 22:24:27 net: Direct
+2018/04/11 22:24:28 site: http://ftp.jaist.ac.jp/pub/cygwin/
+2018/04/11 22:24:34 mbox Warning: The current ini file is from a newer version of setup-x86_64.exe. If you have any trouble installing, please download a fresh version from http://www.cygwin.com/setup-x86_64.exe
+2018/04/11 22:24:37 mbox note: This setup is version 2.881, but setup.ini claims version 2.891 is available.
+You might want to upgrade to get the latest features and bug fixes.
+2018/04/11 22:25:33 Adding required dependency libcord1: Selecting version 7.6.4-1 for installation.
+2018/04/11 22:25:33 Adding required dependency libgc2: Selecting version 7.6.2-3 for installation.
+2018/04/11 22:25:33 Adding required dependency libgccpp1: Selecting version 7.6.4-1 for installation.
+2018/04/11 22:25:33 Adding required dependency libisl15: Selecting version 0.16.1-1 for installation.
+2018/04/11 22:25:33 Adding required dependency libmpfr6: Selecting version 4.0.1-2 for installation.
+2018/04/11 22:25:46 running: C:\Users\cmadas\OneDrive\toku-download-for-work\stdenv_cygwin\cygwin64\bin\bash.exe --norc --noprofile "/etc/preremove/_autorebase.sh"
+2018/04/11 22:25:46 running: C:\Users\cmadas\OneDrive\toku-download-for-work\stdenv_cygwin\cygwin64\bin\bash.exe --norc --noprofile "/etc/preremove/ca-certificates.sh"
+2018/04/11 22:25:47 running: C:\Users\cmadas\OneDrive\toku-download-for-work\stdenv_cygwin\cygwin64\bin\bash.exe --norc --noprofile "/etc/preremove/man-db.sh"
+2018/04/11 22:25:47 running: C:\Users\cmadas\OneDrive\toku-download-for-work\stdenv_cygwin\cygwin64\bin\bash.exe --norc --noprofile "/etc/preremove/wget.sh"
+2018/04/11 22:25:47 Uninstalling _autorebase
+2018/04/11 22:25:47 Uninstalling binutils
+2018/04/11 22:25:47 Uninstalling bzip2
+2018/04/11 22:25:48 Uninstalling ca-certificates
+2018/04/11 22:25:48 Uninstalling curl
+2018/04/11 22:25:48 Uninstalling cygwin
+2018/04/11 22:25:48 Uninstalling cygwin-devel
+2018/04/11 22:25:48 Uninstalling file
+2018/04/11 22:25:48 Uninstalling gawk
+2018/04/11 22:25:48 Uninstalling gcc-core
+2018/04/11 22:25:49 Uninstalling gcc-g++
+2018/04/11 22:25:50 Uninstalling info
+2018/04/11 22:25:50 Uninstalling less
+2018/04/11 22:25:50 Uninstalling libatomic1
+2018/04/11 22:25:50 Uninstalling libbz2_1
+2018/04/11 22:25:50 Uninstalling libcrypt0
+2018/04/11 22:25:50 Uninstalling libcurl4
+2018/04/11 22:25:50 Uninstalling libdb5.3
+2018/04/11 22:25:50 Uninstalling libexpat1
+2018/04/11 22:25:50 Uninstalling libfreetype-devel
+2018/04/11 22:25:51 Uninstalling libfreetype6
+2018/04/11 22:25:51 Uninstalling libgc1
+2018/04/11 22:25:51 Uninstalling libgcc1
+2018/04/11 22:25:51 Uninstalling libglib2.0_0
+2018/04/11 22:25:51 Uninstalling libgmp10
+2018/04/11 22:25:51 Uninstalling libgnutls30
+2018/04/11 22:25:51 Uninstalling libgomp1
+2018/04/11 22:25:51 Uninstalling libgssapi_krb5_2
+2018/04/11 22:25:51 Uninstalling libguile17
+2018/04/11 22:25:51 Uninstalling libguile2.0_22
+2018/04/11 22:25:53 Uninstalling libhogweed4
+2018/04/11 22:25:53 Uninstalling libidn11
+2018/04/11 22:25:53 Uninstalling libidn2_0
+2018/04/11 22:25:53 Uninstalling libk5crypto3
+2018/04/11 22:25:53 Uninstalling libkrb5_3
+2018/04/11 22:25:53 Uninstalling libkrb5support0
+2018/04/11 22:25:53 Uninstalling libltdl7
+2018/04/11 22:25:53 Uninstalling liblzma5
+2018/04/11 22:25:53 Uninstalling libmpc3
+2018/04/11 22:25:53 Uninstalling libmpfr4
+2018/04/11 22:25:53 Uninstalling libncursesw10
+2018/04/11 22:25:53 Uninstalling libnettle6
+2018/04/11 22:25:53 Uninstalling libnghttp2_14
+2018/04/11 22:25:53 Uninstalling libopenssl100
+2018/04/11 22:25:53 Uninstalling libp11-kit0
+2018/04/11 22:25:53 Uninstalling libpcre1
+2018/04/11 22:25:53 Uninstalling libpng-devel
+2018/04/11 22:25:53 Uninstalling libpng16
+2018/04/11 22:25:53 Uninstalling libpng16-devel
+2018/04/11 22:25:53 Uninstalling libpsl5
+2018/04/11 22:25:53 Uninstalling libquadmath0
+2018/04/11 22:25:53 Uninstalling libsasl2_3
+2018/04/11 22:25:53 Uninstalling libsqlite3_0
+2018/04/11 22:25:53 Uninstalling libssp0
+2018/04/11 22:25:53 Uninstalling libstdc++6
+2018/04/11 22:25:53 Uninstalling libtasn1_6
+2018/04/11 22:25:53 Uninstalling libunistring2
+2018/04/11 22:25:53 Uninstalling man-db
+2018/04/11 22:25:53 Uninstalling mintty
+2018/04/11 22:25:53 Uninstalling ncurses
+2018/04/11 22:25:54 Uninstalling openssh
+2018/04/11 22:25:54 Uninstalling openssl
+2018/04/11 22:25:54 Uninstalling openssl-devel
+2018/04/11 22:25:57 Uninstalling p11-kit
+2018/04/11 22:25:57 Uninstalling p11-kit-trust
+2018/04/11 22:25:57 Uninstalling publicsuffix-list-dafsa
+2018/04/11 22:25:57 Uninstalling python
+2018/04/11 22:25:57 Corrupt package listing for python, can't uninstall old files.
+2018/04/11 22:25:57 Uninstalling python-devel
+2018/04/11 22:25:57 Corrupt package listing for python-devel, can't uninstall old files.
+2018/04/11 22:25:57 Uninstalling python2
+2018/04/11 22:25:59 Uninstalling python2-devel
+2018/04/11 22:26:00 Uninstalling python3
+2018/04/11 22:26:01 Uninstalling rebase
+2018/04/11 22:26:01 Uninstalling terminfo
+2018/04/11 22:26:02 Uninstalling tzcode
+2018/04/11 22:26:02 Uninstalling tzdata
+2018/04/11 22:26:05 Uninstalling vim-minimal
+2018/04/11 22:26:05 Uninstalling w32api-headers
+2018/04/11 22:26:07 Uninstalling w32api-runtime
+2018/04/11 22:26:10 Uninstalling wget
+2018/04/11 22:26:10 Uninstalling xz
+2018/04/11 22:26:10 Uninstalling zlib0
+2018/04/11 22:26:10 Extracting from file://C:\Users\cmadas\OneDrive\toku-download-for-work\stdenv_cygwin\tmp_cache/http%3a%2f%2fftp.jaist.ac.jp%2fpub%2fcygwin%2f/noarch/release/_autorebase/_autorebase-001007-1.tar.xz
+2018/04/11 22:26:10 Extracting from file://C:\Users\cmadas\OneDrive\toku-download-for-work\stdenv_cygwin\tmp_cache/http%3a%2f%2fftp.jaist.ac.jp%2fpub%2fcygwin%2f/x86_64/release/binutils/binutils-2.29-1.tar.xz
+2018/04/11 22:26:13 Extracting from file://C:\Users\cmadas\OneDrive\toku-download-for-work\stdenv_cygwin\tmp_cache/http%3a%2f%2fftp.jaist.ac.jp%2fpub%2fcygwin%2f/x86_64/release/bzip2/bzip2-1.0.6-3.tar.xz
+2018/04/11 22:26:14 Extracting from file://C:\Users\cmadas\OneDrive\toku-download-for-work\stdenv_cygwin\tmp_cache/http%3a%2f%2fftp.jaist.ac.jp%2fpub%2fcygwin%2f/noarch/release/ca-certificates/ca-certificates-2.22-1.tar.xz
+2018/04/11 22:26:14 Extracting from file://C:\Users\cmadas\OneDrive\toku-download-for-work\stdenv_cygwin\tmp_cache/http%3a%2f%2fftp.jaist.ac.jp%2fpub%2fcygwin%2f/x86_64/release/curl/curl-7.59.0-1.tar.xz
+2018/04/11 22:26:14 Extracting from file://C:\Users\cmadas\OneDrive\toku-download-for-work\stdenv_cygwin\tmp_cache/http%3a%2f%2fftp.jaist.ac.jp%2fpub%2fcygwin%2f/x86_64/release/cygwin/cygwin-2.10.0-1.tar.xz
+2018/04/11 22:26:15 Extracting from file://C:\Users\cmadas\OneDrive\toku-download-for-work\stdenv_cygwin\tmp_cache/http%3a%2f%2fftp.jaist.ac.jp%2fpub%2fcygwin%2f/x86_64/release/cygwin/cygwin-devel/cygwin-devel-2.10.0-1.tar.xz
+2018/04/11 22:26:17 Extracting from file://C:\Users\cmadas\OneDrive\toku-download-for-work\stdenv_cygwin\tmp_cache/http%3a%2f%2fftp.jaist.ac.jp%2fpub%2fcygwin%2f/x86_64/release/file/file-5.32-1.tar.xz
+2018/04/11 22:26:17 Extracting from file://C:\Users\cmadas\OneDrive\toku-download-for-work\stdenv_cygwin\tmp_cache/http%3a%2f%2fftp.jaist.ac.jp%2fpub%2fcygwin%2f/x86_64/release/gawk/gawk-4.2.1-1.tar.xz
+2018/04/11 22:26:18 Extracting from file://C:\Users\cmadas\OneDrive\toku-download-for-work\stdenv_cygwin\tmp_cache/http%3a%2f%2fftp.jaist.ac.jp%2fpub%2fcygwin%2f/x86_64/release/gcc/gcc-core/gcc-core-6.4.0-5.tar.xz
+2018/04/11 22:26:24 Extracting from file://C:\Users\cmadas\OneDrive\toku-download-for-work\stdenv_cygwin\tmp_cache/http%3a%2f%2fftp.jaist.ac.jp%2fpub%2fcygwin%2f/x86_64/release/gcc/gcc-g++/gcc-g++-6.4.0-5.tar.xz
+2018/04/11 22:26:32 Extracting from file://C:\Users\cmadas\OneDrive\toku-download-for-work\stdenv_cygwin\tmp_cache/http%3a%2f%2fftp.jaist.ac.jp%2fpub%2fcygwin%2f/x86_64/release/texinfo/info/info-6.5-2.tar.xz
+2018/04/11 22:26:33 Extracting from file://C:\Users\cmadas\OneDrive\toku-download-for-work\stdenv_cygwin\tmp_cache/http%3a%2f%2fftp.jaist.ac.jp%2fpub%2fcygwin%2f/x86_64/release/less/less-530-1.tar.xz
+2018/04/11 22:26:33 Extracting from file://C:\Users\cmadas\OneDrive\toku-download-for-work\stdenv_cygwin\tmp_cache/http%3a%2f%2fftp.jaist.ac.jp%2fpub%2fcygwin%2f/x86_64/release/gcc/libatomic1/libatomic1-6.4.0-5.tar.xz
+2018/04/11 22:26:33 Extracting from file://C:\Users\cmadas\OneDrive\toku-download-for-work\stdenv_cygwin\tmp_cache/http%3a%2f%2fftp.jaist.ac.jp%2fpub%2fcygwin%2f/x86_64/release/bzip2/libbz2_1/libbz2_1-1.0.6-3.tar.xz
+2018/04/11 22:26:33 Extracting from file://C:\Users\cmadas\OneDrive\toku-download-for-work\stdenv_cygwin\tmp_cache/http%3a%2f%2fftp.jaist.ac.jp%2fpub%2fcygwin%2f/x86_64/release/libgc/libcord1/libcord1-7.6.4-1.tar.xz
+2018/04/11 22:26:33 Extracting from file://C:\Users\cmadas\OneDrive\toku-download-for-work\stdenv_cygwin\tmp_cache/http%3a%2f%2fftp.jaist.ac.jp%2fpub%2fcygwin%2f/x86_64/release/crypt/libcrypt0/libcrypt0-2.1-1.tar.xz
+2018/04/11 22:26:33 Extracting from file://C:\Users\cmadas\OneDrive\toku-download-for-work\stdenv_cygwin\tmp_cache/http%3a%2f%2fftp.jaist.ac.jp%2fpub%2fcygwin%2f/x86_64/release/curl/libcurl4/libcurl4-7.59.0-1.tar.xz
+2018/04/11 22:26:33 Extracting from file://C:\Users\cmadas\OneDrive\toku-download-for-work\stdenv_cygwin\tmp_cache/http%3a%2f%2fftp.jaist.ac.jp%2fpub%2fcygwin%2f/x86_64/release/db/libdb5.3/libdb5.3-5.3.28-2.tar.xz
+2018/04/11 22:26:33 Extracting from file://C:\Users\cmadas\OneDrive\toku-download-for-work\stdenv_cygwin\tmp_cache/http%3a%2f%2fftp.jaist.ac.jp%2fpub%2fcygwin%2f/x86_64/release/expat/libexpat1/libexpat1-2.2.3-1.tar.xz
+2018/04/11 22:26:33 Extracting from file://C:\Users\cmadas\OneDrive\toku-download-for-work\stdenv_cygwin\tmp_cache/http%3a%2f%2fftp.jaist.ac.jp%2fpub%2fcygwin%2f/x86_64/release/freetype2/libfreetype-devel/libfreetype-devel-2.8.1-1.tar.xz
+2018/04/11 22:26:34 Extracting from file://C:\Users\cmadas\OneDrive\toku-download-for-work\stdenv_cygwin\tmp_cache/http%3a%2f%2fftp.jaist.ac.jp%2fpub%2fcygwin%2f/x86_64/release/freetype2/libfreetype6/libfreetype6-2.8.1-1.tar.xz
+2018/04/11 22:26:34 Extracting from file://C:\Users\cmadas\OneDrive\toku-download-for-work\stdenv_cygwin\tmp_cache/http%3a%2f%2fftp.jaist.ac.jp%2fpub%2fcygwin%2f/x86_64/release/libgc/libgc1/libgc1-7.6.4-1.tar.xz
+2018/04/11 22:26:34 Extracting from file://C:\Users\cmadas\OneDrive\toku-download-for-work\stdenv_cygwin\tmp_cache/http%3a%2f%2fftp.jaist.ac.jp%2fpub%2fcygwin%2f/x86_64/release/libgc/libgc2/libgc2-7.6.2-3.tar.xz
+2018/04/11 22:26:34 Extracting from file://C:\Users\cmadas\OneDrive\toku-download-for-work\stdenv_cygwin\tmp_cache/http%3a%2f%2fftp.jaist.ac.jp%2fpub%2fcygwin%2f/x86_64/release/gcc/libgcc1/libgcc1-6.4.0-5.tar.xz
+2018/04/11 22:26:34 Extracting from file://C:\Users\cmadas\OneDrive\toku-download-for-work\stdenv_cygwin\tmp_cache/http%3a%2f%2fftp.jaist.ac.jp%2fpub%2fcygwin%2f/x86_64/release/libgc/libgccpp1/libgccpp1-7.6.4-1.tar.xz
+2018/04/11 22:26:34 Extracting from file://C:\Users\cmadas\OneDrive\toku-download-for-work\stdenv_cygwin\tmp_cache/http%3a%2f%2fftp.jaist.ac.jp%2fpub%2fcygwin%2f/x86_64/release/glib2.0/libglib2.0_0/libglib2.0_0-2.54.3-1.tar.xz
+2018/04/11 22:26:36 Extracting from file://C:\Users\cmadas\OneDrive\toku-download-for-work\stdenv_cygwin\tmp_cache/http%3a%2f%2fftp.jaist.ac.jp%2fpub%2fcygwin%2f/x86_64/release/gmp/libgmp10/libgmp10-6.1.2-1.tar.xz
+2018/04/11 22:26:36 Extracting from file://C:\Users\cmadas\OneDrive\toku-download-for-work\stdenv_cygwin\tmp_cache/http%3a%2f%2fftp.jaist.ac.jp%2fpub%2fcygwin%2f/x86_64/release/gnutls/libgnutls30/libgnutls30-3.5.18-1.tar.xz
+2018/04/11 22:26:36 Extracting from file://C:\Users\cmadas\OneDrive\toku-download-for-work\stdenv_cygwin\tmp_cache/http%3a%2f%2fftp.jaist.ac.jp%2fpub%2fcygwin%2f/x86_64/release/gcc/libgomp1/libgomp1-6.4.0-5.tar.xz
+2018/04/11 22:26:36 Extracting from file://C:\Users\cmadas\OneDrive\toku-download-for-work\stdenv_cygwin\tmp_cache/http%3a%2f%2fftp.jaist.ac.jp%2fpub%2fcygwin%2f/x86_64/release/krb5/libgssapi_krb5_2/libgssapi_krb5_2-1.15.2-2.tar.xz
+2018/04/11 22:26:37 Extracting from file://C:\Users\cmadas\OneDrive\toku-download-for-work\stdenv_cygwin\tmp_cache/http%3a%2f%2fftp.jaist.ac.jp%2fpub%2fcygwin%2f/x86_64/release/guile1.8/libguile17/libguile17-1.8.8-3.tar.xz
+2018/04/11 22:26:38 Extracting from file://C:\Users\cmadas\OneDrive\toku-download-for-work\stdenv_cygwin\tmp_cache/http%3a%2f%2fftp.jaist.ac.jp%2fpub%2fcygwin%2f/x86_64/release/guile/libguile2.0_22/libguile2.0_22-2.0.14-2.tar.xz
+2018/04/11 22:26:42 Extracting from file://C:\Users\cmadas\OneDrive\toku-download-for-work\stdenv_cygwin\tmp_cache/http%3a%2f%2fftp.jaist.ac.jp%2fpub%2fcygwin%2f/x86_64/release/nettle/libhogweed4/libhogweed4-3.4-1.tar.xz
+2018/04/11 22:26:42 Extracting from file://C:\Users\cmadas\OneDrive\toku-download-for-work\stdenv_cygwin\tmp_cache/http%3a%2f%2fftp.jaist.ac.jp%2fpub%2fcygwin%2f/x86_64/release/libidn/libidn11/libidn11-1.33-1.tar.xz
+2018/04/11 22:26:42 Extracting from file://C:\Users\cmadas\OneDrive\toku-download-for-work\stdenv_cygwin\tmp_cache/http%3a%2f%2fftp.jaist.ac.jp%2fpub%2fcygwin%2f/x86_64/release/libidn2/libidn2_0/libidn2_0-2.0.4-1.tar.xz
+2018/04/11 22:26:42 Extracting from file://C:\Users\cmadas\OneDrive\toku-download-for-work\stdenv_cygwin\tmp_cache/http%3a%2f%2fftp.jaist.ac.jp%2fpub%2fcygwin%2f/x86_64/release/isl/libisl15/libisl15-0.16.1-1.tar.xz
+2018/04/11 22:26:42 Extracting from file://C:\Users\cmadas\OneDrive\toku-download-for-work\stdenv_cygwin\tmp_cache/http%3a%2f%2fftp.jaist.ac.jp%2fpub%2fcygwin%2f/x86_64/release/krb5/libk5crypto3/libk5crypto3-1.15.2-2.tar.xz
+2018/04/11 22:26:42 Extracting from file://C:\Users\cmadas\OneDrive\toku-download-for-work\stdenv_cygwin\tmp_cache/http%3a%2f%2fftp.jaist.ac.jp%2fpub%2fcygwin%2f/x86_64/release/krb5/libkrb5_3/libkrb5_3-1.15.2-2.tar.xz
+2018/04/11 22:26:42 Extracting from file://C:\Users\cmadas\OneDrive\toku-download-for-work\stdenv_cygwin\tmp_cache/http%3a%2f%2fftp.jaist.ac.jp%2fpub%2fcygwin%2f/x86_64/release/krb5/libkrb5support0/libkrb5support0-1.15.2-2.tar.xz
+2018/04/11 22:26:42 Extracting from file://C:\Users\cmadas\OneDrive\toku-download-for-work\stdenv_cygwin\tmp_cache/http%3a%2f%2fftp.jaist.ac.jp%2fpub%2fcygwin%2f/x86_64/release/libtool/libltdl7/libltdl7-2.4.6-5.tar.xz
+2018/04/11 22:26:42 Extracting from file://C:\Users\cmadas\OneDrive\toku-download-for-work\stdenv_cygwin\tmp_cache/http%3a%2f%2fftp.jaist.ac.jp%2fpub%2fcygwin%2f/x86_64/release/xz/liblzma5/liblzma5-5.2.3-1.tar.xz
+2018/04/11 22:26:42 Extracting from file://C:\Users\cmadas\OneDrive\toku-download-for-work\stdenv_cygwin\tmp_cache/http%3a%2f%2fftp.jaist.ac.jp%2fpub%2fcygwin%2f/x86_64/release/mpclib/libmpc3/libmpc3-1.1.0-1.tar.xz
+2018/04/11 22:26:43 Extracting from file://C:\Users\cmadas\OneDrive\toku-download-for-work\stdenv_cygwin\tmp_cache/http%3a%2f%2fftp.jaist.ac.jp%2fpub%2fcygwin%2f/x86_64/release/mpfr/libmpfr4/libmpfr4-3.1.6-1p1.tar.xz
+2018/04/11 22:26:43 Extracting from file://C:\Users\cmadas\OneDrive\toku-download-for-work\stdenv_cygwin\tmp_cache/http%3a%2f%2fftp.jaist.ac.jp%2fpub%2fcygwin%2f/x86_64/release/mpfr/libmpfr6/libmpfr6-4.0.1-2.tar.xz
+2018/04/11 22:26:43 Extracting from file://C:\Users\cmadas\OneDrive\toku-download-for-work\stdenv_cygwin\tmp_cache/http%3a%2f%2fftp.jaist.ac.jp%2fpub%2fcygwin%2f/x86_64/release/ncurses/libncursesw10/libncursesw10-6.0-12.20171125.tar.xz
+2018/04/11 22:26:43 Extracting from file://C:\Users\cmadas\OneDrive\toku-download-for-work\stdenv_cygwin\tmp_cache/http%3a%2f%2fftp.jaist.ac.jp%2fpub%2fcygwin%2f/x86_64/release/nettle/libnettle6/libnettle6-3.4-1.tar.xz
+2018/04/11 22:26:43 Extracting from file://C:\Users\cmadas\OneDrive\toku-download-for-work\stdenv_cygwin\tmp_cache/http%3a%2f%2fftp.jaist.ac.jp%2fpub%2fcygwin%2f/x86_64/release/nghttp2/libnghttp2_14/libnghttp2_14-1.31.0-1.tar.xz
+2018/04/11 22:26:43 Extracting from file://C:\Users\cmadas\OneDrive\toku-download-for-work\stdenv_cygwin\tmp_cache/http%3a%2f%2fftp.jaist.ac.jp%2fpub%2fcygwin%2f/x86_64/release/openssl/libopenssl100/libopenssl100-1.0.2o-1.tar.xz
+2018/04/11 22:26:43 Extracting from file://C:\Users\cmadas\OneDrive\toku-download-for-work\stdenv_cygwin\tmp_cache/http%3a%2f%2fftp.jaist.ac.jp%2fpub%2fcygwin%2f/x86_64/release/p11-kit/libp11-kit0/libp11-kit0-0.23.10-1.tar.xz
+2018/04/11 22:26:43 Extracting from file://C:\Users\cmadas\OneDrive\toku-download-for-work\stdenv_cygwin\tmp_cache/http%3a%2f%2fftp.jaist.ac.jp%2fpub%2fcygwin%2f/x86_64/release/pcre/libpcre1/libpcre1-8.40-3.tar.xz
+2018/04/11 22:26:43 Extracting from file://C:\Users\cmadas\OneDrive\toku-download-for-work\stdenv_cygwin\tmp_cache/http%3a%2f%2fftp.jaist.ac.jp%2fpub%2fcygwin%2f/x86_64/release/libpng/libpng-devel/libpng-devel-1.6.34-1.tar.xz
+2018/04/11 22:26:43 Extracting from file://C:\Users\cmadas\OneDrive\toku-download-for-work\stdenv_cygwin\tmp_cache/http%3a%2f%2fftp.jaist.ac.jp%2fpub%2fcygwin%2f/x86_64/release/libpng/libpng16/libpng16-1.6.34-1.tar.xz
+2018/04/11 22:26:44 Extracting from file://C:\Users\cmadas\OneDrive\toku-download-for-work\stdenv_cygwin\tmp_cache/http%3a%2f%2fftp.jaist.ac.jp%2fpub%2fcygwin%2f/x86_64/release/libpng/libpng16-devel/libpng16-devel-1.6.34-1.tar.xz
+2018/04/11 22:26:44 Extracting from file://C:\Users\cmadas\OneDrive\toku-download-for-work\stdenv_cygwin\tmp_cache/http%3a%2f%2fftp.jaist.ac.jp%2fpub%2fcygwin%2f/x86_64/release/libpsl/libpsl5/libpsl5-0.18.0-1.tar.xz
+2018/04/11 22:26:44 Extracting from file://C:\Users\cmadas\OneDrive\toku-download-for-work\stdenv_cygwin\tmp_cache/http%3a%2f%2fftp.jaist.ac.jp%2fpub%2fcygwin%2f/x86_64/release/gcc/libquadmath0/libquadmath0-6.4.0-5.tar.xz
+2018/04/11 22:26:44 Extracting from file://C:\Users\cmadas\OneDrive\toku-download-for-work\stdenv_cygwin\tmp_cache/http%3a%2f%2fftp.jaist.ac.jp%2fpub%2fcygwin%2f/x86_64/release/cyrus-sasl/libsasl2_3/libsasl2_3-2.1.26-11.tar.xz
+2018/04/11 22:26:44 Extracting from file://C:\Users\cmadas\OneDrive\toku-download-for-work\stdenv_cygwin\tmp_cache/http%3a%2f%2fftp.jaist.ac.jp%2fpub%2fcygwin%2f/x86_64/release/sqlite3/libsqlite3_0/libsqlite3_0-3.21.0-1.tar.xz
+2018/04/11 22:26:44 Extracting from file://C:\Users\cmadas\OneDrive\toku-download-for-work\stdenv_cygwin\tmp_cache/http%3a%2f%2fftp.jaist.ac.jp%2fpub%2fcygwin%2f/x86_64/release/gcc/libssp0/libssp0-6.4.0-4.tar.xz
+2018/04/11 22:26:44 Extracting from file://C:\Users\cmadas\OneDrive\toku-download-for-work\stdenv_cygwin\tmp_cache/http%3a%2f%2fftp.jaist.ac.jp%2fpub%2fcygwin%2f/x86_64/release/gcc/libstdc++6/libstdc++6-6.4.0-5.tar.xz
+2018/04/11 22:26:44 Extracting from file://C:\Users\cmadas\OneDrive\toku-download-for-work\stdenv_cygwin\tmp_cache/http%3a%2f%2fftp.jaist.ac.jp%2fpub%2fcygwin%2f/x86_64/release/libtasn1/libtasn1_6/libtasn1_6-4.13-1.tar.xz
+2018/04/11 22:26:44 Extracting from file://C:\Users\cmadas\OneDrive\toku-download-for-work\stdenv_cygwin\tmp_cache/http%3a%2f%2fftp.jaist.ac.jp%2fpub%2fcygwin%2f/x86_64/release/libunistring/libunistring2/libunistring2-0.9.8-1.tar.xz
+2018/04/11 22:26:44 Extracting from file://C:\Users\cmadas\OneDrive\toku-download-for-work\stdenv_cygwin\tmp_cache/http%3a%2f%2fftp.jaist.ac.jp%2fpub%2fcygwin%2f/x86_64/release/man-db/man-db-2.7.6.1-1.tar.xz
+2018/04/11 22:26:46 Extracting from file://C:\Users\cmadas\OneDrive\toku-download-for-work\stdenv_cygwin\tmp_cache/http%3a%2f%2fftp.jaist.ac.jp%2fpub%2fcygwin%2f/x86_64/release/mintty/mintty-2.8.4-0.tar.xz
+2018/04/11 22:26:47 Extracting from file://C:\Users\cmadas\OneDrive\toku-download-for-work\stdenv_cygwin\tmp_cache/http%3a%2f%2fftp.jaist.ac.jp%2fpub%2fcygwin%2f/x86_64/release/ncurses/ncurses-6.0-12.20171125.tar.xz
+2018/04/11 22:26:47 Extracting from file://C:\Users\cmadas\OneDrive\toku-download-for-work\stdenv_cygwin\tmp_cache/http%3a%2f%2fftp.jaist.ac.jp%2fpub%2fcygwin%2f/x86_64/release/openssh/openssh-7.7p1-1.tar.xz
+2018/04/11 22:26:47 Extracting from file://C:\Users\cmadas\OneDrive\toku-download-for-work\stdenv_cygwin\tmp_cache/http%3a%2f%2fftp.jaist.ac.jp%2fpub%2fcygwin%2f/x86_64/release/openssl/openssl-1.0.2o-1.tar.xz
+2018/04/11 22:26:48 Extracting from file://C:\Users\cmadas\OneDrive\toku-download-for-work\stdenv_cygwin\tmp_cache/http%3a%2f%2fftp.jaist.ac.jp%2fpub%2fcygwin%2f/x86_64/release/openssl/openssl-devel/openssl-devel-1.0.2o-1.tar.xz
+2018/04/11 22:27:00 Extracting from file://C:\Users\cmadas\OneDrive\toku-download-for-work\stdenv_cygwin\tmp_cache/http%3a%2f%2fftp.jaist.ac.jp%2fpub%2fcygwin%2f/x86_64/release/p11-kit/p11-kit-0.23.10-1.tar.xz
+2018/04/11 22:27:00 Extracting from file://C:\Users\cmadas\OneDrive\toku-download-for-work\stdenv_cygwin\tmp_cache/http%3a%2f%2fftp.jaist.ac.jp%2fpub%2fcygwin%2f/x86_64/release/p11-kit/p11-kit-trust/p11-kit-trust-0.23.10-1.tar.xz
+2018/04/11 22:27:00 Extracting from file://C:\Users\cmadas\OneDrive\toku-download-for-work\stdenv_cygwin\tmp_cache/http%3a%2f%2fftp.jaist.ac.jp%2fpub%2fcygwin%2f/noarch/release/publicsuffix-list/publicsuffix-list-dafsa/publicsuffix-list-dafsa-20180328-1.tar.xz
+2018/04/11 22:27:00 Extracting from file://C:\Users\cmadas\OneDrive\toku-download-for-work\stdenv_cygwin\tmp_cache/http%3a%2f%2fftp.jaist.ac.jp%2fpub%2fcygwin%2f/x86_64/release/python2/python2-2.7.14-1.tar.xz
+2018/04/11 22:27:13 Extracting from file://C:\Users\cmadas\OneDrive\toku-download-for-work\stdenv_cygwin\tmp_cache/http%3a%2f%2fftp.jaist.ac.jp%2fpub%2fcygwin%2f/x86_64/release/python2/python2-devel/python2-devel-2.7.14-1.tar.xz
+2018/04/11 22:27:13 Extracting from file://C:\Users\cmadas\OneDrive\toku-download-for-work\stdenv_cygwin\tmp_cache/http%3a%2f%2fftp.jaist.ac.jp%2fpub%2fcygwin%2f/x86_64/release/python3/python3-3.6.4-1.tar.xz
+2018/04/11 22:27:32 Extracting from file://C:\Users\cmadas\OneDrive\toku-download-for-work\stdenv_cygwin\tmp_cache/http%3a%2f%2fftp.jaist.ac.jp%2fpub%2fcygwin%2f/x86_64/release/rebase/rebase-4.4.4-1.tar.xz
+2018/04/11 22:27:32 Extracting from file://C:\Users\cmadas\OneDrive\toku-download-for-work\stdenv_cygwin\tmp_cache/http%3a%2f%2fftp.jaist.ac.jp%2fpub%2fcygwin%2f/x86_64/release/ncurses/terminfo/terminfo-6.0-12.20171125.tar.xz
+2018/04/11 22:27:33 Extracting from file://C:\Users\cmadas\OneDrive\toku-download-for-work\stdenv_cygwin\tmp_cache/http%3a%2f%2fftp.jaist.ac.jp%2fpub%2fcygwin%2f/x86_64/release/tzcode/tzcode-2018c-1.tar.xz
+2018/04/11 22:27:33 Extracting from file://C:\Users\cmadas\OneDrive\toku-download-for-work\stdenv_cygwin\tmp_cache/http%3a%2f%2fftp.jaist.ac.jp%2fpub%2fcygwin%2f/noarch/release/tzdata/tzdata-2018c-1.tar.xz
+2018/04/11 22:27:44 Extracting from file://C:\Users\cmadas\OneDrive\toku-download-for-work\stdenv_cygwin\tmp_cache/http%3a%2f%2fftp.jaist.ac.jp%2fpub%2fcygwin%2f/x86_64/release/vim/vim-minimal/vim-minimal-8.0.1567-1.tar.xz
+2018/04/11 22:27:45 Extracting from file://C:\Users\cmadas\OneDrive\toku-download-for-work\stdenv_cygwin\tmp_cache/http%3a%2f%2fftp.jaist.ac.jp%2fpub%2fcygwin%2f/x86_64/release/w32api-headers/w32api-headers-5.0.3-1.tar.xz
+2018/04/11 22:27:55 Extracting from file://C:\Users\cmadas\OneDrive\toku-download-for-work\stdenv_cygwin\tmp_cache/http%3a%2f%2fftp.jaist.ac.jp%2fpub%2fcygwin%2f/x86_64/release/w32api-runtime/w32api-runtime-5.0.3-1.tar.xz
+2018/04/11 22:28:05 Extracting from file://C:\Users\cmadas\OneDrive\toku-download-for-work\stdenv_cygwin\tmp_cache/http%3a%2f%2fftp.jaist.ac.jp%2fpub%2fcygwin%2f/x86_64/release/wget/wget-1.19.1-2.tar.xz
+2018/04/11 22:28:05 Extracting from file://C:\Users\cmadas\OneDrive\toku-download-for-work\stdenv_cygwin\tmp_cache/http%3a%2f%2fftp.jaist.ac.jp%2fpub%2fcygwin%2f/x86_64/release/xz/xz-5.2.3-1.tar.xz
+2018/04/11 22:28:06 Extracting from file://C:\Users\cmadas\OneDrive\toku-download-for-work\stdenv_cygwin\tmp_cache/http%3a%2f%2fftp.jaist.ac.jp%2fpub%2fcygwin%2f/x86_64/release/zlib/zlib0/zlib0-1.2.11-1.tar.xz
+2018/04/11 22:28:06 Changing gid back to original
+2018/04/11 22:28:06 running: C:\Users\cmadas\OneDrive\toku-download-for-work\stdenv_cygwin\cygwin64\bin\dash.exe "/etc/postinstall/0p_000_autorebase.dash"
+2018/04/11 22:28:43 running: C:\Users\cmadas\OneDrive\toku-download-for-work\stdenv_cygwin\cygwin64\bin\dash.exe "/etc/postinstall/0p_update-info-dir.dash"
+2018/04/11 22:28:47 running: C:\Users\cmadas\OneDrive\toku-download-for-work\stdenv_cygwin\cygwin64\bin\bash.exe --norc --noprofile "/etc/postinstall/ca-certificates.sh"
+2018/04/11 22:28:49 running: C:\Users\cmadas\OneDrive\toku-download-for-work\stdenv_cygwin\cygwin64\bin\bash.exe --norc --noprofile "/etc/postinstall/libsasl2_3.sh"
+2018/04/11 22:28:50 running: C:\Users\cmadas\OneDrive\toku-download-for-work\stdenv_cygwin\cygwin64\bin\bash.exe --norc --noprofile "/etc/postinstall/man-db.sh"
+2018/04/11 22:28:50 running: C:\Users\cmadas\OneDrive\toku-download-for-work\stdenv_cygwin\cygwin64\bin\bash.exe --norc --noprofile "/etc/postinstall/mintty.sh"
+2018/04/11 22:28:50 running: C:\Users\cmadas\OneDrive\toku-download-for-work\stdenv_cygwin\cygwin64\bin\bash.exe --norc --noprofile "/etc/postinstall/openssh.sh"
+2018/04/11 22:28:50 running: C:\Users\cmadas\OneDrive\toku-download-for-work\stdenv_cygwin\cygwin64\bin\bash.exe --norc --noprofile "/etc/postinstall/wget.sh"
+2018/04/11 22:28:50 running: C:\Users\cmadas\OneDrive\toku-download-for-work\stdenv_cygwin\cygwin64\bin\bash.exe --norc --noprofile "/etc/postinstall/zp_glib2.0.sh"
+2018/04/11 22:28:50 running: C:\Users\cmadas\OneDrive\toku-download-for-work\stdenv_cygwin\cygwin64\bin\bash.exe --norc --noprofile "/etc/postinstall/zp_man-db.sh"
+2018/04/11 22:28:51 Changing gid to Administrators
+2018/04/11 22:28:57 note: Installation Complete
+2018/04/11 22:28:57 Ending cygwin install
