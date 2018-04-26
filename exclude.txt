@@ -1,0 +1,5 @@
+cygwin64/tmp
+cygwin64/home
+cygwin32/tmp
+cygwin64/home
+
