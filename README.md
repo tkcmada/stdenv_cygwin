@@ -48,12 +48,20 @@ apt-cyg install mysql
 apt-cyg install perl
 ```
 
-- pip3
 ```
-wget https://bootstrap.pypa.io/get-pip.py
+cd /usr/bin
+rm python python2
+cp -p python2.7.exe python
+cp -p python2.7.exe python2
+rm python3 python3.6
+cp -p python3.6m.exe python3
+cp -p python3.6m.exe python3.6
+```
+
+- pip3(for python3)
+```
 python3 get-pip.py
 pip3 --version
-rm get-pip.py
 
 #if you see "address space needed" error , run rebaseall -v on ash.exe
 pip3 install boto3
@@ -71,6 +79,23 @@ pip3 install ansible
 #pip3 install numpy
 #pip3 install chainer
 #pip3 install jupyter
+```
+
+- pip(for python)
+```
+python --version
+#should be python 2.x
+python get-pip.py
+
+pip --version
+#pip 10.0.1 from /usr/lib/python2.7/site-packages/pip (python 2.7)
+
+pip3 --version
+#pip 10.0.1 from /usr/lib/python3.6/site-packages/pip (python 3.6)
+
+#pip and pip3 are diferrent python version.
+
+pip install boto
 ```
 
 - jq(downloaded)

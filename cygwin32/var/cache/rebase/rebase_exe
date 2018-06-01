@@ -555,3 +555,15 @@
 /usr/bin/funzip.exe
 /usr/bin/unzip.exe
 /usr/bin/unzipsfx.exe
+/usr/lib/python2.7/site-packages/setuptools/cli-32.exe
+/usr/lib/python2.7/site-packages/setuptools/cli-64.exe
+/usr/lib/python2.7/site-packages/setuptools/cli.exe
+/usr/lib/python2.7/site-packages/setuptools/gui-32.exe
+/usr/lib/python2.7/site-packages/setuptools/gui-64.exe
+/usr/lib/python2.7/site-packages/setuptools/gui.exe
+/usr/bin/python2.7.exe
+/usr/lib/python2.7/distutils/command/wininst-6.0.exe
+/usr/lib/python2.7/distutils/command/wininst-7.1.exe
+/usr/lib/python2.7/distutils/command/wininst-8.0.exe
+/usr/lib/python2.7/distutils/command/wininst-9.0-amd64.exe
+/usr/lib/python2.7/distutils/command/wininst-9.0.exe

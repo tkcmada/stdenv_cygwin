@@ -73,7 +73,6 @@ mirrors-lst
 	http://ftp.yz.yamagata-u.ac.jp/pub/cygwin/;ftp.yz.yamagata-u.ac.jp;Asia;Japan
 	ftp://ftp.iij.ad.jp/pub/cygwin/;ftp.iij.ad.jp;Asia;Japan
 	http://ftp.iij.ad.jp/pub/cygwin/;ftp.iij.ad.jp;Asia;Japan
-	ftp://ftp.heikorichter.name/cygwin/;ftp.heikorichter.name;Europe;Germany
 	ftp://ftp.snt.utwente.nl/pub/software/cygwin/;ftp.snt.utwente.nl;Europe;Netherlands
 	http://ftp.snt.utwente.nl/pub/software/cygwin/;ftp.snt.utwente.nl;Europe;Netherlands
 	ftp://cygwin.uib.no/pub/cygwin/;cygwin.uib.no;Europe;Norway
@@ -93,6 +92,7 @@ mirrors-lst
 	http://ftp.cse.yzu.edu.tw/pub/cygwin/;ftp.cse.yzu.edu.tw;Asia;Taiwan
 	ftp://ftp.yzu.edu.tw/cygwin/;ftp.yzu.edu.tw;Asia;Taiwan
 	http://ftp.yzu.edu.tw/cygwin/;ftp.yzu.edu.tw;Asia;Taiwan
+	http://mirror.vinahost.vn/cygwin/;mirror.vinahost.vn;Asia;Vietnam
 	ftp://ftp.is.co.za/mirrors/cygwin/;ftp.is.co.za;Africa;South Africa
 last-mirror
 	http://ftp.iij.ad.jp/pub/cygwin/

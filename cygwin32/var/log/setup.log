@@ -474,3 +474,53 @@ You might want to upgrade to get the latest features and bug fixes.
 2018/06/01 01:41:53 running: C:\Users\Administrator\Documents\work\stdenv_cygwin\cygwin32\bin\bash.exe --norc --noprofile "/etc/postinstall/zp_shared-mime-info.sh"
 2018/06/01 01:41:57 Changing gid to Administrators
 2018/06/01 01:41:57 Ending cygwin install
+2018/06/01 05:19:23 Starting cygwin install, version 2.883
+2018/06/01 05:19:23 User has backup/restore rights
+2018/06/01 05:19:23 Current Directory: C:\Users\Administrator\Documents\work\stdenv_cygwin
+2018/06/01 05:19:23 Could not open service McShield for query, start and stop. McAfee may not be installed, or we don't have access.
+2018/06/01 05:19:23 root: C:\Users\Administrator\Documents\work\stdenv_cygwin\cygwin32 system
+2018/06/01 05:19:23 Selected local directory: C:\Users\Administrator\Documents\work\stdenv_cygwin
+2018/06/01 05:19:23 net: IE5
+2018/06/01 05:19:24 site: http://ftp.iij.ad.jp/pub/cygwin/
+2018/06/01 05:19:25 mbox Warning: The current ini file is from a newer version of setup-x86.exe. If you have any trouble installing, please download a fresh version from http://www.cygwin.com/setup-x86.exe
+2018/06/01 05:19:25 unattended_mode is set at mbox: returning default value
+2018/06/01 05:19:26 mbox note: This setup is version 2.883, but setup.ini claims version 2.891 is available.
+You might want to upgrade to get the latest features and bug fixes.
+2018/06/01 05:19:26 unattended_mode is set at mbox: returning default value
+2018/06/01 05:19:28 Adding required dependency python2: Selecting version 2.7.14-1 for installation.
+2018/06/01 05:19:28 Adding required dependency python2-appdirs: Selecting version 1.4.3-1 for installation.
+2018/06/01 05:19:28 Adding required dependency python2-devel: Selecting version 2.7.14-1 for installation.
+2018/06/01 05:19:28 Adding required dependency python2-packaging: Selecting version 16.8-1 for installation.
+2018/06/01 05:19:28 Adding required dependency python2-pyparsing: Selecting version 2.1.10-1 for installation.
+2018/06/01 05:19:28 Adding required dependency python2-setuptools: Selecting version 34.3.2-1 for installation.
+2018/06/01 05:19:28 Adding required dependency python2-six: Selecting version 1.10.0-1 for installation.
+2018/06/01 05:19:28 Downloaded C:\Users\Administrator\Documents\work\stdenv_cygwin/http%3a%2f%2fftp.iij.ad.jp%2fpub%2fcygwin%2f/x86/release/python2/python/python-2.7.14-1.tar.xz
+2018/06/01 05:19:28 Downloaded C:\Users\Administrator\Documents\work\stdenv_cygwin/http%3a%2f%2fftp.iij.ad.jp%2fpub%2fcygwin%2f/x86/release/python-crypto/python-crypto-2.6-3.tar.bz2
+2018/06/01 05:19:29 Downloaded C:\Users\Administrator\Documents\work\stdenv_cygwin/http%3a%2f%2fftp.iij.ad.jp%2fpub%2fcygwin%2f/x86/release/python2/python-devel/python-devel-2.7.14-1.tar.xz
+2018/06/01 05:19:29 Downloaded C:\Users\Administrator\Documents\work\stdenv_cygwin/http%3a%2f%2fftp.iij.ad.jp%2fpub%2fcygwin%2f/x86/release/python-paramiko/python-paramiko-1.15.2+20150204+gitbdc60c3-2.tar.xz
+2018/06/01 05:19:29 Downloaded C:\Users\Administrator\Documents\work\stdenv_cygwin/http%3a%2f%2fftp.iij.ad.jp%2fpub%2fcygwin%2f/noarch/release/python-setuptools/python-setuptools-34.3.2-1.tar.xz
+2018/06/01 05:19:29 Downloaded C:\Users\Administrator\Documents\work\stdenv_cygwin/http%3a%2f%2fftp.iij.ad.jp%2fpub%2fcygwin%2f/x86/release/python2/python2-2.7.14-1.tar.xz
+2018/06/01 05:19:29 Downloaded C:\Users\Administrator\Documents\work\stdenv_cygwin/http%3a%2f%2fftp.iij.ad.jp%2fpub%2fcygwin%2f/noarch/release/python-appdirs/python2-appdirs/python2-appdirs-1.4.3-1.tar.xz
+2018/06/01 05:19:29 Downloaded C:\Users\Administrator\Documents\work\stdenv_cygwin/http%3a%2f%2fftp.iij.ad.jp%2fpub%2fcygwin%2f/x86/release/python2/python2-devel/python2-devel-2.7.14-1.tar.xz
+2018/06/01 05:19:29 Downloaded C:\Users\Administrator\Documents\work\stdenv_cygwin/http%3a%2f%2fftp.iij.ad.jp%2fpub%2fcygwin%2f/noarch/release/python-packaging/python2-packaging/python2-packaging-16.8-1.tar.xz
+2018/06/01 05:19:29 Downloaded C:\Users\Administrator\Documents\work\stdenv_cygwin/http%3a%2f%2fftp.iij.ad.jp%2fpub%2fcygwin%2f/noarch/release/python-pyparsing/python2-pyparsing/python2-pyparsing-2.1.10-1.tar.xz
+2018/06/01 05:19:29 Downloaded C:\Users\Administrator\Documents\work\stdenv_cygwin/http%3a%2f%2fftp.iij.ad.jp%2fpub%2fcygwin%2f/noarch/release/python-setuptools/python2-setuptools/python2-setuptools-34.3.2-1.tar.xz
+2018/06/01 05:19:29 Downloaded C:\Users\Administrator\Documents\work\stdenv_cygwin/http%3a%2f%2fftp.iij.ad.jp%2fpub%2fcygwin%2f/noarch/release/python-six/python2-six/python2-six-1.10.0-1.tar.xz
+2018/06/01 05:19:35 Extracting from file://C:\Users\Administrator\Documents\work\stdenv_cygwin/http%3a%2f%2fftp.iij.ad.jp%2fpub%2fcygwin%2f/x86/release/python-crypto/python-crypto-2.6-3.tar.bz2
+2018/06/01 05:19:35 Extracting from file://C:\Users\Administrator\Documents\work\stdenv_cygwin/http%3a%2f%2fftp.iij.ad.jp%2fpub%2fcygwin%2f/x86/release/python-paramiko/python-paramiko-1.15.2+20150204+gitbdc60c3-2.tar.xz
+2018/06/01 05:19:37 Extracting from file://C:\Users\Administrator\Documents\work\stdenv_cygwin/http%3a%2f%2fftp.iij.ad.jp%2fpub%2fcygwin%2f/x86/release/python2/python2-2.7.14-1.tar.xz
+2018/06/01 05:19:44 Extracting from file://C:\Users\Administrator\Documents\work\stdenv_cygwin/http%3a%2f%2fftp.iij.ad.jp%2fpub%2fcygwin%2f/noarch/release/python-appdirs/python2-appdirs/python2-appdirs-1.4.3-1.tar.xz
+2018/06/01 05:19:44 Extracting from file://C:\Users\Administrator\Documents\work\stdenv_cygwin/http%3a%2f%2fftp.iij.ad.jp%2fpub%2fcygwin%2f/x86/release/python2/python2-devel/python2-devel-2.7.14-1.tar.xz
+2018/06/01 05:19:44 Extracting from file://C:\Users\Administrator\Documents\work\stdenv_cygwin/http%3a%2f%2fftp.iij.ad.jp%2fpub%2fcygwin%2f/noarch/release/python-packaging/python2-packaging/python2-packaging-16.8-1.tar.xz
+2018/06/01 05:19:45 Extracting from file://C:\Users\Administrator\Documents\work\stdenv_cygwin/http%3a%2f%2fftp.iij.ad.jp%2fpub%2fcygwin%2f/noarch/release/python-pyparsing/python2-pyparsing/python2-pyparsing-2.1.10-1.tar.xz
+2018/06/01 05:19:45 Extracting from file://C:\Users\Administrator\Documents\work\stdenv_cygwin/http%3a%2f%2fftp.iij.ad.jp%2fpub%2fcygwin%2f/noarch/release/python-setuptools/python2-setuptools/python2-setuptools-34.3.2-1.tar.xz
+2018/06/01 05:19:45 Extracting from file://C:\Users\Administrator\Documents\work\stdenv_cygwin/http%3a%2f%2fftp.iij.ad.jp%2fpub%2fcygwin%2f/noarch/release/python-six/python2-six/python2-six-1.10.0-1.tar.xz
+2018/06/01 05:19:45 Changing gid back to original
+2018/06/01 05:19:45 running: C:\Users\Administrator\Documents\work\stdenv_cygwin\cygwin32\bin\dash.exe "/etc/postinstall/0p_000_autorebase.dash"
+2018/06/01 05:19:58 running: C:\Users\Administrator\Documents\work\stdenv_cygwin\cygwin32\bin\dash.exe "/etc/postinstall/0p_update-info-dir.dash"
+2018/06/01 05:19:58 running: C:\Users\Administrator\Documents\work\stdenv_cygwin\cygwin32\bin\bash.exe --norc --noprofile "/etc/postinstall/zp_desktop-file-utils.sh"
+2018/06/01 05:19:58 running: C:\Users\Administrator\Documents\work\stdenv_cygwin\cygwin32\bin\bash.exe --norc --noprofile "/etc/postinstall/zp_glib2.0.sh"
+2018/06/01 05:19:59 running: C:\Users\Administrator\Documents\work\stdenv_cygwin\cygwin32\bin\bash.exe --norc --noprofile "/etc/postinstall/zp_man-db.sh"
+2018/06/01 05:19:59 running: C:\Users\Administrator\Documents\work\stdenv_cygwin\cygwin32\bin\bash.exe --norc --noprofile "/etc/postinstall/zp_shared-mime-info.sh"
+2018/06/01 05:19:59 Changing gid to Administrators
+2018/06/01 05:19:59 Ending cygwin install
