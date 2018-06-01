@@ -1,14 +1,12 @@
 last-cache
-	C:\Users\cmadas\OneDrive\toku-download-for-work\stdenv_cygwin\tmp_cache
+	C:\Users\Administrator\Documents\work\stdenv_cygwin
 mirrors-lst
 	http://cygwin.mirror.constant.com/;cygwin.mirror.constant.com;United States;New Jersey
 	http://cygwin.mirrors.hoobly.com/;cygwin.mirrors.hoobly.com;United States;Pennsylvania
 	http://mirrors.koehn.com/cygwin/cygwin-ftp/;mirrors.koehn.com;United States;Missouri
 	http://mirrors.metapeer.com/cygwin/;mirrors.metapeer.com;United States;Washington
-	http://cygwin.parentingamerica.com/;cygwin.parentingamerica.com;Canada;Quebec
 	http://www.pirbot.com/mirrors/cygwin/;www.pirbot.com;Europe;Switzerland
 	https://www.singleboersen.com/mirror/cygwin/;www.singleboersen.com;Europe;Germany
-	http://cygwin.skazkaforyou.com/;cygwin.skazkaforyou.com;Canada;Quebec
 	ftp://mirrors.xmission.com/cygwin/;mirrors.xmission.com;United States;Utah
 	http://mirrors.xmission.com/cygwin/;mirrors.xmission.com;United States;Utah
 	http://mirror.clarkson.edu/cygwin/;mirror.clarkson.edu;United States;New York
@@ -19,8 +17,6 @@ mirrors-lst
 	http://mirrors.netix.net/cygwin/;mirrors.netix.net;Europe;Bulgaria
 	ftp://mirror.internode.on.net/pub/cygwin/;mirror.internode.on.net;Australasia;Australia
 	http://mirror.internode.on.net/pub/cygwin/;mirror.internode.on.net;Australasia;Australia
-	http://piotrkosoft.net/pub/mirrors/cygwin/;piotrkosoft.net;Europe;Poland
-	ftp://ftp.piotrkosoft.net/pub/mirrors/cygwin/;ftp.piotrkosoft.net;Europe;Poland
 	http://cygwin.mirror.uk.sargasso.net/;cygwin.mirror.uk.sargasso.net;Europe;UK
 	ftp://mirrors.sonic.net/cygwin/;mirrors.sonic.net;United States;California
 	http://mirrors.sonic.net/cygwin/;mirrors.sonic.net;United States;California
@@ -28,6 +24,7 @@ mirrors-lst
 	ftp://mirrors.syringanetworks.net/cygwin/;mirrors.syringanetworks.net;United States;Idaho
 	http://mirrors.syringanetworks.net/cygwin/;mirrors.syringanetworks.net;United States;Idaho
 	http://sourceware.mirrors.tds.net/pub/sourceware.org/cygwin/;sourceware.mirrors.tds.net;United States;Wisconsin
+	ftp://ftp.twaren.net/Unix/sourceware.org/cygwin/;ftp.twaren.net;Asia;Taiwan
 	http://cygwin.cathedral-networks.org/;cygwin.cathedral-networks.org;Europe;Norway
 	ftp://mirrors.dotsrc.org/mirrors/cygwin/;mirrors.dotsrc.org;Europe;Denmark
 	http://mirrors.dotsrc.org/cygwin/;mirrors.dotsrc.org;Europe;Denmark
@@ -40,6 +37,7 @@ mirrors-lst
 	http://mirror.team-cymru.org/cygwin/;mirror.team-cymru.org;United States;Illinois
 	ftp://mirror.easyname.at/cygwin/;mirror.easyname.at;Europe;Austria
 	http://mirror.easyname.at/cygwin/;mirror.easyname.at;Europe;Austria
+	ftp://linorg.usp.br/cygwin/;linorg.usp.br;Latin America;Brazil
 	http://linorg.usp.br/cygwin/;linorg.usp.br;Latin America;Brazil
 	ftp://mirror.datacenter.by/pub/mirrors/cygwin/;mirror.datacenter.by;Europe;Belarus
 	http://mirror.datacenter.by/pub/mirrors/cygwin/;mirror.datacenter.by;Europe;Belarus
@@ -63,14 +61,11 @@ mirrors-lst
 	http://cygwin.mbwarez.dk/;cygwin.mbwarez.dk;Europe;Denmark
 	ftp://ftp.funet.fi/pub/mirrors/cygwin.com/pub/cygwin/;ftp.funet.fi;Europe;Finland
 	ftp://ftp.ntua.gr/pub/pc/cygwin/;ftp.ntua.gr;Europe;Greece
-	http://mirrors.uniri.hr/cygwin/;mirrors.uniri.hr;Europe;Croatia
 	ftp://ftp.fsn.hu/pub/cygwin/;ftp.fsn.hu;Europe;Hungary
 	http://ftp.fsn.hu/pub/cygwin/;ftp.fsn.hu;Europe;Hungary
-	ftp://ftp.heanet.ie/pub/cygwin/;ftp.heanet.ie;Europe;Ireland
-	http://ftp.heanet.ie/pub/cygwin/;ftp.heanet.ie;Europe;Ireland
 	http://mirror.isoc.org.il/pub/cygwin/;mirror.isoc.org.il;Asia;Israel
-	http://ftp.iitm.ac.in/cygwin/;ftp.iitm.ac.in;Asia;India
 	http://mirror.pkill.info/cygwin/;mirror.pkill.info;Asia;Hong Kong
+	http://cygwin.asis.io/;cygwin.asis.io;Asia;Iran
 	http://bo.mirror.garr.it/mirrors/sourceware.org/cygwin/;bo.mirror.garr.it;Europe;Italy
 	ftp://ftp.jaist.ac.jp/pub/cygwin/;ftp.jaist.ac.jp;Asia;Japan
 	http://ftp.jaist.ac.jp/pub/cygwin/;ftp.jaist.ac.jp;Asia;Japan
@@ -78,15 +73,12 @@ mirrors-lst
 	http://ftp.yz.yamagata-u.ac.jp/pub/cygwin/;ftp.yz.yamagata-u.ac.jp;Asia;Japan
 	ftp://ftp.iij.ad.jp/pub/cygwin/;ftp.iij.ad.jp;Asia;Japan
 	http://ftp.iij.ad.jp/pub/cygwin/;ftp.iij.ad.jp;Asia;Japan
-	ftp://ftp.kaist.ac.kr/pub/cygwin/;ftp.kaist.ac.kr;Asia;Korea
 	ftp://ftp.heikorichter.name/cygwin/;ftp.heikorichter.name;Europe;Germany
-	http://ftp.heikorichter.name/cygwin/;ftp.heikorichter.name;Europe;Germany
-	ftp://mirror.lagoon.nc/pub/cygwin/;mirror.lagoon.nc;Australasia;New Caledonia
-	http://mirror.lagoon.nc/pub/cygwin/;mirror.lagoon.nc;Australasia;New Caledonia
 	ftp://ftp.snt.utwente.nl/pub/software/cygwin/;ftp.snt.utwente.nl;Europe;Netherlands
 	http://ftp.snt.utwente.nl/pub/software/cygwin/;ftp.snt.utwente.nl;Europe;Netherlands
 	ftp://cygwin.uib.no/pub/cygwin/;cygwin.uib.no;Europe;Norway
 	http://cygwin.uib.no/;cygwin.uib.no;Europe;Norway
+	http://cygwin.viem-it.no/;cygwin.viem-it.no;Europe;Norway
 	ftp://ucmirror.canterbury.ac.nz/pub/cygwin/;ucmirror.canterbury.ac.nz;Australasia;New Zealand
 	http://ucmirror.canterbury.ac.nz/cygwin/;ucmirror.canterbury.ac.nz;Australasia;New Zealand
 	ftp://mirror.rise.ph/cygwin/cygwin/;mirror.rise.ph;Asia;Philippines
@@ -101,10 +93,9 @@ mirrors-lst
 	http://ftp.cse.yzu.edu.tw/pub/cygwin/;ftp.cse.yzu.edu.tw;Asia;Taiwan
 	ftp://ftp.yzu.edu.tw/cygwin/;ftp.yzu.edu.tw;Asia;Taiwan
 	http://ftp.yzu.edu.tw/cygwin/;ftp.yzu.edu.tw;Asia;Taiwan
-	http://mirror.vinahost.vn/cygwin/;mirror.vinahost.vn;Asia;Vietnam
 	ftp://ftp.is.co.za/mirrors/cygwin/;ftp.is.co.za;Africa;South Africa
 last-mirror
-	http://ftp.jaist.ac.jp/pub/cygwin/
+	http://ftp.iij.ad.jp/pub/cygwin/
 net-method
 	IE
 last-action

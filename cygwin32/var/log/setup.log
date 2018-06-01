@@ -1,225 +1,476 @@
-2017/12/22 13:08:03 Starting cygwin install, version 2.883
-2017/12/22 13:08:03 User has backup/restore rights
-2017/12/22 13:08:03 io_stream_cygfile: fopen(/etc/setup/setup.rc) failed 2 No such file or directory
-2017/12/22 13:08:03 Current Directory: C:\Users\cmadas\OneDrive\toku-download-for-work\stdenv_cygwin\tmp_cache
-2017/12/22 13:08:03 Could not open service McShield for query, start and stop. McAfee may not be installed, or we don't have access.
-2017/12/22 13:08:06 source: network install
-2017/12/22 13:08:07 root: C:\Users\cmadas\OneDrive\toku-download-for-work\stdenv_cygwin\cygwin32 system
-2017/12/22 13:08:07 Selected local directory: C:\Users\cmadas\OneDrive\toku-download-for-work\stdenv_cygwin\tmp_cache
-2017/12/22 13:08:08 net: IE5
-2017/12/22 13:08:22 site: http://ftp.jaist.ac.jp/pub/cygwin/
-2017/12/22 13:08:23 io_stream_cygfile: fopen(/etc/setup/installed.db) failed 2 No such file or directory
-2017/12/22 13:08:24 io_stream_cygfile: fopen(/etc/setup/timestamp) failed 2 No such file or directory
-2017/12/22 13:08:34 Adding required dependency binutils: Selecting version 2.29-1 for installation.
-2017/12/22 13:08:34 Adding required dependency bzip2: Selecting version 1.0.6-3 for installation.
-2017/12/22 13:08:34 Adding required dependency ca-certificates: Selecting version 2.16-1 for installation.
-2017/12/22 13:08:34 Adding required dependency csih: Selecting version 0.9.9-1 for installation.
-2017/12/22 13:08:34 Adding required dependency cygrunsrv: Selecting version 1.62-1 for installation.
-2017/12/22 13:08:34 Adding required dependency desktop-file-utils: Selecting version 0.23-1 for installation.
-2017/12/22 13:08:34 Adding required dependency gamin: Selecting version 0.1.10-15 for installation.
-2017/12/22 13:08:34 Adding required dependency groff: Selecting version 1.22.3-1 for installation.
-2017/12/22 13:08:34 Adding required dependency gsettings-desktop-schemas: Selecting version 3.24.1-1 for installation.
-2017/12/22 13:08:34 Adding required dependency less: Selecting version 487-1 for installation.
-2017/12/22 13:08:34 Adding required dependency libargp: Selecting version 20110921-3 for installation.
-2017/12/22 13:08:34 Adding required dependency libattr1: Selecting version 2.4.46-1 for installation.
-2017/12/22 13:08:34 Adding required dependency libblkid1: Selecting version 2.25.2-2 for installation.
-2017/12/22 13:08:34 Adding required dependency libbz2_1: Selecting version 1.0.6-3 for installation.
-2017/12/22 13:08:34 Adding required dependency libcom_err2: Selecting version 1.42.12-2 for installation.
-2017/12/22 13:08:34 Adding required dependency libcrypt0: Selecting version 2.1-1 for installation.
-2017/12/22 13:08:34 Adding required dependency libcurl4: Selecting version 7.56.1-1 for installation.
-2017/12/22 13:08:34 Adding required dependency libdb4.8: Selecting version 4.8.30-1 for installation.
-2017/12/22 13:08:34 Adding required dependency libedit0: Selecting version 20130712-1 for installation.
-2017/12/22 13:08:34 Adding required dependency libexpat1: Selecting version 2.2.3-1 for installation.
-2017/12/22 13:08:34 Adding required dependency libfam0: Selecting version 0.1.10-15 for installation.
-2017/12/22 13:08:34 Adding required dependency libffi6: Selecting version 3.2.1-1 for installation.
-2017/12/22 13:08:34 Adding required dependency libgcc1: Selecting version 6.4.0-4 for installation.
-2017/12/22 13:08:34 Adding required dependency libgdbm4: Selecting version 1.12-1 for installation.
-2017/12/22 13:08:34 Adding required dependency libglib2.0_0: Selecting version 2.52.3-1 for installation.
-2017/12/22 13:08:34 Adding required dependency libgmp10: Selecting version 6.1.2-1 for installation.
-2017/12/22 13:08:34 Adding required dependency libgnutls28: Selecting version 3.3.27-1 for installation.
-2017/12/22 13:08:34 Adding required dependency libgnutls30: Selecting version 3.5.13-1 for installation.
-2017/12/22 13:08:34 Adding required dependency libgssapi_krb5_2: Selecting version 1.15.2-1 for installation.
-2017/12/22 13:08:34 Adding required dependency libhogweed2: Selecting version 2.7.1-1 for installation.
-2017/12/22 13:08:34 Adding required dependency libhogweed4: Selecting version 3.3-1 for installation.
-2017/12/22 13:08:34 Adding required dependency libiconv: Selecting version 1.14-3 for installation.
-2017/12/22 13:08:34 Adding required dependency libiconv2: Selecting version 1.14-3 for installation.
-2017/12/22 13:08:34 Adding required dependency libidn2_0: Selecting version 2.0.4-1 for installation.
-2017/12/22 13:08:34 Adding required dependency libintl-devel: Selecting version 0.19.8.1-2 for installation.
-2017/12/22 13:08:34 Adding required dependency libintl8: Selecting version 0.19.8.1-2 for installation.
-2017/12/22 13:08:34 Adding required dependency libk5crypto3: Selecting version 1.15.2-1 for installation.
-2017/12/22 13:08:34 Adding required dependency libkrb5support0: Selecting version 1.15.2-1 for installation.
-2017/12/22 13:08:34 Adding required dependency libkrb5_3: Selecting version 1.15.2-1 for installation.
-2017/12/22 13:08:34 Adding required dependency liblzma5: Selecting version 5.2.3-1 for installation.
-2017/12/22 13:08:34 Adding required dependency libmetalink3: Selecting version 0.1.2-1 for installation.
-2017/12/22 13:08:34 Adding required dependency libmpfr4: Selecting version 3.1.6-1p1 for installation.
-2017/12/22 13:08:34 Adding required dependency libncursesw10: Selecting version 6.0-12.20171125 for installation.
-2017/12/22 13:08:34 Adding required dependency libnettle4: Selecting version 2.7.1-1 for installation.
-2017/12/22 13:08:34 Adding required dependency libnettle6: Selecting version 3.3-1 for installation.
-2017/12/22 13:08:34 Adding required dependency libnghttp2_14: Selecting version 1.23.1-1 for installation.
-2017/12/22 13:08:34 Adding required dependency libopenldap2_4_2: Selecting version 2.4.42-1 for installation.
-2017/12/22 13:08:34 Adding required dependency libp11-kit0: Selecting version 0.23.5-1 for installation.
-2017/12/22 13:08:34 Adding required dependency libpcre1: Selecting version 8.40-3 for installation.
-2017/12/22 13:08:34 Adding required dependency libpipeline1: Selecting version 1.4.0-1 for installation.
-2017/12/22 13:08:34 Adding required dependency libpopt-common: Selecting version 1.16-2 for installation.
-2017/12/22 13:08:34 Adding required dependency libpopt0: Selecting version 1.16-2 for installation.
-2017/12/22 13:08:34 Adding required dependency libpsl5: Selecting version 0.18.0-1 for installation.
-2017/12/22 13:08:34 Adding required dependency libsasl2_3: Selecting version 2.1.26-11 for installation.
-2017/12/22 13:08:34 Adding required dependency libsigsegv2: Selecting version 2.10-2 for installation.
-2017/12/22 13:08:34 Adding required dependency libsmartcols1: Selecting version 2.25.2-2 for installation.
-2017/12/22 13:08:34 Adding required dependency libsqlite3_0: Selecting version 3.21.0-1 for installation.
-2017/12/22 13:08:34 Adding required dependency libssh2_1: Selecting version 1.7.0-1 for installation.
-2017/12/22 13:08:34 Adding required dependency libssp0: Selecting version 6.4.0-4 for installation.
-2017/12/22 13:08:34 Adding required dependency libstdc++6: Selecting version 6.4.0-4 for installation.
-2017/12/22 13:08:34 Adding required dependency libtasn1_6: Selecting version 4.12-1 for installation.
-2017/12/22 13:08:34 Adding required dependency libunistring2: Selecting version 0.9.6-1 for installation.
-2017/12/22 13:08:34 Adding required dependency libuuid-devel: Selecting version 2.25.2-2 for installation.
-2017/12/22 13:08:34 Adding required dependency libuuid1: Selecting version 2.25.2-2 for installation.
-2017/12/22 13:08:34 Adding required dependency libxml2: Selecting version 2.9.4-2 for installation.
-2017/12/22 13:08:34 Adding required dependency p11-kit: Selecting version 0.23.5-1 for installation.
-2017/12/22 13:08:34 Adding required dependency p11-kit-trust: Selecting version 0.23.5-1 for installation.
-2017/12/22 13:08:34 Adding required dependency pkg-config: Selecting version 0.29.1-1 for installation.
-2017/12/22 13:08:34 Adding required dependency publicsuffix-list-dafsa: Selecting version 20171028-1 for installation.
-2017/12/22 13:08:34 Adding required dependency shared-mime-info: Selecting version 1.8-1 for installation.
-2017/12/22 13:08:34 Adding required dependency tzcode: Selecting version 2017c-1 for installation.
-2017/12/22 13:08:34 Adding required dependency xz: Selecting version 5.2.3-1 for installation.
-2017/12/22 13:08:34 Adding required dependency zlib-devel: Selecting version 1.2.11-1 for installation.
-2017/12/22 13:08:34 Adding required dependency zlib0: Selecting version 1.2.11-1 for installation.
-2017/12/22 13:08:45 Extracting from file://C:\Users\cmadas\OneDrive\toku-download-for-work\stdenv_cygwin\tmp_cache/http%3a%2f%2fftp.jaist.ac.jp%2fpub%2fcygwin%2f/noarch/release/_autorebase/_autorebase-001007-1.tar.xz
-2017/12/22 13:08:45 Extracting from file://C:\Users\cmadas\OneDrive\toku-download-for-work\stdenv_cygwin\tmp_cache/http%3a%2f%2fftp.jaist.ac.jp%2fpub%2fcygwin%2f/x86/release/alternatives/alternatives-1.3.30c-10.tar.bz2
-2017/12/22 13:08:46 Extracting from file://C:\Users\cmadas\OneDrive\toku-download-for-work\stdenv_cygwin\tmp_cache/http%3a%2f%2fftp.jaist.ac.jp%2fpub%2fcygwin%2f/noarch/release/base-cygwin/base-cygwin-3.8-1.tar.xz
-2017/12/22 13:08:46 Extracting from file://C:\Users\cmadas\OneDrive\toku-download-for-work\stdenv_cygwin\tmp_cache/http%3a%2f%2fftp.jaist.ac.jp%2fpub%2fcygwin%2f/noarch/release/base-files/base-files-4.2-4.tar.xz
-2017/12/22 13:08:46 Extracting from file://C:\Users\cmadas\OneDrive\toku-download-for-work\stdenv_cygwin\tmp_cache/http%3a%2f%2fftp.jaist.ac.jp%2fpub%2fcygwin%2f/x86/release/bash/bash-4.4.12-3.tar.xz
-2017/12/22 13:08:47 Extracting from file://C:\Users\cmadas\OneDrive\toku-download-for-work\stdenv_cygwin\tmp_cache/http%3a%2f%2fftp.jaist.ac.jp%2fpub%2fcygwin%2f/x86/release/binutils/binutils-2.29-1.tar.xz
-2017/12/22 13:08:49 Extracting from file://C:\Users\cmadas\OneDrive\toku-download-for-work\stdenv_cygwin\tmp_cache/http%3a%2f%2fftp.jaist.ac.jp%2fpub%2fcygwin%2f/x86/release/bzip2/bzip2-1.0.6-3.tar.xz
-2017/12/22 13:08:49 Extracting from file://C:\Users\cmadas\OneDrive\toku-download-for-work\stdenv_cygwin\tmp_cache/http%3a%2f%2fftp.jaist.ac.jp%2fpub%2fcygwin%2f/noarch/release/ca-certificates/ca-certificates-2.16-1.tar.xz
-2017/12/22 13:08:49 Extracting from file://C:\Users\cmadas\OneDrive\toku-download-for-work\stdenv_cygwin\tmp_cache/http%3a%2f%2fftp.jaist.ac.jp%2fpub%2fcygwin%2f/x86/release/coreutils/coreutils-8.26-2.tar.xz
-2017/12/22 13:08:52 Extracting from file://C:\Users\cmadas\OneDrive\toku-download-for-work\stdenv_cygwin\tmp_cache/http%3a%2f%2fftp.jaist.ac.jp%2fpub%2fcygwin%2f/x86/release/csih/csih-0.9.9-1.tar.xz
-2017/12/22 13:08:52 Extracting from file://C:\Users\cmadas\OneDrive\toku-download-for-work\stdenv_cygwin\tmp_cache/http%3a%2f%2fftp.jaist.ac.jp%2fpub%2fcygwin%2f/x86/release/curl/curl-7.56.1-1.tar.xz
-2017/12/22 13:08:52 Extracting from file://C:\Users\cmadas\OneDrive\toku-download-for-work\stdenv_cygwin\tmp_cache/http%3a%2f%2fftp.jaist.ac.jp%2fpub%2fcygwin%2f/x86/release/cygrunsrv/cygrunsrv-1.62-1.tar.xz
-2017/12/22 13:08:52 Extracting from file://C:\Users\cmadas\OneDrive\toku-download-for-work\stdenv_cygwin\tmp_cache/http%3a%2f%2fftp.jaist.ac.jp%2fpub%2fcygwin%2f/x86/release/cygutils/cygutils-1.4.16-2.tar.xz
-2017/12/22 13:08:52 Extracting from file://C:\Users\cmadas\OneDrive\toku-download-for-work\stdenv_cygwin\tmp_cache/http%3a%2f%2fftp.jaist.ac.jp%2fpub%2fcygwin%2f/x86/release/cygwin/cygwin-2.9.0-3.tar.xz
-2017/12/22 13:08:52 Extracting from file://C:\Users\cmadas\OneDrive\toku-download-for-work\stdenv_cygwin\tmp_cache/http%3a%2f%2fftp.jaist.ac.jp%2fpub%2fcygwin%2f/x86/release/dash/dash-0.5.9.1-1.tar.xz
-2017/12/22 13:08:52 Extracting from file://C:\Users\cmadas\OneDrive\toku-download-for-work\stdenv_cygwin\tmp_cache/http%3a%2f%2fftp.jaist.ac.jp%2fpub%2fcygwin%2f/x86/release/desktop-file-utils/desktop-file-utils-0.23-1.tar.xz
-2017/12/22 13:08:53 Extracting from file://C:\Users\cmadas\OneDrive\toku-download-for-work\stdenv_cygwin\tmp_cache/http%3a%2f%2fftp.jaist.ac.jp%2fpub%2fcygwin%2f/x86/release/diffutils/diffutils-3.5-2.tar.xz
-2017/12/22 13:08:53 Extracting from file://C:\Users\cmadas\OneDrive\toku-download-for-work\stdenv_cygwin\tmp_cache/http%3a%2f%2fftp.jaist.ac.jp%2fpub%2fcygwin%2f/x86/release/editrights/editrights-1.03-1.tar.xz
-2017/12/22 13:08:53 Extracting from file://C:\Users\cmadas\OneDrive\toku-download-for-work\stdenv_cygwin\tmp_cache/http%3a%2f%2fftp.jaist.ac.jp%2fpub%2fcygwin%2f/x86/release/file/file-5.30-1.tar.xz
-2017/12/22 13:08:53 Extracting from file://C:\Users\cmadas\OneDrive\toku-download-for-work\stdenv_cygwin\tmp_cache/http%3a%2f%2fftp.jaist.ac.jp%2fpub%2fcygwin%2f/x86/release/findutils/findutils-4.6.0-1.tar.xz
-2017/12/22 13:08:54 Extracting from file://C:\Users\cmadas\OneDrive\toku-download-for-work\stdenv_cygwin\tmp_cache/http%3a%2f%2fftp.jaist.ac.jp%2fpub%2fcygwin%2f/x86/release/gamin/gamin-0.1.10-15.tar.xz
-2017/12/22 13:08:54 Extracting from file://C:\Users\cmadas\OneDrive\toku-download-for-work\stdenv_cygwin\tmp_cache/http%3a%2f%2fftp.jaist.ac.jp%2fpub%2fcygwin%2f/x86/release/gawk/gawk-4.2.0-1.tar.xz
-2017/12/22 13:08:54 Extracting from file://C:\Users\cmadas\OneDrive\toku-download-for-work\stdenv_cygwin\tmp_cache/http%3a%2f%2fftp.jaist.ac.jp%2fpub%2fcygwin%2f/x86/release/getent/getent-2.18.90-4.tar.xz
-2017/12/22 13:08:54 Extracting from file://C:\Users\cmadas\OneDrive\toku-download-for-work\stdenv_cygwin\tmp_cache/http%3a%2f%2fftp.jaist.ac.jp%2fpub%2fcygwin%2f/x86/release/grep/grep-3.0-2.tar.xz
-2017/12/22 13:08:55 Extracting from file://C:\Users\cmadas\OneDrive\toku-download-for-work\stdenv_cygwin\tmp_cache/http%3a%2f%2fftp.jaist.ac.jp%2fpub%2fcygwin%2f/x86/release/groff/groff-1.22.3-1.tar.xz
-2017/12/22 13:08:58 Extracting from file://C:\Users\cmadas\OneDrive\toku-download-for-work\stdenv_cygwin\tmp_cache/http%3a%2f%2fftp.jaist.ac.jp%2fpub%2fcygwin%2f/noarch/release/gsettings-desktop-schemas/gsettings-desktop-schemas-3.24.1-1.tar.xz
-2017/12/22 13:08:59 Extracting from file://C:\Users\cmadas\OneDrive\toku-download-for-work\stdenv_cygwin\tmp_cache/http%3a%2f%2fftp.jaist.ac.jp%2fpub%2fcygwin%2f/x86/release/gzip/gzip-1.8-1.tar.xz
-2017/12/22 13:08:59 Extracting from file://C:\Users\cmadas\OneDrive\toku-download-for-work\stdenv_cygwin\tmp_cache/http%3a%2f%2fftp.jaist.ac.jp%2fpub%2fcygwin%2f/x86/release/hostname/hostname-3.13-1.tar.bz2
-2017/12/22 13:08:59 Extracting from file://C:\Users\cmadas\OneDrive\toku-download-for-work\stdenv_cygwin\tmp_cache/http%3a%2f%2fftp.jaist.ac.jp%2fpub%2fcygwin%2f/x86/release/texinfo/info/info-6.5-2.tar.xz
-2017/12/22 13:08:59 Extracting from file://C:\Users\cmadas\OneDrive\toku-download-for-work\stdenv_cygwin\tmp_cache/http%3a%2f%2fftp.jaist.ac.jp%2fpub%2fcygwin%2f/x86/release/ipc-utils/ipc-utils-1.0-1.tar.bz2
-2017/12/22 13:08:59 Extracting from file://C:\Users\cmadas\OneDrive\toku-download-for-work\stdenv_cygwin\tmp_cache/http%3a%2f%2fftp.jaist.ac.jp%2fpub%2fcygwin%2f/x86/release/less/less-487-1.tar.xz
-2017/12/22 13:08:59 Extracting from file://C:\Users\cmadas\OneDrive\toku-download-for-work\stdenv_cygwin\tmp_cache/http%3a%2f%2fftp.jaist.ac.jp%2fpub%2fcygwin%2f/x86/release/libargp/libargp-20110921-3.tar.xz
-2017/12/22 13:08:59 Extracting from file://C:\Users\cmadas\OneDrive\toku-download-for-work\stdenv_cygwin\tmp_cache/http%3a%2f%2fftp.jaist.ac.jp%2fpub%2fcygwin%2f/x86/release/attr/libattr1/libattr1-2.4.46-1.tar.bz2
-2017/12/22 13:08:59 Extracting from file://C:\Users\cmadas\OneDrive\toku-download-for-work\stdenv_cygwin\tmp_cache/http%3a%2f%2fftp.jaist.ac.jp%2fpub%2fcygwin%2f/x86/release/util-linux/libblkid1/libblkid1-2.25.2-2.tar.xz
-2017/12/22 13:09:00 Extracting from file://C:\Users\cmadas\OneDrive\toku-download-for-work\stdenv_cygwin\tmp_cache/http%3a%2f%2fftp.jaist.ac.jp%2fpub%2fcygwin%2f/x86/release/bzip2/libbz2_1/libbz2_1-1.0.6-3.tar.xz
-2017/12/22 13:09:00 Extracting from file://C:\Users\cmadas\OneDrive\toku-download-for-work\stdenv_cygwin\tmp_cache/http%3a%2f%2fftp.jaist.ac.jp%2fpub%2fcygwin%2f/x86/release/e2fsprogs/libcom_err2/libcom_err2-1.42.12-2.tar.xz
-2017/12/22 13:09:00 Extracting from file://C:\Users\cmadas\OneDrive\toku-download-for-work\stdenv_cygwin\tmp_cache/http%3a%2f%2fftp.jaist.ac.jp%2fpub%2fcygwin%2f/x86/release/crypt/libcrypt0/libcrypt0-2.1-1.tar.xz
-2017/12/22 13:09:00 Extracting from file://C:\Users\cmadas\OneDrive\toku-download-for-work\stdenv_cygwin\tmp_cache/http%3a%2f%2fftp.jaist.ac.jp%2fpub%2fcygwin%2f/x86/release/curl/libcurl4/libcurl4-7.56.1-1.tar.xz
-2017/12/22 13:09:00 Extracting from file://C:\Users\cmadas\OneDrive\toku-download-for-work\stdenv_cygwin\tmp_cache/http%3a%2f%2fftp.jaist.ac.jp%2fpub%2fcygwin%2f/x86/release/db4.8/libdb4.8/libdb4.8-4.8.30-1.tar.bz2
-2017/12/22 13:09:00 Extracting from file://C:\Users\cmadas\OneDrive\toku-download-for-work\stdenv_cygwin\tmp_cache/http%3a%2f%2fftp.jaist.ac.jp%2fpub%2fcygwin%2f/x86/release/libedit/libedit0/libedit0-20130712-1.tar.xz
-2017/12/22 13:09:00 Extracting from file://C:\Users\cmadas\OneDrive\toku-download-for-work\stdenv_cygwin\tmp_cache/http%3a%2f%2fftp.jaist.ac.jp%2fpub%2fcygwin%2f/x86/release/expat/libexpat1/libexpat1-2.2.3-1.tar.xz
-2017/12/22 13:09:00 Extracting from file://C:\Users\cmadas\OneDrive\toku-download-for-work\stdenv_cygwin\tmp_cache/http%3a%2f%2fftp.jaist.ac.jp%2fpub%2fcygwin%2f/x86/release/gamin/libfam0/libfam0-0.1.10-15.tar.xz
-2017/12/22 13:09:00 Extracting from file://C:\Users\cmadas\OneDrive\toku-download-for-work\stdenv_cygwin\tmp_cache/http%3a%2f%2fftp.jaist.ac.jp%2fpub%2fcygwin%2f/x86/release/libffi/libffi6/libffi6-3.2.1-1.tar.xz
-2017/12/22 13:09:00 Extracting from file://C:\Users\cmadas\OneDrive\toku-download-for-work\stdenv_cygwin\tmp_cache/http%3a%2f%2fftp.jaist.ac.jp%2fpub%2fcygwin%2f/x86/release/gcc/libgcc1/libgcc1-6.4.0-4.tar.xz
-2017/12/22 13:09:00 Extracting from file://C:\Users\cmadas\OneDrive\toku-download-for-work\stdenv_cygwin\tmp_cache/http%3a%2f%2fftp.jaist.ac.jp%2fpub%2fcygwin%2f/x86/release/gdbm/libgdbm4/libgdbm4-1.12-1.tar.xz
-2017/12/22 13:09:00 Extracting from file://C:\Users\cmadas\OneDrive\toku-download-for-work\stdenv_cygwin\tmp_cache/http%3a%2f%2fftp.jaist.ac.jp%2fpub%2fcygwin%2f/x86/release/glib2.0/libglib2.0_0/libglib2.0_0-2.52.3-1.tar.xz
-2017/12/22 13:09:02 Extracting from file://C:\Users\cmadas\OneDrive\toku-download-for-work\stdenv_cygwin\tmp_cache/http%3a%2f%2fftp.jaist.ac.jp%2fpub%2fcygwin%2f/x86/release/gmp/libgmp10/libgmp10-6.1.2-1.tar.xz
-2017/12/22 13:09:02 Extracting from file://C:\Users\cmadas\OneDrive\toku-download-for-work\stdenv_cygwin\tmp_cache/http%3a%2f%2fftp.jaist.ac.jp%2fpub%2fcygwin%2f/x86/release/gnutls/libgnutls28/libgnutls28-3.3.27-1.tar.xz
-2017/12/22 13:09:02 Extracting from file://C:\Users\cmadas\OneDrive\toku-download-for-work\stdenv_cygwin\tmp_cache/http%3a%2f%2fftp.jaist.ac.jp%2fpub%2fcygwin%2f/x86/release/gnutls/libgnutls30/libgnutls30-3.5.13-1.tar.xz
-2017/12/22 13:09:02 Extracting from file://C:\Users\cmadas\OneDrive\toku-download-for-work\stdenv_cygwin\tmp_cache/http%3a%2f%2fftp.jaist.ac.jp%2fpub%2fcygwin%2f/x86/release/krb5/libgssapi_krb5_2/libgssapi_krb5_2-1.15.2-1.tar.xz
-2017/12/22 13:09:02 Extracting from file://C:\Users\cmadas\OneDrive\toku-download-for-work\stdenv_cygwin\tmp_cache/http%3a%2f%2fftp.jaist.ac.jp%2fpub%2fcygwin%2f/x86/release/nettle/libhogweed2/libhogweed2-2.7.1-1.tar.xz
-2017/12/22 13:09:02 Extracting from file://C:\Users\cmadas\OneDrive\toku-download-for-work\stdenv_cygwin\tmp_cache/http%3a%2f%2fftp.jaist.ac.jp%2fpub%2fcygwin%2f/x86/release/nettle/libhogweed4/libhogweed4-3.3-1.tar.xz
-2017/12/22 13:09:02 Extracting from file://C:\Users\cmadas\OneDrive\toku-download-for-work\stdenv_cygwin\tmp_cache/http%3a%2f%2fftp.jaist.ac.jp%2fpub%2fcygwin%2f/x86/release/libiconv/libiconv-1.14-3.tar.xz
-2017/12/22 13:09:02 Extracting from file://C:\Users\cmadas\OneDrive\toku-download-for-work\stdenv_cygwin\tmp_cache/http%3a%2f%2fftp.jaist.ac.jp%2fpub%2fcygwin%2f/x86/release/libiconv/libiconv2/libiconv2-1.14-3.tar.xz
-2017/12/22 13:09:02 Extracting from file://C:\Users\cmadas\OneDrive\toku-download-for-work\stdenv_cygwin\tmp_cache/http%3a%2f%2fftp.jaist.ac.jp%2fpub%2fcygwin%2f/x86/release/libidn2/libidn2_0/libidn2_0-2.0.4-1.tar.xz
-2017/12/22 13:09:02 Extracting from file://C:\Users\cmadas\OneDrive\toku-download-for-work\stdenv_cygwin\tmp_cache/http%3a%2f%2fftp.jaist.ac.jp%2fpub%2fcygwin%2f/x86/release/gettext/libintl-devel/libintl-devel-0.19.8.1-2.tar.xz
-2017/12/22 13:09:02 Extracting from file://C:\Users\cmadas\OneDrive\toku-download-for-work\stdenv_cygwin\tmp_cache/http%3a%2f%2fftp.jaist.ac.jp%2fpub%2fcygwin%2f/x86/release/gettext/libintl8/libintl8-0.19.8.1-2.tar.xz
-2017/12/22 13:09:02 Extracting from file://C:\Users\cmadas\OneDrive\toku-download-for-work\stdenv_cygwin\tmp_cache/http%3a%2f%2fftp.jaist.ac.jp%2fpub%2fcygwin%2f/x86/release/krb5/libk5crypto3/libk5crypto3-1.15.2-1.tar.xz
-2017/12/22 13:09:02 Extracting from file://C:\Users\cmadas\OneDrive\toku-download-for-work\stdenv_cygwin\tmp_cache/http%3a%2f%2fftp.jaist.ac.jp%2fpub%2fcygwin%2f/x86/release/krb5/libkrb5_3/libkrb5_3-1.15.2-1.tar.xz
-2017/12/22 13:09:02 Extracting from file://C:\Users\cmadas\OneDrive\toku-download-for-work\stdenv_cygwin\tmp_cache/http%3a%2f%2fftp.jaist.ac.jp%2fpub%2fcygwin%2f/x86/release/krb5/libkrb5support0/libkrb5support0-1.15.2-1.tar.xz
-2017/12/22 13:09:03 Extracting from file://C:\Users\cmadas\OneDrive\toku-download-for-work\stdenv_cygwin\tmp_cache/http%3a%2f%2fftp.jaist.ac.jp%2fpub%2fcygwin%2f/x86/release/xz/liblzma5/liblzma5-5.2.3-1.tar.xz
-2017/12/22 13:09:03 Extracting from file://C:\Users\cmadas\OneDrive\toku-download-for-work\stdenv_cygwin\tmp_cache/http%3a%2f%2fftp.jaist.ac.jp%2fpub%2fcygwin%2f/x86/release/libmetalink/libmetalink3/libmetalink3-0.1.2-1.tar.bz2
-2017/12/22 13:09:03 Extracting from file://C:\Users\cmadas\OneDrive\toku-download-for-work\stdenv_cygwin\tmp_cache/http%3a%2f%2fftp.jaist.ac.jp%2fpub%2fcygwin%2f/x86/release/mpfr/libmpfr4/libmpfr4-3.1.6-1p1.tar.xz
-2017/12/22 13:09:03 Extracting from file://C:\Users\cmadas\OneDrive\toku-download-for-work\stdenv_cygwin\tmp_cache/http%3a%2f%2fftp.jaist.ac.jp%2fpub%2fcygwin%2f/x86/release/ncurses/libncursesw10/libncursesw10-6.0-12.20171125.tar.xz
-2017/12/22 13:09:03 Extracting from file://C:\Users\cmadas\OneDrive\toku-download-for-work\stdenv_cygwin\tmp_cache/http%3a%2f%2fftp.jaist.ac.jp%2fpub%2fcygwin%2f/x86/release/nettle/libnettle4/libnettle4-2.7.1-1.tar.xz
-2017/12/22 13:09:03 Extracting from file://C:\Users\cmadas\OneDrive\toku-download-for-work\stdenv_cygwin\tmp_cache/http%3a%2f%2fftp.jaist.ac.jp%2fpub%2fcygwin%2f/x86/release/nettle/libnettle6/libnettle6-3.3-1.tar.xz
-2017/12/22 13:09:03 Extracting from file://C:\Users\cmadas\OneDrive\toku-download-for-work\stdenv_cygwin\tmp_cache/http%3a%2f%2fftp.jaist.ac.jp%2fpub%2fcygwin%2f/x86/release/nghttp2/libnghttp2_14/libnghttp2_14-1.23.1-1.tar.xz
-2017/12/22 13:09:03 Extracting from file://C:\Users\cmadas\OneDrive\toku-download-for-work\stdenv_cygwin\tmp_cache/http%3a%2f%2fftp.jaist.ac.jp%2fpub%2fcygwin%2f/x86/release/openldap/libopenldap2_4_2/libopenldap2_4_2-2.4.42-1.tar.xz
-2017/12/22 13:09:03 Extracting from file://C:\Users\cmadas\OneDrive\toku-download-for-work\stdenv_cygwin\tmp_cache/http%3a%2f%2fftp.jaist.ac.jp%2fpub%2fcygwin%2f/x86/release/openssl/libopenssl100/libopenssl100-1.0.2m-1.tar.xz
-2017/12/22 13:09:03 Extracting from file://C:\Users\cmadas\OneDrive\toku-download-for-work\stdenv_cygwin\tmp_cache/http%3a%2f%2fftp.jaist.ac.jp%2fpub%2fcygwin%2f/x86/release/p11-kit/libp11-kit0/libp11-kit0-0.23.5-1.tar.xz
-2017/12/22 13:09:03 Extracting from file://C:\Users\cmadas\OneDrive\toku-download-for-work\stdenv_cygwin\tmp_cache/http%3a%2f%2fftp.jaist.ac.jp%2fpub%2fcygwin%2f/x86/release/pcre/libpcre1/libpcre1-8.40-3.tar.xz
-2017/12/22 13:09:03 Extracting from file://C:\Users\cmadas\OneDrive\toku-download-for-work\stdenv_cygwin\tmp_cache/http%3a%2f%2fftp.jaist.ac.jp%2fpub%2fcygwin%2f/x86/release/libpipeline/libpipeline1/libpipeline1-1.4.0-1.tar.xz
-2017/12/22 13:09:03 Extracting from file://C:\Users\cmadas\OneDrive\toku-download-for-work\stdenv_cygwin\tmp_cache/http%3a%2f%2fftp.jaist.ac.jp%2fpub%2fcygwin%2f/x86/release/popt/libpopt-common/libpopt-common-1.16-2.tar.xz
-2017/12/22 13:09:04 Extracting from file://C:\Users\cmadas\OneDrive\toku-download-for-work\stdenv_cygwin\tmp_cache/http%3a%2f%2fftp.jaist.ac.jp%2fpub%2fcygwin%2f/x86/release/popt/libpopt0/libpopt0-1.16-2.tar.xz
-2017/12/22 13:09:04 Extracting from file://C:\Users\cmadas\OneDrive\toku-download-for-work\stdenv_cygwin\tmp_cache/http%3a%2f%2fftp.jaist.ac.jp%2fpub%2fcygwin%2f/x86/release/libpsl/libpsl5/libpsl5-0.18.0-1.tar.xz
-2017/12/22 13:09:04 Extracting from file://C:\Users\cmadas\OneDrive\toku-download-for-work\stdenv_cygwin\tmp_cache/http%3a%2f%2fftp.jaist.ac.jp%2fpub%2fcygwin%2f/x86/release/readline/libreadline7/libreadline7-7.0.3-3.tar.xz
-2017/12/22 13:09:04 Extracting from file://C:\Users\cmadas\OneDrive\toku-download-for-work\stdenv_cygwin\tmp_cache/http%3a%2f%2fftp.jaist.ac.jp%2fpub%2fcygwin%2f/x86/release/cyrus-sasl/libsasl2_3/libsasl2_3-2.1.26-11.tar.xz
-2017/12/22 13:09:04 Extracting from file://C:\Users\cmadas\OneDrive\toku-download-for-work\stdenv_cygwin\tmp_cache/http%3a%2f%2fftp.jaist.ac.jp%2fpub%2fcygwin%2f/x86/release/libsigsegv/libsigsegv2/libsigsegv2-2.10-2.tar.xz
-2017/12/22 13:09:04 Extracting from file://C:\Users\cmadas\OneDrive\toku-download-for-work\stdenv_cygwin\tmp_cache/http%3a%2f%2fftp.jaist.ac.jp%2fpub%2fcygwin%2f/x86/release/util-linux/libsmartcols1/libsmartcols1-2.25.2-2.tar.xz
-2017/12/22 13:09:04 Extracting from file://C:\Users\cmadas\OneDrive\toku-download-for-work\stdenv_cygwin\tmp_cache/http%3a%2f%2fftp.jaist.ac.jp%2fpub%2fcygwin%2f/x86/release/sqlite3/libsqlite3_0/libsqlite3_0-3.21.0-1.tar.xz
-2017/12/22 13:09:04 Extracting from file://C:\Users\cmadas\OneDrive\toku-download-for-work\stdenv_cygwin\tmp_cache/http%3a%2f%2fftp.jaist.ac.jp%2fpub%2fcygwin%2f/x86/release/libssh2/libssh2_1/libssh2_1-1.7.0-1.tar.xz
-2017/12/22 13:09:04 Extracting from file://C:\Users\cmadas\OneDrive\toku-download-for-work\stdenv_cygwin\tmp_cache/http%3a%2f%2fftp.jaist.ac.jp%2fpub%2fcygwin%2f/x86/release/gcc/libssp0/libssp0-6.4.0-4.tar.xz
-2017/12/22 13:09:04 Extracting from file://C:\Users\cmadas\OneDrive\toku-download-for-work\stdenv_cygwin\tmp_cache/http%3a%2f%2fftp.jaist.ac.jp%2fpub%2fcygwin%2f/x86/release/gcc/libstdc++6/libstdc++6-6.4.0-4.tar.xz
-2017/12/22 13:09:04 Extracting from file://C:\Users\cmadas\OneDrive\toku-download-for-work\stdenv_cygwin\tmp_cache/http%3a%2f%2fftp.jaist.ac.jp%2fpub%2fcygwin%2f/x86/release/libtasn1/libtasn1_6/libtasn1_6-4.12-1.tar.xz
-2017/12/22 13:09:04 Extracting from file://C:\Users\cmadas\OneDrive\toku-download-for-work\stdenv_cygwin\tmp_cache/http%3a%2f%2fftp.jaist.ac.jp%2fpub%2fcygwin%2f/x86/release/libunistring/libunistring2/libunistring2-0.9.6-1.tar.xz
-2017/12/22 13:09:04 Extracting from file://C:\Users\cmadas\OneDrive\toku-download-for-work\stdenv_cygwin\tmp_cache/http%3a%2f%2fftp.jaist.ac.jp%2fpub%2fcygwin%2f/x86/release/util-linux/libuuid-devel/libuuid-devel-2.25.2-2.tar.xz
-2017/12/22 13:09:04 Extracting from file://C:\Users\cmadas\OneDrive\toku-download-for-work\stdenv_cygwin\tmp_cache/http%3a%2f%2fftp.jaist.ac.jp%2fpub%2fcygwin%2f/x86/release/util-linux/libuuid1/libuuid1-2.25.2-2.tar.xz
-2017/12/22 13:09:04 Extracting from file://C:\Users\cmadas\OneDrive\toku-download-for-work\stdenv_cygwin\tmp_cache/http%3a%2f%2fftp.jaist.ac.jp%2fpub%2fcygwin%2f/x86/release/libxml2/libxml2-2.9.4-2.tar.xz
-2017/12/22 13:09:04 Extracting from file://C:\Users\cmadas\OneDrive\toku-download-for-work\stdenv_cygwin\tmp_cache/http%3a%2f%2fftp.jaist.ac.jp%2fpub%2fcygwin%2f/x86/release/login/login-1.11-1.tar.xz
-2017/12/22 13:09:04 Extracting from file://C:\Users\cmadas\OneDrive\toku-download-for-work\stdenv_cygwin\tmp_cache/http%3a%2f%2fftp.jaist.ac.jp%2fpub%2fcygwin%2f/x86/release/lynx/lynx-2.8.7-1.tar.bz2
-2017/12/22 13:09:06 Extracting from file://C:\Users\cmadas\OneDrive\toku-download-for-work\stdenv_cygwin\tmp_cache/http%3a%2f%2fftp.jaist.ac.jp%2fpub%2fcygwin%2f/x86/release/man-db/man-db-2.7.5-2.tar.xz
-2017/12/22 13:09:07 Extracting from file://C:\Users\cmadas\OneDrive\toku-download-for-work\stdenv_cygwin\tmp_cache/http%3a%2f%2fftp.jaist.ac.jp%2fpub%2fcygwin%2f/x86/release/mintty/mintty-2.8.2-0.tar.xz
-2017/12/22 13:09:07 Extracting from file://C:\Users\cmadas\OneDrive\toku-download-for-work\stdenv_cygwin\tmp_cache/http%3a%2f%2fftp.jaist.ac.jp%2fpub%2fcygwin%2f/x86/release/ncurses/ncurses-6.0-12.20171125.tar.xz
-2017/12/22 13:09:07 Extracting from file://C:\Users\cmadas\OneDrive\toku-download-for-work\stdenv_cygwin\tmp_cache/http%3a%2f%2fftp.jaist.ac.jp%2fpub%2fcygwin%2f/x86/release/openssh/openssh-7.6p1-1.tar.xz
-2017/12/22 13:09:08 Extracting from file://C:\Users\cmadas\OneDrive\toku-download-for-work\stdenv_cygwin\tmp_cache/http%3a%2f%2fftp.jaist.ac.jp%2fpub%2fcygwin%2f/x86/release/openssl/openssl-1.0.2m-1.tar.xz
-2017/12/22 13:09:09 Extracting from file://C:\Users\cmadas\OneDrive\toku-download-for-work\stdenv_cygwin\tmp_cache/http%3a%2f%2fftp.jaist.ac.jp%2fpub%2fcygwin%2f/x86/release/p11-kit/p11-kit-0.23.5-1.tar.xz
-2017/12/22 13:09:09 Extracting from file://C:\Users\cmadas\OneDrive\toku-download-for-work\stdenv_cygwin\tmp_cache/http%3a%2f%2fftp.jaist.ac.jp%2fpub%2fcygwin%2f/x86/release/p11-kit/p11-kit-trust/p11-kit-trust-0.23.5-1.tar.xz
-2017/12/22 13:09:09 Extracting from file://C:\Users\cmadas\OneDrive\toku-download-for-work\stdenv_cygwin\tmp_cache/http%3a%2f%2fftp.jaist.ac.jp%2fpub%2fcygwin%2f/x86/release/pkg-config/pkg-config-0.29.1-1.tar.xz
-2017/12/22 13:09:09 Extracting from file://C:\Users\cmadas\OneDrive\toku-download-for-work\stdenv_cygwin\tmp_cache/http%3a%2f%2fftp.jaist.ac.jp%2fpub%2fcygwin%2f/noarch/release/publicsuffix-list/publicsuffix-list-dafsa/publicsuffix-list-dafsa-20171028-1.tar.xz
-2017/12/22 13:09:09 Extracting from file://C:\Users\cmadas\OneDrive\toku-download-for-work\stdenv_cygwin\tmp_cache/http%3a%2f%2fftp.jaist.ac.jp%2fpub%2fcygwin%2f/x86/release/python3/python3-3.6.3-1.tar.xz
-2017/12/22 13:09:23 Extracting from file://C:\Users\cmadas\OneDrive\toku-download-for-work\stdenv_cygwin\tmp_cache/http%3a%2f%2fftp.jaist.ac.jp%2fpub%2fcygwin%2f/x86/release/rebase/rebase-4.4.2-1.tar.xz
-2017/12/22 13:09:23 Extracting from file://C:\Users\cmadas\OneDrive\toku-download-for-work\stdenv_cygwin\tmp_cache/http%3a%2f%2fftp.jaist.ac.jp%2fpub%2fcygwin%2f/x86/release/run/run-1.3.4-2.tar.xz
-2017/12/22 13:09:23 Extracting from file://C:\Users\cmadas\OneDrive\toku-download-for-work\stdenv_cygwin\tmp_cache/http%3a%2f%2fftp.jaist.ac.jp%2fpub%2fcygwin%2f/x86/release/sed/sed-4.4-1.tar.xz
-2017/12/22 13:09:23 Extracting from file://C:\Users\cmadas\OneDrive\toku-download-for-work\stdenv_cygwin\tmp_cache/http%3a%2f%2fftp.jaist.ac.jp%2fpub%2fcygwin%2f/x86/release/shared-mime-info/shared-mime-info-1.8-1.tar.xz
-2017/12/22 13:09:23 Extracting from file://C:\Users\cmadas\OneDrive\toku-download-for-work\stdenv_cygwin\tmp_cache/http%3a%2f%2fftp.jaist.ac.jp%2fpub%2fcygwin%2f/x86/release/tar/tar-1.29-1.tar.xz
-2017/12/22 13:09:24 Extracting from file://C:\Users\cmadas\OneDrive\toku-download-for-work\stdenv_cygwin\tmp_cache/http%3a%2f%2fftp.jaist.ac.jp%2fpub%2fcygwin%2f/x86/release/ncurses/terminfo/terminfo-6.0-12.20171125.tar.xz
-2017/12/22 13:09:24 Extracting from file://C:\Users\cmadas\OneDrive\toku-download-for-work\stdenv_cygwin\tmp_cache/http%3a%2f%2fftp.jaist.ac.jp%2fpub%2fcygwin%2f/x86/release/tzcode/tzcode-2017c-1.tar.xz
-2017/12/22 13:09:25 Extracting from file://C:\Users\cmadas\OneDrive\toku-download-for-work\stdenv_cygwin\tmp_cache/http%3a%2f%2fftp.jaist.ac.jp%2fpub%2fcygwin%2f/noarch/release/tzdata/tzdata-2017c-1.tar.xz
-2017/12/22 13:09:33 Extracting from file://C:\Users\cmadas\OneDrive\toku-download-for-work\stdenv_cygwin\tmp_cache/http%3a%2f%2fftp.jaist.ac.jp%2fpub%2fcygwin%2f/x86/release/util-linux/util-linux-2.25.2-2.tar.xz
-2017/12/22 13:09:34 Extracting from file://C:\Users\cmadas\OneDrive\toku-download-for-work\stdenv_cygwin\tmp_cache/http%3a%2f%2fftp.jaist.ac.jp%2fpub%2fcygwin%2f/x86/release/vim/vim-minimal/vim-minimal-8.0.1376-1.tar.xz
-2017/12/22 13:09:34 Extracting from file://C:\Users\cmadas\OneDrive\toku-download-for-work\stdenv_cygwin\tmp_cache/http%3a%2f%2fftp.jaist.ac.jp%2fpub%2fcygwin%2f/x86/release/wget/wget-1.19.1-2.tar.xz
-2017/12/22 13:09:35 Extracting from file://C:\Users\cmadas\OneDrive\toku-download-for-work\stdenv_cygwin\tmp_cache/http%3a%2f%2fftp.jaist.ac.jp%2fpub%2fcygwin%2f/x86/release/which/which-2.20-2.tar.bz2
-2017/12/22 13:09:35 Extracting from file://C:\Users\cmadas\OneDrive\toku-download-for-work\stdenv_cygwin\tmp_cache/http%3a%2f%2fftp.jaist.ac.jp%2fpub%2fcygwin%2f/x86/release/xz/xz-5.2.3-1.tar.xz
-2017/12/22 13:09:35 Extracting from file://C:\Users\cmadas\OneDrive\toku-download-for-work\stdenv_cygwin\tmp_cache/http%3a%2f%2fftp.jaist.ac.jp%2fpub%2fcygwin%2f/x86/release/zip/zip-3.0-12.tar.xz
-2017/12/22 13:09:35 Extracting from file://C:\Users\cmadas\OneDrive\toku-download-for-work\stdenv_cygwin\tmp_cache/http%3a%2f%2fftp.jaist.ac.jp%2fpub%2fcygwin%2f/x86/release/zlib/zlib-devel/zlib-devel-1.2.11-1.tar.xz
-2017/12/22 13:09:36 Extracting from file://C:\Users\cmadas\OneDrive\toku-download-for-work\stdenv_cygwin\tmp_cache/http%3a%2f%2fftp.jaist.ac.jp%2fpub%2fcygwin%2f/x86/release/zlib/zlib0/zlib0-1.2.11-1.tar.xz
-2017/12/22 13:09:36 Changing gid back to original
-2017/12/22 13:09:36 running: C:\Users\cmadas\OneDrive\toku-download-for-work\stdenv_cygwin\cygwin32\bin\dash.exe "/etc/postinstall/0p_000_autorebase.dash"
-2017/12/22 13:09:50 running: C:\Users\cmadas\OneDrive\toku-download-for-work\stdenv_cygwin\cygwin32\bin\dash.exe "/etc/postinstall/0p_update-info-dir.dash"
-2017/12/22 13:09:53 running: C:\Users\cmadas\OneDrive\toku-download-for-work\stdenv_cygwin\cygwin32\bin\bash.exe --norc --noprofile "/etc/postinstall/000-cygwin-post-install.sh"
-2017/12/22 13:09:53 running: C:\Users\cmadas\OneDrive\toku-download-for-work\stdenv_cygwin\cygwin32\bin\bash.exe --norc --noprofile "/etc/postinstall/coreutils.sh"
-2017/12/22 13:09:53 running: C:\Users\cmadas\OneDrive\toku-download-for-work\stdenv_cygwin\cygwin32\bin\bash.exe --norc --noprofile "/etc/postinstall/bash.sh"
-2017/12/22 13:09:53 running: C:\Users\cmadas\OneDrive\toku-download-for-work\stdenv_cygwin\cygwin32\bin\bash.exe --norc --noprofile "/etc/postinstall/base-files-mketc.sh"
-2017/12/22 13:09:54 running: C:\Users\cmadas\OneDrive\toku-download-for-work\stdenv_cygwin\cygwin32\bin\bash.exe --norc --noprofile "/etc/postinstall/base-files-profile.sh"
-2017/12/22 13:09:55 running: C:\Users\cmadas\OneDrive\toku-download-for-work\stdenv_cygwin\cygwin32\bin\bash.exe --norc --noprofile "/etc/postinstall/libxml2.sh"
-2017/12/22 13:09:56 running: C:\Users\cmadas\OneDrive\toku-download-for-work\stdenv_cygwin\cygwin32\bin\bash.exe --norc --noprofile "/etc/postinstall/ca-certificates.sh"
-2017/12/22 13:09:57 running: C:\Users\cmadas\OneDrive\toku-download-for-work\stdenv_cygwin\cygwin32\bin\bash.exe --norc --noprofile "/etc/postinstall/libsasl2_3.sh"
-2017/12/22 13:09:58 running: C:\Users\cmadas\OneDrive\toku-download-for-work\stdenv_cygwin\cygwin32\bin\bash.exe --norc --noprofile "/etc/postinstall/lynx.sh"
-2017/12/22 13:09:58 running: C:\Users\cmadas\OneDrive\toku-download-for-work\stdenv_cygwin\cygwin32\bin\bash.exe --norc --noprofile "/etc/postinstall/man-db.sh"
-2017/12/22 13:09:58 running: C:\Users\cmadas\OneDrive\toku-download-for-work\stdenv_cygwin\cygwin32\bin\bash.exe --norc --noprofile "/etc/postinstall/mintty.sh"
-2017/12/22 13:09:58 running: C:\Users\cmadas\OneDrive\toku-download-for-work\stdenv_cygwin\cygwin32\bin\bash.exe --norc --noprofile "/etc/postinstall/openssh.sh"
-2017/12/22 13:09:58 running: C:\Users\cmadas\OneDrive\toku-download-for-work\stdenv_cygwin\cygwin32\bin\bash.exe --norc --noprofile "/etc/postinstall/wget.sh"
-2017/12/22 13:09:58 running: C:\Users\cmadas\OneDrive\toku-download-for-work\stdenv_cygwin\cygwin32\bin\bash.exe --norc --noprofile "/etc/postinstall/zp_desktop-file-utils.sh"
-2017/12/22 13:09:59 running: C:\Users\cmadas\OneDrive\toku-download-for-work\stdenv_cygwin\cygwin32\bin\bash.exe --norc --noprofile "/etc/postinstall/zp_glib2.0.sh"
-2017/12/22 13:09:59 running: C:\Users\cmadas\OneDrive\toku-download-for-work\stdenv_cygwin\cygwin32\bin\bash.exe --norc --noprofile "/etc/postinstall/zp_man-db.sh"
-2017/12/22 13:09:59 running: C:\Users\cmadas\OneDrive\toku-download-for-work\stdenv_cygwin\cygwin32\bin\bash.exe --norc --noprofile "/etc/postinstall/zp_shared-mime-info.sh"
-2017/12/22 13:10:04 Changing gid to Administrators
-2017/12/22 13:10:06 note: Installation Complete
-2017/12/22 13:10:06 Ending cygwin install
+2018/05/31 23:51:25 Starting cygwin install, version 2.883
+2018/05/31 23:51:25 User has backup/restore rights
+2018/05/31 23:51:25 io_stream_cygfile: fopen(/etc/setup/setup.rc) failed 2 No such file or directory
+2018/05/31 23:51:25 Current Directory: C:\Users\Administrator\Documents\work\stdenv_cygwin
+2018/05/31 23:51:25 Could not open service McShield for query, start and stop. McAfee may not be installed, or we don't have access.
+2018/05/31 23:51:25 root: C:\Users\Administrator\Documents\work\stdenv_cygwin\cygwin32 system
+2018/05/31 23:51:25 Selected local directory: C:\Users\Administrator\Documents\work\stdenv_cygwin
+2018/05/31 23:51:25 net: IE5
+2018/05/31 23:51:26 site: http://ftp.iij.ad.jp/pub/cygwin/
+2018/05/31 23:51:27 mbox Warning: The current ini file is from a newer version of setup-x86.exe. If you have any trouble installing, please download a fresh version from http://www.cygwin.com/setup-x86.exe
+2018/05/31 23:51:27 unattended_mode is set at mbox: returning default value
+2018/05/31 23:51:27 io_stream_cygfile: fopen(/etc/setup/installed.db) failed 2 No such file or directory
+2018/05/31 23:51:27 io_stream_cygfile: fopen(/etc/setup/timestamp) failed 2 No such file or directory
+2018/05/31 23:51:27 mbox note: This setup is version 2.883, but setup.ini claims version 2.891 is available.
+You might want to upgrade to get the latest features and bug fixes.
+2018/05/31 23:51:27 unattended_mode is set at mbox: returning default value
+2018/05/31 23:51:30 Adding required dependency binutils: Selecting version 2.29-1 for installation.
+2018/05/31 23:51:30 Adding required dependency bzip2: Selecting version 1.0.6-3 for installation.
+2018/05/31 23:51:30 Adding required dependency ca-certificates: Selecting version 2.22-1 for installation.
+2018/05/31 23:51:30 Adding required dependency csih: Selecting version 0.9.9-1 for installation.
+2018/05/31 23:51:30 Adding required dependency cygrunsrv: Selecting version 1.62-1 for installation.
+2018/05/31 23:51:30 Adding required dependency cygwin-devel: Selecting version 2.10.0-1 for installation.
+2018/05/31 23:51:30 Adding required dependency desktop-file-utils: Selecting version 0.23-1 for installation.
+2018/05/31 23:51:30 Adding required dependency gamin: Selecting version 0.1.10-15 for installation.
+2018/05/31 23:51:30 Adding required dependency groff: Selecting version 1.22.3-1 for installation.
+2018/05/31 23:51:30 Adding required dependency gsettings-desktop-schemas: Selecting version 3.24.1-1 for installation.
+2018/05/31 23:51:30 Adding required dependency less: Selecting version 530-1 for installation.
+2018/05/31 23:51:30 Adding required dependency libargp: Selecting version 20110921-3 for installation.
+2018/05/31 23:51:30 Adding required dependency libatomic1: Selecting version 7.3.0-2 for installation.
+2018/05/31 23:51:30 Adding required dependency libattr1: Selecting version 2.4.46-1 for installation.
+2018/05/31 23:51:30 Adding required dependency libblkid1: Selecting version 2.25.2-2 for installation.
+2018/05/31 23:51:30 Adding required dependency libbz2_1: Selecting version 1.0.6-3 for installation.
+2018/05/31 23:51:30 Adding required dependency libcharset1: Selecting version 1.14-3 for installation.
+2018/05/31 23:51:30 Adding required dependency libcom_err2: Selecting version 1.42.12-2 for installation.
+2018/05/31 23:51:30 Adding required dependency libcord1: Selecting version 7.6.6-1 for installation.
+2018/05/31 23:51:30 Adding required dependency libcrypt0: Selecting version 2.1-1 for installation.
+2018/05/31 23:51:30 Adding required dependency libcurl4: Selecting version 7.59.0-1 for installation.
+2018/05/31 23:51:30 Adding required dependency libdb4.8: Selecting version 4.8.30-1 for installation.
+2018/05/31 23:51:30 Adding required dependency libdb5.3: Selecting version 5.3.28-2 for installation.
+2018/05/31 23:51:30 Adding required dependency libedit0: Selecting version 20130712-1 for installation.
+2018/05/31 23:51:30 Adding required dependency libexpat1: Selecting version 2.2.3-1 for installation.
+2018/05/31 23:51:30 Adding required dependency libfam0: Selecting version 0.1.10-15 for installation.
+2018/05/31 23:51:30 Adding required dependency libffi6: Selecting version 3.2.1-1 for installation.
+2018/05/31 23:51:30 Adding required dependency libgc1: Selecting version 7.6.6-1 for installation.
+2018/05/31 23:51:30 Adding required dependency libgc2: Selecting version 7.6.2-3 for installation.
+2018/05/31 23:51:30 Adding required dependency libgcc1: Selecting version 7.3.0-2 for installation.
+2018/05/31 23:51:30 Adding required dependency libgccpp1: Selecting version 7.6.6-1 for installation.
+2018/05/31 23:51:30 Adding required dependency libgcrypt-devel: Selecting version 1.8.2-1 for installation.
+2018/05/31 23:51:30 Adding required dependency libgcrypt20: Selecting version 1.8.2-1 for installation.
+2018/05/31 23:51:30 Adding required dependency libgdbm4: Selecting version 1.12-1 for installation.
+2018/05/31 23:51:30 Adding required dependency libglib2.0_0: Selecting version 2.54.3-1 for installation.
+2018/05/31 23:51:30 Adding required dependency libgmp10: Selecting version 6.1.2-1 for installation.
+2018/05/31 23:51:30 Adding required dependency libgnutls28: Selecting version 3.3.27-1 for installation.
+2018/05/31 23:51:30 Adding required dependency libgnutls30: Selecting version 3.5.18-1 for installation.
+2018/05/31 23:51:30 Adding required dependency libgomp1: Selecting version 7.3.0-2 for installation.
+2018/05/31 23:51:30 Adding required dependency libgpg-error-devel: Selecting version 1.28-1 for installation.
+2018/05/31 23:51:30 Adding required dependency libgpg-error0: Selecting version 1.28-1 for installation.
+2018/05/31 23:51:30 Adding required dependency libgssapi_krb5_2: Selecting version 1.15.2-2 for installation.
+2018/05/31 23:51:30 Adding required dependency libguile17: Selecting version 1.8.8-3 for installation.
+2018/05/31 23:51:30 Adding required dependency libguile2.0_22: Selecting version 2.0.14-2 for installation.
+2018/05/31 23:51:30 Adding required dependency libhogweed2: Selecting version 2.7.1-1 for installation.
+2018/05/31 23:51:30 Adding required dependency libhogweed4: Selecting version 3.4-1 for installation.
+2018/05/31 23:51:30 Adding required dependency libiconv: Selecting version 1.14-3 for installation.
+2018/05/31 23:51:30 Adding required dependency libiconv-devel: Selecting version 1.14-3 for installation.
+2018/05/31 23:51:30 Adding required dependency libiconv2: Selecting version 1.14-3 for installation.
+2018/05/31 23:51:30 Adding required dependency libidn2_0: Selecting version 2.0.4-1 for installation.
+2018/05/31 23:51:30 Adding required dependency libintl-devel: Selecting version 0.19.8.1-2 for installation.
+2018/05/31 23:51:30 Adding required dependency libintl8: Selecting version 0.19.8.1-2 for installation.
+2018/05/31 23:51:30 Adding required dependency libisl15: Selecting version 0.16.1-1 for installation.
+2018/05/31 23:51:30 Adding required dependency libk5crypto3: Selecting version 1.15.2-2 for installation.
+2018/05/31 23:51:30 Adding required dependency libkrb5support0: Selecting version 1.15.2-2 for installation.
+2018/05/31 23:51:30 Adding required dependency libkrb5_3: Selecting version 1.15.2-2 for installation.
+2018/05/31 23:51:30 Adding required dependency libltdl7: Selecting version 2.4.6-6 for installation.
+2018/05/31 23:51:30 Adding required dependency liblz4_1: Selecting version 1.7.5-1 for installation.
+2018/05/31 23:51:30 Adding required dependency liblzma-devel: Selecting version 5.2.3-1 for installation.
+2018/05/31 23:51:30 Adding required dependency liblzma5: Selecting version 5.2.3-1 for installation.
+2018/05/31 23:51:30 Adding required dependency liblzo2_2: Selecting version 2.10-1 for installation.
+2018/05/31 23:51:30 Adding required dependency libmpc3: Selecting version 1.1.0-1 for installation.
+2018/05/31 23:51:30 Adding required dependency libmpfr4: Selecting version 3.1.6-1p1 for installation.
+2018/05/31 23:51:30 Adding required dependency libmpfr6: Selecting version 4.0.1-3p6 for installation.
+2018/05/31 23:51:30 Adding required dependency libmysqlclient18: Selecting version 10.1.30-1 for installation.
+2018/05/31 23:51:30 Adding required dependency libncurses++w10: Selecting version 6.0-12.20171125 for installation.
+2018/05/31 23:51:30 Adding required dependency libncursesw10: Selecting version 6.0-12.20171125 for installation.
+2018/05/31 23:51:30 Adding required dependency libnettle4: Selecting version 2.7.1-1 for installation.
+2018/05/31 23:51:30 Adding required dependency libnettle6: Selecting version 3.4-1 for installation.
+2018/05/31 23:51:30 Adding required dependency libnghttp2_14: Selecting version 1.31.0-1 for installation.
+2018/05/31 23:51:30 Adding required dependency libopenldap2_4_2: Selecting version 2.4.42-1 for installation.
+2018/05/31 23:51:30 Adding required dependency libp11-kit0: Selecting version 0.23.10-1 for installation.
+2018/05/31 23:51:30 Adding required dependency libpcre1: Selecting version 8.40-3 for installation.
+2018/05/31 23:51:30 Adding required dependency libpcreposix0: Selecting version 8.40-3 for installation.
+2018/05/31 23:51:30 Adding required dependency libpipeline1: Selecting version 1.4.0-1 for installation.
+2018/05/31 23:51:30 Adding required dependency libpopt-common: Selecting version 1.16-2 for installation.
+2018/05/31 23:51:30 Adding required dependency libpopt0: Selecting version 1.16-2 for installation.
+2018/05/31 23:51:30 Adding required dependency libpsl5: Selecting version 0.18.0-1 for installation.
+2018/05/31 23:51:30 Adding required dependency libquadmath0: Selecting version 7.3.0-2 for installation.
+2018/05/31 23:51:30 Adding required dependency libreadline-devel: Selecting version 7.0.3-3 for installation.
+2018/05/31 23:51:30 Adding required dependency libsasl2_3: Selecting version 2.1.26-11 for installation.
+2018/05/31 23:51:30 Adding required dependency libsigsegv2: Selecting version 2.10-2 for installation.
+2018/05/31 23:51:30 Adding required dependency libsmartcols1: Selecting version 2.25.2-2 for installation.
+2018/05/31 23:51:30 Adding required dependency libsqlite3_0: Selecting version 3.21.0-1 for installation.
+2018/05/31 23:51:30 Adding required dependency libssh2_1: Selecting version 1.7.0-1 for installation.
+2018/05/31 23:51:30 Adding required dependency libssp0: Selecting version 6.4.0-4 for installation.
+2018/05/31 23:51:30 Adding required dependency libstdc++6: Selecting version 7.3.0-2 for installation.
+2018/05/31 23:51:30 Adding required dependency libtasn1_6: Selecting version 4.13-1 for installation.
+2018/05/31 23:51:30 Adding required dependency libunistring2: Selecting version 0.9.8-1 for installation.
+2018/05/31 23:51:30 Adding required dependency libusb0: Selecting version 1.2.6.0-2 for installation.
+2018/05/31 23:51:30 Adding required dependency libuuid-devel: Selecting version 2.25.2-2 for installation.
+2018/05/31 23:51:30 Adding required dependency libuuid1: Selecting version 2.25.2-2 for installation.
+2018/05/31 23:51:30 Adding required dependency libxml2: Selecting version 2.9.4-2 for installation.
+2018/05/31 23:51:30 Adding required dependency libxslt: Selecting version 1.1.29-1 for installation.
+2018/05/31 23:51:30 Adding required dependency libyaml0_2: Selecting version 0.1.6-2 for installation.
+2018/05/31 23:51:30 Adding required dependency mysql-common: Selecting version 10.1.30-1 for installation.
+2018/05/31 23:51:30 Adding required dependency openssh: Selecting version 7.7p1-1 for installation.
+2018/05/31 23:51:30 Adding required dependency p11-kit: Selecting version 0.23.10-1 for installation.
+2018/05/31 23:51:30 Adding required dependency p11-kit-trust: Selecting version 0.23.10-1 for installation.
+2018/05/31 23:51:30 Adding required dependency perl-CGI: Selecting version 4.38-1 for installation.
+2018/05/31 23:51:30 Adding required dependency perl-Error: Selecting version 0.17025-2 for installation.
+2018/05/31 23:51:30 Adding required dependency perl-HTML-Parser: Selecting version 3.72-2 for installation.
+2018/05/31 23:51:30 Adding required dependency perl-HTML-Tagset: Selecting version 3.20-6 for installation.
+2018/05/31 23:51:30 Adding required dependency perl-Scalar-List-Utils: Selecting version 1.50-1 for installation.
+2018/05/31 23:51:30 Adding required dependency perl-TermReadKey: Selecting version 2.37-2 for installation.
+2018/05/31 23:51:30 Adding required dependency perl_autorebase: Selecting version 5.26.2-1 for installation.
+2018/05/31 23:51:30 Adding required dependency perl_base: Selecting version 5.26.2-1 for installation.
+2018/05/31 23:51:30 Adding required dependency pkg-config: Selecting version 0.29.1-1 for installation.
+2018/05/31 23:51:30 Adding required dependency publicsuffix-list-dafsa: Selecting version 20180328-1 for installation.
+2018/05/31 23:51:30 Adding required dependency python3-appdirs: Selecting version 1.4.3-1 for installation.
+2018/05/31 23:51:30 Adding required dependency python3-packaging: Selecting version 16.8-1 for installation.
+2018/05/31 23:51:30 Adding required dependency python3-pyparsing: Selecting version 2.1.10-1 for installation.
+2018/05/31 23:51:30 Adding required dependency python3-six: Selecting version 1.10.0-1 for installation.
+2018/05/31 23:51:30 Adding required dependency rsync: Selecting version 3.1.2-1 for installation.
+2018/05/31 23:51:30 Adding required dependency shared-mime-info: Selecting version 1.8-1 for installation.
+2018/05/31 23:51:30 Adding required dependency tzcode: Selecting version 2018c-1 for installation.
+2018/05/31 23:51:30 Adding required dependency vim-common: Selecting version 8.0.1567-1 for installation.
+2018/05/31 23:51:30 Adding required dependency w32api-headers: Selecting version 5.0.3-1 for installation.
+2018/05/31 23:51:30 Adding required dependency w32api-runtime: Selecting version 5.0.3-1 for installation.
+2018/05/31 23:51:30 Adding required dependency windows-default-manifest: Selecting version 6.4-1 for installation.
+2018/05/31 23:51:30 Adding required dependency xxd: Selecting version 8.0.1567-1 for installation.
+2018/05/31 23:51:30 Adding required dependency xz: Selecting version 5.2.3-1 for installation.
+2018/05/31 23:51:30 Adding required dependency zlib-devel: Selecting version 1.2.11-1 for installation.
+2018/05/31 23:51:30 Adding required dependency zlib0: Selecting version 1.2.11-1 for installation.
+2018/05/31 23:51:32 Downloaded C:\Users\Administrator\Documents\work\stdenv_cygwin/http%3a%2f%2fftp.iij.ad.jp%2fpub%2fcygwin%2f/x86/release/binutils/binutils-2.29-1.tar.xz
+2018/05/31 23:51:32 Downloaded C:\Users\Administrator\Documents\work\stdenv_cygwin/http%3a%2f%2fftp.iij.ad.jp%2fpub%2fcygwin%2f/x86/release/gcc/gcc-core/gcc-core-7.3.0-2.tar.xz
+2018/05/31 23:51:32 Downloaded C:\Users\Administrator\Documents\work\stdenv_cygwin/http%3a%2f%2fftp.iij.ad.jp%2fpub%2fcygwin%2f/x86/release/gnupg/gnupg-1.4.22-1.tar.xz
+2018/05/31 23:51:32 Downloaded C:\Users\Administrator\Documents\work\stdenv_cygwin/http%3a%2f%2fftp.iij.ad.jp%2fpub%2fcygwin%2f/x86/release/gcc/libatomic1/libatomic1-7.3.0-2.tar.xz
+2018/05/31 23:51:32 Downloaded C:\Users\Administrator\Documents\work\stdenv_cygwin/http%3a%2f%2fftp.iij.ad.jp%2fpub%2fcygwin%2f/x86/release/libffi/libffi-devel/libffi-devel-3.2.1-1.tar.xz
+2018/05/31 23:51:32 Downloaded C:\Users\Administrator\Documents\work\stdenv_cygwin/http%3a%2f%2fftp.iij.ad.jp%2fpub%2fcygwin%2f/x86/release/gcc/libgomp1/libgomp1-7.3.0-2.tar.xz
+2018/05/31 23:51:32 Downloaded C:\Users\Administrator\Documents\work\stdenv_cygwin/http%3a%2f%2fftp.iij.ad.jp%2fpub%2fcygwin%2f/x86/release/isl/libisl15/libisl15-0.16.1-1.tar.xz
+2018/05/31 23:51:32 Downloaded C:\Users\Administrator\Documents\work\stdenv_cygwin/http%3a%2f%2fftp.iij.ad.jp%2fpub%2fcygwin%2f/x86/release/lz4/liblz4_1/liblz4_1-1.7.5-1.tar.xz
+2018/05/31 23:51:32 Downloaded C:\Users\Administrator\Documents\work\stdenv_cygwin/http%3a%2f%2fftp.iij.ad.jp%2fpub%2fcygwin%2f/x86/release/liblzo2/liblzo2_2/liblzo2_2-2.10-1.tar.xz
+2018/05/31 23:51:33 Downloaded C:\Users\Administrator\Documents\work\stdenv_cygwin/http%3a%2f%2fftp.iij.ad.jp%2fpub%2fcygwin%2f/x86/release/mpclib/libmpc3/libmpc3-1.1.0-1.tar.xz
+2018/05/31 23:51:33 Downloaded C:\Users\Administrator\Documents\work\stdenv_cygwin/http%3a%2f%2fftp.iij.ad.jp%2fpub%2fcygwin%2f/x86/release/mysql/libmysqlclient-devel/libmysqlclient-devel-10.1.30-1.tar.xz
+2018/05/31 23:51:33 Downloaded C:\Users\Administrator\Documents\work\stdenv_cygwin/http%3a%2f%2fftp.iij.ad.jp%2fpub%2fcygwin%2f/x86/release/mysql/libmysqlclient18/libmysqlclient18-10.1.30-1.tar.xz
+2018/05/31 23:51:33 Downloaded C:\Users\Administrator\Documents\work\stdenv_cygwin/http%3a%2f%2fftp.iij.ad.jp%2fpub%2fcygwin%2f/x86/release/pcre/libpcreposix0/libpcreposix0-8.40-3.tar.xz
+2018/05/31 23:51:33 Downloaded C:\Users\Administrator\Documents\work\stdenv_cygwin/http%3a%2f%2fftp.iij.ad.jp%2fpub%2fcygwin%2f/x86/release/gcc/libquadmath0/libquadmath0-7.3.0-2.tar.xz
+2018/05/31 23:51:33 Downloaded C:\Users\Administrator\Documents\work\stdenv_cygwin/http%3a%2f%2fftp.iij.ad.jp%2fpub%2fcygwin%2f/x86/release/libusb-win32/libusb0/libusb0-1.2.6.0-2.tar.xz
+2018/05/31 23:51:33 Downloaded C:\Users\Administrator\Documents\work\stdenv_cygwin/http%3a%2f%2fftp.iij.ad.jp%2fpub%2fcygwin%2f/x86/release/util-linux/libuuid-devel/libuuid-devel-2.25.2-2.tar.xz
+2018/05/31 23:51:33 Downloaded C:\Users\Administrator\Documents\work\stdenv_cygwin/http%3a%2f%2fftp.iij.ad.jp%2fpub%2fcygwin%2f/x86/release/yaml/libyaml-devel/libyaml-devel-0.1.6-2.tar.xz
+2018/05/31 23:51:33 Downloaded C:\Users\Administrator\Documents\work\stdenv_cygwin/http%3a%2f%2fftp.iij.ad.jp%2fpub%2fcygwin%2f/x86/release/yaml/libyaml0_2/libyaml0_2-0.1.6-2.tar.xz
+2018/05/31 23:51:33 Downloaded C:\Users\Administrator\Documents\work\stdenv_cygwin/http%3a%2f%2fftp.iij.ad.jp%2fpub%2fcygwin%2f/x86/release/mysql/mysql-10.1.30-1.tar.xz
+2018/05/31 23:51:33 Downloaded C:\Users\Administrator\Documents\work\stdenv_cygwin/http%3a%2f%2fftp.iij.ad.jp%2fpub%2fcygwin%2f/x86/release/mysql/mysql-common/mysql-common-10.1.30-1.tar.xz
+2018/05/31 23:51:33 Downloaded C:\Users\Administrator\Documents\work\stdenv_cygwin/http%3a%2f%2fftp.iij.ad.jp%2fpub%2fcygwin%2f/noarch/release/perl-CGI/perl-CGI-4.38-1.tar.xz
+2018/05/31 23:51:33 Downloaded C:\Users\Administrator\Documents\work\stdenv_cygwin/http%3a%2f%2fftp.iij.ad.jp%2fpub%2fcygwin%2f/x86/release/perl-HTML-Parser/perl-HTML-Parser-3.72-2.tar.xz
+2018/05/31 23:51:33 Downloaded C:\Users\Administrator\Documents\work\stdenv_cygwin/http%3a%2f%2fftp.iij.ad.jp%2fpub%2fcygwin%2f/noarch/release/perl-HTML-Tagset/perl-HTML-Tagset-3.20-6.tar.xz
+2018/05/31 23:51:34 Downloaded C:\Users\Administrator\Documents\work\stdenv_cygwin/http%3a%2f%2fftp.iij.ad.jp%2fpub%2fcygwin%2f/x86/release/python3/python3-3.6.4-1.tar.xz
+2018/05/31 23:51:34 Downloaded C:\Users\Administrator\Documents\work\stdenv_cygwin/http%3a%2f%2fftp.iij.ad.jp%2fpub%2fcygwin%2f/noarch/release/python-appdirs/python3-appdirs/python3-appdirs-1.4.3-1.tar.xz
+2018/05/31 23:51:34 Downloaded C:\Users\Administrator\Documents\work\stdenv_cygwin/http%3a%2f%2fftp.iij.ad.jp%2fpub%2fcygwin%2f/x86/release/python3/python3-devel/python3-devel-3.6.4-1.tar.xz
+2018/05/31 23:51:34 Downloaded C:\Users\Administrator\Documents\work\stdenv_cygwin/http%3a%2f%2fftp.iij.ad.jp%2fpub%2fcygwin%2f/noarch/release/python-packaging/python3-packaging/python3-packaging-16.8-1.tar.xz
+2018/05/31 23:51:34 Downloaded C:\Users\Administrator\Documents\work\stdenv_cygwin/http%3a%2f%2fftp.iij.ad.jp%2fpub%2fcygwin%2f/noarch/release/python-pyparsing/python3-pyparsing/python3-pyparsing-2.1.10-1.tar.xz
+2018/05/31 23:51:34 Downloaded C:\Users\Administrator\Documents\work\stdenv_cygwin/http%3a%2f%2fftp.iij.ad.jp%2fpub%2fcygwin%2f/noarch/release/python-setuptools/python3-setuptools/python3-setuptools-34.3.2-1.tar.xz
+2018/05/31 23:51:34 Downloaded C:\Users\Administrator\Documents\work\stdenv_cygwin/http%3a%2f%2fftp.iij.ad.jp%2fpub%2fcygwin%2f/noarch/release/python-six/python3-six/python3-six-1.10.0-1.tar.xz
+2018/05/31 23:51:34 Downloaded C:\Users\Administrator\Documents\work\stdenv_cygwin/http%3a%2f%2fftp.iij.ad.jp%2fpub%2fcygwin%2f/x86/release/w32api-headers/w32api-headers-5.0.3-1.tar.xz
+2018/05/31 23:51:34 Downloaded C:\Users\Administrator\Documents\work\stdenv_cygwin/http%3a%2f%2fftp.iij.ad.jp%2fpub%2fcygwin%2f/x86/release/w32api-runtime/w32api-runtime-5.0.3-1.tar.xz
+2018/05/31 23:51:34 Downloaded C:\Users\Administrator\Documents\work\stdenv_cygwin/http%3a%2f%2fftp.iij.ad.jp%2fpub%2fcygwin%2f/x86/release/windows-default-manifest/windows-default-manifest-6.4-1.tar.xz
+2018/05/31 23:51:42 Extracting from file://C:\Users\Administrator\Documents\work\stdenv_cygwin/http%3a%2f%2fftp.iij.ad.jp%2fpub%2fcygwin%2f/noarch/release/_autorebase/_autorebase-001007-1.tar.xz
+2018/05/31 23:51:42 Extracting from file://C:\Users\Administrator\Documents\work\stdenv_cygwin/http%3a%2f%2fftp.iij.ad.jp%2fpub%2fcygwin%2f/x86/release/alternatives/alternatives-1.3.30c-10.tar.bz2
+2018/05/31 23:51:43 Extracting from file://C:\Users\Administrator\Documents\work\stdenv_cygwin/http%3a%2f%2fftp.iij.ad.jp%2fpub%2fcygwin%2f/noarch/release/base-cygwin/base-cygwin-3.8-1.tar.xz
+2018/05/31 23:51:43 Extracting from file://C:\Users\Administrator\Documents\work\stdenv_cygwin/http%3a%2f%2fftp.iij.ad.jp%2fpub%2fcygwin%2f/noarch/release/base-files/base-files-4.2-4.tar.xz
+2018/05/31 23:51:43 Extracting from file://C:\Users\Administrator\Documents\work\stdenv_cygwin/http%3a%2f%2fftp.iij.ad.jp%2fpub%2fcygwin%2f/x86/release/bash/bash-4.4.12-3.tar.xz
+2018/05/31 23:51:44 Extracting from file://C:\Users\Administrator\Documents\work\stdenv_cygwin/http%3a%2f%2fftp.iij.ad.jp%2fpub%2fcygwin%2f/x86/release/binutils/binutils-2.29-1.tar.xz
+2018/05/31 23:51:45 Extracting from file://C:\Users\Administrator\Documents\work\stdenv_cygwin/http%3a%2f%2fftp.iij.ad.jp%2fpub%2fcygwin%2f/x86/release/bzip2/bzip2-1.0.6-3.tar.xz
+2018/05/31 23:51:45 Extracting from file://C:\Users\Administrator\Documents\work\stdenv_cygwin/http%3a%2f%2fftp.iij.ad.jp%2fpub%2fcygwin%2f/noarch/release/ca-certificates/ca-certificates-2.22-1.tar.xz
+2018/05/31 23:51:46 Extracting from file://C:\Users\Administrator\Documents\work\stdenv_cygwin/http%3a%2f%2fftp.iij.ad.jp%2fpub%2fcygwin%2f/x86/release/coreutils/coreutils-8.26-2.tar.xz
+2018/05/31 23:51:47 Extracting from file://C:\Users\Administrator\Documents\work\stdenv_cygwin/http%3a%2f%2fftp.iij.ad.jp%2fpub%2fcygwin%2f/x86/release/csih/csih-0.9.9-1.tar.xz
+2018/05/31 23:51:47 Extracting from file://C:\Users\Administrator\Documents\work\stdenv_cygwin/http%3a%2f%2fftp.iij.ad.jp%2fpub%2fcygwin%2f/x86/release/cygrunsrv/cygrunsrv-1.62-1.tar.xz
+2018/05/31 23:51:47 Extracting from file://C:\Users\Administrator\Documents\work\stdenv_cygwin/http%3a%2f%2fftp.iij.ad.jp%2fpub%2fcygwin%2f/x86/release/cygutils/cygutils-1.4.16-2.tar.xz
+2018/05/31 23:51:47 Extracting from file://C:\Users\Administrator\Documents\work\stdenv_cygwin/http%3a%2f%2fftp.iij.ad.jp%2fpub%2fcygwin%2f/x86/release/cygwin/cygwin-2.10.0-1.tar.xz
+2018/05/31 23:51:48 Extracting from file://C:\Users\Administrator\Documents\work\stdenv_cygwin/http%3a%2f%2fftp.iij.ad.jp%2fpub%2fcygwin%2f/x86/release/cygwin/cygwin-devel/cygwin-devel-2.10.0-1.tar.xz
+2018/05/31 23:51:48 Extracting from file://C:\Users\Administrator\Documents\work\stdenv_cygwin/http%3a%2f%2fftp.iij.ad.jp%2fpub%2fcygwin%2f/x86/release/dash/dash-0.5.9.1-1.tar.xz
+2018/05/31 23:51:48 Extracting from file://C:\Users\Administrator\Documents\work\stdenv_cygwin/http%3a%2f%2fftp.iij.ad.jp%2fpub%2fcygwin%2f/x86/release/desktop-file-utils/desktop-file-utils-0.23-1.tar.xz
+2018/05/31 23:51:48 Extracting from file://C:\Users\Administrator\Documents\work\stdenv_cygwin/http%3a%2f%2fftp.iij.ad.jp%2fpub%2fcygwin%2f/x86/release/diffutils/diffutils-3.5-2.tar.xz
+2018/05/31 23:51:49 Extracting from file://C:\Users\Administrator\Documents\work\stdenv_cygwin/http%3a%2f%2fftp.iij.ad.jp%2fpub%2fcygwin%2f/x86/release/editrights/editrights-1.03-1.tar.xz
+2018/05/31 23:51:49 Extracting from file://C:\Users\Administrator\Documents\work\stdenv_cygwin/http%3a%2f%2fftp.iij.ad.jp%2fpub%2fcygwin%2f/x86/release/file/file-5.32-1.tar.xz
+2018/05/31 23:51:49 Extracting from file://C:\Users\Administrator\Documents\work\stdenv_cygwin/http%3a%2f%2fftp.iij.ad.jp%2fpub%2fcygwin%2f/x86/release/findutils/findutils-4.6.0-1.tar.xz
+2018/05/31 23:51:49 Extracting from file://C:\Users\Administrator\Documents\work\stdenv_cygwin/http%3a%2f%2fftp.iij.ad.jp%2fpub%2fcygwin%2f/x86/release/gamin/gamin-0.1.10-15.tar.xz
+2018/05/31 23:51:49 Extracting from file://C:\Users\Administrator\Documents\work\stdenv_cygwin/http%3a%2f%2fftp.iij.ad.jp%2fpub%2fcygwin%2f/x86/release/gawk/gawk-4.2.1-1.tar.xz
+2018/05/31 23:51:50 Extracting from file://C:\Users\Administrator\Documents\work\stdenv_cygwin/http%3a%2f%2fftp.iij.ad.jp%2fpub%2fcygwin%2f/x86/release/gcc/gcc-core/gcc-core-7.3.0-2.tar.xz
+2018/05/31 23:51:53 Extracting from file://C:\Users\Administrator\Documents\work\stdenv_cygwin/http%3a%2f%2fftp.iij.ad.jp%2fpub%2fcygwin%2f/x86/release/getent/getent-2.18.90-4.tar.xz
+2018/05/31 23:51:53 Extracting from file://C:\Users\Administrator\Documents\work\stdenv_cygwin/http%3a%2f%2fftp.iij.ad.jp%2fpub%2fcygwin%2f/x86/release/git/git-2.17.0-1.tar.xz
+2018/05/31 23:51:57 Extracting from file://C:\Users\Administrator\Documents\work\stdenv_cygwin/http%3a%2f%2fftp.iij.ad.jp%2fpub%2fcygwin%2f/x86/release/gnupg/gnupg-1.4.22-1.tar.xz
+2018/05/31 23:51:57 Extracting from file://C:\Users\Administrator\Documents\work\stdenv_cygwin/http%3a%2f%2fftp.iij.ad.jp%2fpub%2fcygwin%2f/x86/release/grep/grep-3.0-2.tar.xz
+2018/05/31 23:51:58 Extracting from file://C:\Users\Administrator\Documents\work\stdenv_cygwin/http%3a%2f%2fftp.iij.ad.jp%2fpub%2fcygwin%2f/x86/release/groff/groff-1.22.3-1.tar.xz
+2018/05/31 23:52:00 Extracting from file://C:\Users\Administrator\Documents\work\stdenv_cygwin/http%3a%2f%2fftp.iij.ad.jp%2fpub%2fcygwin%2f/noarch/release/gsettings-desktop-schemas/gsettings-desktop-schemas-3.24.1-1.tar.xz
+2018/05/31 23:52:01 Extracting from file://C:\Users\Administrator\Documents\work\stdenv_cygwin/http%3a%2f%2fftp.iij.ad.jp%2fpub%2fcygwin%2f/x86/release/gzip/gzip-1.8-1.tar.xz
+2018/05/31 23:52:01 Extracting from file://C:\Users\Administrator\Documents\work\stdenv_cygwin/http%3a%2f%2fftp.iij.ad.jp%2fpub%2fcygwin%2f/x86/release/hostname/hostname-3.13-1.tar.bz2
+2018/05/31 23:52:01 Extracting from file://C:\Users\Administrator\Documents\work\stdenv_cygwin/http%3a%2f%2fftp.iij.ad.jp%2fpub%2fcygwin%2f/x86/release/texinfo/info/info-6.5-2.tar.xz
+2018/05/31 23:52:01 Extracting from file://C:\Users\Administrator\Documents\work\stdenv_cygwin/http%3a%2f%2fftp.iij.ad.jp%2fpub%2fcygwin%2f/x86/release/ipc-utils/ipc-utils-1.0-1.tar.bz2
+2018/05/31 23:52:01 Extracting from file://C:\Users\Administrator\Documents\work\stdenv_cygwin/http%3a%2f%2fftp.iij.ad.jp%2fpub%2fcygwin%2f/x86/release/less/less-530-1.tar.xz
+2018/05/31 23:52:01 Extracting from file://C:\Users\Administrator\Documents\work\stdenv_cygwin/http%3a%2f%2fftp.iij.ad.jp%2fpub%2fcygwin%2f/x86/release/libargp/libargp-20110921-3.tar.xz
+2018/05/31 23:52:01 Extracting from file://C:\Users\Administrator\Documents\work\stdenv_cygwin/http%3a%2f%2fftp.iij.ad.jp%2fpub%2fcygwin%2f/x86/release/gcc/libatomic1/libatomic1-7.3.0-2.tar.xz
+2018/05/31 23:52:01 Extracting from file://C:\Users\Administrator\Documents\work\stdenv_cygwin/http%3a%2f%2fftp.iij.ad.jp%2fpub%2fcygwin%2f/x86/release/attr/libattr1/libattr1-2.4.46-1.tar.bz2
+2018/05/31 23:52:01 Extracting from file://C:\Users\Administrator\Documents\work\stdenv_cygwin/http%3a%2f%2fftp.iij.ad.jp%2fpub%2fcygwin%2f/x86/release/util-linux/libblkid1/libblkid1-2.25.2-2.tar.xz
+2018/05/31 23:52:01 Extracting from file://C:\Users\Administrator\Documents\work\stdenv_cygwin/http%3a%2f%2fftp.iij.ad.jp%2fpub%2fcygwin%2f/x86/release/bzip2/libbz2_1/libbz2_1-1.0.6-3.tar.xz
+2018/05/31 23:52:02 Extracting from file://C:\Users\Administrator\Documents\work\stdenv_cygwin/http%3a%2f%2fftp.iij.ad.jp%2fpub%2fcygwin%2f/x86/release/libiconv/libcharset1/libcharset1-1.14-3.tar.xz
+2018/05/31 23:52:02 Extracting from file://C:\Users\Administrator\Documents\work\stdenv_cygwin/http%3a%2f%2fftp.iij.ad.jp%2fpub%2fcygwin%2f/x86/release/e2fsprogs/libcom_err2/libcom_err2-1.42.12-2.tar.xz
+2018/05/31 23:52:02 Extracting from file://C:\Users\Administrator\Documents\work\stdenv_cygwin/http%3a%2f%2fftp.iij.ad.jp%2fpub%2fcygwin%2f/x86/release/libgc/libcord1/libcord1-7.6.6-1.tar.xz
+2018/05/31 23:52:02 Extracting from file://C:\Users\Administrator\Documents\work\stdenv_cygwin/http%3a%2f%2fftp.iij.ad.jp%2fpub%2fcygwin%2f/x86/release/crypt/libcrypt0/libcrypt0-2.1-1.tar.xz
+2018/05/31 23:52:02 Extracting from file://C:\Users\Administrator\Documents\work\stdenv_cygwin/http%3a%2f%2fftp.iij.ad.jp%2fpub%2fcygwin%2f/x86/release/curl/libcurl4/libcurl4-7.59.0-1.tar.xz
+2018/05/31 23:52:02 Extracting from file://C:\Users\Administrator\Documents\work\stdenv_cygwin/http%3a%2f%2fftp.iij.ad.jp%2fpub%2fcygwin%2f/x86/release/db4.8/libdb4.8/libdb4.8-4.8.30-1.tar.bz2
+2018/05/31 23:52:02 Extracting from file://C:\Users\Administrator\Documents\work\stdenv_cygwin/http%3a%2f%2fftp.iij.ad.jp%2fpub%2fcygwin%2f/x86/release/db/libdb5.3/libdb5.3-5.3.28-2.tar.xz
+2018/05/31 23:52:02 Extracting from file://C:\Users\Administrator\Documents\work\stdenv_cygwin/http%3a%2f%2fftp.iij.ad.jp%2fpub%2fcygwin%2f/x86/release/libedit/libedit0/libedit0-20130712-1.tar.xz
+2018/05/31 23:52:02 Extracting from file://C:\Users\Administrator\Documents\work\stdenv_cygwin/http%3a%2f%2fftp.iij.ad.jp%2fpub%2fcygwin%2f/x86/release/expat/libexpat1/libexpat1-2.2.3-1.tar.xz
+2018/05/31 23:52:02 Extracting from file://C:\Users\Administrator\Documents\work\stdenv_cygwin/http%3a%2f%2fftp.iij.ad.jp%2fpub%2fcygwin%2f/x86/release/gamin/libfam0/libfam0-0.1.10-15.tar.xz
+2018/05/31 23:52:02 Extracting from file://C:\Users\Administrator\Documents\work\stdenv_cygwin/http%3a%2f%2fftp.iij.ad.jp%2fpub%2fcygwin%2f/x86/release/libffi/libffi-devel/libffi-devel-3.2.1-1.tar.xz
+2018/05/31 23:52:02 Extracting from file://C:\Users\Administrator\Documents\work\stdenv_cygwin/http%3a%2f%2fftp.iij.ad.jp%2fpub%2fcygwin%2f/x86/release/libffi/libffi6/libffi6-3.2.1-1.tar.xz
+2018/05/31 23:52:02 Extracting from file://C:\Users\Administrator\Documents\work\stdenv_cygwin/http%3a%2f%2fftp.iij.ad.jp%2fpub%2fcygwin%2f/x86/release/libgc/libgc1/libgc1-7.6.6-1.tar.xz
+2018/05/31 23:52:02 Extracting from file://C:\Users\Administrator\Documents\work\stdenv_cygwin/http%3a%2f%2fftp.iij.ad.jp%2fpub%2fcygwin%2f/x86/release/libgc/libgc2/libgc2-7.6.2-3.tar.xz
+2018/05/31 23:52:02 Extracting from file://C:\Users\Administrator\Documents\work\stdenv_cygwin/http%3a%2f%2fftp.iij.ad.jp%2fpub%2fcygwin%2f/x86/release/gcc/libgcc1/libgcc1-7.3.0-2.tar.xz
+2018/05/31 23:52:02 Extracting from file://C:\Users\Administrator\Documents\work\stdenv_cygwin/http%3a%2f%2fftp.iij.ad.jp%2fpub%2fcygwin%2f/x86/release/libgc/libgccpp1/libgccpp1-7.6.6-1.tar.xz
+2018/05/31 23:52:02 Extracting from file://C:\Users\Administrator\Documents\work\stdenv_cygwin/http%3a%2f%2fftp.iij.ad.jp%2fpub%2fcygwin%2f/x86/release/libgcrypt/libgcrypt-devel/libgcrypt-devel-1.8.2-1.tar.xz
+2018/05/31 23:52:02 Extracting from file://C:\Users\Administrator\Documents\work\stdenv_cygwin/http%3a%2f%2fftp.iij.ad.jp%2fpub%2fcygwin%2f/x86/release/libgcrypt/libgcrypt20/libgcrypt20-1.8.2-1.tar.xz
+2018/05/31 23:52:02 Extracting from file://C:\Users\Administrator\Documents\work\stdenv_cygwin/http%3a%2f%2fftp.iij.ad.jp%2fpub%2fcygwin%2f/x86/release/gdbm/libgdbm4/libgdbm4-1.12-1.tar.xz
+2018/05/31 23:52:02 Extracting from file://C:\Users\Administrator\Documents\work\stdenv_cygwin/http%3a%2f%2fftp.iij.ad.jp%2fpub%2fcygwin%2f/x86/release/glib2.0/libglib2.0_0/libglib2.0_0-2.54.3-1.tar.xz
+2018/05/31 23:52:03 Extracting from file://C:\Users\Administrator\Documents\work\stdenv_cygwin/http%3a%2f%2fftp.iij.ad.jp%2fpub%2fcygwin%2f/x86/release/gmp/libgmp10/libgmp10-6.1.2-1.tar.xz
+2018/05/31 23:52:04 Extracting from file://C:\Users\Administrator\Documents\work\stdenv_cygwin/http%3a%2f%2fftp.iij.ad.jp%2fpub%2fcygwin%2f/x86/release/gnutls/libgnutls28/libgnutls28-3.3.27-1.tar.xz
+2018/05/31 23:52:04 Extracting from file://C:\Users\Administrator\Documents\work\stdenv_cygwin/http%3a%2f%2fftp.iij.ad.jp%2fpub%2fcygwin%2f/x86/release/gnutls/libgnutls30/libgnutls30-3.5.18-1.tar.xz
+2018/05/31 23:52:04 Extracting from file://C:\Users\Administrator\Documents\work\stdenv_cygwin/http%3a%2f%2fftp.iij.ad.jp%2fpub%2fcygwin%2f/x86/release/gcc/libgomp1/libgomp1-7.3.0-2.tar.xz
+2018/05/31 23:52:04 Extracting from file://C:\Users\Administrator\Documents\work\stdenv_cygwin/http%3a%2f%2fftp.iij.ad.jp%2fpub%2fcygwin%2f/x86/release/libgpg-error/libgpg-error-devel/libgpg-error-devel-1.28-1.tar.xz
+2018/05/31 23:52:04 Extracting from file://C:\Users\Administrator\Documents\work\stdenv_cygwin/http%3a%2f%2fftp.iij.ad.jp%2fpub%2fcygwin%2f/x86/release/libgpg-error/libgpg-error0/libgpg-error0-1.28-1.tar.xz
+2018/05/31 23:52:04 Extracting from file://C:\Users\Administrator\Documents\work\stdenv_cygwin/http%3a%2f%2fftp.iij.ad.jp%2fpub%2fcygwin%2f/x86/release/krb5/libgssapi_krb5_2/libgssapi_krb5_2-1.15.2-2.tar.xz
+2018/05/31 23:52:04 Extracting from file://C:\Users\Administrator\Documents\work\stdenv_cygwin/http%3a%2f%2fftp.iij.ad.jp%2fpub%2fcygwin%2f/x86/release/guile1.8/libguile17/libguile17-1.8.8-3.tar.xz
+2018/05/31 23:52:04 Extracting from file://C:\Users\Administrator\Documents\work\stdenv_cygwin/http%3a%2f%2fftp.iij.ad.jp%2fpub%2fcygwin%2f/x86/release/guile/libguile2.0_22/libguile2.0_22-2.0.14-2.tar.xz
+2018/05/31 23:52:07 Extracting from file://C:\Users\Administrator\Documents\work\stdenv_cygwin/http%3a%2f%2fftp.iij.ad.jp%2fpub%2fcygwin%2f/x86/release/nettle/libhogweed2/libhogweed2-2.7.1-1.tar.xz
+2018/05/31 23:52:07 Extracting from file://C:\Users\Administrator\Documents\work\stdenv_cygwin/http%3a%2f%2fftp.iij.ad.jp%2fpub%2fcygwin%2f/x86/release/nettle/libhogweed4/libhogweed4-3.4-1.tar.xz
+2018/05/31 23:52:07 Extracting from file://C:\Users\Administrator\Documents\work\stdenv_cygwin/http%3a%2f%2fftp.iij.ad.jp%2fpub%2fcygwin%2f/x86/release/libiconv/libiconv-1.14-3.tar.xz
+2018/05/31 23:52:07 Extracting from file://C:\Users\Administrator\Documents\work\stdenv_cygwin/http%3a%2f%2fftp.iij.ad.jp%2fpub%2fcygwin%2f/x86/release/libiconv/libiconv-devel/libiconv-devel-1.14-3.tar.xz
+2018/05/31 23:52:07 Extracting from file://C:\Users\Administrator\Documents\work\stdenv_cygwin/http%3a%2f%2fftp.iij.ad.jp%2fpub%2fcygwin%2f/x86/release/libiconv/libiconv2/libiconv2-1.14-3.tar.xz
+2018/05/31 23:52:08 Extracting from file://C:\Users\Administrator\Documents\work\stdenv_cygwin/http%3a%2f%2fftp.iij.ad.jp%2fpub%2fcygwin%2f/x86/release/libidn2/libidn2_0/libidn2_0-2.0.4-1.tar.xz
+2018/05/31 23:52:08 Extracting from file://C:\Users\Administrator\Documents\work\stdenv_cygwin/http%3a%2f%2fftp.iij.ad.jp%2fpub%2fcygwin%2f/x86/release/gettext/libintl-devel/libintl-devel-0.19.8.1-2.tar.xz
+2018/05/31 23:52:08 Extracting from file://C:\Users\Administrator\Documents\work\stdenv_cygwin/http%3a%2f%2fftp.iij.ad.jp%2fpub%2fcygwin%2f/x86/release/gettext/libintl8/libintl8-0.19.8.1-2.tar.xz
+2018/05/31 23:52:08 Extracting from file://C:\Users\Administrator\Documents\work\stdenv_cygwin/http%3a%2f%2fftp.iij.ad.jp%2fpub%2fcygwin%2f/x86/release/isl/libisl15/libisl15-0.16.1-1.tar.xz
+2018/05/31 23:52:08 Extracting from file://C:\Users\Administrator\Documents\work\stdenv_cygwin/http%3a%2f%2fftp.iij.ad.jp%2fpub%2fcygwin%2f/x86/release/krb5/libk5crypto3/libk5crypto3-1.15.2-2.tar.xz
+2018/05/31 23:52:08 Extracting from file://C:\Users\Administrator\Documents\work\stdenv_cygwin/http%3a%2f%2fftp.iij.ad.jp%2fpub%2fcygwin%2f/x86/release/krb5/libkrb5_3/libkrb5_3-1.15.2-2.tar.xz
+2018/05/31 23:52:08 Extracting from file://C:\Users\Administrator\Documents\work\stdenv_cygwin/http%3a%2f%2fftp.iij.ad.jp%2fpub%2fcygwin%2f/x86/release/krb5/libkrb5support0/libkrb5support0-1.15.2-2.tar.xz
+2018/05/31 23:52:08 Extracting from file://C:\Users\Administrator\Documents\work\stdenv_cygwin/http%3a%2f%2fftp.iij.ad.jp%2fpub%2fcygwin%2f/x86/release/libtool/libltdl7/libltdl7-2.4.6-6.tar.xz
+2018/05/31 23:52:08 Extracting from file://C:\Users\Administrator\Documents\work\stdenv_cygwin/http%3a%2f%2fftp.iij.ad.jp%2fpub%2fcygwin%2f/x86/release/lz4/liblz4_1/liblz4_1-1.7.5-1.tar.xz
+2018/05/31 23:52:08 Extracting from file://C:\Users\Administrator\Documents\work\stdenv_cygwin/http%3a%2f%2fftp.iij.ad.jp%2fpub%2fcygwin%2f/x86/release/xz/liblzma-devel/liblzma-devel-5.2.3-1.tar.xz
+2018/05/31 23:52:08 Extracting from file://C:\Users\Administrator\Documents\work\stdenv_cygwin/http%3a%2f%2fftp.iij.ad.jp%2fpub%2fcygwin%2f/x86/release/xz/liblzma5/liblzma5-5.2.3-1.tar.xz
+2018/05/31 23:52:08 Extracting from file://C:\Users\Administrator\Documents\work\stdenv_cygwin/http%3a%2f%2fftp.iij.ad.jp%2fpub%2fcygwin%2f/x86/release/liblzo2/liblzo2_2/liblzo2_2-2.10-1.tar.xz
+2018/05/31 23:52:08 Extracting from file://C:\Users\Administrator\Documents\work\stdenv_cygwin/http%3a%2f%2fftp.iij.ad.jp%2fpub%2fcygwin%2f/x86/release/mpclib/libmpc3/libmpc3-1.1.0-1.tar.xz
+2018/05/31 23:52:08 Extracting from file://C:\Users\Administrator\Documents\work\stdenv_cygwin/http%3a%2f%2fftp.iij.ad.jp%2fpub%2fcygwin%2f/x86/release/mpfr/libmpfr4/libmpfr4-3.1.6-1p1.tar.xz
+2018/05/31 23:52:08 Extracting from file://C:\Users\Administrator\Documents\work\stdenv_cygwin/http%3a%2f%2fftp.iij.ad.jp%2fpub%2fcygwin%2f/x86/release/mpfr/libmpfr6/libmpfr6-4.0.1-3p6.tar.xz
+2018/05/31 23:52:08 Extracting from file://C:\Users\Administrator\Documents\work\stdenv_cygwin/http%3a%2f%2fftp.iij.ad.jp%2fpub%2fcygwin%2f/x86/release/mysql/libmysqlclient-devel/libmysqlclient-devel-10.1.30-1.tar.xz
+2018/05/31 23:52:09 Extracting from file://C:\Users\Administrator\Documents\work\stdenv_cygwin/http%3a%2f%2fftp.iij.ad.jp%2fpub%2fcygwin%2f/x86/release/mysql/libmysqlclient18/libmysqlclient18-10.1.30-1.tar.xz
+2018/05/31 23:52:10 Extracting from file://C:\Users\Administrator\Documents\work\stdenv_cygwin/http%3a%2f%2fftp.iij.ad.jp%2fpub%2fcygwin%2f/x86/release/ncurses/libncurses++w10/libncurses++w10-6.0-12.20171125.tar.xz
+2018/05/31 23:52:10 Extracting from file://C:\Users\Administrator\Documents\work\stdenv_cygwin/http%3a%2f%2fftp.iij.ad.jp%2fpub%2fcygwin%2f/x86/release/ncurses/libncurses-devel/libncurses-devel-6.0-12.20171125.tar.xz
+2018/05/31 23:52:13 Extracting from file://C:\Users\Administrator\Documents\work\stdenv_cygwin/http%3a%2f%2fftp.iij.ad.jp%2fpub%2fcygwin%2f/x86/release/ncurses/libncursesw10/libncursesw10-6.0-12.20171125.tar.xz
+2018/05/31 23:52:13 Extracting from file://C:\Users\Administrator\Documents\work\stdenv_cygwin/http%3a%2f%2fftp.iij.ad.jp%2fpub%2fcygwin%2f/x86/release/nettle/libnettle4/libnettle4-2.7.1-1.tar.xz
+2018/05/31 23:52:13 Extracting from file://C:\Users\Administrator\Documents\work\stdenv_cygwin/http%3a%2f%2fftp.iij.ad.jp%2fpub%2fcygwin%2f/x86/release/nettle/libnettle6/libnettle6-3.4-1.tar.xz
+2018/05/31 23:52:13 Extracting from file://C:\Users\Administrator\Documents\work\stdenv_cygwin/http%3a%2f%2fftp.iij.ad.jp%2fpub%2fcygwin%2f/x86/release/nghttp2/libnghttp2_14/libnghttp2_14-1.31.0-1.tar.xz
+2018/05/31 23:52:13 Extracting from file://C:\Users\Administrator\Documents\work\stdenv_cygwin/http%3a%2f%2fftp.iij.ad.jp%2fpub%2fcygwin%2f/x86/release/openldap/libopenldap2_4_2/libopenldap2_4_2-2.4.42-1.tar.xz
+2018/05/31 23:52:13 Extracting from file://C:\Users\Administrator\Documents\work\stdenv_cygwin/http%3a%2f%2fftp.iij.ad.jp%2fpub%2fcygwin%2f/x86/release/openssl/libopenssl100/libopenssl100-1.0.2o-1.tar.xz
+2018/05/31 23:52:13 Extracting from file://C:\Users\Administrator\Documents\work\stdenv_cygwin/http%3a%2f%2fftp.iij.ad.jp%2fpub%2fcygwin%2f/x86/release/p11-kit/libp11-kit0/libp11-kit0-0.23.10-1.tar.xz
+2018/05/31 23:52:13 Extracting from file://C:\Users\Administrator\Documents\work\stdenv_cygwin/http%3a%2f%2fftp.iij.ad.jp%2fpub%2fcygwin%2f/x86/release/pcre/libpcre1/libpcre1-8.40-3.tar.xz
+2018/05/31 23:52:13 Extracting from file://C:\Users\Administrator\Documents\work\stdenv_cygwin/http%3a%2f%2fftp.iij.ad.jp%2fpub%2fcygwin%2f/x86/release/pcre/libpcreposix0/libpcreposix0-8.40-3.tar.xz
+2018/05/31 23:52:13 Extracting from file://C:\Users\Administrator\Documents\work\stdenv_cygwin/http%3a%2f%2fftp.iij.ad.jp%2fpub%2fcygwin%2f/x86/release/libpipeline/libpipeline1/libpipeline1-1.4.0-1.tar.xz
+2018/05/31 23:52:13 Extracting from file://C:\Users\Administrator\Documents\work\stdenv_cygwin/http%3a%2f%2fftp.iij.ad.jp%2fpub%2fcygwin%2f/x86/release/popt/libpopt-common/libpopt-common-1.16-2.tar.xz
+2018/05/31 23:52:13 Extracting from file://C:\Users\Administrator\Documents\work\stdenv_cygwin/http%3a%2f%2fftp.iij.ad.jp%2fpub%2fcygwin%2f/x86/release/popt/libpopt0/libpopt0-1.16-2.tar.xz
+2018/05/31 23:52:13 Extracting from file://C:\Users\Administrator\Documents\work\stdenv_cygwin/http%3a%2f%2fftp.iij.ad.jp%2fpub%2fcygwin%2f/x86/release/libpsl/libpsl5/libpsl5-0.18.0-1.tar.xz
+2018/05/31 23:52:13 Extracting from file://C:\Users\Administrator\Documents\work\stdenv_cygwin/http%3a%2f%2fftp.iij.ad.jp%2fpub%2fcygwin%2f/x86/release/gcc/libquadmath0/libquadmath0-7.3.0-2.tar.xz
+2018/05/31 23:52:13 Extracting from file://C:\Users\Administrator\Documents\work\stdenv_cygwin/http%3a%2f%2fftp.iij.ad.jp%2fpub%2fcygwin%2f/x86/release/readline/libreadline-devel/libreadline-devel-7.0.3-3.tar.xz
+2018/05/31 23:52:14 Extracting from file://C:\Users\Administrator\Documents\work\stdenv_cygwin/http%3a%2f%2fftp.iij.ad.jp%2fpub%2fcygwin%2f/x86/release/readline/libreadline7/libreadline7-7.0.3-3.tar.xz
+2018/05/31 23:52:14 Extracting from file://C:\Users\Administrator\Documents\work\stdenv_cygwin/http%3a%2f%2fftp.iij.ad.jp%2fpub%2fcygwin%2f/x86/release/cyrus-sasl/libsasl2_3/libsasl2_3-2.1.26-11.tar.xz
+2018/05/31 23:52:14 Extracting from file://C:\Users\Administrator\Documents\work\stdenv_cygwin/http%3a%2f%2fftp.iij.ad.jp%2fpub%2fcygwin%2f/x86/release/libsigsegv/libsigsegv2/libsigsegv2-2.10-2.tar.xz
+2018/05/31 23:52:14 Extracting from file://C:\Users\Administrator\Documents\work\stdenv_cygwin/http%3a%2f%2fftp.iij.ad.jp%2fpub%2fcygwin%2f/x86/release/util-linux/libsmartcols1/libsmartcols1-2.25.2-2.tar.xz
+2018/05/31 23:52:14 Extracting from file://C:\Users\Administrator\Documents\work\stdenv_cygwin/http%3a%2f%2fftp.iij.ad.jp%2fpub%2fcygwin%2f/x86/release/sqlite3/libsqlite3-devel/libsqlite3-devel-3.21.0-1.tar.xz
+2018/05/31 23:52:14 Extracting from file://C:\Users\Administrator\Documents\work\stdenv_cygwin/http%3a%2f%2fftp.iij.ad.jp%2fpub%2fcygwin%2f/x86/release/sqlite3/libsqlite3_0/libsqlite3_0-3.21.0-1.tar.xz
+2018/05/31 23:52:14 Extracting from file://C:\Users\Administrator\Documents\work\stdenv_cygwin/http%3a%2f%2fftp.iij.ad.jp%2fpub%2fcygwin%2f/x86/release/libssh2/libssh2_1/libssh2_1-1.7.0-1.tar.xz
+2018/05/31 23:52:14 Extracting from file://C:\Users\Administrator\Documents\work\stdenv_cygwin/http%3a%2f%2fftp.iij.ad.jp%2fpub%2fcygwin%2f/x86/release/gcc/libssp0/libssp0-6.4.0-4.tar.xz
+2018/05/31 23:52:14 Extracting from file://C:\Users\Administrator\Documents\work\stdenv_cygwin/http%3a%2f%2fftp.iij.ad.jp%2fpub%2fcygwin%2f/x86/release/gcc/libstdc++6/libstdc++6-7.3.0-2.tar.xz
+2018/05/31 23:52:14 Extracting from file://C:\Users\Administrator\Documents\work\stdenv_cygwin/http%3a%2f%2fftp.iij.ad.jp%2fpub%2fcygwin%2f/x86/release/libtasn1/libtasn1_6/libtasn1_6-4.13-1.tar.xz
+2018/05/31 23:52:14 Extracting from file://C:\Users\Administrator\Documents\work\stdenv_cygwin/http%3a%2f%2fftp.iij.ad.jp%2fpub%2fcygwin%2f/x86/release/libunistring/libunistring2/libunistring2-0.9.8-1.tar.xz
+2018/05/31 23:52:14 Extracting from file://C:\Users\Administrator\Documents\work\stdenv_cygwin/http%3a%2f%2fftp.iij.ad.jp%2fpub%2fcygwin%2f/x86/release/libusb-win32/libusb0/libusb0-1.2.6.0-2.tar.xz
+2018/05/31 23:52:14 Extracting from file://C:\Users\Administrator\Documents\work\stdenv_cygwin/http%3a%2f%2fftp.iij.ad.jp%2fpub%2fcygwin%2f/x86/release/util-linux/libuuid-devel/libuuid-devel-2.25.2-2.tar.xz
+2018/05/31 23:52:14 Extracting from file://C:\Users\Administrator\Documents\work\stdenv_cygwin/http%3a%2f%2fftp.iij.ad.jp%2fpub%2fcygwin%2f/x86/release/util-linux/libuuid1/libuuid1-2.25.2-2.tar.xz
+2018/05/31 23:52:14 Extracting from file://C:\Users\Administrator\Documents\work\stdenv_cygwin/http%3a%2f%2fftp.iij.ad.jp%2fpub%2fcygwin%2f/x86/release/libxml2/libxml2-2.9.4-2.tar.xz
+2018/05/31 23:52:14 Extracting from file://C:\Users\Administrator\Documents\work\stdenv_cygwin/http%3a%2f%2fftp.iij.ad.jp%2fpub%2fcygwin%2f/x86/release/libxml2/libxml2-devel/libxml2-devel-2.9.4-2.tar.xz
+2018/05/31 23:52:15 Extracting from file://C:\Users\Administrator\Documents\work\stdenv_cygwin/http%3a%2f%2fftp.iij.ad.jp%2fpub%2fcygwin%2f/x86/release/libxslt/libxslt-1.1.29-1.tar.xz
+2018/05/31 23:52:15 Extracting from file://C:\Users\Administrator\Documents\work\stdenv_cygwin/http%3a%2f%2fftp.iij.ad.jp%2fpub%2fcygwin%2f/x86/release/libxslt/libxslt-devel/libxslt-devel-1.1.29-1.tar.xz
+2018/05/31 23:52:15 Extracting from file://C:\Users\Administrator\Documents\work\stdenv_cygwin/http%3a%2f%2fftp.iij.ad.jp%2fpub%2fcygwin%2f/x86/release/yaml/libyaml-devel/libyaml-devel-0.1.6-2.tar.xz
+2018/05/31 23:52:15 Extracting from file://C:\Users\Administrator\Documents\work\stdenv_cygwin/http%3a%2f%2fftp.iij.ad.jp%2fpub%2fcygwin%2f/x86/release/yaml/libyaml0_2/libyaml0_2-0.1.6-2.tar.xz
+2018/05/31 23:52:15 Extracting from file://C:\Users\Administrator\Documents\work\stdenv_cygwin/http%3a%2f%2fftp.iij.ad.jp%2fpub%2fcygwin%2f/x86/release/login/login-1.11-1.tar.xz
+2018/05/31 23:52:15 Extracting from file://C:\Users\Administrator\Documents\work\stdenv_cygwin/http%3a%2f%2fftp.iij.ad.jp%2fpub%2fcygwin%2f/x86/release/make/make-4.2.1-2.tar.xz
+2018/05/31 23:52:15 Extracting from file://C:\Users\Administrator\Documents\work\stdenv_cygwin/http%3a%2f%2fftp.iij.ad.jp%2fpub%2fcygwin%2f/x86/release/man-db/man-db-2.7.6.1-1.tar.xz
+2018/05/31 23:52:16 Extracting from file://C:\Users\Administrator\Documents\work\stdenv_cygwin/http%3a%2f%2fftp.iij.ad.jp%2fpub%2fcygwin%2f/x86/release/mintty/mintty-2.8.5-0.tar.xz
+2018/05/31 23:52:16 Extracting from file://C:\Users\Administrator\Documents\work\stdenv_cygwin/http%3a%2f%2fftp.iij.ad.jp%2fpub%2fcygwin%2f/x86/release/mysql/mysql-10.1.30-1.tar.xz
+2018/05/31 23:52:18 Extracting from file://C:\Users\Administrator\Documents\work\stdenv_cygwin/http%3a%2f%2fftp.iij.ad.jp%2fpub%2fcygwin%2f/x86/release/mysql/mysql-common/mysql-common-10.1.30-1.tar.xz
+2018/05/31 23:52:18 Extracting from file://C:\Users\Administrator\Documents\work\stdenv_cygwin/http%3a%2f%2fftp.iij.ad.jp%2fpub%2fcygwin%2f/x86/release/ncurses/ncurses-6.0-12.20171125.tar.xz
+2018/05/31 23:52:18 Extracting from file://C:\Users\Administrator\Documents\work\stdenv_cygwin/http%3a%2f%2fftp.iij.ad.jp%2fpub%2fcygwin%2f/x86/release/openssh/openssh-7.7p1-1.tar.xz
+2018/05/31 23:52:18 Extracting from file://C:\Users\Administrator\Documents\work\stdenv_cygwin/http%3a%2f%2fftp.iij.ad.jp%2fpub%2fcygwin%2f/x86/release/openssl/openssl-1.0.2o-1.tar.xz
+2018/05/31 23:52:19 Extracting from file://C:\Users\Administrator\Documents\work\stdenv_cygwin/http%3a%2f%2fftp.iij.ad.jp%2fpub%2fcygwin%2f/x86/release/openssl/openssl-devel/openssl-devel-1.0.2o-1.tar.xz
+2018/05/31 23:52:24 Extracting from file://C:\Users\Administrator\Documents\work\stdenv_cygwin/http%3a%2f%2fftp.iij.ad.jp%2fpub%2fcygwin%2f/x86/release/p11-kit/p11-kit-0.23.10-1.tar.xz
+2018/05/31 23:52:24 Extracting from file://C:\Users\Administrator\Documents\work\stdenv_cygwin/http%3a%2f%2fftp.iij.ad.jp%2fpub%2fcygwin%2f/x86/release/p11-kit/p11-kit-trust/p11-kit-trust-0.23.10-1.tar.xz
+2018/05/31 23:52:24 Extracting from file://C:\Users\Administrator\Documents\work\stdenv_cygwin/http%3a%2f%2fftp.iij.ad.jp%2fpub%2fcygwin%2f/x86/release/patch/patch-2.7.4-1.tar.xz
+2018/05/31 23:52:24 Extracting from file://C:\Users\Administrator\Documents\work\stdenv_cygwin/http%3a%2f%2fftp.iij.ad.jp%2fpub%2fcygwin%2f/x86/release/perl/perl-5.26.2-1.tar.xz
+2018/05/31 23:52:28 Extracting from file://C:\Users\Administrator\Documents\work\stdenv_cygwin/http%3a%2f%2fftp.iij.ad.jp%2fpub%2fcygwin%2f/noarch/release/perl-CGI/perl-CGI-4.38-1.tar.xz
+2018/05/31 23:52:28 Extracting from file://C:\Users\Administrator\Documents\work\stdenv_cygwin/http%3a%2f%2fftp.iij.ad.jp%2fpub%2fcygwin%2f/noarch/release/perl-Error/perl-Error-0.17025-2.tar.xz
+2018/05/31 23:52:28 Extracting from file://C:\Users\Administrator\Documents\work\stdenv_cygwin/http%3a%2f%2fftp.iij.ad.jp%2fpub%2fcygwin%2f/x86/release/perl-HTML-Parser/perl-HTML-Parser-3.72-2.tar.xz
+2018/05/31 23:52:29 Extracting from file://C:\Users\Administrator\Documents\work\stdenv_cygwin/http%3a%2f%2fftp.iij.ad.jp%2fpub%2fcygwin%2f/noarch/release/perl-HTML-Tagset/perl-HTML-Tagset-3.20-6.tar.xz
+2018/05/31 23:52:29 Extracting from file://C:\Users\Administrator\Documents\work\stdenv_cygwin/http%3a%2f%2fftp.iij.ad.jp%2fpub%2fcygwin%2f/x86/release/perl-Scalar-List-Utils/perl-Scalar-List-Utils-1.50-1.tar.xz
+2018/05/31 23:52:29 Extracting from file://C:\Users\Administrator\Documents\work\stdenv_cygwin/http%3a%2f%2fftp.iij.ad.jp%2fpub%2fcygwin%2f/x86/release/perl-TermReadKey/perl-TermReadKey-2.37-2.tar.xz
+2018/05/31 23:52:29 Extracting from file://C:\Users\Administrator\Documents\work\stdenv_cygwin/http%3a%2f%2fftp.iij.ad.jp%2fpub%2fcygwin%2f/x86/release/perl/perl_autorebase/perl_autorebase-5.26.2-1.tar.xz
+2018/05/31 23:52:29 Extracting from file://C:\Users\Administrator\Documents\work\stdenv_cygwin/http%3a%2f%2fftp.iij.ad.jp%2fpub%2fcygwin%2f/x86/release/perl/perl_base/perl_base-5.26.2-1.tar.xz
+2018/05/31 23:52:30 Extracting from file://C:\Users\Administrator\Documents\work\stdenv_cygwin/http%3a%2f%2fftp.iij.ad.jp%2fpub%2fcygwin%2f/x86/release/pkg-config/pkg-config-0.29.1-1.tar.xz
+2018/05/31 23:52:30 Extracting from file://C:\Users\Administrator\Documents\work\stdenv_cygwin/http%3a%2f%2fftp.iij.ad.jp%2fpub%2fcygwin%2f/noarch/release/publicsuffix-list/publicsuffix-list-dafsa/publicsuffix-list-dafsa-20180328-1.tar.xz
+2018/05/31 23:52:30 Extracting from file://C:\Users\Administrator\Documents\work\stdenv_cygwin/http%3a%2f%2fftp.iij.ad.jp%2fpub%2fcygwin%2f/x86/release/python3/python3-3.6.4-1.tar.xz
+2018/05/31 23:52:39 Extracting from file://C:\Users\Administrator\Documents\work\stdenv_cygwin/http%3a%2f%2fftp.iij.ad.jp%2fpub%2fcygwin%2f/noarch/release/python-appdirs/python3-appdirs/python3-appdirs-1.4.3-1.tar.xz
+2018/05/31 23:52:39 Extracting from file://C:\Users\Administrator\Documents\work\stdenv_cygwin/http%3a%2f%2fftp.iij.ad.jp%2fpub%2fcygwin%2f/x86/release/python3/python3-devel/python3-devel-3.6.4-1.tar.xz
+2018/05/31 23:52:40 Extracting from file://C:\Users\Administrator\Documents\work\stdenv_cygwin/http%3a%2f%2fftp.iij.ad.jp%2fpub%2fcygwin%2f/noarch/release/python-packaging/python3-packaging/python3-packaging-16.8-1.tar.xz
+2018/05/31 23:52:40 Extracting from file://C:\Users\Administrator\Documents\work\stdenv_cygwin/http%3a%2f%2fftp.iij.ad.jp%2fpub%2fcygwin%2f/noarch/release/python-pyparsing/python3-pyparsing/python3-pyparsing-2.1.10-1.tar.xz
+2018/05/31 23:52:40 Extracting from file://C:\Users\Administrator\Documents\work\stdenv_cygwin/http%3a%2f%2fftp.iij.ad.jp%2fpub%2fcygwin%2f/noarch/release/python-setuptools/python3-setuptools/python3-setuptools-34.3.2-1.tar.xz
+2018/05/31 23:52:40 Extracting from file://C:\Users\Administrator\Documents\work\stdenv_cygwin/http%3a%2f%2fftp.iij.ad.jp%2fpub%2fcygwin%2f/noarch/release/python-six/python3-six/python3-six-1.10.0-1.tar.xz
+2018/05/31 23:52:41 Extracting from file://C:\Users\Administrator\Documents\work\stdenv_cygwin/http%3a%2f%2fftp.iij.ad.jp%2fpub%2fcygwin%2f/x86/release/rebase/rebase-4.4.4-1.tar.xz
+2018/05/31 23:52:41 Extracting from file://C:\Users\Administrator\Documents\work\stdenv_cygwin/http%3a%2f%2fftp.iij.ad.jp%2fpub%2fcygwin%2f/x86/release/rsync/rsync-3.1.2-1.tar.xz
+2018/05/31 23:52:41 Extracting from file://C:\Users\Administrator\Documents\work\stdenv_cygwin/http%3a%2f%2fftp.iij.ad.jp%2fpub%2fcygwin%2f/x86/release/run/run-1.3.4-2.tar.xz
+2018/05/31 23:52:41 Extracting from file://C:\Users\Administrator\Documents\work\stdenv_cygwin/http%3a%2f%2fftp.iij.ad.jp%2fpub%2fcygwin%2f/x86/release/screen/screen-4.6.2-1.tar.xz
+2018/05/31 23:52:41 Extracting from file://C:\Users\Administrator\Documents\work\stdenv_cygwin/http%3a%2f%2fftp.iij.ad.jp%2fpub%2fcygwin%2f/x86/release/sed/sed-4.4-1.tar.xz
+2018/05/31 23:52:41 Extracting from file://C:\Users\Administrator\Documents\work\stdenv_cygwin/http%3a%2f%2fftp.iij.ad.jp%2fpub%2fcygwin%2f/x86/release/shared-mime-info/shared-mime-info-1.8-1.tar.xz
+2018/05/31 23:52:41 Extracting from file://C:\Users\Administrator\Documents\work\stdenv_cygwin/http%3a%2f%2fftp.iij.ad.jp%2fpub%2fcygwin%2f/x86/release/tar/tar-1.29-1.tar.xz
+2018/05/31 23:52:42 Extracting from file://C:\Users\Administrator\Documents\work\stdenv_cygwin/http%3a%2f%2fftp.iij.ad.jp%2fpub%2fcygwin%2f/x86/release/ncurses/terminfo/terminfo-6.0-12.20171125.tar.xz
+2018/05/31 23:52:42 Extracting from file://C:\Users\Administrator\Documents\work\stdenv_cygwin/http%3a%2f%2fftp.iij.ad.jp%2fpub%2fcygwin%2f/x86/release/tzcode/tzcode-2018c-1.tar.xz
+2018/05/31 23:52:42 Extracting from file://C:\Users\Administrator\Documents\work\stdenv_cygwin/http%3a%2f%2fftp.iij.ad.jp%2fpub%2fcygwin%2f/noarch/release/tzdata/tzdata-2018c-1.tar.xz
+2018/05/31 23:52:48 Extracting from file://C:\Users\Administrator\Documents\work\stdenv_cygwin/http%3a%2f%2fftp.iij.ad.jp%2fpub%2fcygwin%2f/x86/release/util-linux/util-linux-2.25.2-2.tar.xz
+2018/05/31 23:52:48 Extracting from file://C:\Users\Administrator\Documents\work\stdenv_cygwin/http%3a%2f%2fftp.iij.ad.jp%2fpub%2fcygwin%2f/x86/release/vim/vim-8.0.1567-1.tar.xz
+2018/05/31 23:52:49 Extracting from file://C:\Users\Administrator\Documents\work\stdenv_cygwin/http%3a%2f%2fftp.iij.ad.jp%2fpub%2fcygwin%2f/x86/release/vim/vim-common/vim-common-8.0.1567-1.tar.xz
+2018/05/31 23:52:55 Extracting from file://C:\Users\Administrator\Documents\work\stdenv_cygwin/http%3a%2f%2fftp.iij.ad.jp%2fpub%2fcygwin%2f/x86/release/vim/vim-minimal/vim-minimal-8.0.1567-1.tar.xz
+2018/05/31 23:52:55 Extracting from file://C:\Users\Administrator\Documents\work\stdenv_cygwin/http%3a%2f%2fftp.iij.ad.jp%2fpub%2fcygwin%2f/x86/release/w32api-headers/w32api-headers-5.0.3-1.tar.xz
+2018/05/31 23:53:00 Extracting from file://C:\Users\Administrator\Documents\work\stdenv_cygwin/http%3a%2f%2fftp.iij.ad.jp%2fpub%2fcygwin%2f/x86/release/w32api-runtime/w32api-runtime-5.0.3-1.tar.xz
+2018/05/31 23:53:01 Extracting from file://C:\Users\Administrator\Documents\work\stdenv_cygwin/http%3a%2f%2fftp.iij.ad.jp%2fpub%2fcygwin%2f/x86/release/wget/wget-1.19.1-2.tar.xz
+2018/05/31 23:53:01 Extracting from file://C:\Users\Administrator\Documents\work\stdenv_cygwin/http%3a%2f%2fftp.iij.ad.jp%2fpub%2fcygwin%2f/x86/release/which/which-2.20-2.tar.bz2
+2018/05/31 23:53:02 Extracting from file://C:\Users\Administrator\Documents\work\stdenv_cygwin/http%3a%2f%2fftp.iij.ad.jp%2fpub%2fcygwin%2f/x86/release/windows-default-manifest/windows-default-manifest-6.4-1.tar.xz
+2018/05/31 23:53:02 Extracting from file://C:\Users\Administrator\Documents\work\stdenv_cygwin/http%3a%2f%2fftp.iij.ad.jp%2fpub%2fcygwin%2f/x86/release/vim/xxd/xxd-8.0.1567-1.tar.xz
+2018/05/31 23:53:02 Extracting from file://C:\Users\Administrator\Documents\work\stdenv_cygwin/http%3a%2f%2fftp.iij.ad.jp%2fpub%2fcygwin%2f/x86/release/xz/xz-5.2.3-1.tar.xz
+2018/05/31 23:53:02 Extracting from file://C:\Users\Administrator\Documents\work\stdenv_cygwin/http%3a%2f%2fftp.iij.ad.jp%2fpub%2fcygwin%2f/x86/release/zlib/zlib-devel/zlib-devel-1.2.11-1.tar.xz
+2018/05/31 23:53:02 Extracting from file://C:\Users\Administrator\Documents\work\stdenv_cygwin/http%3a%2f%2fftp.iij.ad.jp%2fpub%2fcygwin%2f/x86/release/zlib/zlib0/zlib0-1.2.11-1.tar.xz
+2018/05/31 23:53:02 Changing gid back to original
+2018/05/31 23:53:02 running: C:\Users\Administrator\Documents\work\stdenv_cygwin\cygwin32\bin\dash.exe "/etc/postinstall/0p_000_autorebase.dash"
+2018/05/31 23:53:31 running: C:\Users\Administrator\Documents\work\stdenv_cygwin\cygwin32\bin\dash.exe "/etc/postinstall/0p_update-info-dir.dash"
+2018/05/31 23:53:35 running: C:\Users\Administrator\Documents\work\stdenv_cygwin\cygwin32\bin\bash.exe --norc --noprofile "/etc/postinstall/000-cygwin-post-install.sh"
+2018/05/31 23:53:50 abnormal exit: exit code=254
+2018/05/31 23:53:50 running: C:\Users\Administrator\Documents\work\stdenv_cygwin\cygwin32\bin\bash.exe --norc --noprofile "/etc/postinstall/coreutils.sh"
+2018/05/31 23:54:12 abnormal exit: exit code=254
+2018/05/31 23:54:12 running: C:\Users\Administrator\Documents\work\stdenv_cygwin\cygwin32\bin\bash.exe --norc --noprofile "/etc/postinstall/bash.sh"
+2018/05/31 23:54:27 abnormal exit: exit code=254
+2018/05/31 23:54:27 running: C:\Users\Administrator\Documents\work\stdenv_cygwin\cygwin32\bin\bash.exe --norc --noprofile "/etc/postinstall/base-files-mketc.sh"
+2018/05/31 23:54:42 abnormal exit: exit code=254
+2018/05/31 23:54:42 running: C:\Users\Administrator\Documents\work\stdenv_cygwin\cygwin32\bin\bash.exe --norc --noprofile "/etc/postinstall/base-files-profile.sh"
+2018/05/31 23:54:57 abnormal exit: exit code=254
+2018/05/31 23:54:57 running: C:\Users\Administrator\Documents\work\stdenv_cygwin\cygwin32\bin\bash.exe --norc --noprofile "/etc/postinstall/libxml2.sh"
+2018/05/31 23:55:13 abnormal exit: exit code=254
+2018/05/31 23:55:13 running: C:\Users\Administrator\Documents\work\stdenv_cygwin\cygwin32\bin\bash.exe --norc --noprofile "/etc/postinstall/ca-certificates.sh"
+2018/05/31 23:55:31 abnormal exit: exit code=254
+2018/05/31 23:55:31 running: C:\Users\Administrator\Documents\work\stdenv_cygwin\cygwin32\bin\bash.exe --norc --noprofile "/etc/postinstall/libsasl2_3.sh"
+2018/05/31 23:55:47 abnormal exit: exit code=254
+2018/05/31 23:55:47 running: C:\Users\Administrator\Documents\work\stdenv_cygwin\cygwin32\bin\bash.exe --norc --noprofile "/etc/postinstall/openssh.sh"
+2018/05/31 23:55:47 running: C:\Users\Administrator\Documents\work\stdenv_cygwin\cygwin32\bin\bash.exe --norc --noprofile "/etc/postinstall/mysql.sh"
+2018/05/31 23:56:02 abnormal exit: exit code=254
+2018/05/31 23:56:02 running: C:\Users\Administrator\Documents\work\stdenv_cygwin\cygwin32\bin\bash.exe --norc --noprofile "/etc/postinstall/man-db.sh"
+2018/05/31 23:56:18 abnormal exit: exit code=254
+2018/05/31 23:56:18 running: C:\Users\Administrator\Documents\work\stdenv_cygwin\cygwin32\bin\bash.exe --norc --noprofile "/etc/postinstall/mintty.sh"
+2018/05/31 23:56:33 abnormal exit: exit code=254
+2018/05/31 23:56:33 running: C:\Users\Administrator\Documents\work\stdenv_cygwin\cygwin32\bin\bash.exe --norc --noprofile "/etc/postinstall/screen.sh"
+2018/05/31 23:56:37 running: C:\Users\Administrator\Documents\work\stdenv_cygwin\cygwin32\bin\bash.exe --norc --noprofile "/etc/postinstall/vim.sh"
+2018/05/31 23:56:52 abnormal exit: exit code=254
+2018/05/31 23:56:52 running: C:\Users\Administrator\Documents\work\stdenv_cygwin\cygwin32\bin\bash.exe --norc --noprofile "/etc/postinstall/wget.sh"
+2018/05/31 23:56:59 running: C:\Users\Administrator\Documents\work\stdenv_cygwin\cygwin32\bin\bash.exe --norc --noprofile "/etc/postinstall/zp_desktop-file-utils.sh"
+2018/05/31 23:57:15 abnormal exit: exit code=254
+2018/05/31 23:57:15 running: C:\Users\Administrator\Documents\work\stdenv_cygwin\cygwin32\bin\bash.exe --norc --noprofile "/etc/postinstall/zp_glib2.0.sh"
+2018/05/31 23:57:30 abnormal exit: exit code=254
+2018/05/31 23:57:30 running: C:\Users\Administrator\Documents\work\stdenv_cygwin\cygwin32\bin\bash.exe --norc --noprofile "/etc/postinstall/zp_man-db.sh"
+2018/05/31 23:57:30 running: C:\Users\Administrator\Documents\work\stdenv_cygwin\cygwin32\bin\bash.exe --norc --noprofile "/etc/postinstall/zp_shared-mime-info.sh"
+2018/05/31 23:57:39 Changing gid to Administrators
+2018/05/31 23:57:39 Ending cygwin install
+2018/06/01 01:10:15 Starting cygwin install, version 2.883
+2018/06/01 01:10:15 User has backup/restore rights
+2018/06/01 01:10:15 Current Directory: C:\Users\Administrator\Documents\work\stdenv_cygwin
+2018/06/01 01:10:15 Could not open service McShield for query, start and stop. McAfee may not be installed, or we don't have access.
+2018/06/01 01:10:17 source: network install
+2018/06/01 01:10:20 root: C:\Users\Administrator\Documents\work\stdenv_cygwin\cygwin32 system
+2018/06/01 01:10:33 Selected local directory: C:\Users\Administrator\Documents\work\stdenv_cygwin\cache
+2018/06/01 01:10:34 net: IE5
+2018/06/01 01:10:36 site: http://ftp.iij.ad.jp/pub/cygwin/
+2018/06/01 01:10:36 mbox Warning: The current ini file is from a newer version of setup-x86.exe. If you have any trouble installing, please download a fresh version from http://www.cygwin.com/setup-x86.exe
+2018/06/01 01:10:38 mbox note: This setup is version 2.883, but setup.ini claims version 2.891 is available.
+You might want to upgrade to get the latest features and bug fixes.
+2018/06/01 01:11:48 Ending cygwin install
+2018/06/01 01:12:17 Starting cygwin install, version 2.883
+2018/06/01 01:12:17 User has backup/restore rights
+2018/06/01 01:12:17 Current Directory: C:\Users\Administrator\Documents\work\stdenv_cygwin
+2018/06/01 01:12:17 Could not open service McShield for query, start and stop. McAfee may not be installed, or we don't have access.
+2018/06/01 01:12:17 root: C:\Users\Administrator\Documents\work\stdenv_cygwin\cygwin32 system
+2018/06/01 01:12:17 Selected local directory: C:\Users\Administrator\Documents\work\stdenv_cygwin
+2018/06/01 01:12:17 net: IE5
+2018/06/01 01:12:18 site: http://ftp.iij.ad.jp/pub/cygwin/
+2018/06/01 01:12:21 mbox Warning: The current ini file is from a newer version of setup-x86.exe. If you have any trouble installing, please download a fresh version from http://www.cygwin.com/setup-x86.exe
+2018/06/01 01:12:21 unattended_mode is set at mbox: returning default value
+2018/06/01 01:12:27 mbox note: This setup is version 2.883, but setup.ini claims version 2.891 is available.
+You might want to upgrade to get the latest features and bug fixes.
+2018/06/01 01:12:27 unattended_mode is set at mbox: returning default value
+2018/06/01 01:12:43 Adding required dependency libjq1: Selecting version 1.5-3 for installation.
+2018/06/01 01:12:43 Adding required dependency libonig3: Selecting version 6.0.0-1 for installation.
+2018/06/01 01:12:43 Adding required dependency libonig4: Selecting version 6.7.0-1 for installation.
+2018/06/01 01:12:44 Downloaded C:\Users\Administrator\Documents\work\stdenv_cygwin/http%3a%2f%2fftp.iij.ad.jp%2fpub%2fcygwin%2f/x86/release/gcc/gcc-g++/gcc-g++-7.3.0-2.tar.xz
+2018/06/01 01:12:44 Downloaded C:\Users\Administrator\Documents\work\stdenv_cygwin/http%3a%2f%2fftp.iij.ad.jp%2fpub%2fcygwin%2f/x86/release/jq/jq-1.5-3.tar.xz
+2018/06/01 01:12:44 Downloaded C:\Users\Administrator\Documents\work\stdenv_cygwin/http%3a%2f%2fftp.iij.ad.jp%2fpub%2fcygwin%2f/x86/release/jq/libjq1/libjq1-1.5-3.tar.xz
+2018/06/01 01:12:44 Downloaded C:\Users\Administrator\Documents\work\stdenv_cygwin/http%3a%2f%2fftp.iij.ad.jp%2fpub%2fcygwin%2f/x86/release/onig/libonig3/libonig3-6.0.0-1.tar.xz
+2018/06/01 01:12:45 Downloaded C:\Users\Administrator\Documents\work\stdenv_cygwin/http%3a%2f%2fftp.iij.ad.jp%2fpub%2fcygwin%2f/x86/release/onig/libonig4/libonig4-6.7.0-1.tar.xz
+2018/06/01 01:13:37 Extracting from file://C:\Users\Administrator\Documents\work\stdenv_cygwin/http%3a%2f%2fftp.iij.ad.jp%2fpub%2fcygwin%2f/x86/release/gcc/gcc-g++/gcc-g++-7.3.0-2.tar.xz
+2018/06/01 01:14:09 Extracting from file://C:\Users\Administrator\Documents\work\stdenv_cygwin/http%3a%2f%2fftp.iij.ad.jp%2fpub%2fcygwin%2f/x86/release/jq/jq-1.5-3.tar.xz
+2018/06/01 01:14:09 Extracting from file://C:\Users\Administrator\Documents\work\stdenv_cygwin/http%3a%2f%2fftp.iij.ad.jp%2fpub%2fcygwin%2f/x86/release/jq/libjq1/libjq1-1.5-3.tar.xz
+2018/06/01 01:14:09 Extracting from file://C:\Users\Administrator\Documents\work\stdenv_cygwin/http%3a%2f%2fftp.iij.ad.jp%2fpub%2fcygwin%2f/x86/release/onig/libonig3/libonig3-6.0.0-1.tar.xz
+2018/06/01 01:14:09 Extracting from file://C:\Users\Administrator\Documents\work\stdenv_cygwin/http%3a%2f%2fftp.iij.ad.jp%2fpub%2fcygwin%2f/x86/release/onig/libonig4/libonig4-6.7.0-1.tar.xz
+2018/06/01 01:14:10 Changing gid back to original
+2018/06/01 01:14:10 running: C:\Users\Administrator\Documents\work\stdenv_cygwin\cygwin32\bin\dash.exe "/etc/postinstall/0p_000_autorebase.dash"
+2018/06/01 01:14:56 running: C:\Users\Administrator\Documents\work\stdenv_cygwin\cygwin32\bin\dash.exe "/etc/postinstall/0p_update-info-dir.dash"
+2018/06/01 01:15:00 running: C:\Users\Administrator\Documents\work\stdenv_cygwin\cygwin32\bin\bash.exe --norc --noprofile "/etc/postinstall/000-cygwin-post-install.sh"
+2018/06/01 01:15:01 running: C:\Users\Administrator\Documents\work\stdenv_cygwin\cygwin32\bin\bash.exe --norc --noprofile "/etc/postinstall/base-files-mketc.sh"
+2018/06/01 01:15:02 running: C:\Users\Administrator\Documents\work\stdenv_cygwin\cygwin32\bin\bash.exe --norc --noprofile "/etc/postinstall/base-files-profile.sh"
+2018/06/01 01:15:04 running: C:\Users\Administrator\Documents\work\stdenv_cygwin\cygwin32\bin\bash.exe --norc --noprofile "/etc/postinstall/bash.sh"
+2018/06/01 01:15:04 running: C:\Users\Administrator\Documents\work\stdenv_cygwin\cygwin32\bin\bash.exe --norc --noprofile "/etc/postinstall/ca-certificates.sh"
+2018/06/01 01:15:06 running: C:\Users\Administrator\Documents\work\stdenv_cygwin\cygwin32\bin\bash.exe --norc --noprofile "/etc/postinstall/coreutils.sh"
+2018/06/01 01:15:06 running: C:\Users\Administrator\Documents\work\stdenv_cygwin\cygwin32\bin\bash.exe --norc --noprofile "/etc/postinstall/libsasl2_3.sh"
+2018/06/01 01:15:06 running: C:\Users\Administrator\Documents\work\stdenv_cygwin\cygwin32\bin\bash.exe --norc --noprofile "/etc/postinstall/libxml2.sh"
+2018/06/01 01:15:06 running: C:\Users\Administrator\Documents\work\stdenv_cygwin\cygwin32\bin\bash.exe --norc --noprofile "/etc/postinstall/man-db.sh"
+2018/06/01 01:15:06 running: C:\Users\Administrator\Documents\work\stdenv_cygwin\cygwin32\bin\bash.exe --norc --noprofile "/etc/postinstall/mintty.sh"
+2018/06/01 01:15:06 running: C:\Users\Administrator\Documents\work\stdenv_cygwin\cygwin32\bin\bash.exe --norc --noprofile "/etc/postinstall/mysql.sh"
+2018/06/01 01:15:07 running: C:\Users\Administrator\Documents\work\stdenv_cygwin\cygwin32\bin\bash.exe --norc --noprofile "/etc/postinstall/vim.sh"
+2018/06/01 01:15:07 running: C:\Users\Administrator\Documents\work\stdenv_cygwin\cygwin32\bin\bash.exe --norc --noprofile "/etc/postinstall/zp_desktop-file-utils.sh"
+2018/06/01 01:15:07 running: C:\Users\Administrator\Documents\work\stdenv_cygwin\cygwin32\bin\bash.exe --norc --noprofile "/etc/postinstall/zp_glib2.0.sh"
+2018/06/01 01:15:07 running: C:\Users\Administrator\Documents\work\stdenv_cygwin\cygwin32\bin\bash.exe --norc --noprofile "/etc/postinstall/zp_man-db.sh"
+2018/06/01 01:15:08 running: C:\Users\Administrator\Documents\work\stdenv_cygwin\cygwin32\bin\bash.exe --norc --noprofile "/etc/postinstall/zp_shared-mime-info.sh"
+2018/06/01 01:15:08 Changing gid to Administrators
+2018/06/01 01:15:08 Ending cygwin install
+2018/06/01 01:39:42 Starting cygwin install, version 2.883
+2018/06/01 01:39:42 User has backup/restore rights
+2018/06/01 01:39:42 Current Directory: C:\Users\Administrator\Documents\work\stdenv_cygwin
+2018/06/01 01:39:42 Could not open service McShield for query, start and stop. McAfee may not be installed, or we don't have access.
+2018/06/01 01:39:43 root: C:\Users\Administrator\Documents\work\stdenv_cygwin\cygwin32 system
+2018/06/01 01:39:43 Selected local directory: C:\Users\Administrator\Documents\work\stdenv_cygwin
+2018/06/01 01:39:43 net: IE5
+2018/06/01 01:39:46 site: http://ftp.iij.ad.jp/pub/cygwin/
+2018/06/01 01:39:50 mbox Warning: The current ini file is from a newer version of setup-x86.exe. If you have any trouble installing, please download a fresh version from http://www.cygwin.com/setup-x86.exe
+2018/06/01 01:39:50 unattended_mode is set at mbox: returning default value
+2018/06/01 01:39:57 mbox note: This setup is version 2.883, but setup.ini claims version 2.891 is available.
+You might want to upgrade to get the latest features and bug fixes.
+2018/06/01 01:39:58 unattended_mode is set at mbox: returning default value
+2018/06/01 01:40:14 Downloaded C:\Users\Administrator\Documents\work\stdenv_cygwin/http%3a%2f%2fftp.iij.ad.jp%2fpub%2fcygwin%2f/x86/release/unzip/unzip-6.0-17.tar.xz
+2018/06/01 01:40:54 Extracting from file://C:\Users\Administrator\Documents\work\stdenv_cygwin/http%3a%2f%2fftp.iij.ad.jp%2fpub%2fcygwin%2f/x86/release/unzip/unzip-6.0-17.tar.xz
+2018/06/01 01:40:55 Changing gid back to original
+2018/06/01 01:40:55 running: C:\Users\Administrator\Documents\work\stdenv_cygwin\cygwin32\bin\dash.exe "/etc/postinstall/0p_000_autorebase.dash"
+2018/06/01 01:41:46 running: C:\Users\Administrator\Documents\work\stdenv_cygwin\cygwin32\bin\dash.exe "/etc/postinstall/0p_update-info-dir.dash"
+2018/06/01 01:41:50 running: C:\Users\Administrator\Documents\work\stdenv_cygwin\cygwin32\bin\bash.exe --norc --noprofile "/etc/postinstall/zp_desktop-file-utils.sh"
+2018/06/01 01:41:52 running: C:\Users\Administrator\Documents\work\stdenv_cygwin\cygwin32\bin\bash.exe --norc --noprofile "/etc/postinstall/zp_glib2.0.sh"
+2018/06/01 01:41:53 running: C:\Users\Administrator\Documents\work\stdenv_cygwin\cygwin32\bin\bash.exe --norc --noprofile "/etc/postinstall/zp_man-db.sh"
+2018/06/01 01:41:53 running: C:\Users\Administrator\Documents\work\stdenv_cygwin\cygwin32\bin\bash.exe --norc --noprofile "/etc/postinstall/zp_shared-mime-info.sh"
+2018/06/01 01:41:57 Changing gid to Administrators
+2018/06/01 01:41:57 Ending cygwin install

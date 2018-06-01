@@ -27,10 +27,10 @@ MODLIBS=        $(LOCALMODLIBS) $(BASEMODLIBS)
 
 # === Variables set by configure
 VERSION=	3.6
-srcdir=		/usr/src/ports/python3/python3-3.6.3-1.i686/src/Python-3.6.3
-VPATH=		/usr/src/ports/python3/python3-3.6.3-1.i686/src/Python-3.6.3
-abs_srcdir=	/usr/src/ports/python3/python3-3.6.3-1.i686/src/Python-3.6.3
-abs_builddir=	/usr/src/ports/python3/python3-3.6.3-1.i686/build
+srcdir=		/usr/src/ports/python3/python3-3.6.4-1.i686/src/Python-3.6.4
+VPATH=		/usr/src/ports/python3/python3-3.6.4-1.i686/src/Python-3.6.4
+abs_srcdir=	/usr/src/ports/python3/python3-3.6.4-1.i686/src/Python-3.6.4
+abs_builddir=	/usr/src/ports/python3/python3-3.6.4-1.i686/build
 
 
 CC=		gcc
@@ -81,7 +81,7 @@ MAKESETUP=      $(srcdir)/Modules/makesetup
 OPT=		-DNDEBUG -g -fwrapv -O3 -Wall -Wstrict-prototypes
 BASECFLAGS=	 -Wno-unused-result -Wsign-compare
 BASECPPFLAGS=	-IObjects -IInclude -IPython
-CONFIGURE_CFLAGS=	-ggdb -O2 -pipe -Wimplicit-function-declaration -fdebug-prefix-map=/usr/src/ports/python3/python3-3.6.3-1.i686/build=/usr/src/debug/python3-3.6.3-1 -fdebug-prefix-map=/usr/src/ports/python3/python3-3.6.3-1.i686/src/Python-3.6.3=/usr/src/debug/python3-3.6.3-1
+CONFIGURE_CFLAGS=	-ggdb -O2 -pipe -Wimplicit-function-declaration -fdebug-prefix-map=/usr/src/ports/python3/python3-3.6.4-1.i686/build=/usr/src/debug/python3-3.6.4-1 -fdebug-prefix-map=/usr/src/ports/python3/python3-3.6.4-1.i686/src/Python-3.6.4=/usr/src/debug/python3-3.6.4-1
 # CFLAGS_NODIST is used for building the interpreter and stdlib C extensions.
 # Use it when a compiler flag should _not_ be part of the distutils CFLAGS
 # once Python is installed (Issue #21121).
@@ -189,11 +189,11 @@ EXEMODE=	755
 FILEMODE=	644
 
 # configure script arguments
-CONFIG_ARGS=	 '--srcdir=/usr/src/ports/python3/python3-3.6.3-1.i686/src/Python-3.6.3' '--prefix=/usr' '--exec-prefix=/usr' '--localstatedir=/var' '--sysconfdir=/etc' '--docdir=/usr/share/doc/python3' '--htmldir=/usr/share/doc/python3/html' '-C' '--enable-shared' '--enable-ipv6' '--with-dbmliborder=gdbm' '--with-libc=' '--with-libm=' '--with-system-expat' '--with-system-ffi' '--without-ensurepip' 'ac_cv_func_bind_textdomain_codeset=yes' 'CC=gcc' 'CFLAGS=-ggdb -O2 -pipe -Wimplicit-function-declaration -fdebug-prefix-map=/usr/src/ports/python3/python3-3.6.3-1.i686/build=/usr/src/debug/python3-3.6.3-1 -fdebug-prefix-map=/usr/src/ports/python3/python3-3.6.3-1.i686/src/Python-3.6.3=/usr/src/debug/python3-3.6.3-1' 'LDFLAGS=' 'LIBS=' 'CPPFLAGS='
+CONFIG_ARGS=	 '--srcdir=/usr/src/ports/python3/python3-3.6.4-1.i686/src/Python-3.6.4' '--prefix=/usr' '--exec-prefix=/usr' '--localstatedir=/var' '--sysconfdir=/etc' '--docdir=/usr/share/doc/python3' '--htmldir=/usr/share/doc/python3/html' '-C' '--enable-shared' '--enable-ipv6' '--with-dbmliborder=gdbm' '--with-libc=' '--with-libm=' '--with-system-expat' '--with-system-ffi' '--without-ensurepip' 'ac_cv_func_bind_textdomain_codeset=yes' 'CC=gcc' 'CFLAGS=-ggdb -O2 -pipe -Wimplicit-function-declaration -fdebug-prefix-map=/usr/src/ports/python3/python3-3.6.4-1.i686/build=/usr/src/debug/python3-3.6.4-1 -fdebug-prefix-map=/usr/src/ports/python3/python3-3.6.4-1.i686/src/Python-3.6.4=/usr/src/debug/python3-3.6.4-1' 'LDFLAGS=' 'LIBS=' 'CPPFLAGS='
 
 
 # Subdirectories with code
-SRCDIRS= 	Parser Grammar Objects Python Modules Mac Programs
+SRCDIRS= 	Parser Objects Python Modules Programs
 
 # Other subdirectories
 SUBDIRSTOO=	Include Lib Misc
@@ -231,6 +231,7 @@ PYTHON=		python$(EXE)
 BUILDPYTHON=	python$(BUILDEXE)
 
 PYTHON_FOR_REGEN=python3.6
+UPDATE_FILE=python3.6 $(srcdir)/Tools/scripts/update_file.py
 PYTHON_FOR_BUILD=./$(BUILDPYTHON) -E
 _PYTHON_HOST_PLATFORM=
 BUILD_GNU_TYPE=	i686-pc-cygwin
@@ -453,7 +454,17 @@ DTRACE_DEPS = \
 
 # Default target
 all:		build_all
-build_all:	$(BUILDPYTHON) oldsharedmods sharedmods gdbhooks Programs/_testembed python-config
+build_all:	check-clean-src $(BUILDPYTHON) oldsharedmods sharedmods gdbhooks \
+		Programs/_testembed python-config
+
+# Check that the source is clean when building out of source.
+check-clean-src:
+	@if test -n "$(VPATH)" -a -f "$(srcdir)/Programs/python.o"; then \
+		echo "Error: The source directory ($(srcdir)) is not clean" ; \
+		echo "Building Python out of the source tree (in $(abs_builddir)) requires a clean source tree ($(abs_srcdir))" ; \
+		echo "Try to run: make -C \"$(srcdir)\" clean" ; \
+		exit 1; \
+	fi
 
 # Compile a binary with profile guided optimization.
 profile-opt:
@@ -543,7 +554,7 @@ coverage-report: regen-grammar regen-importlib
 # Run "Argument Clinic" over all source files
 # (depends on python having already been built)
 .PHONY=clinic
-clinic: $(BUILDPYTHON) $(srcdir)/Modules/_blake2/blake2s_impl.c
+clinic: check-clean-src $(BUILDPYTHON) $(srcdir)/Modules/_blake2/blake2s_impl.c
 	$(RUNSHARED) $(PYTHON_FOR_BUILD) ./Tools/clinic/clinic.py --make
 
 # Build the interpreter
@@ -710,12 +721,14 @@ regen-importlib: Programs/_freeze_importlib
 	# from Lib/importlib/_bootstrap_external.py using _freeze_importlib
 	./Programs/_freeze_importlib \
 	    $(srcdir)/Lib/importlib/_bootstrap_external.py \
-	    $(srcdir)/Python/importlib_external.h
+	    $(srcdir)/Python/importlib_external.h.new
+	$(UPDATE_FILE) $(srcdir)/Python/importlib_external.h $(srcdir)/Python/importlib_external.h.new
 	# Regenerate Python/importlib.h from Lib/importlib/_bootstrap.py
 	# using _freeze_importlib
 	./Programs/_freeze_importlib \
 	    $(srcdir)/Lib/importlib/_bootstrap.py \
-	    $(srcdir)/Python/importlib.h
+	    $(srcdir)/Python/importlib.h.new
+	$(UPDATE_FILE) $(srcdir)/Python/importlib.h $(srcdir)/Python/importlib.h.new
 
 
 ############################################################################
@@ -789,8 +802,10 @@ regen-grammar: $(PGEN)
 	# from Grammar/Grammar using pgen
 	@$(MKDIR_P) Include
 	$(PGEN) $(srcdir)/Grammar/Grammar \
-		$(srcdir)/Include/graminit.h \
-		$(srcdir)/Python/graminit.c
+		$(srcdir)/Include/graminit.h.new \
+		$(srcdir)/Python/graminit.c.new
+	$(UPDATE_FILE) $(srcdir)/Include/graminit.h $(srcdir)/Include/graminit.h.new
+	$(UPDATE_FILE) $(srcdir)/Python/graminit.c $(srcdir)/Python/graminit.c.new
 
 Parser/grammar.o:	$(srcdir)/Parser/grammar.c \
 				$(srcdir)/Include/token.h \
@@ -808,13 +823,15 @@ regen-ast:
 	# Regenerate Include/Python-ast.h using Parser/asdl_c.py -h
 	$(MKDIR_P) $(srcdir)/Include
 	$(PYTHON_FOR_REGEN) $(srcdir)/Parser/asdl_c.py \
-		-h $(srcdir)/Include \
+		-h $(srcdir)/Include/Python-ast.h.new \
 		$(srcdir)/Parser/Python.asdl
+	$(UPDATE_FILE) $(srcdir)/Include/Python-ast.h $(srcdir)/Include/Python-ast.h.new
 	# Regenerate Python/Python-ast.c using Parser/asdl_c.py -c
 	$(MKDIR_P) $(srcdir)/Python
 	$(PYTHON_FOR_REGEN) $(srcdir)/Parser/asdl_c.py \
-		-c $(srcdir)/Python \
+		-c $(srcdir)/Python/Python-ast.c.new \
 		$(srcdir)/Parser/Python.asdl
+	$(UPDATE_FILE) $(srcdir)/Python/Python-ast.c $(srcdir)/Python/Python-ast.c.new
 
 .PHONY: regen-opcode
 regen-opcode:
@@ -822,7 +839,8 @@ regen-opcode:
 	# using Tools/scripts/generate_opcode_h.py
 	$(PYTHON_FOR_REGEN) $(srcdir)/Tools/scripts/generate_opcode_h.py \
 		$(srcdir)/Lib/opcode.py \
-		$(srcdir)/Include/opcode.h
+		$(srcdir)/Include/opcode.h.new
+	$(UPDATE_FILE) $(srcdir)/Include/opcode.h $(srcdir)/Include/opcode.h.new
 
 Python/compile.o Python/symtable.o Python/ast.o: $(srcdir)/Include/graminit.h $(srcdir)/Include/Python-ast.h
 
@@ -879,7 +897,8 @@ regen-opcode-targets:
 	# Regenerate Python/opcode_targets.h from Lib/opcode.py
 	# using Python/makeopcodetargets.py
 	$(PYTHON_FOR_REGEN) $(srcdir)/Python/makeopcodetargets.py \
-		$(srcdir)/Python/opcode_targets.h
+		$(srcdir)/Python/opcode_targets.h.new
+	$(UPDATE_FILE) $(srcdir)/Python/opcode_targets.h $(srcdir)/Python/opcode_targets.h.new
 
 Python/ceval.o: $(srcdir)/Python/opcode_targets.h $(srcdir)/Python/ceval_gil.h
 
@@ -906,7 +925,8 @@ regen-typeslots:
 	# using Objects/typeslots.py
 	$(PYTHON_FOR_REGEN) $(srcdir)/Objects/typeslots.py \
 		< $(srcdir)/Include/typeslots.h \
-		$(srcdir)/Objects/typeslots.inc
+		$(srcdir)/Objects/typeslots.inc.new
+	$(UPDATE_FILE) $(srcdir)/Objects/typeslots.inc $(srcdir)/Objects/typeslots.inc.new
 
 ############################################################################
 # Header files
@@ -1095,7 +1115,7 @@ altinstall: commoninstall
 			$$ensurepip --root=$(DESTDIR)/ ; \
 	fi
 
-commoninstall:   \
+commoninstall:  check-clean-src  \
 		altbininstall libinstall inclinstall libainstall \
 		sharedinstall oldsharedinstall altmaninstall \
 		
@@ -1593,10 +1613,9 @@ autoconf:
 
 # Create a tags file for vi
 tags::
-	cd $(srcdir); \
-	ctags -w Include/*.h; \
-	for i in $(SRCDIRS); do ctags -w -a $$i/*.[ch]; \
-	done; \
+	ctags -w $(srcdir)/Include/*.h
+	for i in $(SRCDIRS); do ctags -f tags -w -a $(srcdir)/$$i/*.[ch]; done
+	ctags -f tags -w -a $(srcdir)/Modules/_ctypes/*.[ch]
 	LC_ALL=C sort -o tags tags
 
 # Create a tags file for GNU Emacs
@@ -1718,7 +1737,7 @@ patchcheck: all
 Python/thread.o:  $(srcdir)/Python/thread_foobar.h $(srcdir)/Python/thread_nt.h $(srcdir)/Python/thread_pthread.h
 
 # Declare targets that aren't real files
-.PHONY: all build_all sharedmods oldsharedmods test quicktest
+.PHONY: all build_all sharedmods check-clean-src oldsharedmods test quicktest
 .PHONY: install altinstall oldsharedinstall bininstall altbininstall
 .PHONY: maninstall libinstall inclinstall libainstall sharedinstall
 .PHONY: frameworkinstall frameworkinstallframework frameworkinstallstructure
